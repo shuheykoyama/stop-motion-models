@@ -1,0 +1,582 @@
+{
+  "status": "Awaiting final visual review; neither Stones nor Cup is finally approved",
+  "blender": "4.5.15 LTS",
+  "geometry_regenerated": false,
+  "motifs": {
+    "stones": {
+      "oblique": {
+        "camera": {
+          "location": [
+            110.0,
+            -190.0,
+            205.0
+          ],
+          "rotation": [
+            0.8196448087692261,
+            -2.6090987148563727e-09,
+            0.5247957110404968
+          ],
+          "type": "ORTHO",
+          "scale": 139.0,
+          "resolution": [
+            960,
+            640
+          ],
+          "percentage": 100
+        },
+        "lights": [
+          {
+            "name": "Key",
+            "location": [
+              -100.0,
+              -120.0,
+              220.0
+            ],
+            "rotation": [
+              0.61742103099823,
+              -1.717429576331142e-08,
+              -0.6947383880615234
+            ],
+            "energy": 1800000.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "size": 120.0
+          },
+          {
+            "name": "Fill",
+            "location": [
+              130.0,
+              30.0,
+              160.0
+            ],
+            "rotation": [
+              0.6950454711914062,
+              1.4977203477428702e-08,
+              1.7975950241088867
+            ],
+            "energy": 800000.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "size": 100.0
+          }
+        ],
+        "world": [
+          {
+            "color": [
+              0.2199999988079071,
+              0.23999999463558197,
+              0.2800000011920929,
+              1.0
+            ],
+            "strength": 0.6000000238418579
+          }
+        ],
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "exposure": 0.0,
+        "gamma": 1.0
+      },
+      "shared_surface": [
+        {
+          "color": [
+            0.47999998927116394,
+            0.46000000834465027,
+            0.4099999964237213,
+            1.0
+          ],
+          "roughness": 0.6499999761581421
+        }
+      ],
+      "oblique_sources_reused": true,
+      "contact_sheet": "previews/stones/contact-sheet.png",
+      "oblique_animation": {
+        "path": "previews/stones/forward-reverse.gif",
+        "sha256": "c9cfff1e3dce6cb0d924ab801b5fb97ae5f12243caffc560c6655a9689c37f11",
+        "sequence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "decoded_sequence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "frames": 13,
+        "milliseconds_per_frame": 400,
+        "duration_seconds": 5.2,
+        "continuous_loop": true,
+        "canvas": [
+          720,
+          480
+        ],
+        "interpolation": false,
+        "shared_palette": true,
+        "dithering": "FloydSteinberg"
+      },
+      "top": {
+        "camera": {
+          "location": [
+            0.0,
+            0.0,
+            260.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "type": "ORTHO",
+          "scale": 139.0,
+          "resolution": [
+            960,
+            640
+          ],
+          "percentage": 100
+        },
+        "lights": [
+          {
+            "name": "Key",
+            "location": [
+              -100.0,
+              -120.0,
+              220.0
+            ],
+            "rotation": [
+              0.61742103099823,
+              -1.717429576331142e-08,
+              -0.6947383880615234
+            ],
+            "energy": 1800000.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "size": 120.0
+          },
+          {
+            "name": "Fill",
+            "location": [
+              130.0,
+              30.0,
+              160.0
+            ],
+            "rotation": [
+              0.6950454711914062,
+              1.4977203477428702e-08,
+              1.7975950241088867
+            ],
+            "energy": 800000.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "size": 100.0
+          }
+        ],
+        "world": [
+          {
+            "color": [
+              0.2199999988079071,
+              0.23999999463558197,
+              0.2800000011920929,
+              1.0
+            ],
+            "strength": 0.6000000238418579
+          }
+        ],
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "exposure": 0.0,
+        "gamma": 1.0
+      },
+      "top_contact_sheet": "previews/stones/contact-sheet-top.png",
+      "top_source_sha256": {
+        "frame-01-top.png": "4dd68c21dd2d69859e25ecc1c6b28b7137853743012dd91b5fc62b3bfb048d97",
+        "frame-02-top.png": "e7e9f4a33a35ed62bb4965c462bd09433ab06a626f5a55aaa5683bc4370e41e2",
+        "frame-03-top.png": "276465e77bc7d6ddf0b151c30685a37ca2712ebbd6480e4239a08c8be9bf290e",
+        "frame-04-top.png": "d4a4ca60e8bdcd8d5e9da3b23aca8d67e85be091988844dbb62813f27eed1527",
+        "frame-05-top.png": "0bfba188d06c46eb658fe30c41b94349cde816e2b1bf940693c23e293a1a26f7",
+        "frame-06-top.png": "4b3fb7e1f679b8b45bdca9d18fcaa84be13a3759d6e85ef0fc442991c2121f35",
+        "frame-07-top.png": "f353416fbc9cd4daecacebd84c1553af00500e750ad48de48c4606924a933807"
+      }
+    },
+    "cup": {
+      "oblique": {
+        "camera": {
+          "location": [
+            110.0,
+            -190.0,
+            242.0
+          ],
+          "rotation": [
+            0.8196448087692261,
+            -2.6090987148563727e-09,
+            0.5247957110404968
+          ],
+          "type": "ORTHO",
+          "scale": 205.0,
+          "resolution": [
+            960,
+            640
+          ],
+          "percentage": 100
+        },
+        "lights": [
+          {
+            "name": "Key",
+            "location": [
+              -100.0,
+              -120.0,
+              220.0
+            ],
+            "rotation": [
+              0.7065684199333191,
+              -7.464053197736575e-08,
+              -0.6947383880615234
+            ],
+            "energy": 1800000.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "size": 120.0
+          },
+          {
+            "name": "Fill",
+            "location": [
+              130.0,
+              30.0,
+              160.0
+            ],
+            "rotation": [
+              0.8259996175765991,
+              8.822924257856357e-08,
+              1.7975950241088867
+            ],
+            "energy": 800000.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "size": 100.0
+          }
+        ],
+        "world": [
+          {
+            "color": [
+              0.2199999988079071,
+              0.23999999463558197,
+              0.2800000011920929,
+              1.0
+            ],
+            "strength": 0.6000000238418579
+          }
+        ],
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "exposure": 0.0,
+        "gamma": 1.0
+      },
+      "shared_surface": [
+        {
+          "color": [
+            0.6499999761581421,
+            0.6800000071525574,
+            0.6899999976158142,
+            1.0
+          ],
+          "roughness": 0.6499999761581421
+        }
+      ],
+      "oblique_sources_reused": true,
+      "contact_sheet": "previews/cup/contact-sheet.png",
+      "oblique_animation": {
+        "path": "previews/cup/forward-reverse.gif",
+        "sha256": "29ed91b9e1194c271a69d0763ec1c9ee83f42cbaa2c0d8abf95c7a28493ba7c4",
+        "sequence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "decoded_sequence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "frames": 13,
+        "milliseconds_per_frame": 400,
+        "duration_seconds": 5.2,
+        "continuous_loop": true,
+        "canvas": [
+          720,
+          480
+        ],
+        "interpolation": false,
+        "shared_palette": true,
+        "dithering": "FloydSteinberg"
+      },
+      "top": {
+        "camera": {
+          "location": [
+            0.0,
+            0.0,
+            260.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "type": "ORTHO",
+          "scale": 205.0,
+          "resolution": [
+            960,
+            640
+          ],
+          "percentage": 100
+        },
+        "lights": [
+          {
+            "name": "Key",
+            "location": [
+              -100.0,
+              -120.0,
+              220.0
+            ],
+            "rotation": [
+              0.7065684199333191,
+              -7.464053197736575e-08,
+              -0.6947383880615234
+            ],
+            "energy": 1800000.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "size": 120.0
+          },
+          {
+            "name": "Fill",
+            "location": [
+              130.0,
+              30.0,
+              160.0
+            ],
+            "rotation": [
+              0.8259996175765991,
+              8.822924257856357e-08,
+              1.7975950241088867
+            ],
+            "energy": 800000.0,
+            "color": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "size": 100.0
+          }
+        ],
+        "world": [
+          {
+            "color": [
+              0.2199999988079071,
+              0.23999999463558197,
+              0.2800000011920929,
+              1.0
+            ],
+            "strength": 0.6000000238418579
+          }
+        ],
+        "engine": "CYCLES",
+        "samples": 24,
+        "view_transform": "AgX",
+        "exposure": 0.0,
+        "gamma": 1.0
+      },
+      "top_contact_sheet": "previews/cup/contact-sheet-top.png",
+      "top_source_sha256": {
+        "frame-01-top.png": "313ff05bcf6ffd1a6e0ebd772518eb7807ce3d04f48052c9b55b66f7da2b4348",
+        "frame-02-top.png": "a72fd7fed357db793193e1e718aff9c8d4d16254d6905aa105948461f393a94a",
+        "frame-03-top.png": "f68a323963fcda0a2604911463dc108259e7d5fe275378a0a6150e2170b99471",
+        "frame-04-top.png": "30446b861478661c58fcdab82fcb763947c477f96f740b79e90e8c9ac898d8f4",
+        "frame-05-top.png": "bc6c6c6230258ad0cb04009c2aceb7143b6a0c12e99735c8b7848d04df274e2f",
+        "frame-06-top.png": "59499f452e24d17a5ed69b1a9521a9cde1ec75bdf20d9ca93d90affe3609798b",
+        "frame-07-top.png": "f29c449677589bd25ff7ff5ecf94398593bcc9d4440da5fa3aa68f35b4b55c0a"
+      },
+      "top_animation": {
+        "path": "previews/cup/forward-reverse-top.gif",
+        "sha256": "f751a69d2f35b3420b0ab09f863b37cd0d2fcc909ede290035cd5d49c01c9c87",
+        "sequence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "decoded_sequence": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          6,
+          5,
+          4,
+          3,
+          2,
+          1
+        ],
+        "frames": 13,
+        "milliseconds_per_frame": 400,
+        "duration_seconds": 5.2,
+        "continuous_loop": true,
+        "canvas": [
+          720,
+          480
+        ],
+        "interpolation": false,
+        "shared_palette": true,
+        "dithering": "FloydSteinberg"
+      }
+    }
+  },
+  "protected_assets_unchanged": true,
+  "protected_sha256": {
+    "models/cup.blend": "7c25e24a653549cc6d379064feb4d63b94d4cff8c054990462330187a52c6eba",
+    "models/pen.blend": "2a36984c9fa4b2a0851a55ab8f4c0781679c575b0855196a6aefa91011680116",
+    "models/stones.blend": "170fa89d9aa84f2de464f24f9d74eede88f1736b82531059dea6b12e21abd6cd",
+    "exports/cup/frame-01.stl": "512f6312b389003950e2c5ea75462795587e9f340a8a79cbc66328f1cb868591",
+    "exports/cup/frame-02.stl": "1fe3745738f31e58a8a75dda372172bf737df7acfb8b4e12e5a55bf258d31644",
+    "exports/cup/frame-03.stl": "69254c4ee2ebf74e2ce0c07849f78545944a7c4a81feae40cf6581af8a47be9f",
+    "exports/cup/frame-04.stl": "7368581b7f4b40ef83ec877c165f77946a8ae328010d069b878cac65c1bf41bc",
+    "exports/cup/frame-05.stl": "ba5b171d5f9d362153077abab15d67838c0d28caa663c7e1728c9790471187bd",
+    "exports/cup/frame-06.stl": "1b2030661c396a9ab47087ce18706fcdc6399e93c5d6253b2690c76040af2fbc",
+    "exports/cup/frame-07.stl": "5fb7ea219998617c3b86455cf5f1bfd3a6880be0221cc3ccf6c5c40883314615",
+    "exports/pen/frame-01.stl": "b4bad27f7e3fe125b07ca660f785551c84b0381fa8fb93fa35d1ff9a23710724",
+    "exports/pen/frame-02.stl": "bd8d7f15fdf0893a3859330c1936a9703f82e56d8ee6f2beab58bab1a1acee97",
+    "exports/pen/frame-03.stl": "367124ca089c6a4ccb7dad4f1cbaddea6405604408272fcea4e0a4e8c7a4f3aa",
+    "exports/pen/frame-04.stl": "e3c8e604b7af79f0556b1d87efc7135248b72b5ff52c53aae807f04d58698959",
+    "exports/pen/frame-05.stl": "e6b34f79cd7e7e4251ac79e6b671db5831c7b5beea8a62915640718479e6c26b",
+    "exports/pen/frame-06.stl": "05cec719900da8c97da0318d0605bc3771626bcc18967a5450bf90250d287f3a",
+    "exports/pen/frame-07.stl": "3d6436db2ba8029e898d0a9f5fcca37c9cee9b38e1f2d30a4f697d0a6e38a2be",
+    "exports/stones/frame-01.stl": "1e26c3aa1b3514f03f38eb25163d4a60a876c119b7b2f6b47d2ff136f14dc52b",
+    "exports/stones/frame-02.stl": "7609c910a2a52c196f9c5e3f1cb8b45e4d759ac1bad045e7177c557ffcfa85a6",
+    "exports/stones/frame-03.stl": "0e2c5c7452971ebb4b251a5a849b14037f11c0f4b00dd411c8f55c16f18f5f5a",
+    "exports/stones/frame-04.stl": "d7850e3e397679d772464534b926d04083bb5faba3a656042dc8f559e404f322",
+    "exports/stones/frame-05.stl": "d0ebb24cfa1871f66d24370aaf14d4d412d89d33663c088dbe25776968a17847",
+    "exports/stones/frame-06.stl": "30b2fea36762952da699a5e362afbea92b91cd5614695c58aeb891d610037124",
+    "exports/stones/frame-07.stl": "f921014e69fff18c9e7cf8e2b45ce529f3b76c3760ff88049e113b58e892fbc8",
+    "previews/pen/comparison-oblique.png": "ecfcd52f0c411c0990334de600a064522db7520a28d8dfbd2e96a6d49d98be34",
+    "previews/pen/comparison-section.png": "5e9e0646a3379bbb22cafa85f23e8c1594398172cff8c5b9dcc8bb71862d06e9",
+    "previews/pen/comparison-side.png": "58172f67834538fefc214669d490d1a0a09c45b969a7c49a09befee3f2253527",
+    "previews/pen/comparison-top.png": "183d998cc4f721a4b5cf5efdc3fdaa1f229b7a2599777ff653fa9f1048f9fbb6",
+    "previews/pen/comparison.png": "ecfcd52f0c411c0990334de600a064522db7520a28d8dfbd2e96a6d49d98be34",
+    "previews/pen/contact-sheet-top.png": "212a10348505d19e79395f894ac0f202638e80716ce842e086b7b15e3c15b8b6",
+    "previews/pen/contact-sheet.png": "eac0e62523c491cd6b9b7fd92f635c9c7c143b304f8f034cc7e9adf23d273566",
+    "previews/pen/forward-reverse.gif": "8306c8971ababb4615489c91181c6725d51d9a7e35071493046b0813e3bd6781",
+    "previews/pen/frame-01-oblique.png": "f8f6597eb04f1f69e5316812fc5fa64b45fd0d95d3b9ba8f3978c4196951c141",
+    "previews/pen/frame-01-side.png": "3bc1fdf4753125e4e7328c6725c2d56c8c7b2a4110684a38e866d27cdd05bc14",
+    "previews/pen/frame-01-top.png": "adf7c8d08d83f38f429bcd3f02f1476397b0c38507be442c8c4a358283d49814",
+    "previews/pen/frame-01.png": "b9b3f61752a283899b3590d1dc657ed52c67b8778bf8c97898307ba88b61d1cd",
+    "previews/pen/frame-02-top.png": "5d73eaeafa00eaf3103300fc455787462ec707615cc759474724f84e974ae695",
+    "previews/pen/frame-02.png": "6087e653d2b9bb4eaf4c6e8587111223991a991f0badb595f99981d4c4e1807e",
+    "previews/pen/frame-03-top.png": "e5d5b1a45ea333b60363612f244f27a44873f0a73749e8dedb7b45c7e5e6d603",
+    "previews/pen/frame-03.png": "0aee3bf012f56cc4364c0cde0b0dfd35609cb51bfb1132f13a9e7a189fd03880",
+    "previews/pen/frame-04-top.png": "939cf4a4b128df7546ee978ebfb21dea6f6b48e5f1d379fcac66ccfc76611e35",
+    "previews/pen/frame-04.png": "daa6bb93a3193c11188728cb3ebab1d819c933c8b65dc106d59f0d56325efdbc",
+    "previews/pen/frame-05-top.png": "e63cf26aceb96581177bd94cfafc0350270a0699659e63da8841de87eba1d06b",
+    "previews/pen/frame-05.png": "40c5d5c813d2058c95684360eea080017ab4b3b760b6123fdc51cd8080328a2c",
+    "previews/pen/frame-06-top.png": "90bb36c3f8f9e81a93a30bd4c9a2f7c7f6b8224035affb89e9f978924ddf2456",
+    "previews/pen/frame-06.png": "3ad81d67e9fd85904815ba1bc3733280c7b20a1e3320bd02361ae594994fc128",
+    "previews/pen/frame-07-oblique.png": "2d0795e4a900df6364542cde05ab40169fa0a677d935cf90b4843a361bc6ce55",
+    "previews/pen/frame-07-side.png": "bc050eb4d3fc775cad890bc1e6f0e14fe49a0b9ccec4021f1dc44b58e75ff577",
+    "previews/pen/frame-07-top.png": "0ef46ba8fea27605371145c85a9c6e2d156d4bad2af2f2d302b66297fd188bf8",
+    "previews/pen/frame-07.png": "8c62d696ac2c5e0547e13a9186420077ca47d2faa697b60547a34200e67e699d",
+    "previews/pen/intermediates-validation.json": "39da12c6becfefac3d99f645997f22fbbcb24da7d3393f7bd89f07aef7779d87",
+    "previews/pen/tabletop-validation.json": "ef3591dc9e4830d11e103a1f36d40753476296b96b49f7d132a56fbd4a85449b",
+    "previews/pen/view-settings.json": "a7332992d3dbc9e1e89674dd02001444aeaf6b38f035571c6c447f1b10d78d0c",
+    "scripts/generate.py": "c4acc5ab6c972929dc2bcc4c5423f7791a87e4036774cf414a048169de989325",
+    "scripts/pen_previews.py": "652f6e45bf259cb93d4cb1c86a5690b501cc302945efd11ba877cec86bd9e299",
+    "previews/stones/frame-01.png": "a8a3309ebbfece70ba54cc8b042fe2e2980e1ea96bba8793ae58898af5af3a91",
+    "previews/stones/frame-02.png": "1ef4502dfbca481129f1a7d84fe6f8f4faf460664704293995c616b3d1971d36",
+    "previews/stones/frame-03.png": "80949fb9f23d10e6b91bc883df53cf9f13aa3f8845e2b3122f0e44403bfad5a9",
+    "previews/stones/frame-04.png": "b358adac730a139af340a8301510297b63ade9c91bb007252e450e115d1d5541",
+    "previews/stones/frame-05.png": "e2c24fe5418d51ba1914f48cb53cda6c104efdb9a0a54189b56b204298c1f39d",
+    "previews/stones/frame-06.png": "14212af76966a310213140885287f72ff2e825bedd5622bb5c5db1ded9fc8c1a",
+    "previews/stones/frame-07.png": "879b3150890871a17e7a81bce2a115269047da596403f99cb673a07f5b181f89",
+    "previews/stones/contact-sheet.png": "0cb5728cb9b532777c0c52efe4f206fc43392162b8764ef027fb99b6b26baeb6",
+    "previews/cup/frame-01.png": "1dd7bdab18c7a986e6e731d835c9a1baa0031b99295d0c9c647de3c418eec851",
+    "previews/cup/frame-02.png": "d7d24ccec3447b58f196d1959ca5f4e68b2b50ee3f3987b4301feb01d1133a3c",
+    "previews/cup/frame-03.png": "ad658f2cbd841504c024e6656b79afa494d3076ef6106f35205b1b8344024092",
+    "previews/cup/frame-04.png": "eb3161d60fedbeaa915bbc9164594730f6d463eed858b5a51bf85c95aadef0c9",
+    "previews/cup/frame-05.png": "7b1dd9d95bf714de9a90d4f5104a0a7e144c43ee3efcf23d07d591a24c68395f",
+    "previews/cup/frame-06.png": "fd55bf49e7c674a70b8f238a8ddee5228dbdcae722364cfb446c920d7d96a911",
+    "previews/cup/frame-07.png": "82142ba281feaa31c093a329dea2d1fdecf085f0e4ef594d08a232cd9c4bd3f9",
+    "previews/cup/contact-sheet.png": "2e20d9b708e511295452a940794394a844ab27ad9a02881cc68dc3fe1fc5e019"
+  }
+}

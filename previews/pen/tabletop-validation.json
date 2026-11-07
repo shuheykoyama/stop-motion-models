@@ -1,0 +1,338 @@
+{
+  "before_frame01": {
+    "path": "exports/pen/frame-01.stl",
+    "sha256": "b4bad27f7e3fe125b07ca660f785551c84b0381fa8fb93fa35d1ff9a23710724",
+    "dimensions_mm": [
+      140.8000030517578,
+      21.799999237060547,
+      21.799999237060547
+    ],
+    "bounds_mm": [
+      [
+        -70.4000015258789,
+        -10.899999618530273,
+        0.0
+      ],
+      [
+        70.4000015258789,
+        10.899999618530273,
+        21.799999237060547
+      ]
+    ],
+    "dimensions_pass": true,
+    "vertices": 37762,
+    "triangles": 75520,
+    "components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "inconsistent_winding_edges": 0,
+    "nonmanifold_vertices": 0,
+    "loose_vertices": 0,
+    "degenerate_triangles": 0,
+    "stl_normal_disagreements": 0,
+    "signed_volume_mm3": 40209.392120570585,
+    "nonadjacent_bvh_overlap_pairs": 0,
+    "self_intersection_scope": "BVH nonadjacent triangles; shared-vertex pairs excluded. Also checked analytically: monotonic-X pen rings, single-valued stone heightfield, simple cup profile.",
+    "center_height_mm": 17.99999964237213,
+    "center_width_mm": 18.0,
+    "near_extent_mm": 9.0,
+    "far_extent_mm": -9.0,
+    "center_bottom_above_table_mm": 1.9499999769032001,
+    "center_top_above_table_mm": 19.94999961927533,
+    "minimum_clearance_above_table_mm": 0.05000000074505806,
+    "longitudinal_length_mm": 140.8000030517578,
+    "contact_ring_vertices": 0,
+    "center_contact_width_mm": 0,
+    "tabletop_contact_area_mm2": 0.0,
+    "tabletop_contact_axial_span_mm": 0,
+    "tabletop_contact_triangles": 0,
+    "tabletop_tolerance_mm": 1e-05,
+    "table_normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "horizontal_near": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "marker_axis": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "compression_axis_dot_marker_axis": 0.0,
+    "table_origin_mm": [
+      -1000.0,
+      -1000.0,
+      -0.05000000074505806
+    ],
+    "functional_dimensions_pass": true,
+    "material_centerline_near_displacement_mm": 0.0,
+    "centerline_measurement_method": "STL lateral midpoint minus unequal-spread offset; saved-mesh crown/sole meridians checked separately.",
+    "section_envelope_midpoint_near_mm": 0.0,
+    "roof_probe_offsets_from_centerline_mm": [
+      -5.0,
+      5.0
+    ],
+    "far_near_roof_heights_above_table_mm": [
+      18.43330955505371,
+      18.43330955505371
+    ],
+    "far_minus_near_roof_height_mm": 0.0,
+    "sampled_flat_region_minimum_vertical_thickness_mm": 12.442147254943848,
+    "sampled_flat_region_bottom_clearance_range_mm": [
+      1.9499998092651367,
+      4.728925704956055
+    ],
+    "minimum_thickness_scope": "Functional sections only; no exhaustive local normal-thickness or sub-nozzle feature/overhang check.",
+    "passed": true
+  },
+  "baseline_frame07": {
+    "path": "exports/pen/frame-07.stl",
+    "sha256": "84f523a3cace39a1317373884632f185887d6adbb229fcf9b7b151224179b3e6",
+    "dimensions_mm": [
+      140.8000030517578,
+      21.799999237060547,
+      21.84999942779541
+    ],
+    "bounds_mm": [
+      [
+        -70.4000015258789,
+        -10.899999618530273,
+        -0.05000019073486328
+      ],
+      [
+        70.4000015258789,
+        10.899999618530273,
+        21.799999237060547
+      ]
+    ],
+    "dimensions_pass": true,
+    "vertices": 37762,
+    "triangles": 75520,
+    "components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "inconsistent_winding_edges": 0,
+    "nonmanifold_vertices": 0,
+    "loose_vertices": 0,
+    "degenerate_triangles": 0,
+    "stl_normal_disagreements": 0,
+    "signed_volume_mm3": 34833.97214962761,
+    "nonadjacent_bvh_overlap_pairs": 0,
+    "self_intersection_scope": "BVH nonadjacent triangles; shared-vertex pairs excluded. Also checked analytically: monotonic-X pen rings, single-valued stone heightfield, simple cup profile.",
+    "center_height_mm": 2.8000011444091797,
+    "center_width_mm": 20.0,
+    "near_extent_mm": 10.800000190734863,
+    "far_extent_mm": -9.199999809265137,
+    "center_bottom_above_table_mm": -1.8998980522155762e-07,
+    "center_top_above_table_mm": 2.8000009544193745,
+    "minimum_clearance_above_table_mm": -1.8998980522155762e-07,
+    "longitudinal_length_mm": 140.8000030517578,
+    "contact_ring_vertices": 41,
+    "center_contact_width_mm": 16.62939214706421,
+    "tabletop_contact_area_mm2": 232.48125759823301,
+    "tabletop_contact_axial_span_mm": 13.980141639709473,
+    "tabletop_contact_triangles": 2240,
+    "tabletop_tolerance_mm": 1e-05,
+    "table_normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "horizontal_near": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "marker_axis": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "compression_axis_dot_marker_axis": 0.0,
+    "table_origin_mm": [
+      -1000.0,
+      -1000.0,
+      -0.05000000074505806
+    ],
+    "functional_dimensions_pass": true,
+    "sampled_flat_region_minimum_vertical_thickness_mm": 2.597038745880127,
+    "sampled_flat_region_bottom_clearance_range_mm": [
+      -7.078051567077637e-08,
+      0.00032918527722358704
+    ],
+    "minimum_thickness_scope": "Functional sections only; no exhaustive local normal-thickness or sub-nozzle feature/overhang check.",
+    "passed": true
+  },
+  "revised_frame07": {
+    "path": "exports/pen/frame-07.stl",
+    "sha256": "3d6436db2ba8029e898d0a9f5fcca37c9cee9b38e1f2d30a4f697d0a6e38a2be",
+    "dimensions_mm": [
+      140.8000030517578,
+      27.69999885559082,
+      21.84999942779541
+    ],
+    "bounds_mm": [
+      [
+        -70.4000015258789,
+        -16.799999237060547,
+        -0.05000019073486328
+      ],
+      [
+        70.4000015258789,
+        10.899999618530273,
+        21.799999237060547
+      ]
+    ],
+    "dimensions_pass": true,
+    "vertices": 37762,
+    "triangles": 75520,
+    "components": 1,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0,
+    "inconsistent_winding_edges": 0,
+    "nonmanifold_vertices": 0,
+    "loose_vertices": 0,
+    "degenerate_triangles": 0,
+    "stl_normal_disagreements": 0,
+    "signed_volume_mm3": 36020.401369016225,
+    "nonadjacent_bvh_overlap_pairs": 0,
+    "self_intersection_scope": "BVH nonadjacent triangles; shared-vertex pairs excluded. Also checked analytically: monotonic-X pen rings, single-valued stone heightfield, simple cup profile.",
+    "center_height_mm": 7.064853668212891,
+    "center_width_mm": 19.999999046325684,
+    "near_extent_mm": 16.799999237060547,
+    "far_extent_mm": -3.1999998092651367,
+    "center_bottom_above_table_mm": -1.8998980522155762e-07,
+    "center_top_above_table_mm": 7.064853478223085,
+    "minimum_clearance_above_table_mm": -1.8998980522155762e-07,
+    "longitudinal_length_mm": 140.8000030517578,
+    "contact_ring_vertices": 41,
+    "center_contact_width_mm": 16.62939214706421,
+    "tabletop_contact_area_mm2": 232.48125414606778,
+    "tabletop_contact_axial_span_mm": 13.980141639709473,
+    "tabletop_contact_triangles": 2240,
+    "tabletop_tolerance_mm": 1e-05,
+    "table_normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "horizontal_near": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "marker_axis": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "compression_axis_dot_marker_axis": 0.0,
+    "table_origin_mm": [
+      -1000.0,
+      -1000.0,
+      -0.05000000074505806
+    ],
+    "functional_dimensions_pass": true,
+    "material_centerline_near_displacement_mm": 5.999999713897705,
+    "centerline_measurement_method": "STL lateral midpoint minus unequal-spread offset; saved-mesh crown/sole meridians checked separately.",
+    "section_envelope_midpoint_near_mm": 6.799999713897705,
+    "roof_probe_offsets_from_centerline_mm": [
+      -5.0,
+      5.0
+    ],
+    "far_near_roof_heights_above_table_mm": [
+      6.39565372467041,
+      4.002102851867676
+    ],
+    "far_minus_near_roof_height_mm": 2.3935508728027344,
+    "sampled_flat_region_minimum_vertical_thickness_mm": 3.5950589179992676,
+    "sampled_flat_region_bottom_clearance_range_mm": [
+      -7.078051567077637e-08,
+      0.00032918527722358704
+    ],
+    "minimum_thickness_scope": "Functional sections only; no exhaustive local normal-thickness or sub-nozzle feature/overhang check.",
+    "passed": true
+  },
+  "endpoint_invariants": {
+    "unchanged_ends_max_delta_mm": 0.0,
+    "axial_coordinates_identical": true,
+    "deformation_zone_mm": [
+      -20,
+      20
+    ],
+    "center_material_meridian_displacements_mm": [
+      6.000000000000001,
+      5.999999999999998
+    ]
+  },
+  "retained_frame01_to_06_meshes_unchanged": true,
+  "protected_files_unchanged": true,
+  "protected_sha256": {
+    "models/stones.blend": "170fa89d9aa84f2de464f24f9d74eede88f1736b82531059dea6b12e21abd6cd",
+    "models/cup.blend": "7c25e24a653549cc6d379064feb4d63b94d4cff8c054990462330187a52c6eba",
+    "exports/pen/frame-01.stl": "b4bad27f7e3fe125b07ca660f785551c84b0381fa8fb93fa35d1ff9a23710724",
+    "exports/pen/frame-02.stl": "dd167e8a89598681dd91c6a76f91faed57bcefdc2e914a61b81fb0e31282235c",
+    "exports/pen/frame-03.stl": "13cb31b89ee1513c9ad295ca43ce6ba4d9698a2c0df5b2d4132030ea47319fe6",
+    "exports/pen/frame-04.stl": "792594a4bdfb48ee029e208619d99a83451317acdd8db23d7f565e1f7559fbdc",
+    "exports/pen/frame-05.stl": "d121bc94225095b3078e076abb12bc4fa08332e4d5c00b394827380b0f8e2eae",
+    "exports/pen/frame-06.stl": "fa9799f3d0d5f30d21ed22ac76ce128a41349ea6f14535a6542e1c606c2f2a76",
+    "exports/stones/frame-03.stl": "0e2c5c7452971ebb4b251a5a849b14037f11c0f4b00dd411c8f55c16f18f5f5a",
+    "exports/stones/frame-02.stl": "7609c910a2a52c196f9c5e3f1cb8b45e4d759ac1bad045e7177c557ffcfa85a6",
+    "exports/stones/frame-01.stl": "1e26c3aa1b3514f03f38eb25163d4a60a876c119b7b2f6b47d2ff136f14dc52b",
+    "exports/stones/frame-05.stl": "d0ebb24cfa1871f66d24370aaf14d4d412d89d33663c088dbe25776968a17847",
+    "exports/stones/frame-04.stl": "d7850e3e397679d772464534b926d04083bb5faba3a656042dc8f559e404f322",
+    "exports/stones/frame-06.stl": "30b2fea36762952da699a5e362afbea92b91cd5614695c58aeb891d610037124",
+    "exports/stones/frame-07.stl": "f921014e69fff18c9e7cf8e2b45ce529f3b76c3760ff88049e113b58e892fbc8",
+    "previews/stones/comparison.png": "a10c8cd9e0b393565712f8a905b869f831e00074f3bb31183c7ec7b1373dd573",
+    "previews/stones/contact-sheet.png": "0cb5728cb9b532777c0c52efe4f206fc43392162b8764ef027fb99b6b26baeb6",
+    "previews/stones/frame-03.png": "80949fb9f23d10e6b91bc883df53cf9f13aa3f8845e2b3122f0e44403bfad5a9",
+    "previews/stones/frame-02.png": "1ef4502dfbca481129f1a7d84fe6f8f4faf460664704293995c616b3d1971d36",
+    "previews/stones/frame-01.png": "a8a3309ebbfece70ba54cc8b042fe2e2980e1ea96bba8793ae58898af5af3a91",
+    "previews/stones/frame-05.png": "e2c24fe5418d51ba1914f48cb53cda6c104efdb9a0a54189b56b204298c1f39d",
+    "previews/stones/frame-04.png": "b358adac730a139af340a8301510297b63ade9c91bb007252e450e115d1d5541",
+    "previews/stones/frame-06.png": "14212af76966a310213140885287f72ff2e825bedd5622bb5c5db1ded9fc8c1a",
+    "previews/stones/frame-07.png": "879b3150890871a17e7a81bce2a115269047da596403f99cb673a07f5b181f89",
+    "exports/cup/frame-03.stl": "69254c4ee2ebf74e2ce0c07849f78545944a7c4a81feae40cf6581af8a47be9f",
+    "exports/cup/frame-02.stl": "1fe3745738f31e58a8a75dda372172bf737df7acfb8b4e12e5a55bf258d31644",
+    "exports/cup/frame-01.stl": "512f6312b389003950e2c5ea75462795587e9f340a8a79cbc66328f1cb868591",
+    "exports/cup/frame-05.stl": "ba5b171d5f9d362153077abab15d67838c0d28caa663c7e1728c9790471187bd",
+    "exports/cup/frame-04.stl": "7368581b7f4b40ef83ec877c165f77946a8ae328010d069b878cac65c1bf41bc",
+    "exports/cup/frame-06.stl": "1b2030661c396a9ab47087ce18706fcdc6399e93c5d6253b2690c76040af2fbc",
+    "exports/cup/frame-07.stl": "5fb7ea219998617c3b86455cf5f1bfd3a6880be0221cc3ccf6c5c40883314615",
+    "previews/cup/frame-01-top.png": "6a59fb7c5e825b1fb016bb487895e32844b18770f10fa0ba4ecbce08bd289b6e",
+    "previews/cup/comparison.png": "ba6e9f604f92ad83b544d9f3c1a46d66a099677cd12e32d4976dab08928a59bc",
+    "previews/cup/frame-07-top.png": "98cb0e43238f72a3c2cca01da16ad7e4c20db7924dc44200e91624f7014ef941",
+    "previews/cup/contact-sheet.png": "2e20d9b708e511295452a940794394a844ab27ad9a02881cc68dc3fe1fc5e019",
+    "previews/cup/frame-03.png": "ad658f2cbd841504c024e6656b79afa494d3076ef6106f35205b1b8344024092",
+    "previews/cup/frame-02.png": "d7d24ccec3447b58f196d1959ca5f4e68b2b50ee3f3987b4301feb01d1133a3c",
+    "previews/cup/frame-01.png": "1dd7bdab18c7a986e6e731d835c9a1baa0031b99295d0c9c647de3c418eec851",
+    "previews/cup/frame-05.png": "7b1dd9d95bf714de9a90d4f5104a0a7e144c43ee3efcf23d07d591a24c68395f",
+    "previews/cup/frame-04.png": "eb3161d60fedbeaa915bbc9164594730f6d463eed858b5a51bf85c95aadef0c9",
+    "previews/cup/frame-06.png": "fd55bf49e7c674a70b8f238a8ddee5228dbdcae722364cfb446c920d7d96a911",
+    "previews/cup/frame-07.png": "82142ba281feaa31c093a329dea2d1fdecf085f0e4ef594d08a232cd9c4bd3f9"
+  },
+  "parameters": {
+    "length": 140.8,
+    "cap_diameter": 21.8,
+    "barrel_diameter": 18.0,
+    "crush_length": 40.0,
+    "flat_length": 14.0,
+    "compressed_height": 5.2,
+    "near_expansion": 1.8,
+    "far_expansion": 0.2,
+    "near_top_taper": 0.2,
+    "centerline_displacement": 6.0,
+    "compression_slope": 2.2,
+    "deformation_intensity": 1.0,
+    "contact_phase": 0.2,
+    "minimum_web": 2.5,
+    "fold_amplitude": 0.18,
+    "angular_segments": 128,
+    "axial_step": 0.5
+  },
+  "intermediate_status": "Frames 02\u201306 preserved, pending endpoint approval; old contact sheets are historical."
+}

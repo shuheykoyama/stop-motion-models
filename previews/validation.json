@@ -2114,5 +2114,80 @@
         "previews/cup/frame-07.png": "82142ba281feaa31c093a329dea2d1fdecf085f0e4ef594d08a232cd9c4bd3f9"
       }
     }
+  },
+  "stone_to_bread": {
+    "final_approval": {
+      "status": "Finally visually approved",
+      "approved_frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "approved_printable_geometry": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "approved_preview_only": [
+        10
+      ],
+      "approved_intermediates": [
+        2,
+        3,
+        5,
+        6,
+        7
+      ],
+      "frame_09_reference_duration_ms": 80,
+      "findings": "Full sequence reviewed and approved; 05 to 06 is more pronounced but acceptable. Abrupt recoil and hard cut to bread are intentional.",
+      "physical_print_test": false
+    },
+    "validation": "previews/stone-to-bread/validation.json",
+    "sequence_validation": "previews/stone-to-bread/sequence-validation.json",
+    "asset_sha256": {
+      "models/stone-to-bread.blend": "2aaeb340f8d0273a034ca4a4d86912efb23d99a75e99366292da5b3d13d0bda2",
+      "scripts/stone_to_bread.py": "0aa60d4e10ca34e23b03fede86bbe764716a74fb5059118309296edcf007ee07",
+      "scripts/stone_to_bread_sequence.py": "68e7756dcbc08847b59428448c5b7ea2087961f3b088bfabf6df820ceecfd2a3",
+      "previews/stone-to-bread/sequence-oblique.png": "575f44c90b1e2b1571155e7e01b96315ed454395f61671dcdffb8ea1e36cfed6",
+      "previews/stone-to-bread/sequence-top.png": "4dca2a79450828e8bf77adbf1d41b85e4a593104064b877a3d9771b9fe373994",
+      "previews/stone-to-bread/sequence-side.png": "2deabc6d27314e988c6b0e3b19d97155ca8b2838f9106a6a6beadb0d95d64777",
+      "previews/stone-to-bread/sequence.gif": "c5ff3ca49b8b003744481793183bd8e3126a12656c868a36d8e5e07a00927358",
+      "previews/stone-to-bread/rolling.gif": "4c5aa899945b35e71da047202b56dc61f918629ed92848c4d907b4fc8a4965e3",
+      "previews/stone-to-bread/stretching.gif": "5c169c068d6d2f5a464800461f23bbc196e81ae1c7f5af534832f79b13777606",
+      "exports/stone-to-bread/frame-01.stl": "1aa6c55abd2470b5889d1596c15eb86583dcd9a1cc984d530c71c7b52c3f3335",
+      "exports/stone-to-bread/frame-02.stl": "8f1b76badeccb11194180503d004123d61e47c35008d601d7e904ef7b0b512aa",
+      "exports/stone-to-bread/frame-03.stl": "99680eba1fcee8af233b956cc8d80b5a43fbcbea8b54b681e0f18a52d11eb6b0",
+      "exports/stone-to-bread/frame-04.stl": "4b7a680db0ee775e1e553db81a451671adaec646b7553919cace0873ed336e33",
+      "exports/stone-to-bread/frame-05.stl": "ded538e2ff8e3373cfc5775bebd4811a5bb77c48eb7249ea84067224a2afeddc",
+      "exports/stone-to-bread/frame-06.stl": "43252d7c781a6130b25a9acf6358034c2ee61604df26ad82d7e83341cdd0d996",
+      "exports/stone-to-bread/frame-07.stl": "eb8f949830e166baf678d585ea791fcaaeea9706f25317d299fe26e266449bb1",
+      "exports/stone-to-bread/frame-08.stl": "c6091bad3504bc79635a0c343794590ed99d94b2010d88e2d3135597251acbfe",
+      "exports/stone-to-bread/frame-09.stl": "dfeac95309c053f69e4ef3fd938a1d414b9dc53a5bdacb3bf8a7e191f0099d7e"
+    },
+    "mesh_fingerprints": {
+      "1": "3fc98504b479c12b42f717e988cd9c3f5ad5524c40312023ddf7eb2034155d65",
+      "2": "c38ea2a55f3ea766b9ca2e32071ae942730e7463afdf6cd3a8ed05200df71d40",
+      "3": "3dbe732cd79ce68aacb2fdfe66f5fb053059d566888c1a782253183df8ee86f9",
+      "4": "34787540ad51c3a7d60fbf07ae29348e10f37366e9f2b82fe9310590e90f9efa",
+      "5": "c1142a9fcfbdf5f089ec0ff42ad39446698f80dca227f69be2a888af72a33ec4",
+      "6": "90e597f38073f21e6dad65034ac98c7e13acd858b5db5a978a8456b38ed44c58",
+      "7": "f93c0aece3802ede49bba5d94c2285b71f11a37e3a5e8ef1e400f1ced97e4429",
+      "8": "55c62a7330f778849d868813f35c847db2d345c43315513d7b46d9f3365a0143",
+      "9": "4c0804cb40aa290728ab14a16aebdb98c4bb60895986d3c5aa19be554d80cbe8",
+      "10": "d28084d875a720a0d79ceb1812b82217269c29fc89ef6812625ae9959abe7db7"
+    }
   }
 }

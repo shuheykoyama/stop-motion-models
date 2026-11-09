@@ -1,6 +1,6 @@
 # Stop Motion Models
 
-Procedural stop-motion props generated with Blender 4.5 LTS. Each motif has seven interchangeable STL models in millimeters; reverse playback reuses those seven shapes.
+Procedural stop-motion props generated with Blender 4.5 LTS. The original three motifs each have seven interchangeable STL models in millimeters; reverse playback reuses those seven shapes.
 
 ## Project status
 
@@ -12,7 +12,15 @@ Procedural stop-motion props generated with Blender 4.5 LTS. Each motif has seve
 | Stones — final | [stones.blend](models/stones.blend) | `exports/stones/frame-01.stl` through `frame-07.stl` | [Oblique](previews/stones/contact-sheet.png), [GIF](previews/stones/forward-reverse.gif), [top-down](previews/stones/contact-sheet-top.png) |
 | Cup — final | [cup.blend](models/cup.blend) | `exports/cup/frame-01.stl` through `frame-07.stl` | [Oblique](previews/cup/contact-sheet.png), [GIF](previews/cup/forward-reverse.gif), [top-down](previews/cup/contact-sheet-top.png), [top GIF](previews/cup/forward-reverse-top.gif) |
 
-The repository contains 3 editable scenes and 21 STL exports. Scenes contain seven static mesh objects sharing one origin and datum, with Frame 01 visible by default. To inspect another frame, switch both viewport and render visibility. Cameras, lights and preview floors are staging objects and are excluded from STL exports. Do not shift or normalize individual frames independently.
+The approved collections contain 3 editable scenes and 21 STL exports. Their scenes contain seven static mesh objects sharing one origin and datum, with Frame 01 visible by default. To inspect another frame, switch both viewport and render visibility. Cameras, lights and preview floors are staging objects and are excluded from STL exports. Do not shift or normalize individual frames independently.
+
+## Stone to Bread
+
+The current [Stone to Bread checkpoint](docs/stone-to-bread.md) is a **provisionally approved CG previsualization**, with 12 printable stone poses (`r01`–`r07`, `p01`–`p04`, `c01`) and one preview-only bread pose (`b01`). The stone rolls and elongates, its center is pressed and pulled toward the viewer, then it recoils before a hard cut to bread. Physical printing has not been tested.
+
+**[Watch the primary 13-pose GIF](previews/stone-to-bread/full-sequence-v1/sequence-realistic-deliberate.gif)** · [Front contact sheet](previews/stone-to-bread/full-sequence-v1/contact-front.png) · [Top contact sheet](previews/stone-to-bread/full-sequence-v1/contact-top.png) · [Editable scene](models/stone-to-bread-full-sequence-v1.blend) · [Pose manifest](previews/stone-to-bread/full-sequence-v1/manifest.json)
+
+The earlier ten-frame sequence and rolling studies remain available as historical references. See the motif documentation for their status and the recovered legacy geometry.
 
 ## Documentation and verification
 

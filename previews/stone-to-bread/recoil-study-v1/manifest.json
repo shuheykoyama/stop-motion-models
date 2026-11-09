@@ -1,0 +1,179 @@
+{
+  "status": "Recoil study awaiting visual review",
+  "source_p04": {
+    "stl": "exports/stone-to-bread/pulling-study-v1/pose-p04.stl",
+    "sha256": "637a9a800d1af44b2a3e237153a8e0accaad5bcf23c3943e63e0559222023ea2",
+    "mesh_fingerprint": "8e4dcab91a65bfe2ef5ea583f0239ee290211f3597177d42840656e83d529fed"
+  },
+  "c01": {
+    "stl": "exports/stone-to-bread/recoil-study-v1/pose-c01.stl",
+    "stl_sha256": "b44ca85c9521bea0db7e6fa038746d746574f7e414d597c00168427004c02620",
+    "mesh_fingerprint": "d643735cce14b35be7dfad4a8b98fe4e20a230c0ef6a5ebdf4a31cab14a69bf1",
+    "validation": {
+      "path": "exports/stone-to-bread/recoil-study-v1/pose-c01.stl",
+      "sha256": "b44ca85c9521bea0db7e6fa038746d746574f7e414d597c00168427004c02620",
+      "local_dimensions_mm": [
+        40.0,
+        29.510662078857422,
+        18.4866886138916
+      ],
+      "local_bounds_mm": [
+        [
+          -20.0,
+          -13.343301773071289,
+          0.0
+        ],
+        [
+          20.0,
+          16.167360305786133,
+          18.4866886138916
+        ]
+      ],
+      "target_dimensions_mm": [
+        40.0,
+        29.510662302330836,
+        18.48668930053711
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 9877.717673395944,
+      "table_contact_area_mm2": 233.1544773528014,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.19560848370928427,
+        0.28120882662238705,
+        8.542647409765012
+      ],
+      "support_hull_margin_mm": 3.636126577551266,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 15.774577140808105,
+      "dimensions_pass": true,
+      "passed": true,
+      "pose_id": "c01"
+    },
+    "placement_world_mm": [
+      0.0,
+      -7.0,
+      0.0
+    ],
+    "sampled_tongue_vertical_mm": [
+      17.353347778320312,
+      15.964599609375,
+      12.369216918945312,
+      9.793869018554688,
+      7.833442687988281,
+      3.9231348037719727
+    ],
+    "residual_near_extent_mm": 16.167360305627163
+  },
+  "b01": {
+    "preview_only": true,
+    "mesh_fingerprint": "d28084d875a720a0d79ceb1812b82217269c29fc89ef6812625ae9959abe7db7",
+    "placement_world_mm": [
+      0.0,
+      -7.0,
+      0.0
+    ],
+    "stl": null
+  },
+  "protected_hashes_verified": 356,
+  "limitations": [
+    "BVH intersection check excludes pairs sharing vertices.",
+    "Vertical samples do not prove global minimum wall thickness.",
+    "Slicer behavior and physical stability or printing are unverified."
+  ],
+  "animations": {
+    "quick": {
+      "path": "previews/stone-to-bread/recoil-study-v1/transition-quick.gif",
+      "poses": [
+        "p04",
+        "c01",
+        "b01"
+      ],
+      "delays_ms": [
+        420,
+        80,
+        750
+      ],
+      "sha256": "8900db39ab0d365add5b7e92b68abed6488a6ded9c50a112782b89512dcb4012"
+    },
+    "deliberate": {
+      "path": "previews/stone-to-bread/recoil-study-v1/transition-deliberate.gif",
+      "poses": [
+        "p04",
+        "c01",
+        "b01"
+      ],
+      "delays_ms": [
+        420,
+        250,
+        750
+      ],
+      "sha256": "3b4c579b9251ab5f0c6e5da4a74174ca90f20cfdc7c1af4482a82006fa455f08"
+    },
+    "contextual": {
+      "path": "previews/stone-to-bread/recoil-study-v1/transition-context.gif",
+      "poses": [
+        "p03",
+        "p04",
+        "c01",
+        "b01"
+      ],
+      "delays_ms": [
+        250,
+        420,
+        80,
+        750
+      ],
+      "sha256": "9ee7b0580ba7baf64eecb298be847d9b9f62f6d2de7927b1c95f97c3f9b4119b"
+    }
+  },
+  "artifacts": {
+    "exports/stone-to-bread/recoil-study-v1/pose-c01.stl": "b44ca85c9521bea0db7e6fa038746d746574f7e414d597c00168427004c02620",
+    "previews/stone-to-bread/recoil-study-v1/transition-deliberate.gif": "3b4c579b9251ab5f0c6e5da4a74174ca90f20cfdc7c1af4482a82006fa455f08",
+    "previews/stone-to-bread/recoil-study-v1/p04-top.png": "a2248818cfcc634e36557c965251e1f29b197426a3be805a4079ff55973fa72a",
+    "previews/stone-to-bread/recoil-study-v1/transition-quick.gif": "8900db39ab0d365add5b7e92b68abed6488a6ded9c50a112782b89512dcb4012",
+    "previews/stone-to-bread/recoil-study-v1/c01-front.png": "2012e7dd31bf44020309b8eb18e97af473a7f3d1b65c677593a3f3bcb01b0a1b",
+    "previews/stone-to-bread/recoil-study-v1/c01-side.png": "7535bbe7d4265b2f98cf97dafc04e42dede6f43e4ea0f43c562ec560f7b04bfe",
+    "previews/stone-to-bread/recoil-study-v1/contact-side.png": "97d2bb03ff65a37b8a4bef0f69726d13694cd91411fba42eb74881e5ce784255",
+    "previews/stone-to-bread/recoil-study-v1/old09-top.png": "18f830ca25b809b770e7c7b178bec1f1a66fb59e68061fa27e5c8dd27ccc8656",
+    "previews/stone-to-bread/recoil-study-v1/contact-front.png": "74bebcc18565ab72dc291bd9671d219f7cdecbf63c9bf5cccf4090528d091f78",
+    "previews/stone-to-bread/recoil-study-v1/contact-top.png": "b75139cfa5440ed0f53334cf32a4a33b011a26dc5e4fc4204e22e85913396a0d",
+    "previews/stone-to-bread/recoil-study-v1/old09-side.png": "2500d7b19b1dfcd8be2ddb26167e55c0e3085f80b7f385f1741c1775c5a6c09c",
+    "previews/stone-to-bread/recoil-study-v1/transition-context.gif": "9ee7b0580ba7baf64eecb298be847d9b9f62f6d2de7927b1c95f97c3f9b4119b",
+    "previews/stone-to-bread/recoil-study-v1/b01-top.png": "da88f7ae85d6d354ab8ddbc4e3ab1c8d40e1b2bc1f20f96382e516bd6a0e6818",
+    "previews/stone-to-bread/recoil-study-v1/b01-front.png": "febbb6de58da92bd5440093aba4cfbfa6a2d4dc7ad3f9c08ea279692b05cbf30",
+    "previews/stone-to-bread/recoil-study-v1/old09-front.png": "72eb9648d619755619ef6b1bc9f37132b662347033255aef1eb316402c9bc31d",
+    "previews/stone-to-bread/recoil-study-v1/manifest.json": "3adb8a7234da19fa088202965ed2b5d31228c7b5b5ae718100dee2789802531f",
+    "previews/stone-to-bread/recoil-study-v1/c01-top.png": "2326e7eb91cd3224eea72c11534e3329fb253d9633c22a8e06e7186b47b6c883",
+    "previews/stone-to-bread/recoil-study-v1/comparison-old09-c01.png": "698e72409fee3cfde33427b6226fdb99ac66e94c12c8095a2efc98d7a0cf558b",
+    "previews/stone-to-bread/recoil-study-v1/p04-front.png": "fa7b4853dfd26c135c8536f8c7cc4480c85d5f16173a0907af881ffbd37c35cf",
+    "previews/stone-to-bread/recoil-study-v1/baseline-hashes.json": "5c7caae54aefbf08784a1e1cfd7b3de12736d9a30d2dfdcf2c6089708e999f21",
+    "previews/stone-to-bread/recoil-study-v1/p04-side.png": "9b487658a527955939f19c2ec734a59f8e8a96b30cc63abb452786fbae2d53a1",
+    "models/stone-to-bread-recoil-study-v1.blend": "14337b89ba3f82ec569a3ca11133643e495811dd9466418e70c7cac43dc9b484"
+  },
+  "independent_regeneration": {
+    "passed": true,
+    "method": "Separate Blender 4.5 process and output directory; STL SHA-256 and mesh fingerprint equal",
+    "stl_sha256": "b44ca85c9521bea0db7e6fa038746d746574f7e414d597c00168427004c02620"
+  },
+  "saved_scene_meshes_verified": {
+    "p04": true,
+    "c01": true,
+    "b01": true
+  },
+  "all_protected_assets_sha256_unchanged": true,
+  "source": {
+    "path": "scripts/stone_to_bread_recoil_study.py",
+    "sha256": "66c83a8e423a48abbce1dd00d7bab340caf6fa128d2d82e47030000b5882b30e"
+  }
+}

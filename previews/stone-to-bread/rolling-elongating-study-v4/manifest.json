@@ -1,0 +1,802 @@
+{
+  "status": "Rolling readability study v4; awaiting visual review",
+  "revision": "rolling-elongating-study-v4",
+  "proposed_total_poses": "Seven rolling and elongating poses; later phases are not included.",
+  "base_fps": 12,
+  "poses": [
+    {
+      "id": "r01",
+      "role": "initial",
+      "rotation_baked_local_x_rad": 0.0,
+      "placement_local_mm": [
+        0,
+        0.0,
+        0
+      ],
+      "dimensions_mm": [
+        30.0,
+        25.0,
+        20.600000381469727
+      ],
+      "stl": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r01.stl",
+      "stl_sha256": "69b6dde1e5281d7d78e04b64688e600f2d3eea7a8ddacc83992602e69479845b",
+      "mesh_fingerprint": "a2f6adc4a1ce855f368ff7db02cad121c09d8bff5019a17dec4f8742eef798ed",
+      "export_render_vertices_identical": true,
+      "validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r01.stl",
+        "sha256": "69b6dde1e5281d7d78e04b64688e600f2d3eea7a8ddacc83992602e69479845b",
+        "local_dimensions_mm": [
+          30.0,
+          25.0,
+          20.600000381469727
+        ],
+        "local_bounds_mm": [
+          [
+            -15.0,
+            -12.5,
+            0.0
+          ],
+          [
+            15.0,
+            12.5,
+            20.600000381469727
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.0,
+          25.0,
+          20.6
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 8378.412710333097,
+        "table_contact_area_mm2": 153.63622777820794,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.1761739766471523,
+          -0.39587060386723466,
+          9.58215767588156
+        ],
+        "support_hull_margin_mm": 5.246970255279064,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 14.76767635345459,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r01"
+      },
+      "exposures": {
+        "deliberate": 3,
+        "energetic": 2
+      }
+    },
+    {
+      "id": "r02",
+      "role": "toward, midpoint",
+      "rotation_baked_local_x_rad": -0.45,
+      "placement_local_mm": [
+        0,
+        4.0,
+        0
+      ],
+      "dimensions_mm": [
+        35.0,
+        23.63639736175537,
+        20.804805755615234
+      ],
+      "stl": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r02.stl",
+      "stl_sha256": "800c74909ef2b348b662c4864cd3e6fc90c89c734c09e1d47a7287ada94593c7",
+      "mesh_fingerprint": "9e69d067bbd38dc9193abd36c2ff92d6950e585672a01f900c48ef8db7e7fa5f",
+      "export_render_vertices_identical": true,
+      "validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r02.stl",
+        "sha256": "800c74909ef2b348b662c4864cd3e6fc90c89c734c09e1d47a7287ada94593c7",
+        "local_dimensions_mm": [
+          35.0,
+          23.63639736175537,
+          20.804805755615234
+        ],
+        "local_bounds_mm": [
+          [
+            -17.5,
+            -12.287741661071777,
+            0.0
+          ],
+          [
+            17.5,
+            11.348655700683594,
+            20.804805755615234
+          ]
+        ],
+        "target_dimensions_mm": [
+          35.0,
+          23.636397655508627,
+          20.80480657789935
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 9298.841727729434,
+        "table_contact_area_mm2": 164.41766237197578,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.16738021143913104,
+          -0.45557509304414784,
+          9.643076820574445
+        ],
+        "support_hull_margin_mm": 2.7290861799242476,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 14.885360717773438,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r02"
+      },
+      "exposures": {
+        "deliberate": 2,
+        "energetic": 1
+      }
+    },
+    {
+      "id": "r03",
+      "role": "toward, turnaround",
+      "rotation_baked_local_x_rad": -0.9,
+      "placement_local_mm": [
+        0,
+        8.0,
+        0
+      ],
+      "dimensions_mm": [
+        40.0,
+        22.422627449035645,
+        21.898365020751953
+      ],
+      "stl": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r03.stl",
+      "stl_sha256": "60fe45f178c4f41e9a66114269545c2220adae84aa19d7fd385b30393e99f233",
+      "mesh_fingerprint": "b8c403a75ed760370b301d6479c066341640bb638ecafef45a2b92cc2375185f",
+      "export_render_vertices_identical": true,
+      "validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r03.stl",
+        "sha256": "60fe45f178c4f41e9a66114269545c2220adae84aa19d7fd385b30393e99f233",
+        "local_dimensions_mm": [
+          40.0,
+          22.422627449035645,
+          21.898365020751953
+        ],
+        "local_bounds_mm": [
+          [
+            -20.0,
+            -12.087159156799316,
+            0.0
+          ],
+          [
+            20.0,
+            10.335468292236328,
+            21.898365020751953
+          ]
+        ],
+        "target_dimensions_mm": [
+          40.0,
+          22.422627298126443,
+          21.89836444498532
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 10153.574299371168,
+        "table_contact_area_mm2": 122.86486279204658,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.18625219528797,
+          -0.3570132112056952,
+          10.646036611614925
+        ],
+        "support_hull_margin_mm": 2.415137459552334,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 13.205114364624023,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r03"
+      },
+      "exposures": {
+        "deliberate": 4,
+        "energetic": 3
+      }
+    },
+    {
+      "id": "r04",
+      "role": "away, midpoint",
+      "rotation_baked_local_x_rad": -0.2,
+      "placement_local_mm": [
+        0,
+        1.5,
+        0
+      ],
+      "dimensions_mm": [
+        47.0,
+        22.57672691345215,
+        18.550601959228516
+      ],
+      "stl": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r04.stl",
+      "stl_sha256": "dff63fc803952b87ac991a11264f5b76aa861389ddfb809af1c6f16812ba84ae",
+      "mesh_fingerprint": "e246f7e5cf8742e43eba794e100fdf8b9a95eee62fc35a506c1e99e66198d851",
+      "export_render_vertices_identical": true,
+      "validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r04.stl",
+        "sha256": "dff63fc803952b87ac991a11264f5b76aa861389ddfb809af1c6f16812ba84ae",
+        "local_dimensions_mm": [
+          47.0,
+          22.57672691345215,
+          18.550601959228516
+        ],
+        "local_bounds_mm": [
+          [
+            -23.5,
+            -11.445253372192383,
+            0.0
+          ],
+          [
+            23.5,
+            11.131473541259766,
+            18.550601959228516
+          ]
+        ],
+        "target_dimensions_mm": [
+          47.0,
+          22.57672608486989,
+          18.5506018552881
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 10925.052406460953,
+        "table_contact_area_mm2": 333.2202678929831,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.27932820395418684,
+          -0.41210159036433053,
+          8.395448988397577
+        ],
+        "support_hull_margin_mm": 6.5498101744287185,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 12.801034927368164,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r04"
+      },
+      "exposures": {
+        "deliberate": 2,
+        "energetic": 1
+      }
+    },
+    {
+      "id": "r05",
+      "role": "away, turnaround",
+      "rotation_baked_local_x_rad": 0.5,
+      "placement_local_mm": [
+        0,
+        -5.0,
+        0
+      ],
+      "dimensions_mm": [
+        54.0,
+        21.854701042175293,
+        19.379913330078125
+      ],
+      "stl": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r05.stl",
+      "stl_sha256": "1cf227f85513972d33fa49a65098cc89f5f10574d6edb0fff6ef960c8a3e285a",
+      "mesh_fingerprint": "77516e17ec2fa2d426c9a812ad31339a34fcd1cb8f8b8b9b80935064114bfe4e",
+      "export_render_vertices_identical": true,
+      "validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r05.stl",
+        "sha256": "1cf227f85513972d33fa49a65098cc89f5f10574d6edb0fff6ef960c8a3e285a",
+        "local_dimensions_mm": [
+          54.0,
+          21.854701042175293,
+          19.379913330078125
+        ],
+        "local_bounds_mm": [
+          [
+            -27.0,
+            -10.756956100463867,
+            0.0
+          ],
+          [
+            27.0,
+            11.097744941711426,
+            19.379913330078125
+          ]
+        ],
+        "target_dimensions_mm": [
+          54.0,
+          21.854701095058168,
+          19.37991262312866
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 11856.625614438944,
+        "table_contact_area_mm2": 141.71531217182238,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.29590220999403455,
+          -0.26159515218909096,
+          9.475902606440748
+        ],
+        "support_hull_margin_mm": 2.1679325364166733,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 11.028697967529297,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r05"
+      },
+      "exposures": {
+        "deliberate": 4,
+        "energetic": 3
+      }
+    },
+    {
+      "id": "r06",
+      "role": "toward again, midpoint",
+      "rotation_baked_local_x_rad": -0.15,
+      "placement_local_mm": [
+        0,
+        1.0,
+        0
+      ],
+      "dimensions_mm": [
+        62.0,
+        20.80514621734619,
+        17.091699600219727
+      ],
+      "stl": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r06.stl",
+      "stl_sha256": "c52d12bb2a07ba461d96915bec42964fdc16f5e8b503f8aed1aa23d71a506c32",
+      "mesh_fingerprint": "12c5126c1545619d78475cd40d82faa67f5f4a94aac979577538c3242ed32a8b",
+      "export_render_vertices_identical": true,
+      "validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r06.stl",
+        "sha256": "c52d12bb2a07ba461d96915bec42964fdc16f5e8b503f8aed1aa23d71a506c32",
+        "local_dimensions_mm": [
+          62.0,
+          20.80514621734619,
+          17.091699600219727
+        ],
+        "local_bounds_mm": [
+          [
+            -31.0,
+            -10.508212089538574,
+            0.0
+          ],
+          [
+            31.0,
+            10.296934127807617,
+            17.091699600219727
+          ]
+        ],
+        "target_dimensions_mm": [
+          62.00000000000001,
+          20.80514709356067,
+          17.091698940721855
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 12236.302493359211,
+        "table_contact_area_mm2": 413.10757408140785,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.3844446003382596,
+          -0.364184115932235,
+          7.72888566312306
+        ],
+        "support_hull_margin_mm": 6.524520632908386,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 10.045827865600586,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r06"
+      },
+      "exposures": {
+        "deliberate": 2,
+        "energetic": 1
+      }
+    },
+    {
+      "id": "r07",
+      "role": "toward again, end",
+      "rotation_baked_local_x_rad": -0.8,
+      "placement_local_mm": [
+        0,
+        7.0,
+        0
+      ],
+      "dimensions_mm": [
+        70.0,
+        19.114628791809082,
+        18.15850257873535
+      ],
+      "stl": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r07.stl",
+      "stl_sha256": "cecfeedb81d85e53bc2672b1cc687316af131c64c1ee916359da278db5eda2e8",
+      "mesh_fingerprint": "414f98ba1c14effb9e40a010431b1eafe200ef52b066270f6d79c0168fa0ec29",
+      "export_render_vertices_identical": true,
+      "validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r07.stl",
+        "sha256": "cecfeedb81d85e53bc2672b1cc687316af131c64c1ee916359da278db5eda2e8",
+        "local_dimensions_mm": [
+          70.0,
+          19.114628791809082,
+          18.15850257873535
+        ],
+        "local_bounds_mm": [
+          [
+            -35.0,
+            -10.307289123535156,
+            0.0
+          ],
+          [
+            35.0,
+            8.807339668273926,
+            18.15850257873535
+          ]
+        ],
+        "target_dimensions_mm": [
+          70.0,
+          19.114628641057088,
+          18.158503001064545
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 12773.710418145409,
+        "table_contact_area_mm2": 229.21111468726403,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.3242153020349175,
+          -0.3287937825635599,
+          8.64477911549161
+        ],
+        "support_hull_margin_mm": 2.4206823638525026,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 5.556478977203369,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r07"
+      },
+      "exposures": {
+        "deliberate": 5,
+        "energetic": 4
+      }
+    }
+  ],
+  "local_axes_world": {
+    "X": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Y_near": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "Z": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "render_rig": {
+    "camera": {
+      "location": [
+        0.0,
+        -175.12477111816406,
+        214.1715545654297
+      ],
+      "rotation": [
+        0.6981317400932312,
+        -0.0,
+        0.0
+      ],
+      "type": "ORTHO",
+      "scale": 120.0,
+      "resolution": [
+        800,
+        600
+      ],
+      "percentage": 100
+    },
+    "lights": [
+      {
+        "name": "Key",
+        "location": [
+          -100.0,
+          -120.0,
+          220.0
+        ],
+        "rotation": [
+          0.6344619393348694,
+          5.201143338240399e-08,
+          -0.7333126068115234
+        ],
+        "energy": 1800000.0,
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size": 120.0
+      },
+      {
+        "name": "Fill",
+        "location": [
+          130.0,
+          30.0,
+          160.0
+        ],
+        "rotation": [
+          0.7592994570732117,
+          -1.9236185977433706e-08,
+          1.862252950668335
+        ],
+        "energy": 800000.0,
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size": 100.0
+      }
+    ],
+    "world": [
+      {
+        "color": [
+          0.2199999988079071,
+          0.23999999463558197,
+          0.2800000011920929,
+          1.0
+        ],
+        "strength": 0.6000000238418579
+      }
+    ],
+    "engine": "CYCLES",
+    "samples": 48,
+    "view_transform": "AgX",
+    "exposure": 0.0,
+    "gamma": 1.0
+  },
+  "camera_elevation_deg": 50,
+  "contact_correction": {
+    "cap_depth_mm": 1.4,
+    "shoulder_blend_mm": 1.0
+  },
+  "notes": [
+    "STL includes resting orientation and sole, but no filming Y translation.",
+    "Rolling and elongation occur together; no center pulling, recoil or bread poses generated.",
+    "No global minimum thickness or adjacent-face intersection proof; no slicer or physical test."
+  ],
+  "baseline_files_preserved": true,
+  "animations": {
+    "realistic-deliberate": {
+      "path": "previews/stone-to-bread/rolling-elongating-study-v4/rolling-realistic-deliberate.gif",
+      "exposures": [
+        3,
+        2,
+        4,
+        2,
+        4,
+        2,
+        5
+      ],
+      "gif_delays_ms": [
+        250,
+        170,
+        330,
+        170,
+        330,
+        170,
+        410
+      ],
+      "sha256": "b1b90e3f8378d88c0e5132aa9b094e235adc3d7057028bd636747d9f15e1e8bb"
+    },
+    "realistic-energetic": {
+      "path": "previews/stone-to-bread/rolling-elongating-study-v4/rolling-realistic-energetic.gif",
+      "exposures": [
+        2,
+        1,
+        3,
+        1,
+        3,
+        1,
+        4
+      ],
+      "gif_delays_ms": [
+        170,
+        80,
+        250,
+        80,
+        250,
+        90,
+        330
+      ],
+      "sha256": "d1b84ef741d677fb15e41ff433be83c5e8a73c54bea6eca2792b063ddf3cf2be"
+    },
+    "neutral-deliberate": {
+      "path": "previews/stone-to-bread/rolling-elongating-study-v4/rolling-neutral-deliberate.gif",
+      "exposures": [
+        3,
+        2,
+        4,
+        2,
+        4,
+        2,
+        5
+      ],
+      "gif_delays_ms": [
+        250,
+        170,
+        330,
+        170,
+        330,
+        170,
+        410
+      ],
+      "sha256": "cbf4eb473413654e22881797ebd3ef1116a156727952dba3c489362ca6516948"
+    },
+    "neutral-energetic": {
+      "path": "previews/stone-to-bread/rolling-elongating-study-v4/rolling-neutral-energetic.gif",
+      "exposures": [
+        2,
+        1,
+        3,
+        1,
+        3,
+        1,
+        4
+      ],
+      "gif_delays_ms": [
+        170,
+        80,
+        250,
+        80,
+        250,
+        90,
+        330
+      ],
+      "sha256": "1b29db2b8f94356288f50ac38e9593a819cae87552f1ba070ad2f2204e67f891"
+    }
+  },
+  "independent_reproduction": {
+    "passed": true,
+    "description": "Separate Blender process and output directory; all seven STL SHA-256 and mesh fingerprints match."
+  },
+  "saved_scene_mesh_and_placement_verified": true,
+  "v3_camera_lighting_positions_angles_and_timing_match": true,
+  "prior_asset_hashes_verified": 278,
+  "sampled_landmark_center_heights_mm": {
+    "hollow": [
+      19.03636267454624,
+      16.291220217299674,
+      13.346010471716237,
+      16.11792995110609,
+      18.505870973561606,
+      15.107392224605325,
+      11.76063530846683
+    ],
+    "shoulder": [
+      17.010885516404407,
+      19.42096322425372,
+      20.76357883644146,
+      16.391754852160915,
+      12.035578244657517,
+      14.849920307859518,
+      17.253188479363125
+    ]
+  },
+  "landmark_check_scope": "One representative mesh vertex per landmark is above the 1 mm contact shoulder in every pose; this is not an exhaustive check of the full landmark region.",
+  "visual_review_note": "In neutral front comparison the v3/v4 difference remains subtle; improved rolling readability requires visual review.",
+  "artifact_sha256": {
+    "previews/stone-to-bread/rolling-elongating-study-v4/r01-neutral-top.png": "69670fc15396f73e27376b2ef33ee95b9e67a13334a3435d07bc60b10efc003d",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r01-neutral-side.png": "2eac035a81598dd873241fccba94c3047978af087029f353fe511ee0b862588c",
+    "previews/stone-to-bread/rolling-elongating-study-v4/contact-neutral-side.png": "e3c05d1c15aa162e33cffcc4fea08a49ad24b3216beb175e043478cf138ca9f7",
+    "previews/stone-to-bread/rolling-elongating-study-v4/contact-neutral-front.png": "8924f5e969e0c743cbd3a18b0f9232848bca0224881d577e2ce0ddab615d3ca8",
+    "previews/stone-to-bread/rolling-elongating-study-v4/comparison-v3-v4-realistic-front.png": "e7b2878e36aeca269ef1986be48d6d1ef319a85395a622786508610763e7d6dd",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r06-neutral-top.png": "8cccde34fdb61eb7703f452deec721fd7eb5d04a2a9d45f0cae466dd2f33e0e0",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r05-neutral-side.png": "b632261aa59fbc9cb9d0de5b667084a212e02b7413f814445122fefaa7bb4f83",
+    "previews/stone-to-bread/rolling-elongating-study-v4/test-front.png": "c8d276efdd67bcaf2ab39d7df80915670df85526fcc34b6fd7ca11bf4dfb74b7",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r07-neutral-top.png": "01136c4d8597bde0411d814c6b266d3fe9a8be6b34cd500b658f3f9a9e78e173",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r04-neutral-side.png": "1be5ec7b1111c876cb15790e554852ffc2b4bdc1da7652b3e0459bbabd7bfcfc",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r02-neutral-front.png": "5b9441125a95749cd3c5c10c1deb74517c1ac0ef5c58ebd415ac58a7ca2b98d4",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r07-neutral-front.png": "e434a61a399cba793e9270e583b82b3c76eb37c8deb527aa82b1e7f63cb653f4",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r05-neutral-top.png": "e0a1a5c21285bb8bf1c3465a6606629587272629998872a4d2b41ef91619d252",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r03-neutral-side.png": "0a053d417dd0d1c805dc63ebff76f07b45b35403bacb651b05a8ac28e2dd997a",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r03-neutral-front.png": "5565943433c920eed51370f20834359f7fc19666015cc82cab2f7ab4170215eb",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r07-neutral-side.png": "8706a6c7a7c8402b95c0e76a869e1da20e1fe6d28dedc6eb1e3608dd07d50a04",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r02-neutral-top.png": "b660026c3867c1d7d49a54595765cc172b3b0b864b9e4ed5c4d626aef67f7a3a",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r06-neutral-front.png": "4c8dbac40bad109b3cefc239121333add83014b2c2b9433caad20d95747a8aa5",
+    "previews/stone-to-bread/rolling-elongating-study-v4/contact-realistic-front.png": "847fc4af477e4bc4b4e41fe44903bb5b785c86edf84fffb5f522cf73a3a167dd",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r04-realistic-front.png": "42aee9868f8eae5ac9b7a1f587ae86007c50054f3a77404a18a69e6f5cae7fcf",
+    "previews/stone-to-bread/rolling-elongating-study-v4/contact-neutral-top.png": "1b1a4e681a9acafedaa14f7296193fae9be4497f6b2ca80b7e750381bce9f92d",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r03-neutral-top.png": "c58962a958582ddd3be3d1baa159ab0d48ef22f0828a0972d4b7196373d033d8",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r05-realistic-front.png": "0c1a4dbba1318f40ace25560a790d1b794403a548a9885e7ceadd5781d406ce1",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r05-neutral-front.png": "4828a7ad8e4dee1842989d1a730f85a15c5c7398a8fcbe4067eccc9057bff0e3",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r06-realistic-front.png": "52224f24c027b8bc55c6d3ee77ceaf60ec414f9e6ebe1c1a05184b79ca081f5c",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r02-neutral-side.png": "8926015460b5606c9bdf7457ed973cc7c92d735c87c57fbd954c19bf8225566b",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r07-realistic-front.png": "faafe7cb282387a9eff1b6bfd5398cf056124c94968617858bdcd74184951518",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r01-neutral-front.png": "eec23d45192ff7bd870bfcc6990d341c17e4d6ba79acf472ac43d6fe5e62af0c",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r01-realistic-front.png": "088f389f347311eaee9268072ea3e618bec24ea351af7ed4178ab7bec7ea7a65",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r06-neutral-side.png": "605144a7b37914eb41543e784b2603a1293ce08278fe12a41500517c2c09c87d",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r03-realistic-front.png": "6425be2da6b2cebabdab288a93c3990e5e07c51cc98538618e9289b4f040042f",
+    "previews/stone-to-bread/rolling-elongating-study-v4/comparison-v3-v4-neutral-front.png": "1a0053b9eee34204b25c20787b6f3e711ae8ba62aed96d4dfc7f3474fcdd7849",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r04-neutral-front.png": "812fd977c9c1319c8a3fa94558bcc6bcdc1f08ba5a109918c3aff921a1566038",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r04-neutral-top.png": "729af01d7a1ff623df0c1445d13a60fc0a10e101921031dbb8c3e1cb5a88499f",
+    "previews/stone-to-bread/rolling-elongating-study-v4/r02-realistic-front.png": "4898ac968f84a4c57cf5fdea4d169f216a37172975521abec02ddba0e1f47f01",
+    "previews/stone-to-bread/rolling-elongating-study-v4/rolling-realistic-energetic.gif": "d1b84ef741d677fb15e41ff433be83c5e8a73c54bea6eca2792b063ddf3cf2be",
+    "previews/stone-to-bread/rolling-elongating-study-v4/rolling-neutral-energetic.gif": "1b29db2b8f94356288f50ac38e9593a819cae87552f1ba070ad2f2204e67f891",
+    "previews/stone-to-bread/rolling-elongating-study-v4/rolling-neutral-deliberate.gif": "cbf4eb473413654e22881797ebd3ef1116a156727952dba3c489362ca6516948",
+    "previews/stone-to-bread/rolling-elongating-study-v4/rolling-realistic-deliberate.gif": "b1b90e3f8378d88c0e5132aa9b094e235adc3d7057028bd636747d9f15e1e8bb",
+    "models/stone-to-bread-rolling-elongating-study-v4.blend": "72dc4bb05ada6a24726bae0770ed0427454bc99cb810ff3a53c941a2d6662dc0",
+    "scripts/stone_to_bread_rolling_elongating_study_v4.py": "14809b3f8480dc40bb1cbf599d7c72fa2ca802e72d7f2d2675ea9be456cddf81",
+    "exports/stone-to-bread/rolling-elongating-study-v4/pose-r01.stl": "69b6dde1e5281d7d78e04b64688e600f2d3eea7a8ddacc83992602e69479845b",
+    "exports/stone-to-bread/rolling-elongating-study-v4/pose-r02.stl": "800c74909ef2b348b662c4864cd3e6fc90c89c734c09e1d47a7287ada94593c7",
+    "exports/stone-to-bread/rolling-elongating-study-v4/pose-r03.stl": "60fe45f178c4f41e9a66114269545c2220adae84aa19d7fd385b30393e99f233",
+    "exports/stone-to-bread/rolling-elongating-study-v4/pose-r04.stl": "dff63fc803952b87ac991a11264f5b76aa861389ddfb809af1c6f16812ba84ae",
+    "exports/stone-to-bread/rolling-elongating-study-v4/pose-r05.stl": "1cf227f85513972d33fa49a65098cc89f5f10574d6edb0fff6ef960c8a3e285a",
+    "exports/stone-to-bread/rolling-elongating-study-v4/pose-r06.stl": "c52d12bb2a07ba461d96915bec42964fdc16f5e8b503f8aed1aa23d71a506c32",
+    "exports/stone-to-bread/rolling-elongating-study-v4/pose-r07.stl": "cecfeedb81d85e53bc2672b1cc687316af131c64c1ee916359da278db5eda2e8"
+  }
+}

@@ -1,0 +1,723 @@
+{
+  "status": "Pulling study awaiting visual review",
+  "revision": "pulling-study-v1",
+  "baseline_r07": {
+    "id": "r07",
+    "role": "toward again, end",
+    "rotation_baked_local_x_rad": -0.8,
+    "placement_local_mm": [
+      0,
+      7.0,
+      0
+    ],
+    "dimensions_mm": [
+      70.0,
+      19.114628791809082,
+      18.15850257873535
+    ],
+    "stl": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r07.stl",
+    "stl_sha256": "cecfeedb81d85e53bc2672b1cc687316af131c64c1ee916359da278db5eda2e8",
+    "mesh_fingerprint": "414f98ba1c14effb9e40a010431b1eafe200ef52b066270f6d79c0168fa0ec29",
+    "export_render_vertices_identical": true,
+    "validation": {
+      "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r07.stl",
+      "sha256": "cecfeedb81d85e53bc2672b1cc687316af131c64c1ee916359da278db5eda2e8",
+      "local_dimensions_mm": [
+        70.0,
+        19.114628791809082,
+        18.15850257873535
+      ],
+      "local_bounds_mm": [
+        [
+          -35.0,
+          -10.307289123535156,
+          0.0
+        ],
+        [
+          35.0,
+          8.807339668273926,
+          18.15850257873535
+        ]
+      ],
+      "target_dimensions_mm": [
+        70.0,
+        19.114628641057088,
+        18.158503001064545
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 12773.710418145409,
+      "table_contact_area_mm2": 229.21111468726403,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.3242153020349175,
+        -0.3287937825635599,
+        8.64477911549161
+      ],
+      "support_hull_margin_mm": 2.4206823638525026,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 5.556478977203369,
+      "dimensions_pass": true,
+      "passed": true,
+      "pose_id": "r07"
+    },
+    "exposures": {
+      "deliberate": 5,
+      "energetic": 4
+    }
+  },
+  "parameters": {
+    "maximum_pull_mm": 35.5,
+    "maximum_compression": 0.36,
+    "maximum_widening": 0.12,
+    "deformation_half_width_mm": 13.0
+  },
+  "poses": [
+    {
+      "id": "p01",
+      "intensity": 0.14,
+      "parameters": {
+        "maximum_pull_mm": 35.5,
+        "maximum_compression": 0.36,
+        "maximum_widening": 0.12,
+        "deformation_half_width_mm": 13.0
+      },
+      "dimensions_mm": [
+        70.0,
+        24.084205627441406,
+        17.79616928100586
+      ],
+      "near_extent_mm": 13.776916803080084,
+      "extension_from_r07_near_boundary_mm": 4.969577134806158,
+      "placement_local_mm": [
+        0,
+        7,
+        0
+      ],
+      "stl": "exports/stone-to-bread/pulling-study-v1/pose-p01.stl",
+      "stl_sha256": "eb682da4e6d48c99f1e9779201fdd578eef5759050a0c27ec2835d9bd9821163",
+      "mesh_fingerprint": "bc1986328b7f5372d2c536b3f0f97ad1a41dffb36da590e1d308f9336f4996d0",
+      "export_render_vertices_identical": true,
+      "tongue_vertical_thickness_samples": [
+        {
+          "local_y_mm": 3.0,
+          "vertical_thickness_mm": 17.677650451660156
+        },
+        {
+          "local_y_mm": 4.355383360616017,
+          "vertical_thickness_mm": 17.40210723876953
+        },
+        {
+          "local_y_mm": 5.710766721232034,
+          "vertical_thickness_mm": 16.97124481201172
+        },
+        {
+          "local_y_mm": 7.0661500818480505,
+          "vertical_thickness_mm": 16.403533935546875
+        },
+        {
+          "local_y_mm": 8.421533442464067,
+          "vertical_thickness_mm": 15.7265625
+        },
+        {
+          "local_y_mm": 9.776916803080084,
+          "vertical_thickness_mm": 14.938003540039062
+        }
+      ],
+      "validation": {
+        "path": "exports/stone-to-bread/pulling-study-v1/pose-p01.stl",
+        "sha256": "eb682da4e6d48c99f1e9779201fdd578eef5759050a0c27ec2835d9bd9821163",
+        "local_dimensions_mm": [
+          70.0,
+          24.084205627441406,
+          17.79616928100586
+        ],
+        "local_bounds_mm": [
+          [
+            -35.0,
+            -10.307289123535156,
+            0.0
+          ],
+          [
+            35.0,
+            13.77691650390625,
+            17.79616928100586
+          ]
+        ],
+        "target_dimensions_mm": [
+          70.0,
+          24.08420592661524,
+          17.796168430173747
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 14435.262063617603,
+        "table_contact_area_mm2": 292.3896960828259,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.2875459312502172,
+          0.9784917896088473,
+          8.55445751713714
+        ],
+        "support_hull_margin_mm": 2.2952987683941104,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 17.308807373046875,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "p01"
+      }
+    },
+    {
+      "id": "p02",
+      "intensity": 0.4,
+      "parameters": {
+        "maximum_pull_mm": 35.5,
+        "maximum_compression": 0.36,
+        "maximum_widening": 0.12,
+        "deformation_half_width_mm": 13.0
+      },
+      "dimensions_mm": [
+        70.0,
+        33.31342124938965,
+        17.426151275634766
+      ],
+      "near_extent_mm": 23.006131482005806,
+      "extension_from_r07_near_boundary_mm": 14.19879181373188,
+      "placement_local_mm": [
+        0,
+        7,
+        0
+      ],
+      "stl": "exports/stone-to-bread/pulling-study-v1/pose-p02.stl",
+      "stl_sha256": "4ff94ea9b9a82b207d44629fea8c75993476069cddcf245e200995bb89cb62b2",
+      "mesh_fingerprint": "1a21a9a9f9cfac356b8e38ce57f350e280aa18ea430f628f61001e32c1322ed4",
+      "export_render_vertices_identical": true,
+      "tongue_vertical_thickness_samples": [
+        {
+          "local_y_mm": 3.0,
+          "vertical_thickness_mm": 17.23554229736328
+        },
+        {
+          "local_y_mm": 6.2012262964011615,
+          "vertical_thickness_mm": 17.13214874267578
+        },
+        {
+          "local_y_mm": 9.402452592802323,
+          "vertical_thickness_mm": 16.60834503173828
+        },
+        {
+          "local_y_mm": 12.603678889203483,
+          "vertical_thickness_mm": 15.718971252441406
+        },
+        {
+          "local_y_mm": 15.804905185604644,
+          "vertical_thickness_mm": 14.547050476074219
+        },
+        {
+          "local_y_mm": 19.006131482005806,
+          "vertical_thickness_mm": 13.101242065429688
+        }
+      ],
+      "validation": {
+        "path": "exports/stone-to-bread/pulling-study-v1/pose-p02.stl",
+        "sha256": "4ff94ea9b9a82b207d44629fea8c75993476069cddcf245e200995bb89cb62b2",
+        "local_dimensions_mm": [
+          70.0,
+          33.31342124938965,
+          17.426151275634766
+        ],
+        "local_bounds_mm": [
+          [
+            -35.0,
+            -10.307289123535156,
+            0.0
+          ],
+          [
+            35.0,
+            23.006132125854492,
+            17.426151275634766
+          ]
+        ],
+        "target_dimensions_mm": [
+          70.0,
+          33.31342060554096,
+          17.426151509046615
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 17396.381494316964,
+        "table_contact_area_mm2": 412.91252979589683,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.2398702570318609,
+          3.7492649119416286,
+          8.359273169343949
+        ],
+        "support_hull_margin_mm": 4.098764072931726,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 16.078227996826172,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "p02"
+      }
+    },
+    {
+      "id": "p03",
+      "intensity": 0.7,
+      "parameters": {
+        "maximum_pull_mm": 35.5,
+        "maximum_compression": 0.36,
+        "maximum_widening": 0.12,
+        "deformation_half_width_mm": 13.0
+      },
+      "dimensions_mm": [
+        70.0,
+        43.9625129699707,
+        17.313053131103516
+      ],
+      "near_extent_mm": 33.65522534230472,
+      "extension_from_r07_near_boundary_mm": 24.847885674030792,
+      "placement_local_mm": [
+        0,
+        7,
+        0
+      ],
+      "stl": "exports/stone-to-bread/pulling-study-v1/pose-p03.stl",
+      "stl_sha256": "dcb1b13567255f09c1825eb539b073014022576771852bfdfd4acfc0f4aba7d1",
+      "mesh_fingerprint": "2326696e7c6dfdf2ef3452b95fb10da9ba68381acfbd8563c1382d613e64b8fc",
+      "export_render_vertices_identical": true,
+      "tongue_vertical_thickness_samples": [
+        {
+          "local_y_mm": 3.0,
+          "vertical_thickness_mm": 16.14044761657715
+        },
+        {
+          "local_y_mm": 8.331045068460943,
+          "vertical_thickness_mm": 16.72205352783203
+        },
+        {
+          "local_y_mm": 13.662090136921886,
+          "vertical_thickness_mm": 16.00560760498047
+        },
+        {
+          "local_y_mm": 18.993135205382828,
+          "vertical_thickness_mm": 14.741310119628906
+        },
+        {
+          "local_y_mm": 24.324180273843773,
+          "vertical_thickness_mm": 13.107986450195312
+        },
+        {
+          "local_y_mm": 29.655225342304718,
+          "vertical_thickness_mm": 11.016834259033203
+        }
+      ],
+      "validation": {
+        "path": "exports/stone-to-bread/pulling-study-v1/pose-p03.stl",
+        "sha256": "dcb1b13567255f09c1825eb539b073014022576771852bfdfd4acfc0f4aba7d1",
+        "local_dimensions_mm": [
+          70.0,
+          43.9625129699707,
+          17.313053131103516
+        ],
+        "local_bounds_mm": [
+          [
+            -35.0,
+            -10.307289123535156,
+            0.0
+          ],
+          [
+            35.0,
+            33.65522384643555,
+            17.313053131103516
+          ]
+        ],
+        "target_dimensions_mm": [
+          70.0,
+          43.962514465839874,
+          17.313053459313384
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 20594.94787259594,
+        "table_contact_area_mm2": 557.4825599265823,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.20429144781387554,
+          7.182945751401153,
+          8.116355171717629
+        ],
+        "support_hull_margin_mm": 6.880126973502408,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 14.655946731567383,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "p03"
+      }
+    },
+    {
+      "id": "p04",
+      "intensity": 1.0,
+      "parameters": {
+        "maximum_pull_mm": 35.5,
+        "maximum_compression": 0.36,
+        "maximum_widening": 0.12,
+        "deformation_half_width_mm": 13.0
+      },
+      "dimensions_mm": [
+        70.0,
+        54.61223602294922,
+        17.244857788085938
+      ],
+      "near_extent_mm": 44.30494653316639,
+      "extension_from_r07_near_boundary_mm": 35.49760686489246,
+      "placement_local_mm": [
+        0,
+        7,
+        0
+      ],
+      "stl": "exports/stone-to-bread/pulling-study-v1/pose-p04.stl",
+      "stl_sha256": "637a9a800d1af44b2a3e237153a8e0accaad5bcf23c3943e63e0559222023ea2",
+      "mesh_fingerprint": "8e4dcab91a65bfe2ef5ea583f0239ee290211f3597177d42840656e83d529fed",
+      "export_render_vertices_identical": true,
+      "tongue_vertical_thickness_samples": [
+        {
+          "local_y_mm": 3.0,
+          "vertical_thickness_mm": 15.084992408752441
+        },
+        {
+          "local_y_mm": 10.460989306633277,
+          "vertical_thickness_mm": 16.40076446533203
+        },
+        {
+          "local_y_mm": 17.921978613266553,
+          "vertical_thickness_mm": 15.407417297363281
+        },
+        {
+          "local_y_mm": 25.382967919899833,
+          "vertical_thickness_mm": 13.715042114257812
+        },
+        {
+          "local_y_mm": 32.84395722653311,
+          "vertical_thickness_mm": 11.636466979980469
+        },
+        {
+          "local_y_mm": 40.30494653316639,
+          "vertical_thickness_mm": 9.053533554077148
+        }
+      ],
+      "validation": {
+        "path": "exports/stone-to-bread/pulling-study-v1/pose-p04.stl",
+        "sha256": "637a9a800d1af44b2a3e237153a8e0accaad5bcf23c3943e63e0559222023ea2",
+        "local_dimensions_mm": [
+          70.0,
+          54.61223602294922,
+          17.244857788085938
+        ],
+        "local_bounds_mm": [
+          [
+            -35.0,
+            -10.307289123535156,
+            0.0
+          ],
+          [
+            35.0,
+            44.30494689941406,
+            17.244857788085938
+          ]
+        ],
+        "target_dimensions_mm": [
+          70.0,
+          54.61223565670154,
+          17.244858344174233
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 23537.70838131177,
+        "table_contact_area_mm2": 707.9510280784773,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.1807135095916632,
+          10.642634254699221,
+          7.873801709958542
+        ],
+        "support_hull_margin_mm": 9.949115215356821,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 13.786495208740234,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "p04"
+      }
+    }
+  ],
+  "local_axes_world": {
+    "X": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Y_near": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "Z": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "render_rig": {
+    "camera": {
+      "location": [
+        0.0,
+        -175.12477111816406,
+        214.1715545654297
+      ],
+      "rotation": [
+        0.6981317400932312,
+        -0.0,
+        0.0
+      ],
+      "type": "ORTHO",
+      "scale": 120.0,
+      "resolution": [
+        800,
+        600
+      ],
+      "percentage": 100
+    },
+    "lights": [
+      {
+        "name": "Key",
+        "location": [
+          -100.0,
+          -120.0,
+          220.0
+        ],
+        "rotation": [
+          0.6344619393348694,
+          5.201143338240399e-08,
+          -0.7333126068115234
+        ],
+        "energy": 1800000.0,
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size": 120.0
+      },
+      {
+        "name": "Fill",
+        "location": [
+          130.0,
+          30.0,
+          160.0
+        ],
+        "rotation": [
+          0.7592994570732117,
+          -1.9236185977433706e-08,
+          1.862252950668335
+        ],
+        "energy": 800000.0,
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "size": 100.0
+      }
+    ],
+    "world": [
+      {
+        "color": [
+          0.2199999988079071,
+          0.23999999463558197,
+          0.2800000011920929,
+          1.0
+        ],
+        "strength": 0.6000000238418579
+      }
+    ],
+    "engine": "CYCLES",
+    "samples": 48,
+    "view_transform": "AgX",
+    "exposure": 0.0,
+    "gamma": 1.0
+  },
+  "notes": [
+    "All pulling poses inherit r07's +7 mm filming placement; STL is exported without it.",
+    "Shared-vertex intersections and global minimum normal thickness are not checked.",
+    "Slicing, supports, friction and physical printing are unverified.",
+    "Deformation does not simulate volume-conserving material mechanics; GIF loop resets are not recoil."
+  ],
+  "animations": {
+    "realistic": {
+      "path": "/Users/shuhey/ghq/github.com/shuheykoyama/stop-motion-models/previews/stone-to-bread/pulling-study-v1/pull-realistic.gif",
+      "poses": [
+        "r07",
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ],
+      "exposures": [
+        4,
+        2,
+        3,
+        3,
+        5
+      ],
+      "delays_ms": [
+        330,
+        170,
+        250,
+        250,
+        420
+      ],
+      "sha256": "e5b4da90a3021d3166aac6e56de07ac217ea9c8609b32d6068fe864070afaeec"
+    },
+    "neutral": {
+      "path": "/Users/shuhey/ghq/github.com/shuheykoyama/stop-motion-models/previews/stone-to-bread/pulling-study-v1/pull-neutral.gif",
+      "poses": [
+        "r07",
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ],
+      "exposures": [
+        4,
+        2,
+        3,
+        3,
+        5
+      ],
+      "delays_ms": [
+        330,
+        170,
+        250,
+        250,
+        420
+      ],
+      "sha256": "8f197b711b1c88df99ec5b5e3a71a25c0f17c5494d5e4860e3c31b0c7bcfb769"
+    },
+    "transition": {
+      "path": "/Users/shuhey/ghq/github.com/shuheykoyama/stop-motion-models/previews/stone-to-bread/pulling-study-v1/rolling-to-pulling.gif",
+      "poses": [
+        "r05",
+        "r06",
+        "r07",
+        "p01",
+        "p02",
+        "p03",
+        "p04"
+      ],
+      "exposures": [
+        4,
+        2,
+        3,
+        2,
+        3,
+        3,
+        5
+      ],
+      "delays_ms": [
+        330,
+        170,
+        250,
+        170,
+        250,
+        250,
+        410
+      ],
+      "sha256": "2ad377a7bd3ad462bcfbd86be3e23838fa2ac071fee0b879743ecbcff54ad707"
+    }
+  },
+  "protected_hashes_verified": 327,
+  "independent_reproduction": {
+    "passed": true,
+    "method": "Separate Blender process and output directory; all four STL SHA-256 and mesh fingerprints match."
+  },
+  "saved_scene_mesh_and_placement_verified": true,
+  "v4_seven_saved_meshes_and_placements_unchanged": true,
+  "gif_decoded_pose_order_and_delays_verified": true,
+  "artifact_sha256": {
+    "previews/stone-to-bread/pulling-study-v1/p02-neutral-side.png": "8635dcbf65a63ec4eb34fae5fce7dad9328cf132f98ba17fcd2b95d81d9b58a6",
+    "previews/stone-to-bread/pulling-study-v1/contact-neutral-side.png": "ff47e752c395de56c8f6c92bd2314c8928218494b2e0dfc85c28539fe69c5622",
+    "previews/stone-to-bread/pulling-study-v1/contact-neutral-front.png": "1bce4b2850acf859a21611cf284146dfb92289baaf6f156391cfdd427c91d4c8",
+    "previews/stone-to-bread/pulling-study-v1/p01-neutral-top.png": "0618f23e6e42a9f92903da37bd093029dd59190249d23b5ac7bd2b0211f0c83d",
+    "previews/stone-to-bread/pulling-study-v1/p03-neutral-side.png": "c3a46466ea9b7fa58057608370c7a334660a2e44107c5302a616e8226405b27d",
+    "previews/stone-to-bread/pulling-study-v1/contact-rolling-to-pulling.png": "67f8bca7af756ee5be545b84ed39e0f4d56bbceeec1690c5bc5259031cd16f9f",
+    "previews/stone-to-bread/pulling-study-v1/p03-neutral-top.png": "e2a2de14ee8b7538768a9c4c496c9a2670c750fa48216677e228deeb5c04e0aa",
+    "previews/stone-to-bread/pulling-study-v1/p02-neutral-front.png": "f3b3b998f289c51d04c3e739795efef032282091409a3d0d9e13100e2d3dea19",
+    "previews/stone-to-bread/pulling-study-v1/p04-neutral-side.png": "19d3ea3486589aa9cbf4930899f490c553f7689f5f372852da87e44d9ae975b9",
+    "previews/stone-to-bread/pulling-study-v1/p04-neutral-top.png": "f6e6ccefcc23f49f28b54e80fe476ed89345688ea5189ed440af8f1eb59365fe",
+    "previews/stone-to-bread/pulling-study-v1/p03-neutral-front.png": "4486528e7ec258f150b0bee95de899be32f1e0bcfa5a5027d625625e5ced27c0",
+    "previews/stone-to-bread/pulling-study-v1/contact-realistic-front.png": "01eaf130d7e4bb705f78fa5cf30b809c709bf8bc9bf6f3974301eb753a8c5592",
+    "previews/stone-to-bread/pulling-study-v1/contact-neutral-top.png": "088ac10930cd0f4da8743922fd578dd0b88f55c0533b2a48cd0bd796ac4543c2",
+    "previews/stone-to-bread/pulling-study-v1/p01-realistic-front.png": "4674c40f65d81782b5fe19c53e8828fe26eff25d02e95a9cb42664a2c489f7fc",
+    "previews/stone-to-bread/pulling-study-v1/p02-realistic-front.png": "ba25823ee4f3d57b72eed835e4c6cff6d3029d83bfb4d6a458b22c34ea659b43",
+    "previews/stone-to-bread/pulling-study-v1/p01-neutral-side.png": "d1be7b146b306a18d0a458a00a3f518be0068d7aaf5225ce9ad636f11f621649",
+    "previews/stone-to-bread/pulling-study-v1/p03-realistic-front.png": "25630a3e37bf6403621fcc294e162ffac4c58fe8808f3154dcc6f568873400c6",
+    "previews/stone-to-bread/pulling-study-v1/p04-neutral-front.png": "3a326dfbb0a78c1719d3fe5c8c3f802c75104d0f193573b06859e656ba6a6798",
+    "previews/stone-to-bread/pulling-study-v1/p04-realistic-front.png": "158314d45cd8023840a3bfa274493fa725404f76efc3888c4bccfad6e33a292c",
+    "previews/stone-to-bread/pulling-study-v1/p02-neutral-top.png": "4ebd4cad44e04b105472ca551fcc57aa432b2b24e7ff0be3b0f47eec12363698",
+    "previews/stone-to-bread/pulling-study-v1/p01-neutral-front.png": "bf08d620ff07b1531acc14236038c613bf23850882b311c208c280fe7dbec3b6",
+    "previews/stone-to-bread/pulling-study-v1/pull-realistic.gif": "e5b4da90a3021d3166aac6e56de07ac217ea9c8609b32d6068fe864070afaeec",
+    "previews/stone-to-bread/pulling-study-v1/pull-neutral.gif": "8f197b711b1c88df99ec5b5e3a71a25c0f17c5494d5e4860e3c31b0c7bcfb769",
+    "previews/stone-to-bread/pulling-study-v1/rolling-to-pulling.gif": "2ad377a7bd3ad462bcfbd86be3e23838fa2ac071fee0b879743ecbcff54ad707",
+    "models/stone-to-bread-pulling-study-v1.blend": "88659433b9ecac4ff66623df47cc8ad8eaf29abb8f73329b00ce010fd29999fe",
+    "scripts/stone_to_bread_pulling_study.py": "55132c2abf85115ed86dd2039e12b9875d1234fc51899af798102c97b8968b27",
+    "exports/stone-to-bread/pulling-study-v1/pose-p01.stl": "eb682da4e6d48c99f1e9779201fdd578eef5759050a0c27ec2835d9bd9821163",
+    "exports/stone-to-bread/pulling-study-v1/pose-p02.stl": "4ff94ea9b9a82b207d44629fea8c75993476069cddcf245e200995bb89cb62b2",
+    "exports/stone-to-bread/pulling-study-v1/pose-p03.stl": "dcb1b13567255f09c1825eb539b073014022576771852bfdfd4acfc0f4aba7d1",
+    "exports/stone-to-bread/pulling-study-v1/pose-p04.stl": "637a9a800d1af44b2a3e237153a8e0accaad5bcf23c3943e63e0559222023ea2"
+  }
+}

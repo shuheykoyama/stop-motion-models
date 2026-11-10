@@ -1,0 +1,1242 @@
+{
+  "status": "print candidates; awaiting visual review",
+  "source_sequence": "previews/rolling-wavy-pen/storyboard-study-v7/manifest.json",
+  "selection_note": "Each STL is generated from the v7 mesh function and exact selected frame parameters. Fingerprint comparison found that v7 progress 0.00 through 0.30 uses only two identical early-arc meshes (one per rolling direction); repeated copies were removed. Other source frames map to the nearest selected pose within the same phase and rolling direction.",
+  "v7_shape_observation": "The v7 centerline function defines a single bow even at progress 0.00, and the bow remains unchanged through progress 0.30. Therefore this print set does not contain a truly straight state or incremental bow states; this is a limitation of the selected source sequence, not a new shape edit.",
+  "recommended_unique_print_shapes": 12,
+  "poses": [
+    {
+      "pose_id": "pose-01",
+      "source_frame": 1,
+      "phase": "early-single-arc",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "stl_sha256": "e9593c49a75a0ad922cf8a86cb8680aeea31f36f5c05d24cedf38ff2f2227256",
+      "mesh_fingerprint": "34c0c8eda8dbd6dfa2784351c07ae9260cd8f9abf64657792f9dc6121545a97e",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-01-source-v7-frame-01.png",
+      "source_preview_sha256": "8684d724d1dbd34cc62c0a432089c7f66e9bfdd65ba989b6b5163728936a9551",
+      "progress": 0,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "exact_duplicate_v7_frames": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12
+      ],
+      "exact_duplicate_exposure_count": 8,
+      "geometry_validation": {
+        "pose": "pose-01",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+        "stl_sha256": "e9593c49a75a0ad922cf8a86cb8680aeea31f36f5c05d24cedf38ff2f2227256",
+        "mesh_fingerprint": "34c0c8eda8dbd6dfa2784351c07ae9260cd8f9abf64657792f9dc6121545a97e",
+        "dimensions_mm": [
+          141.8000030517578,
+          26.98621654510498,
+          13.026859283447266
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          26.98621654510498,
+          13.026859283447266
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.68299128585,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.1118597870197,
+        "support_hull_margin_mm": 7.702178794558823,
+        "center_of_mass_mm": [
+          -3.354622013540087,
+          -9.823704345159662,
+          5.644157900446702
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          19.498425483703613
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 16,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "34c0c8eda8dbd6dfa2784351c07ae9260cd8f9abf64657792f9dc6121545a97e",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    },
+    {
+      "pose_id": "pose-02",
+      "source_frame": 5,
+      "phase": "early-single-arc",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-02.stl",
+      "stl_sha256": "cceb4704342176fbaea39bfb6c0d7400cc62734295d0ecf6eaa46f6c8a884756",
+      "mesh_fingerprint": "0ee2639303180dd43dfd8cd8d9e85185fbfc7dba768c7ed1e06a01e51a389508",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-02-source-v7-frame-05.png",
+      "source_preview_sha256": "43440d762b62986abf2353417beac929a379d19e89c129badf7f66341cbead2a",
+      "progress": 0,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "exact_duplicate_v7_frames": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "exact_duplicate_exposure_count": 4,
+      "geometry_validation": {
+        "pose": "pose-02",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-02.stl",
+        "stl_sha256": "cceb4704342176fbaea39bfb6c0d7400cc62734295d0ecf6eaa46f6c8a884756",
+        "mesh_fingerprint": "0ee2639303180dd43dfd8cd8d9e85185fbfc7dba768c7ed1e06a01e51a389508",
+        "dimensions_mm": [
+          141.8000030517578,
+          26.98621654510498,
+          12.519434928894043
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          26.98621654510498,
+          12.519434928894043
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.683007454634,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.1321936889146,
+        "support_hull_margin_mm": 7.753131072089752,
+        "center_of_mass_mm": [
+          -3.354622065583591,
+          9.772740406014874,
+          5.627597468958507
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          19.498425483703613
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 8,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "0ee2639303180dd43dfd8cd8d9e85185fbfc7dba768c7ed1e06a01e51a389508",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    },
+    {
+      "pose_id": "pose-03",
+      "source_frame": 25,
+      "phase": "wave-development",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-03.stl",
+      "stl_sha256": "f51e64074129554d706951e1c5294e08d3d379584af7ac7d365379e91dc1edf3",
+      "mesh_fingerprint": "c876099178d99a1178e9676ead585b99b26e88a15619105ff83beeccfd69434b",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-03-source-v7-frame-25.png",
+      "source_preview_sha256": "b3bc8d73edad3df1b1fa18ef0140ecdcbbcc1d5d15e31c2813540e48b664b8b0",
+      "progress": 0.31,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "exact_duplicate_v7_frames": [
+        25
+      ],
+      "exact_duplicate_exposure_count": 1,
+      "geometry_validation": {
+        "pose": "pose-03",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-03.stl",
+        "stl_sha256": "f51e64074129554d706951e1c5294e08d3d379584af7ac7d365379e91dc1edf3",
+        "mesh_fingerprint": "c876099178d99a1178e9676ead585b99b26e88a15619105ff83beeccfd69434b",
+        "dimensions_mm": [
+          141.8000030517578,
+          26.954660415649414,
+          13.026859283447266
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          26.954660415649414,
+          13.026859283447266
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.682978443132,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.1118482660046,
+        "support_hull_margin_mm": 7.697945222158995,
+        "center_of_mass_mm": [
+          -3.3546220039339127,
+          -9.803820394734297,
+          5.64415790477531
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          19.466165781021118
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 4,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "c876099178d99a1178e9676ead585b99b26e88a15619105ff83beeccfd69434b",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    },
+    {
+      "pose_id": "pose-04",
+      "source_frame": 29,
+      "phase": "wave-development",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-04.stl",
+      "stl_sha256": "1bf3abbc18fdb6de3bd6b12b6df9c05e8d197ee77df09552e4839ecd08b7d382",
+      "mesh_fingerprint": "b48f8f8a4452141207f50392894ec7c991d379a904848d25f4c84ab06acf106a",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-04-source-v7-frame-29.png",
+      "source_preview_sha256": "47fe18834099cc40a006dcc4469121eb74c9aa75a9cfc3635077256a0c9353d9",
+      "progress": 0.37,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "exact_duplicate_v7_frames": [
+        29
+      ],
+      "exact_duplicate_exposure_count": 1,
+      "geometry_validation": {
+        "pose": "pose-04",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-04.stl",
+        "stl_sha256": "1bf3abbc18fdb6de3bd6b12b6df9c05e8d197ee77df09552e4839ecd08b7d382",
+        "mesh_fingerprint": "b48f8f8a4452141207f50392894ec7c991d379a904848d25f4c84ab06acf106a",
+        "dimensions_mm": [
+          141.8000030517578,
+          25.97815704345703,
+          12.519434928894043
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          25.97815704345703,
+          12.519434928894043
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.682995400897,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.132193295366,
+        "support_hull_margin_mm": 7.544438778693331,
+        "center_of_mass_mm": [
+          -3.3546220801569575,
+          8.90281777098794,
+          5.627597471758257
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          18.51865565776825
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 2,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "b48f8f8a4452141207f50392894ec7c991d379a904848d25f4c84ab06acf106a",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    },
+    {
+      "pose_id": "pose-05",
+      "source_frame": 32,
+      "phase": "wave-development",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-05.stl",
+      "stl_sha256": "a3395ccf9d22619f7d136a5e50410a98b85d890c3dd8e358e53f2648ba8de0ab",
+      "mesh_fingerprint": "bbb67a168f7e28ac59406741375f25d569aa0e24eb59f19357f79ac867d75346",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-05-source-v7-frame-32.png",
+      "source_preview_sha256": "521f027b212a4696ee4db1f2dff6aa16748f0981e6e121188711a0ab3c5eba6c",
+      "progress": 0.43,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "exact_duplicate_v7_frames": [
+        32
+      ],
+      "exact_duplicate_exposure_count": 1,
+      "geometry_validation": {
+        "pose": "pose-05",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-05.stl",
+        "stl_sha256": "a3395ccf9d22619f7d136a5e50410a98b85d890c3dd8e358e53f2648ba8de0ab",
+        "mesh_fingerprint": "bbb67a168f7e28ac59406741375f25d569aa0e24eb59f19357f79ac867d75346",
+        "dimensions_mm": [
+          141.8000030517578,
+          24.424277782440186,
+          12.519434928894043
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          24.424277782440186,
+          12.519434928894043
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.682990381316,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.1321888943489,
+        "support_hull_margin_mm": 7.6517073285755615,
+        "center_of_mass_mm": [
+          -3.3546220701404543,
+          7.132436444505831,
+          5.627597473555498
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          17.679966688156128
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 2,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "bbb67a168f7e28ac59406741375f25d569aa0e24eb59f19357f79ac867d75346",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    },
+    {
+      "pose_id": "pose-06",
+      "source_frame": 36,
+      "phase": "wave-development",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-06.stl",
+      "stl_sha256": "13486c743e7ed58479cd73cfc37f4f2740d2e90d82802905b5831be1b1e3a451",
+      "mesh_fingerprint": "b1337bef654923cddd62366a7deaa7b7c580079479c33c722fe5277d517e89e7",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-06-source-v7-frame-36.png",
+      "source_preview_sha256": "49c49313a8931a61a99b7ec6fa38ae82bf8f56470d3275960c432750edfba1cd",
+      "progress": 0.51,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "exact_duplicate_v7_frames": [
+        36
+      ],
+      "exact_duplicate_exposure_count": 1,
+      "geometry_validation": {
+        "pose": "pose-06",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-06.stl",
+        "stl_sha256": "13486c743e7ed58479cd73cfc37f4f2740d2e90d82802905b5831be1b1e3a451",
+        "mesh_fingerprint": "b1337bef654923cddd62366a7deaa7b7c580079479c33c722fe5277d517e89e7",
+        "dimensions_mm": [
+          141.8000030517578,
+          24.37779712677002,
+          13.026859283447266
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          24.37779712677002,
+          13.026859283447266
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.68298156118,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.1118521610754,
+        "support_hull_margin_mm": 7.477408348471149,
+        "center_of_mass_mm": [
+          -3.3546220115807177,
+          -4.1866056767769715,
+          5.644157901901451
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          17.74160099029541
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 4,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "b1337bef654923cddd62366a7deaa7b7c580079479c33c722fe5277d517e89e7",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    },
+    {
+      "pose_id": "pose-07",
+      "source_frame": 37,
+      "phase": "wave-development",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-07.stl",
+      "stl_sha256": "8f671662a5b3b643617c3c41fa090aac987d063f55cb322147dcbd8e260b79e6",
+      "mesh_fingerprint": "322de21f2d1bca7011a792b0e52ef8d185c78ba032c04ab572b82f03fe415ebc",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-07-source-v7-frame-37.png",
+      "source_preview_sha256": "01971fcff187bb0e5c23df405e90b67d69ad4d905a30533406da5d7f93ccf91d",
+      "progress": 0.53,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "exact_duplicate_v7_frames": [
+        37
+      ],
+      "exact_duplicate_exposure_count": 1,
+      "geometry_validation": {
+        "pose": "pose-07",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-07.stl",
+        "stl_sha256": "8f671662a5b3b643617c3c41fa090aac987d063f55cb322147dcbd8e260b79e6",
+        "mesh_fingerprint": "322de21f2d1bca7011a792b0e52ef8d185c78ba032c04ab572b82f03fe415ebc",
+        "dimensions_mm": [
+          141.8000030517578,
+          24.612404823303223,
+          12.519434928894043
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          24.612404823303223,
+          12.519434928894043
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.683006928466,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.1321895314952,
+        "support_hull_margin_mm": 7.5749573150228136,
+        "center_of_mass_mm": [
+          -3.354622081979496,
+          3.3864430794261944,
+          5.627597473815127
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          17.97620916366577
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 4,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "322de21f2d1bca7011a792b0e52ef8d185c78ba032c04ab572b82f03fe415ebc",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    },
+    {
+      "pose_id": "pose-08",
+      "source_frame": 41,
+      "phase": "wave-development",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-08.stl",
+      "stl_sha256": "fe7433ecaf2e5a54ae277f4c6d3fc31d4db46cf695a92ae8f90f17ee38b8550b",
+      "mesh_fingerprint": "dc324002480d5c7f7b5a825f98f37937f33f8422714bf2a0f25251d62de7f447",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-08-source-v7-frame-41.png",
+      "source_preview_sha256": "ee2e883dce12188db26618847396887b6362fa69e7d5345f830b844efe3deb4d",
+      "progress": 0.61,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "exact_duplicate_v7_frames": [
+        41
+      ],
+      "exact_duplicate_exposure_count": 1,
+      "geometry_validation": {
+        "pose": "pose-08",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-08.stl",
+        "stl_sha256": "fe7433ecaf2e5a54ae277f4c6d3fc31d4db46cf695a92ae8f90f17ee38b8550b",
+        "mesh_fingerprint": "dc324002480d5c7f7b5a825f98f37937f33f8422714bf2a0f25251d62de7f447",
+        "dimensions_mm": [
+          141.8000030517578,
+          25.593205451965332,
+          13.026859283447266
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          25.593205451965332,
+          13.026859283447266
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.682985694886,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.1118521433331,
+        "support_hull_margin_mm": 9.161549683061113,
+        "center_of_mass_mm": [
+          -3.3546220005746195,
+          -0.9519137636866672,
+          5.644157901245961
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          18.899970054626465
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 2,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "dc324002480d5c7f7b5a825f98f37937f33f8422714bf2a0f25251d62de7f447",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    },
+    {
+      "pose_id": "pose-09",
+      "source_frame": 44,
+      "phase": "wave-development",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-09.stl",
+      "stl_sha256": "dc3734ec896698a35b4862ed76a72b858e570b1ab3d8153b31d10def01f31b17",
+      "mesh_fingerprint": "85019a4a7e212356f6afcf9c24de2f8d9f7990d92159d56580067c3c64223c5c",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-09-source-v7-frame-44.png",
+      "source_preview_sha256": "a98b87e57770ae255b9d51f25172dda278ba2872d4c64bb558a20aeb3c01eb6d",
+      "progress": 0.71,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "exact_duplicate_v7_frames": [
+        44
+      ],
+      "exact_duplicate_exposure_count": 1,
+      "geometry_validation": {
+        "pose": "pose-09",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-09.stl",
+        "stl_sha256": "dc3734ec896698a35b4862ed76a72b858e570b1ab3d8153b31d10def01f31b17",
+        "mesh_fingerprint": "85019a4a7e212356f6afcf9c24de2f8d9f7990d92159d56580067c3c64223c5c",
+        "dimensions_mm": [
+          141.8000030517578,
+          27.08576774597168,
+          13.026859283447266
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          27.08576774597168,
+          13.026859283447266
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.682981965158,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.1118566005268,
+        "support_hull_margin_mm": 9.52463438183239,
+        "center_of_mass_mm": [
+          -3.3546220081920186,
+          -0.08404587732533478,
+          5.644157901779823
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          19.740509033203125
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 2,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "85019a4a7e212356f6afcf9c24de2f8d9f7990d92159d56580067c3c64223c5c",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    },
+    {
+      "pose_id": "pose-10",
+      "source_frame": 46,
+      "phase": "wave-development",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-10.stl",
+      "stl_sha256": "2b0d0b00ec10ae19f95a3017c1181554f646d27e538e4edbce79d5942f2b62f5",
+      "mesh_fingerprint": "693a19f403219543979d56f6d067d05c67fdb138a896c07aea8681db51d68203",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-10-source-v7-frame-46.png",
+      "source_preview_sha256": "95c435e00fcd1629648568618a25a67a03c75cb2730c645486a8d7c6d9c30b04",
+      "progress": 0.82,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "exact_duplicate_v7_frames": [
+        46
+      ],
+      "exact_duplicate_exposure_count": 1,
+      "geometry_validation": {
+        "pose": "pose-10",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-10.stl",
+        "stl_sha256": "2b0d0b00ec10ae19f95a3017c1181554f646d27e538e4edbce79d5942f2b62f5",
+        "mesh_fingerprint": "693a19f403219543979d56f6d067d05c67fdb138a896c07aea8681db51d68203",
+        "dimensions_mm": [
+          141.8000030517578,
+          28.150894165039062,
+          12.519434928894043
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          28.150894165039062,
+          12.519434928894043
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.68300574118,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.1321861414851,
+        "support_hull_margin_mm": 9.898312902556935,
+        "center_of_mass_mm": [
+          -3.3546220857713003,
+          0.04362020234930815,
+          5.627597471544462
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          21.14458656311035
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 2,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "693a19f403219543979d56f6d067d05c67fdb138a896c07aea8681db51d68203",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    },
+    {
+      "pose_id": "pose-11",
+      "source_frame": 47,
+      "phase": "wave-development",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-11.stl",
+      "stl_sha256": "4bd91b8bfeeb120e62270cfe4f0415af7245898aed51b16640b5dc90f16e382c",
+      "mesh_fingerprint": "fc6a326c5d5411dc799a972d28d84a2db158a7956195d3e956b16313c5d56b37",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-11-source-v7-frame-47.png",
+      "source_preview_sha256": "ec710f3418aee102d9e3da750cf1c7f63eb8dc59380e8509e62f1c1c93ad5ba0",
+      "progress": 0.9,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "exact_duplicate_v7_frames": [
+        47
+      ],
+      "exact_duplicate_exposure_count": 1,
+      "geometry_validation": {
+        "pose": "pose-11",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-11.stl",
+        "stl_sha256": "4bd91b8bfeeb120e62270cfe4f0415af7245898aed51b16640b5dc90f16e382c",
+        "mesh_fingerprint": "fc6a326c5d5411dc799a972d28d84a2db158a7956195d3e956b16313c5d56b37",
+        "dimensions_mm": [
+          141.8000030517578,
+          29.483964920043945,
+          12.519434928894043
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          29.483964920043945,
+          12.519434928894043
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.683003133825,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.132191458631,
+        "support_hull_margin_mm": 10.179831941401066,
+        "center_of_mass_mm": [
+          -3.354622096753284,
+          0.05212394676358801,
+          5.627597474297698
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          22.477656364440918
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 1,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "fc6a326c5d5411dc799a972d28d84a2db158a7956195d3e956b16313c5d56b37",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    },
+    {
+      "pose_id": "pose-12",
+      "source_frame": 48,
+      "phase": "wave-development",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-12.stl",
+      "stl_sha256": "a9200ebb9e72fb2f8c8a8de3c462736800d2708eff4c170ce88a9ed0f878f846",
+      "mesh_fingerprint": "6f5166999b15b85cc6dc2d6b5cc96e5e186e02090db0f4af3337942008dc4702",
+      "preview": "previews/rolling-wavy-pen/print-set-v1/pose-12-source-v7-frame-48.png",
+      "source_preview_sha256": "36e8447f0b90563a7e5a2660452639c2cd279e217c3bd20da0315230bd4ab288",
+      "progress": 1.0,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "exact_duplicate_v7_frames": [
+        48
+      ],
+      "exact_duplicate_exposure_count": 1,
+      "geometry_validation": {
+        "pose": "pose-12",
+        "stl": "exports/rolling-wavy-pen/print-set-v1/pose-12.stl",
+        "stl_sha256": "a9200ebb9e72fb2f8c8a8de3c462736800d2708eff4c170ce88a9ed0f878f846",
+        "mesh_fingerprint": "6f5166999b15b85cc6dc2d6b5cc96e5e186e02090db0f4af3337942008dc4702",
+        "dimensions_mm": [
+          141.8000030517578,
+          30.364377975463867,
+          12.519434928894043
+        ],
+        "design_dimensions_mm": [
+          141.8000030517578,
+          30.364377975463867,
+          12.519434928894043
+        ],
+        "dimension_max_error_mm": 0.0,
+        "vertices": 18338,
+        "triangles": 36672,
+        "components": 1,
+        "watertight": true,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_triangles": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_overlap_pairs": 0,
+        "signed_volume_mm3": 16426.683019306805,
+        "minimum_table_clearance_mm": 0.0,
+        "contact_area_mm2": 734.1321886585336,
+        "support_hull_margin_mm": 10.43777569285628,
+        "center_of_mass_mm": [
+          -3.354622087612571,
+          0.05734059563498576,
+          5.627597473413439
+        ],
+        "contact_span_mm": [
+          139.20868682861328,
+          23.35806941986084
+        ],
+        "nominal_body_diameter_mm": 11.9,
+        "nominal_cap_diameter_mm": 13.2,
+        "reference_overall_length_mm": 141.8,
+        "clip_relief_height_mm": 0.85,
+        "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+        "passed": true
+      },
+      "recommended_48_frame_mapping_reuse_count": 1,
+      "reproducibility": {
+        "stl_sha256_matches_independent_regeneration": true,
+        "mesh_fingerprint_matches_independent_regeneration": true,
+        "blender_scene_fingerprint": "6f5166999b15b85cc6dc2d6b5cc96e5e186e02090db0f4af3337942008dc4702",
+        "blender_scene_matches_generator": true,
+        "passed": true
+      }
+    }
+  ],
+  "source_48_frame_mapping": [
+    {
+      "source_frame": 1,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 2,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 3,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 4,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 5,
+      "pose_id": "pose-02",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-02.stl",
+      "direction": "toward",
+      "reuse_count": 8
+    },
+    {
+      "source_frame": 6,
+      "pose_id": "pose-02",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-02.stl",
+      "direction": "toward",
+      "reuse_count": 8
+    },
+    {
+      "source_frame": 7,
+      "pose_id": "pose-02",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-02.stl",
+      "direction": "toward",
+      "reuse_count": 8
+    },
+    {
+      "source_frame": 8,
+      "pose_id": "pose-02",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-02.stl",
+      "direction": "toward",
+      "reuse_count": 8
+    },
+    {
+      "source_frame": 9,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 10,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 11,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 12,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 13,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 14,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 15,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 16,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 17,
+      "pose_id": "pose-02",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-02.stl",
+      "direction": "toward",
+      "reuse_count": 8
+    },
+    {
+      "source_frame": 18,
+      "pose_id": "pose-02",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-02.stl",
+      "direction": "toward",
+      "reuse_count": 8
+    },
+    {
+      "source_frame": 19,
+      "pose_id": "pose-02",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-02.stl",
+      "direction": "toward",
+      "reuse_count": 8
+    },
+    {
+      "source_frame": 20,
+      "pose_id": "pose-02",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-02.stl",
+      "direction": "toward",
+      "reuse_count": 8
+    },
+    {
+      "source_frame": 21,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 22,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 23,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 24,
+      "pose_id": "pose-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-01.stl",
+      "direction": "away",
+      "reuse_count": 16
+    },
+    {
+      "source_frame": 25,
+      "pose_id": "pose-03",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-03.stl",
+      "direction": "away",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 26,
+      "pose_id": "pose-03",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-03.stl",
+      "direction": "away",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 27,
+      "pose_id": "pose-03",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-03.stl",
+      "direction": "away",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 28,
+      "pose_id": "pose-03",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-03.stl",
+      "direction": "away",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 29,
+      "pose_id": "pose-04",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-04.stl",
+      "direction": "toward",
+      "reuse_count": 2
+    },
+    {
+      "source_frame": 30,
+      "pose_id": "pose-04",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-04.stl",
+      "direction": "toward",
+      "reuse_count": 2
+    },
+    {
+      "source_frame": 31,
+      "pose_id": "pose-05",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-05.stl",
+      "direction": "toward",
+      "reuse_count": 2
+    },
+    {
+      "source_frame": 32,
+      "pose_id": "pose-05",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-05.stl",
+      "direction": "toward",
+      "reuse_count": 2
+    },
+    {
+      "source_frame": 33,
+      "pose_id": "pose-06",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-06.stl",
+      "direction": "away",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 34,
+      "pose_id": "pose-06",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-06.stl",
+      "direction": "away",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 35,
+      "pose_id": "pose-06",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-06.stl",
+      "direction": "away",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 36,
+      "pose_id": "pose-06",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-06.stl",
+      "direction": "away",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 37,
+      "pose_id": "pose-07",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-07.stl",
+      "direction": "toward",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 38,
+      "pose_id": "pose-07",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-07.stl",
+      "direction": "toward",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 39,
+      "pose_id": "pose-07",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-07.stl",
+      "direction": "toward",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 40,
+      "pose_id": "pose-07",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-07.stl",
+      "direction": "toward",
+      "reuse_count": 4
+    },
+    {
+      "source_frame": 41,
+      "pose_id": "pose-08",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-08.stl",
+      "direction": "away",
+      "reuse_count": 2
+    },
+    {
+      "source_frame": 42,
+      "pose_id": "pose-08",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-08.stl",
+      "direction": "away",
+      "reuse_count": 2
+    },
+    {
+      "source_frame": 43,
+      "pose_id": "pose-09",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-09.stl",
+      "direction": "away",
+      "reuse_count": 2
+    },
+    {
+      "source_frame": 44,
+      "pose_id": "pose-09",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-09.stl",
+      "direction": "away",
+      "reuse_count": 2
+    },
+    {
+      "source_frame": 45,
+      "pose_id": "pose-10",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-10.stl",
+      "direction": "toward",
+      "reuse_count": 2
+    },
+    {
+      "source_frame": 46,
+      "pose_id": "pose-10",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-10.stl",
+      "direction": "toward",
+      "reuse_count": 2
+    },
+    {
+      "source_frame": 47,
+      "pose_id": "pose-11",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-11.stl",
+      "direction": "toward",
+      "reuse_count": 1
+    },
+    {
+      "source_frame": 48,
+      "pose_id": "pose-12",
+      "stl": "exports/rolling-wavy-pen/print-set-v1/pose-12.stl",
+      "direction": "toward",
+      "reuse_count": 1
+    }
+  ],
+  "frame_mapping_csv": "previews/rolling-wavy-pen/print-set-v1/frame-to-stl.csv",
+  "unverified": [
+    "slicer support and print time",
+    "exhaustive minimum feature thickness",
+    "physical printing and filming stability"
+  ],
+  "blender_scene_checked": true,
+  "independent_regeneration": {
+    "method": "re-ran the same generator into a separate temporary output root with --geometry-only",
+    "temporary_output_root": "/private/tmp/rolling-wavy-pen-print-set-v1-repro",
+    "pose_count": 12,
+    "all_stl_sha256_and_mesh_fingerprints_match": true
+  },
+  "blender_scene_mesh_fingerprints_match_all_stls": true,
+  "preview_artifacts": {
+    "selected_frame_sheet": "previews/rolling-wavy-pen/print-set-v1/selected-frames.png",
+    "representative_comparison": "previews/rolling-wavy-pen/print-set-v1/representative-comparison.png",
+    "frame_mapping_csv": "previews/rolling-wavy-pen/print-set-v1/frame-to-stl.csv",
+    "editable_scene": "models/rolling-wavy-pen-print-set-v1.blend"
+  },
+  "selection_rationale": "12 unique STLs cover the 48 source exposures: 2 early-arc rolling orientations plus 10 wave-development poses. The first 24 source frames collapse to two exact meshes in v7; exact duplicates were removed and the corresponding STLs are reused."
+}

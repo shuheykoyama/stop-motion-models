@@ -22,6 +22,17 @@ The current [Stone to Bread checkpoint](docs/stone-to-bread.md) is a **provision
 
 The earlier ten-frame sequence and rolling studies remain available as historical references. See the motif documentation for their status and the recovered legacy geometry.
 
+## Rolling Wavy Pen
+
+**Rolling Wavy Pen is approved for stop-motion and print-data preparation.** The approved animation is `storyboard-study-v11`: 30 exposures over 4.8 seconds, progressing from Straight to Single Arc, Arc + Waves, and Arc + Stronger Waves. The approved print set contains 16 STL poses. Import STL coordinates as **millimeters**; STL files do not encode units.
+
+- [Approved 30-pose animation](previews/rolling-wavy-pen/storyboard-study-v11/sequence.gif) · [Contact sheet](previews/rolling-wavy-pen/storyboard-study-v11/contact-sheet.png) · [Editable v11 scene](models/rolling-wavy-pen-storyboard-study-v11.blend)
+- **Official print files:** [`exports/rolling-wavy-pen/print-set-v2/pose-01.stl` through `pose-16.stl`](exports/rolling-wavy-pen/print-set-v2/)
+- [30-frame filming map](previews/rolling-wavy-pen/print-set-v2/frame-to-stl.csv) · [Print-set documentation](docs/rolling-wavy-pen-print-set-v2.md)
+- **Final QA: PASS.** [QA report](docs/rolling-wavy-pen-final-qa.md) · [Machine-readable results](previews/rolling-wavy-pen/print-set-v2/final-qa.json)
+
+CAM and slicer verification, support assessment, print-time estimates, and physical printing have not been performed. `print-set-v1` and `storyboard-study-v1`–`v10` are historical studies; use only `print-set-v2` for the approved print set.
+
 ## Documentation and verification
 
 - [Specification](docs/specification.md): current approved pen dimensions and deformation; existing stones/cup requirements.

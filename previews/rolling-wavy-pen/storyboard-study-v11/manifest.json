@@ -1,0 +1,792 @@
+{
+  "status": "review preview; pending visual approval; no final print set selected",
+  "source": "v8 pen profile and v6 alternating roll presentation; v11 uses one whole-length warped Fourier centerline and the full arc baseline",
+  "frame_count": 30,
+  "gif_frame_delay_ms": 160,
+  "effective_duration_seconds": 4.8,
+  "reference_playback_fps": 12,
+  "reference_exposure_frames_per_pose": 2,
+  "reference_duration_seconds_at_12fps": 5.0,
+  "gif_preview_rate_fps_equivalent": 6.25,
+  "phase_frame_counts": {
+    "straight": 6,
+    "single-arc": 6,
+    "arc+waves": 9,
+    "arc+stronger-waves": 9
+  },
+  "phase_boundaries": [
+    {
+      "phase": "straight",
+      "frames": [
+        1,
+        6
+      ],
+      "round_trips": 1,
+      "shape": "exactly straight; roll/placement only"
+    },
+    {
+      "phase": "single-arc",
+      "frames": [
+        7,
+        12
+      ],
+      "round_trips": 1,
+      "shape": "one full-length arc grows, including the cap, with the v6-style view reversal"
+    },
+    {
+      "phase": "arc+waves",
+      "frames": [
+        13,
+        21
+      ],
+      "round_trips": 1.5,
+      "shape": "the 12 mm arc baseline remains constant while broad waves are added"
+    },
+    {
+      "phase": "arc+stronger-waves",
+      "frames": [
+        22,
+        30
+      ],
+      "round_trips": 1.5,
+      "shape": "the same arc remains beneath stronger, tighter and irregular wave terms"
+    }
+  ],
+  "camera": {
+    "name": "front oblique",
+    "fixed": true,
+    "position_mm": [
+      0,
+      -210,
+      245
+    ],
+    "target_mm": [
+      0,
+      0,
+      11
+    ],
+    "orthographic_scale_mm": 185
+  },
+  "centerline_design": {
+    "definition": "sign * (12*c*sin(pi*t) + sin(pi*t)^1.5*(1+0.10*sin(2*pi*t))*sum(A_n*sin(n*pi*t), n=5,7,9,11))",
+    "normalized_domain": "t=(x+70.9)/141.8 from cap end to tip; the function does not receive or branch on the cap seam",
+    "wave_harmonics_and_max_amplitudes_mm": {
+      "5pi": 5.0,
+      "7pi": 3.0,
+      "9pi": 4.0,
+      "11pi": 2.0
+    },
+    "wave_envelope": "sin(pi*t)^1.5 closes added waves smoothly at both ends; a gentle full-length modulation creates restrained irregularity",
+    "arc_baseline": "12 mm amplitude is not reduced when waves grow",
+    "surface_profile_applied_after_centerline": true
+  },
+  "motion_and_timing": [
+    "The v6 movement convention is used: each six-pose cycle presents away/toward orientations with opposite centerline sign, ±20 degree roll and ±2.5 mm Y placement.",
+    "The 30-pose sequence retains five round trips: one straight, one single-arc, and three with growing waves.",
+    "GIF hold is 160 ms per pose for 4.8 seconds; no continuous interpolation is rendered between the discrete meshes."
+  ],
+  "max_base_shape_centerline_delta_mm": 2.880000000000001,
+  "max_oriented_view_centerline_delta_mm": 33.13333527376449,
+  "wave_distribution_analysis": {
+    "curvature_rms_by_equal_length_third": {
+      "Straight": [
+        {
+          "rms_curvature_per_mm": 0.0,
+          "max_abs_curvature_per_mm": 0.0
+        },
+        {
+          "rms_curvature_per_mm": 0.0,
+          "max_abs_curvature_per_mm": 0.0
+        },
+        {
+          "rms_curvature_per_mm": 0.0,
+          "max_abs_curvature_per_mm": 0.0
+        }
+      ],
+      "Single Arc": [
+        {
+          "rms_curvature_per_mm": 0.0030146168471377075,
+          "max_abs_curvature_per_mm": 0.004951284922864314
+        },
+        {
+          "rms_curvature_per_mm": 0.005582473385747837,
+          "max_abs_curvature_per_mm": 0.00589012567084513
+        },
+        {
+          "rms_curvature_per_mm": 0.0030274622986821197,
+          "max_abs_curvature_per_mm": 0.004968719648859975
+        }
+      ],
+      "Arc + Waves": [
+        {
+          "rms_curvature_per_mm": 0.02430736158786522,
+          "max_abs_curvature_per_mm": 0.04162652159275073
+        },
+        {
+          "rms_curvature_per_mm": 0.029074139220894742,
+          "max_abs_curvature_per_mm": 0.05164499275008565
+        },
+        {
+          "rms_curvature_per_mm": 0.019747699656087855,
+          "max_abs_curvature_per_mm": 0.032877788246717846
+        }
+      ],
+      "Arc + Stronger Waves": [
+        {
+          "rms_curvature_per_mm": 0.04710450396839841,
+          "max_abs_curvature_per_mm": 0.07645192429705493
+        },
+        {
+          "rms_curvature_per_mm": 0.04725369331191782,
+          "max_abs_curvature_per_mm": 0.0860779883788954
+        },
+        {
+          "rms_curvature_per_mm": 0.04021173043496323,
+          "max_abs_curvature_per_mm": 0.06607789402383407
+        }
+      ]
+    },
+    "final_centerline_midpoint_y_mm": 16.0,
+    "final_arc_baseline_amplitude_mm": 12.0,
+    "wave_generation_domain": "normalized full-length coordinate t from 0 at cap end to 1 at tip; no component boundary input or end-local mask"
+  },
+  "validation_summary": {
+    "poses_checked": 30,
+    "all_passed": true,
+    "checks": [
+      "watertight",
+      "manifold",
+      "single component",
+      "face orientation",
+      "degenerate faces",
+      "nonadjacent face intersections",
+      "tabletop clearance",
+      "finite-area contact",
+      "static support margin",
+      "dimensions"
+    ],
+    "minimum_thickness": "exhaustive minimum feature thickness not verified",
+    "slicer_and_physical_print": "not performed"
+  },
+  "unresolved_review_points": [
+    "Review whether the v6-style sign reversal reads as rolling in physical stop motion.",
+    "Review that the full-length wave distribution remains visually balanced in the bare-rod and marker comparisons."
+  ],
+  "artifacts": {
+    "sequence_gif": "previews/rolling-wavy-pen/storyboard-study-v11/sequence.gif",
+    "contact_sheet": "previews/rolling-wavy-pen/storyboard-study-v11/contact-sheet.png",
+    "representative_shapes": "previews/rolling-wavy-pen/storyboard-study-v11/representative-shapes.png",
+    "plain_rod_comparison": "previews/rolling-wavy-pen/storyboard-study-v11/plain-rods-four-stages.png",
+    "centerline_overlay": "previews/rolling-wavy-pen/storyboard-study-v11/centerline-overlay.png",
+    "curvature_distribution": "previews/rolling-wavy-pen/storyboard-study-v11/curvature-distribution.png",
+    "v10_v11_centerline": "previews/rolling-wavy-pen/storyboard-study-v11/v10-v11-centerline.png",
+    "neutral_comparison": "previews/rolling-wavy-pen/storyboard-study-v11/representative-neutral.png",
+    "top_comparison": "previews/rolling-wavy-pen/storyboard-study-v11/representative-top.png",
+    "cap_boundary_closeup": "previews/rolling-wavy-pen/storyboard-study-v11/cap-boundary-closeup.png",
+    "blender_scene": "models/rolling-wavy-pen-storyboard-study-v11.blend",
+    "generator": "scripts/rolling_wavy_pen_storyboard_study_v11.py",
+    "frame_renders": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-01.png through frame-30.png"
+  },
+  "frames_data": [
+    {
+      "frame": 1,
+      "phase": "straight",
+      "curve_progress": 0.0,
+      "wave_progress": 0.0,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.0,
+      "oriented_view_centerline_delta_mm": 0.0,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-01.png"
+    },
+    {
+      "frame": 2,
+      "phase": "straight",
+      "curve_progress": 0.0,
+      "wave_progress": 0.0,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.0,
+      "oriented_view_centerline_delta_mm": 0.0,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-02.png"
+    },
+    {
+      "frame": 3,
+      "phase": "straight",
+      "curve_progress": 0.0,
+      "wave_progress": 0.0,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.0,
+      "oriented_view_centerline_delta_mm": 0.0,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-03.png"
+    },
+    {
+      "frame": 4,
+      "phase": "straight",
+      "curve_progress": 0.0,
+      "wave_progress": 0.0,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.0,
+      "oriented_view_centerline_delta_mm": 0.0,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "041f71b1fb21c96e858123ffab5c8b01073f9b3a2cef394ac24aeb6c1818138a",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-04.png"
+    },
+    {
+      "frame": 5,
+      "phase": "straight",
+      "curve_progress": 0.0,
+      "wave_progress": 0.0,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.0,
+      "oriented_view_centerline_delta_mm": 0.0,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "041f71b1fb21c96e858123ffab5c8b01073f9b3a2cef394ac24aeb6c1818138a",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-05.png"
+    },
+    {
+      "frame": 6,
+      "phase": "straight",
+      "curve_progress": 0.0,
+      "wave_progress": 0.0,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.0,
+      "oriented_view_centerline_delta_mm": 0.0,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "041f71b1fb21c96e858123ffab5c8b01073f9b3a2cef394ac24aeb6c1818138a",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-06.png"
+    },
+    {
+      "frame": 7,
+      "phase": "single-arc",
+      "curve_progress": 0.0,
+      "wave_progress": 0.0,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.0,
+      "oriented_view_centerline_delta_mm": 0.0,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-07.png"
+    },
+    {
+      "frame": 8,
+      "phase": "single-arc",
+      "curve_progress": 0.12,
+      "wave_progress": 0.0,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 1.44,
+      "oriented_view_centerline_delta_mm": 1.44,
+      "dimensions_mm": [
+        141.8000030517578,
+        14.21244764328003,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "aff2890853a378a2d299fe0e612f14790dddb57cf69496b1c8e7e51a588e3161",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-08.png"
+    },
+    {
+      "frame": 9,
+      "phase": "single-arc",
+      "curve_progress": 0.34,
+      "wave_progress": 0.0,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 2.64,
+      "oriented_view_centerline_delta_mm": 2.64,
+      "dimensions_mm": [
+        141.8000030517578,
+        16.437257289886475,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "a7307dba0a54f2c3d7c7411569e022f5ed246cfc8d471d3027fb668012e11727",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-09.png"
+    },
+    {
+      "frame": 10,
+      "phase": "single-arc",
+      "curve_progress": 0.58,
+      "wave_progress": 0.0,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 2.879999999999999,
+      "oriented_view_centerline_delta_mm": 11.04,
+      "dimensions_mm": [
+        141.8000030517578,
+        19.183310985565186,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "9bae339a9cfdf36ea6decb8981c792faede1187fd5c991af7937558b28943dc1",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-10.png"
+    },
+    {
+      "frame": 11,
+      "phase": "single-arc",
+      "curve_progress": 0.82,
+      "wave_progress": 0.0,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 2.880000000000001,
+      "oriented_view_centerline_delta_mm": 2.880000000000001,
+      "dimensions_mm": [
+        141.8000030517578,
+        21.929365158081055,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "84fc3b601c572754a8d73f9ccb7aeeaad757540a599e9f6c66696cdef91feeb9",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-11.png"
+    },
+    {
+      "frame": 12,
+      "phase": "single-arc",
+      "curve_progress": 1.0,
+      "wave_progress": 0.0,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 2.16,
+      "oriented_view_centerline_delta_mm": 2.16,
+      "dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "618b4c2b47a735fbcc24662385658c870359d59639ff501537fa92581f4de33a",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-12.png"
+    },
+    {
+      "frame": 13,
+      "phase": "arc+waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.0,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.0,
+      "oriented_view_centerline_delta_mm": 24.0,
+      "dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "aafc8d47463b30b79bc611cfde6b40a8324c5155a74557e212e73b22c8d971c4",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-13.png"
+    },
+    {
+      "frame": 14,
+      "phase": "arc+waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.02,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.025336843142499177,
+      "oriented_view_centerline_delta_mm": 0.025336843142499177,
+      "dimensions_mm": [
+        141.8000030517578,
+        24.018555641174316,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "30c1480d05c772aad5368cb9f72c1d97e359fe83f6185393e4eebe47acdbe143",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-14.png"
+    },
+    {
+      "frame": 15,
+      "phase": "arc+waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.05,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.12623177208495306,
+      "oriented_view_centerline_delta_mm": 0.12623177208495306,
+      "dimensions_mm": [
+        141.8000030517578,
+        24.144588947296143,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "0dc50e9e45d577b68f93a1ba231f273d9ada9588a44ae25a24add1f77d8a96e0",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-15.png"
+    },
+    {
+      "frame": 16,
+      "phase": "arc+waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.09,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.3101953510446034,
+      "oriented_view_centerline_delta_mm": 24.613069843128045,
+      "dimensions_mm": [
+        141.8000030517578,
+        24.45429277420044,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "f0e493b5704cb8d9b12047d19366dd6f6fd47513a50b2f6c224ce5cacd44dc44",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-16.png"
+    },
+    {
+      "frame": 17,
+      "phase": "arc+waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.14,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.5669118653134291,
+      "oriented_view_centerline_delta_mm": 0.5669118653134291,
+      "dimensions_mm": [
+        141.8000030517578,
+        25.020309925079346,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "a05ef1842e0ef7d0bfc8d7fdf3237a92a26f6e7a1a6fe249d08ee5c0d58b39ce",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-17.png"
+    },
+    {
+      "frame": 18,
+      "phase": "arc+waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.2,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.8337242618227307,
+      "oriented_view_centerline_delta_mm": 0.8337242618227307,
+      "dimensions_mm": [
+        141.8000030517578,
+        25.852665901184082,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "a64cdb26fadded79c26b7da2f12d458eaeb0eabfab07681ecdb8d2d3e7c50e2a",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-18.png"
+    },
+    {
+      "frame": 19,
+      "phase": "arc+waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.26,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.8340144716319742,
+      "oriented_view_centerline_delta_mm": 28.558305459482206,
+      "dimensions_mm": [
+        141.8000030517578,
+        26.68508243560791,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "893c9af22364f2083708d8726ef424b05d770e7ea4f96e1318700e9f9582fcb7",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-19.png"
+    },
+    {
+      "frame": 20,
+      "phase": "arc+waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.33,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.8278945658572461,
+      "oriented_view_centerline_delta_mm": 0.8278945658572461,
+      "dimensions_mm": [
+        141.8000030517578,
+        27.51106595993042,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "3e81c12a1db9809e51688db7b5b19307cf3ae929542517ba935cd6c189ed8834",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-20.png"
+    },
+    {
+      "frame": 21,
+      "phase": "arc+waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.4,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.5842565298818787,
+      "oriented_view_centerline_delta_mm": 0.5842565298818787,
+      "dimensions_mm": [
+        141.8000030517578,
+        28.023502826690674,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "1245fa0d6e2ef1def1d1cbb482c73faf95f87836e78fd0eab343e7e32144fd24",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-21.png"
+    },
+    {
+      "frame": 22,
+      "phase": "arc+stronger-waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.47,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.3210047339782509,
+      "oriented_view_centerline_delta_mm": 32.11460296420883,
+      "dimensions_mm": [
+        141.8000030517578,
+        28.061376094818115,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "b6deb0bfd562f12e78f78ee63354b4bd99dd0b7b5766321e610165af051226f2",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-22.png"
+    },
+    {
+      "frame": 23,
+      "phase": "arc+stronger-waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.54,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.2780411432412837,
+      "oriented_view_centerline_delta_mm": 0.2780411432412837,
+      "dimensions_mm": [
+        141.8000030517578,
+        27.938132762908936,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "09eab8e3fe021bf7b9d96225ad8970681bbcadf9c258d3e27435f76106c39bdf",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-23.png"
+    },
+    {
+      "frame": 24,
+      "phase": "arc+stronger-waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.61,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.42637421648738183,
+      "oriented_view_centerline_delta_mm": 0.42637421648738183,
+      "dimensions_mm": [
+        141.8000030517578,
+        28.0799241065979,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "6876c00098158866a2c013063c58ddd7504d755bce9fe192edfaf008111e24d6",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-24.png"
+    },
+    {
+      "frame": 25,
+      "phase": "arc+stronger-waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.68,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.5410577921167103,
+      "oriented_view_centerline_delta_mm": 32.52429934717115,
+      "dimensions_mm": [
+        141.8000030517578,
+        28.40962553024292,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "bcdbc51af39bd3500e448680669ae316eb3497500a2d63109437860a35451c41",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-25.png"
+    },
+    {
+      "frame": 26,
+      "phase": "arc+stronger-waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.75,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.5557906371574655,
+      "oriented_view_centerline_delta_mm": 0.5557906371574655,
+      "dimensions_mm": [
+        141.8000030517578,
+        28.779616832733154,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "4aa92d9638d7be6139d2f9aa1b4376f41fd06dfd6d184ae319b783f1492f3d16",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-26.png"
+    },
+    {
+      "frame": 27,
+      "phase": "arc+stronger-waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.82,
+      "rolling_direction": "away",
+      "scene_y_mm": -2.5,
+      "roll_degrees": -20.0,
+      "base_shape_max_delta_from_previous_mm": 0.4939055932504628,
+      "oriented_view_centerline_delta_mm": 0.4939055932504628,
+      "dimensions_mm": [
+        141.8000030517578,
+        28.71442461013794,
+        13.092480659484863
+      ],
+      "mesh_fingerprint": "d82f06b7d272deb42eb65865a97b1054cec5f7930c651dd9f26fc946b27951d2",
+      "validation_passed": true,
+      "curve_orientation_sign": -1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-27.png"
+    },
+    {
+      "frame": 28,
+      "phase": "arc+stronger-waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.89,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.5216595520924754,
+      "oriented_view_centerline_delta_mm": 33.13333527376449,
+      "dimensions_mm": [
+        141.8000030517578,
+        28.371838092803955,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "062d6bef10f716755594038280bd025af3cdb89775438e6623f84e2dab379e8a",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-28.png"
+    },
+    {
+      "frame": 29,
+      "phase": "arc+stronger-waves",
+      "curve_progress": 1.0,
+      "wave_progress": 0.95,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.34309332818532123,
+      "oriented_view_centerline_delta_mm": 0.34309332818532123,
+      "dimensions_mm": [
+        141.8000030517578,
+        28.078915119171143,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "e24b370d60a22c9f5cb28b2817d8c9fe32ab7a032c892263230c624149bc335d",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-29.png"
+    },
+    {
+      "frame": 30,
+      "phase": "arc+stronger-waves",
+      "curve_progress": 1.0,
+      "wave_progress": 1.0,
+      "rolling_direction": "toward",
+      "scene_y_mm": 2.5,
+      "roll_degrees": 20.0,
+      "base_shape_max_delta_from_previous_mm": 0.10980689896220586,
+      "oriented_view_centerline_delta_mm": 0.10980689896220586,
+      "dimensions_mm": [
+        141.8000030517578,
+        27.9776349067688,
+        12.51842975616455
+      ],
+      "mesh_fingerprint": "7c6642f56c4150f60242d872472bf185c97b8b36d0ee570c47d3cc3e7f2a7490",
+      "validation_passed": true,
+      "curve_orientation_sign": 1,
+      "preview": "previews/rolling-wavy-pen/storyboard-study-v11/frames/frame-30.png"
+    }
+  ]
+}

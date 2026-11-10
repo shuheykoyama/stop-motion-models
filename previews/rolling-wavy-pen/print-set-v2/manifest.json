@@ -1,0 +1,2882 @@
+{
+  "status": "approved v11 geometry; print-set-v2 candidate, pending slicer and physical verification",
+  "source_of_truth": {
+    "blend": "models/rolling-wavy-pen-storyboard-study-v11.blend",
+    "blend_sha256": "54084ab7e007712da9801579f19a68621a9ca9d644222c19e10a9432cea68c9e",
+    "generator": "scripts/rolling_wavy_pen_storyboard_study_v11.py",
+    "generator_sha256": "38522075dd84033c083e075fef632b337cc84bb2409bdaf9c2284adc4e29c10e"
+  },
+  "sequence": {
+    "frames": 30,
+    "gif_frame_delay_ms": 160,
+    "duration_seconds": 4.8,
+    "v11_ideal_gif": "previews/rolling-wavy-pen/storyboard-study-v11/sequence.gif"
+  },
+  "selection_method": {
+    "selected_pose_count": 16,
+    "candidate_12": {
+      "candidate_source_frames": [
+        1,
+        4,
+        9,
+        11,
+        12,
+        13,
+        16,
+        19,
+        21,
+        22,
+        27,
+        30
+      ],
+      "candidate_count": 12,
+      "max_vertex_rms_mm": 0.9307846377176573,
+      "mean_vertex_rms_mm": 0.13570126434808,
+      "rms_vertex_error_mean_mm": 0.2628609859565572,
+      "frame_assignments": [
+        {
+          "frame": 1,
+          "source_frame": 1,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 2,
+          "source_frame": 1,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 3,
+          "source_frame": 1,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 4,
+          "source_frame": 4,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 5,
+          "source_frame": 4,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 6,
+          "source_frame": 4,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 7,
+          "source_frame": 1,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 8,
+          "source_frame": 1,
+          "translation_only_fit": {
+            "rms_mm": 0.46539231856436675,
+            "max_vertex_mm": 0.8804231896373773,
+            "translation_y_mm": -0.8804231896373773
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.465369195178995,
+            "max_vertex_mm": 0.8846308962612516,
+            "angle_x_deg": -0.04378616625815681,
+            "translation_y_mm": -0.8846279737465411,
+            "translation_z_mm": -2.6525675123068027e-06
+          }
+        },
+        {
+          "frame": 9,
+          "source_frame": 9,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 10,
+          "source_frame": 11,
+          "translation_only_fit": {
+            "rms_mm": 0.9307846377176573,
+            "max_vertex_mm": 1.760846377688667,
+            "translation_y_mm": -1.760846377688667
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.930750613701518,
+            "max_vertex_mm": 1.7674607231485293,
+            "angle_x_deg": -0.06871116065908708,
+            "translation_y_mm": -1.767432682608848,
+            "translation_z_mm": 0.007204339354939471
+          }
+        },
+        {
+          "frame": 11,
+          "source_frame": 11,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 12,
+          "source_frame": 12,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 13,
+          "source_frame": 13,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 14,
+          "source_frame": 13,
+          "translation_only_fit": {
+            "rms_mm": 0.011517657029187297,
+            "max_vertex_mm": 0.02606865465771424,
+            "translation_y_mm": 0.0007486015571283033
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.011517656556392648,
+            "max_vertex_mm": 0.02607030499203932,
+            "angle_x_deg": -2.6254557719792847e-05,
+            "translation_y_mm": 0.0007460803327710153,
+            "translation_z_mm": -3.3645114339009297e-06
+          }
+        },
+        {
+          "frame": 15,
+          "source_frame": 13,
+          "translation_only_fit": {
+            "rms_mm": 0.06890026381152473,
+            "max_vertex_mm": 0.15593697038155696,
+            "translation_y_mm": 0.004478230147181961
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.06890026098173746,
+            "max_vertex_mm": 0.15595169176491455,
+            "angle_x_deg": -0.00015710477928056635,
+            "translation_y_mm": 0.004463143357151367,
+            "translation_z_mm": -2.0132899575031615e-05
+          }
+        },
+        {
+          "frame": 16,
+          "source_frame": 16,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 17,
+          "source_frame": 16,
+          "translation_only_fit": {
+            "rms_mm": 0.2577075536235016,
+            "max_vertex_mm": 0.5832477158019982,
+            "translation_y_mm": -0.01674991306762319
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.25770750954111915,
+            "max_vertex_mm": 0.5833664057629361,
+            "angle_x_deg": 0.0011977272881283692,
+            "translation_y_mm": -0.016635028092964355,
+            "translation_z_mm": -0.0001528329225743974
+          }
+        },
+        {
+          "frame": 18,
+          "source_frame": 16,
+          "translation_only_fit": {
+            "rms_mm": 0.6408283672780865,
+            "max_vertex_mm": 1.4418324671832519,
+            "translation_y_mm": -0.042231007680078037
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.640828213062829,
+            "max_vertex_mm": 1.442184704112225,
+            "angle_x_deg": 0.0035308267302928023,
+            "translation_y_mm": -0.0418923246341274,
+            "translation_z_mm": -0.0004505352049610778
+          }
+        },
+        {
+          "frame": 19,
+          "source_frame": 19,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 20,
+          "source_frame": 21,
+          "translation_only_fit": {
+            "rms_mm": 0.3081182271326813,
+            "max_vertex_mm": 0.5567010318882408,
+            "translation_y_mm": -0.027022990023380267
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.3081164945299977,
+            "max_vertex_mm": 0.5574683372174135,
+            "angle_x_deg": 0.007989728129743693,
+            "translation_y_mm": -0.02625580689840934,
+            "translation_z_mm": 0.0010037378003735498
+          }
+        },
+        {
+          "frame": 21,
+          "source_frame": 21,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 22,
+          "source_frame": 22,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 23,
+          "source_frame": 22,
+          "translation_only_fit": {
+            "rms_mm": 0.12723444472922238,
+            "max_vertex_mm": 0.27821183596851284,
+            "translation_y_mm": -0.0007638970494454611
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.1272299734171884,
+            "max_vertex_mm": 0.2790290850121752,
+            "angle_x_deg": 0.008184402758848717,
+            "translation_y_mm": 2.120602643174152e-05,
+            "translation_z_mm": -0.0010234069751398067
+          }
+        },
+        {
+          "frame": 24,
+          "source_frame": 22,
+          "translation_only_fit": {
+            "rms_mm": 0.2979394716190166,
+            "max_vertex_mm": 0.6773565093134399,
+            "translation_y_mm": 0.003690453424597173
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.29793259795632415,
+            "max_vertex_mm": 0.6789094264717909,
+            "angle_x_deg": 0.015551842335661918,
+            "translation_y_mm": 0.005182415983136401,
+            "translation_z_mm": -0.001944562030756103
+          }
+        },
+        {
+          "frame": 25,
+          "source_frame": 27,
+          "translation_only_fit": {
+            "rms_mm": 0.44774293807238374,
+            "max_vertex_mm": 0.9384658080216752,
+            "translation_y_mm": 0.021371151817191958
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.4477427620600944,
+            "max_vertex_mm": 0.9387716928974437,
+            "angle_x_deg": 0.0030658618647013813,
+            "translation_y_mm": 0.02166555601623532,
+            "translation_z_mm": 0.0003861008004291122
+          }
+        },
+        {
+          "frame": 26,
+          "source_frame": 27,
+          "translation_only_fit": {
+            "rms_mm": 0.22054470860648823,
+            "max_vertex_mm": 0.4821893565919275,
+            "translation_y_mm": 0.011537373754752167
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.22054449438644858,
+            "max_vertex_mm": 0.48241667302133334,
+            "angle_x_deg": -0.002372101049344294,
+            "translation_y_mm": 0.011309574851106952,
+            "translation_z_mm": -0.00029872088588689394
+          }
+        },
+        {
+          "frame": 27,
+          "source_frame": 27,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 28,
+          "source_frame": 30,
+          "translation_only_fit": {
+            "rms_mm": 0.23562674257159025,
+            "max_vertex_mm": 0.4443765483228814,
+            "translation_y_mm": -0.008346954789911543
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.2356244111309564,
+            "max_vertex_mm": 0.445151930807401,
+            "angle_x_deg": 0.008082632444169383,
+            "translation_y_mm": -0.007571614588393061,
+            "translation_z_mm": -0.0010180222672273587
+          }
+        },
+        {
+          "frame": 29,
+          "source_frame": 30,
+          "translation_only_fit": {
+            "rms_mm": 0.058700599686694,
+            "max_vertex_mm": 0.10768009807324397,
+            "translation_y_mm": -0.0019380888774396254
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.058699993185521125,
+            "max_vertex_mm": 0.10787739759006752,
+            "angle_x_deg": 0.002056708471407821,
+            "translation_y_mm": -0.001740809257556819,
+            "translation_z_mm": -0.0002590565500346642
+          }
+        },
+        {
+          "frame": 30,
+          "source_frame": 30,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        }
+      ]
+    },
+    "candidate_16": {
+      "candidate_source_frames": [
+        1,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        16,
+        18,
+        19,
+        21,
+        22,
+        25,
+        27,
+        30
+      ],
+      "candidate_count": 16,
+      "max_vertex_rms_mm": 0.3081182271326813,
+      "mean_vertex_rms_mm": 0.052876322293663555,
+      "rms_vertex_error_mean_mm": 0.11236727745058543,
+      "frame_assignments": [
+        {
+          "frame": 1,
+          "source_frame": 1,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 2,
+          "source_frame": 1,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 3,
+          "source_frame": 1,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 4,
+          "source_frame": 4,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 5,
+          "source_frame": 4,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 6,
+          "source_frame": 4,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 7,
+          "source_frame": 1,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 8,
+          "source_frame": 8,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 9,
+          "source_frame": 9,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 10,
+          "source_frame": 10,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 11,
+          "source_frame": 11,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 12,
+          "source_frame": 12,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 13,
+          "source_frame": 13,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 14,
+          "source_frame": 13,
+          "translation_only_fit": {
+            "rms_mm": 0.011517657029187297,
+            "max_vertex_mm": 0.02606865465771424,
+            "translation_y_mm": 0.0007486015571283033
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.011517656556392648,
+            "max_vertex_mm": 0.02607030499203932,
+            "angle_x_deg": -2.6254557719792847e-05,
+            "translation_y_mm": 0.0007460803327710153,
+            "translation_z_mm": -3.3645114339009297e-06
+          }
+        },
+        {
+          "frame": 15,
+          "source_frame": 13,
+          "translation_only_fit": {
+            "rms_mm": 0.06890026381152473,
+            "max_vertex_mm": 0.15593697038155696,
+            "translation_y_mm": 0.004478230147181961
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.06890026098173746,
+            "max_vertex_mm": 0.15595169176491455,
+            "angle_x_deg": -0.00015710477928056635,
+            "translation_y_mm": 0.004463143357151367,
+            "translation_z_mm": -2.0132899575031615e-05
+          }
+        },
+        {
+          "frame": 16,
+          "source_frame": 16,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 17,
+          "source_frame": 16,
+          "translation_only_fit": {
+            "rms_mm": 0.2577075536235016,
+            "max_vertex_mm": 0.5832477158019982,
+            "translation_y_mm": -0.01674991306762319
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.25770750954111915,
+            "max_vertex_mm": 0.5833664057629361,
+            "angle_x_deg": 0.0011977272881283692,
+            "translation_y_mm": -0.016635028092964355,
+            "translation_z_mm": -0.0001528329225743974
+          }
+        },
+        {
+          "frame": 18,
+          "source_frame": 18,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 19,
+          "source_frame": 19,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 20,
+          "source_frame": 21,
+          "translation_only_fit": {
+            "rms_mm": 0.3081182271326813,
+            "max_vertex_mm": 0.5567010318882408,
+            "translation_y_mm": -0.027022990023380267
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.3081164945299977,
+            "max_vertex_mm": 0.5574683372174135,
+            "angle_x_deg": 0.007989728129743693,
+            "translation_y_mm": -0.02625580689840934,
+            "translation_z_mm": 0.0010037378003735498
+          }
+        },
+        {
+          "frame": 21,
+          "source_frame": 21,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 22,
+          "source_frame": 22,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 23,
+          "source_frame": 22,
+          "translation_only_fit": {
+            "rms_mm": 0.12723444472922238,
+            "max_vertex_mm": 0.27821183596851284,
+            "translation_y_mm": -0.0007638970494454611
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.1272299734171884,
+            "max_vertex_mm": 0.2790290850121752,
+            "angle_x_deg": 0.008184402758848717,
+            "translation_y_mm": 2.120602643174152e-05,
+            "translation_z_mm": -0.0010234069751398067
+          }
+        },
+        {
+          "frame": 24,
+          "source_frame": 22,
+          "translation_only_fit": {
+            "rms_mm": 0.2979394716190166,
+            "max_vertex_mm": 0.6773565093134399,
+            "translation_y_mm": 0.003690453424597173
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.29793259795632415,
+            "max_vertex_mm": 0.6789094264717909,
+            "angle_x_deg": 0.015551842335661918,
+            "translation_y_mm": 0.005182415983136401,
+            "translation_z_mm": -0.001944562030756103
+          }
+        },
+        {
+          "frame": 25,
+          "source_frame": 25,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 26,
+          "source_frame": 27,
+          "translation_only_fit": {
+            "rms_mm": 0.22054470860648823,
+            "max_vertex_mm": 0.4821893565919275,
+            "translation_y_mm": 0.011537373754752167
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.22054449438644858,
+            "max_vertex_mm": 0.48241667302133334,
+            "angle_x_deg": -0.002372101049344294,
+            "translation_y_mm": 0.011309574851106952,
+            "translation_z_mm": -0.00029872088588689394
+          }
+        },
+        {
+          "frame": 27,
+          "source_frame": 27,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        },
+        {
+          "frame": 28,
+          "source_frame": 30,
+          "translation_only_fit": {
+            "rms_mm": 0.23562674257159025,
+            "max_vertex_mm": 0.4443765483228814,
+            "translation_y_mm": -0.008346954789911543
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.2356244111309564,
+            "max_vertex_mm": 0.445151930807401,
+            "angle_x_deg": 0.008082632444169383,
+            "translation_y_mm": -0.007571614588393061,
+            "translation_z_mm": -0.0010180222672273587
+          }
+        },
+        {
+          "frame": 29,
+          "source_frame": 30,
+          "translation_only_fit": {
+            "rms_mm": 0.058700599686694,
+            "max_vertex_mm": 0.10768009807324397,
+            "translation_y_mm": -0.0019380888774396254
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.058699993185521125,
+            "max_vertex_mm": 0.10787739759006752,
+            "angle_x_deg": 0.002056708471407821,
+            "translation_y_mm": -0.001740809257556819,
+            "translation_z_mm": -0.0002590565500346642
+          }
+        },
+        {
+          "frame": 30,
+          "source_frame": 30,
+          "translation_only_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "translation_y_mm": 0.0
+          },
+          "best_rigid_fit": {
+            "rms_mm": 0.0,
+            "max_vertex_mm": 0.0,
+            "angle_x_deg": 0.0,
+            "translation_y_mm": 0.0,
+            "translation_z_mm": 0.0
+          }
+        }
+      ]
+    },
+    "selection_reason": "The 16-pose set retains both v11 baked roll directions, the complete single-arc endpoint, wave onset, intermediate wave growth, strong-wave onset, and final form. Its maximum translation-only all-vertex RMS is below 0.31 mm; the 12-pose alternative reaches 0.93 mm and skips a more visible arc-growth step.",
+    "rigid_transform_check": "Vertex correspondence was tested under X-axis rotation plus Y/Z translation. Selected frame assignments already share the required baked roll orientation; best-fit additional rotations are below 0.016 degrees. Reproduction uses no additional rotation so the STL contact plane remains level; only millimeter-scale Y placement corrections are applied.",
+    "geometry_policy": "Each STL is exported from a deterministic independent v11 mesh regeneration and matched to the saved v11 mesh fingerprint. Reused frames use only rigid placement; mesh interpolation, scaling, mirroring, and deformation are not used."
+  },
+  "selected_poses": [
+    {
+      "pose_id": 1,
+      "source_v11_frame": 1,
+      "stl_filename": "pose-01.stl",
+      "source_mesh_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "stl_sha256": "1aae3c251191e9b9cb9a7ae1de19fdc4ee265a28c8e16c9b5c893d85db152fe9",
+      "dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "source_roll_degrees": -20.0,
+      "rolling_direction": "away",
+      "use_count": 4,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 2,
+      "source_v11_frame": 4,
+      "stl_filename": "pose-02.stl",
+      "source_mesh_fingerprint": "041f71b1fb21c96e858123ffab5c8b01073f9b3a2cef394ac24aeb6c1818138a",
+      "stl_sha256": "5f50f6b1489c5bbca97547a0cd3aa588fe6cf5e9ed16bcbb2557c3331a31d932",
+      "dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "source_roll_degrees": 20.0,
+      "rolling_direction": "toward",
+      "use_count": 3,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 3,
+      "source_v11_frame": 8,
+      "stl_filename": "pose-03.stl",
+      "source_mesh_fingerprint": "aff2890853a378a2d299fe0e612f14790dddb57cf69496b1c8e7e51a588e3161",
+      "stl_sha256": "e63bcbe4160e9b946f0b12fea96088bc908ac21db0deec3c0d903f1ccf81972d",
+      "dimensions_mm": [
+        141.8000030517578,
+        14.21244764328003,
+        13.092480659484863
+      ],
+      "source_roll_degrees": -20.0,
+      "rolling_direction": "away",
+      "use_count": 1,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 4,
+      "source_v11_frame": 9,
+      "stl_filename": "pose-04.stl",
+      "source_mesh_fingerprint": "a7307dba0a54f2c3d7c7411569e022f5ed246cfc8d471d3027fb668012e11727",
+      "stl_sha256": "e4f6c1c530697aaba300b18aac9ba6e01e88745a272c04008bf2973503197f12",
+      "dimensions_mm": [
+        141.8000030517578,
+        16.437257289886475,
+        13.092480659484863
+      ],
+      "source_roll_degrees": -20.0,
+      "rolling_direction": "away",
+      "use_count": 1,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 5,
+      "source_v11_frame": 10,
+      "stl_filename": "pose-05.stl",
+      "source_mesh_fingerprint": "9bae339a9cfdf36ea6decb8981c792faede1187fd5c991af7937558b28943dc1",
+      "stl_sha256": "17676eb2d06b8ebb2221c224f2a54e6b5f4e1d10fb451954350f2b479949900d",
+      "dimensions_mm": [
+        141.8000030517578,
+        19.183310985565186,
+        12.51842975616455
+      ],
+      "source_roll_degrees": 20.0,
+      "rolling_direction": "toward",
+      "use_count": 1,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 6,
+      "source_v11_frame": 11,
+      "stl_filename": "pose-06.stl",
+      "source_mesh_fingerprint": "84fc3b601c572754a8d73f9ccb7aeeaad757540a599e9f6c66696cdef91feeb9",
+      "stl_sha256": "daaaf2a74597ddeb82d133e0052c699117e10787e361f2d439be05a06ea4878d",
+      "dimensions_mm": [
+        141.8000030517578,
+        21.929365158081055,
+        12.51842975616455
+      ],
+      "source_roll_degrees": 20.0,
+      "rolling_direction": "toward",
+      "use_count": 1,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 7,
+      "source_v11_frame": 12,
+      "stl_filename": "pose-07.stl",
+      "source_mesh_fingerprint": "618b4c2b47a735fbcc24662385658c870359d59639ff501537fa92581f4de33a",
+      "stl_sha256": "938b7f9a3ba3cabfca61ef7a8406e76082427992eced0ba539dd1baed2b6946c",
+      "dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        12.51842975616455
+      ],
+      "source_roll_degrees": 20.0,
+      "rolling_direction": "toward",
+      "use_count": 1,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 8,
+      "source_v11_frame": 13,
+      "stl_filename": "pose-08.stl",
+      "source_mesh_fingerprint": "aafc8d47463b30b79bc611cfde6b40a8324c5155a74557e212e73b22c8d971c4",
+      "stl_sha256": "ce86da4086f61f3de8f50e2d894913104e289edc411fff26d7d4e21fce6fdc74",
+      "dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        13.092480659484863
+      ],
+      "source_roll_degrees": -20.0,
+      "rolling_direction": "away",
+      "use_count": 3,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 9,
+      "source_v11_frame": 16,
+      "stl_filename": "pose-09.stl",
+      "source_mesh_fingerprint": "f0e493b5704cb8d9b12047d19366dd6f6fd47513a50b2f6c224ce5cacd44dc44",
+      "stl_sha256": "c03d2dc5834e1a694d2b708ece9b8770d60ef30e489a3e2a4a1679ef5498b5b5",
+      "dimensions_mm": [
+        141.8000030517578,
+        24.45429277420044,
+        12.51842975616455
+      ],
+      "source_roll_degrees": 20.0,
+      "rolling_direction": "toward",
+      "use_count": 2,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 10,
+      "source_v11_frame": 18,
+      "stl_filename": "pose-10.stl",
+      "source_mesh_fingerprint": "a64cdb26fadded79c26b7da2f12d458eaeb0eabfab07681ecdb8d2d3e7c50e2a",
+      "stl_sha256": "98d270b659619449683510d47c291a57b62d4cccbb3f0257113f02a83a032084",
+      "dimensions_mm": [
+        141.8000030517578,
+        25.852665901184082,
+        12.51842975616455
+      ],
+      "source_roll_degrees": 20.0,
+      "rolling_direction": "toward",
+      "use_count": 1,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 11,
+      "source_v11_frame": 19,
+      "stl_filename": "pose-11.stl",
+      "source_mesh_fingerprint": "893c9af22364f2083708d8726ef424b05d770e7ea4f96e1318700e9f9582fcb7",
+      "stl_sha256": "6ead7c443bb5596d3a46aa8283666fe741e60e331ee11ae7f75c3fad797f58bc",
+      "dimensions_mm": [
+        141.8000030517578,
+        26.68508243560791,
+        13.092480659484863
+      ],
+      "source_roll_degrees": -20.0,
+      "rolling_direction": "away",
+      "use_count": 1,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 12,
+      "source_v11_frame": 21,
+      "stl_filename": "pose-12.stl",
+      "source_mesh_fingerprint": "1245fa0d6e2ef1def1d1cbb482c73faf95f87836e78fd0eab343e7e32144fd24",
+      "stl_sha256": "75f53846908980bf13ba11cac9038ddfabb3ebdc2d0c388f036006682c3e2c9b",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.023502826690674,
+        13.092480659484863
+      ],
+      "source_roll_degrees": -20.0,
+      "rolling_direction": "away",
+      "use_count": 2,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 13,
+      "source_v11_frame": 22,
+      "stl_filename": "pose-13.stl",
+      "source_mesh_fingerprint": "b6deb0bfd562f12e78f78ee63354b4bd99dd0b7b5766321e610165af051226f2",
+      "stl_sha256": "30a51c3b55a467fd44d0d31532f83e950e27174f926d4ddeedbfb8f6fad7eee6",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.061376094818115,
+        12.51842975616455
+      ],
+      "source_roll_degrees": 20.0,
+      "rolling_direction": "toward",
+      "use_count": 3,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 14,
+      "source_v11_frame": 25,
+      "stl_filename": "pose-14.stl",
+      "source_mesh_fingerprint": "bcdbc51af39bd3500e448680669ae316eb3497500a2d63109437860a35451c41",
+      "stl_sha256": "60ceb2af3b633ca56723e576a71aa7d185c3b49c3c548bde6458d23f63e1e233",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.40962553024292,
+        13.092480659484863
+      ],
+      "source_roll_degrees": -20.0,
+      "rolling_direction": "away",
+      "use_count": 1,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 15,
+      "source_v11_frame": 27,
+      "stl_filename": "pose-15.stl",
+      "source_mesh_fingerprint": "d82f06b7d272deb42eb65865a97b1054cec5f7930c651dd9f26fc946b27951d2",
+      "stl_sha256": "095d5ad31577f428cfee5a22b99a73ca35123b9f1963366c3ebc0524adbd6898",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.71442461013794,
+        13.092480659484863
+      ],
+      "source_roll_degrees": -20.0,
+      "rolling_direction": "away",
+      "use_count": 2,
+      "validation_passed": true
+    },
+    {
+      "pose_id": 16,
+      "source_v11_frame": 30,
+      "stl_filename": "pose-16.stl",
+      "source_mesh_fingerprint": "7c6642f56c4150f60242d872472bf185c97b8b36d0ee570c47d3cc3e7f2a7490",
+      "stl_sha256": "7a591c3b045fd619aae6ef8d530b4c26e17b0a08a9b2f535b1a88b8014bb32ac",
+      "dimensions_mm": [
+        141.8000030517578,
+        27.9776349067688,
+        12.51842975616455
+      ],
+      "source_roll_degrees": 20.0,
+      "rolling_direction": "toward",
+      "use_count": 3,
+      "validation_passed": true
+    }
+  ],
+  "frame_to_stl_csv": "previews/rolling-wavy-pen/print-set-v2/frame-to-stl.csv",
+  "validation": {
+    "all_passed": true,
+    "pose_count": 16,
+    "checks": [
+      "watertight",
+      "manifold",
+      "single connected component",
+      "face orientation",
+      "positive volume",
+      "degenerate triangles",
+      "detected nonadjacent intersections",
+      "dimensions",
+      "tabletop contact",
+      "static center-of-mass support"
+    ],
+    "contact_area_min_mm2": 751.8541446006698,
+    "support_margin_min_mm": 2.7033988272804512,
+    "intersection_pairs_max": 0,
+    "degenerate_triangles_max": 0,
+    "minimum_thickness": "Exhaustive local minimum-thickness analysis was not performed.",
+    "slicer_and_physical_print": "Not performed; geometry checks do not guarantee successful FDM printing."
+  },
+  "artifacts": {
+    "stl_directory": "exports/rolling-wavy-pen/print-set-v2/",
+    "print_reproduction_gif": "previews/rolling-wavy-pen/print-set-v2/print-reproduction.gif",
+    "ideal_vs_print_gif": "previews/rolling-wavy-pen/print-set-v2/ideal-vs-print-reproduction.gif",
+    "selected_shapes_sheet": "previews/rolling-wavy-pen/print-set-v2/selected-shapes.png",
+    "ideal_vs_print_sheet": "previews/rolling-wavy-pen/print-set-v2/ideal-vs-print-reproduction-contact-sheet.png",
+    "frame_csv": "previews/rolling-wavy-pen/print-set-v2/frame-to-stl.csv",
+    "validation": "previews/rolling-wavy-pen/print-set-v2/validation.json",
+    "blender_scene": "models/rolling-wavy-pen-print-set-v2.blend",
+    "generation_script": "scripts/rolling_wavy_pen_print_set_v2.py",
+    "instructions": "docs/rolling-wavy-pen-print-set-v2.md"
+  },
+  "transforms": [
+    {
+      "frame": 1,
+      "phase": "straight",
+      "stl_filename": "pose-01.stl",
+      "pose_id": 1,
+      "source_v11_frame": 1,
+      "target_v11_frame": 1,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5,
+      "position_z_mm": 0.0,
+      "reused": true,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 2,
+      "phase": "straight",
+      "stl_filename": "pose-01.stl",
+      "pose_id": 1,
+      "source_v11_frame": 1,
+      "target_v11_frame": 2,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5,
+      "position_z_mm": 0.0,
+      "reused": true,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 3,
+      "phase": "straight",
+      "stl_filename": "pose-01.stl",
+      "pose_id": 1,
+      "source_v11_frame": 1,
+      "target_v11_frame": 3,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5,
+      "position_z_mm": 0.0,
+      "reused": true,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 4,
+      "phase": "straight",
+      "stl_filename": "pose-02.stl",
+      "pose_id": 2,
+      "source_v11_frame": 4,
+      "target_v11_frame": 4,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 5,
+      "phase": "straight",
+      "stl_filename": "pose-02.stl",
+      "pose_id": 2,
+      "source_v11_frame": 4,
+      "target_v11_frame": 5,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 6,
+      "phase": "straight",
+      "stl_filename": "pose-02.stl",
+      "pose_id": 2,
+      "source_v11_frame": 4,
+      "target_v11_frame": 6,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 7,
+      "phase": "single-arc",
+      "stl_filename": "pose-01.stl",
+      "pose_id": 1,
+      "source_v11_frame": 1,
+      "target_v11_frame": 7,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5,
+      "position_z_mm": 0.0,
+      "reused": true,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 8,
+      "phase": "single-arc",
+      "stl_filename": "pose-03.stl",
+      "pose_id": 3,
+      "source_v11_frame": 8,
+      "target_v11_frame": 8,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 9,
+      "phase": "single-arc",
+      "stl_filename": "pose-04.stl",
+      "pose_id": 4,
+      "source_v11_frame": 9,
+      "target_v11_frame": 9,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5,
+      "position_z_mm": 0.0,
+      "reused": true,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 10,
+      "phase": "single-arc",
+      "stl_filename": "pose-05.stl",
+      "pose_id": 5,
+      "source_v11_frame": 10,
+      "target_v11_frame": 10,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 11,
+      "phase": "single-arc",
+      "stl_filename": "pose-06.stl",
+      "pose_id": 6,
+      "source_v11_frame": 11,
+      "target_v11_frame": 11,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 12,
+      "phase": "single-arc",
+      "stl_filename": "pose-07.stl",
+      "pose_id": 7,
+      "source_v11_frame": 12,
+      "target_v11_frame": 12,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 13,
+      "phase": "arc+waves",
+      "stl_filename": "pose-08.stl",
+      "pose_id": 8,
+      "source_v11_frame": 13,
+      "target_v11_frame": 13,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 14,
+      "phase": "arc+waves",
+      "stl_filename": "pose-08.stl",
+      "pose_id": 8,
+      "source_v11_frame": 13,
+      "target_v11_frame": 14,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.4992513984428717,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.011517657029187297,
+      "max_vertex_error_mm": 0.02606865465771424,
+      "best_rigid_fit_rotation_x_degrees": -2.6254557719792847e-05,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 15,
+      "phase": "arc+waves",
+      "stl_filename": "pose-08.stl",
+      "pose_id": 8,
+      "source_v11_frame": 13,
+      "target_v11_frame": 15,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.495521769852818,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.06890026381152473,
+      "max_vertex_error_mm": 0.15593697038155696,
+      "best_rigid_fit_rotation_x_degrees": -0.00015710477928056635,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 16,
+      "phase": "arc+waves",
+      "stl_filename": "pose-09.stl",
+      "pose_id": 9,
+      "source_v11_frame": 16,
+      "target_v11_frame": 16,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 17,
+      "phase": "arc+waves",
+      "stl_filename": "pose-09.stl",
+      "pose_id": 9,
+      "source_v11_frame": 16,
+      "target_v11_frame": 17,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.483250086932377,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.2577075536235016,
+      "max_vertex_error_mm": 0.5832477158019982,
+      "best_rigid_fit_rotation_x_degrees": 0.0011977272881283692,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 18,
+      "phase": "arc+waves",
+      "stl_filename": "pose-10.stl",
+      "pose_id": 10,
+      "source_v11_frame": 18,
+      "target_v11_frame": 18,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 19,
+      "phase": "arc+waves",
+      "stl_filename": "pose-11.stl",
+      "pose_id": 11,
+      "source_v11_frame": 19,
+      "target_v11_frame": 19,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 20,
+      "phase": "arc+waves",
+      "stl_filename": "pose-12.stl",
+      "pose_id": 12,
+      "source_v11_frame": 21,
+      "target_v11_frame": 20,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5270229900233803,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.3081182271326813,
+      "max_vertex_error_mm": 0.5567010318882408,
+      "best_rigid_fit_rotation_x_degrees": 0.007989728129743693,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 21,
+      "phase": "arc+waves",
+      "stl_filename": "pose-12.stl",
+      "pose_id": 12,
+      "source_v11_frame": 21,
+      "target_v11_frame": 21,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 22,
+      "phase": "arc+stronger-waves",
+      "stl_filename": "pose-13.stl",
+      "pose_id": 13,
+      "source_v11_frame": 22,
+      "target_v11_frame": 22,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.5,
+      "position_z_mm": 0.0,
+      "reused": true,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 23,
+      "phase": "arc+stronger-waves",
+      "stl_filename": "pose-13.stl",
+      "pose_id": 13,
+      "source_v11_frame": 22,
+      "target_v11_frame": 23,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.4992361029505545,
+      "position_z_mm": 0.0,
+      "reused": true,
+      "rms_vertex_error_mm": 0.12723444472922238,
+      "max_vertex_error_mm": 0.27821183596851284,
+      "best_rigid_fit_rotation_x_degrees": 0.008184402758848717,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 24,
+      "phase": "arc+stronger-waves",
+      "stl_filename": "pose-13.stl",
+      "pose_id": 13,
+      "source_v11_frame": 22,
+      "target_v11_frame": 24,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.503690453424597,
+      "position_z_mm": 0.0,
+      "reused": true,
+      "rms_vertex_error_mm": 0.2979394716190166,
+      "max_vertex_error_mm": 0.6773565093134399,
+      "best_rigid_fit_rotation_x_degrees": 0.015551842335661918,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 25,
+      "phase": "arc+stronger-waves",
+      "stl_filename": "pose-14.stl",
+      "pose_id": 14,
+      "source_v11_frame": 25,
+      "target_v11_frame": 25,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 26,
+      "phase": "arc+stronger-waves",
+      "stl_filename": "pose-15.stl",
+      "pose_id": 15,
+      "source_v11_frame": 27,
+      "target_v11_frame": 26,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.488462626245248,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.22054470860648823,
+      "max_vertex_error_mm": 0.4821893565919275,
+      "best_rigid_fit_rotation_x_degrees": -0.002372101049344294,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 27,
+      "phase": "arc+stronger-waves",
+      "stl_filename": "pose-15.stl",
+      "pose_id": 15,
+      "source_v11_frame": 27,
+      "target_v11_frame": 27,
+      "rolling_direction": "away",
+      "stl_baked_roll_degrees": -20.0,
+      "v11_target_roll_degrees": -20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": -2.5,
+      "position_z_mm": 0.0,
+      "reused": false,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 28,
+      "phase": "arc+stronger-waves",
+      "stl_filename": "pose-16.stl",
+      "pose_id": 16,
+      "source_v11_frame": 30,
+      "target_v11_frame": 28,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.4916530452100885,
+      "position_z_mm": 0.0,
+      "reused": true,
+      "rms_vertex_error_mm": 0.23562674257159025,
+      "max_vertex_error_mm": 0.4443765483228814,
+      "best_rigid_fit_rotation_x_degrees": 0.008082632444169383,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 29,
+      "phase": "arc+stronger-waves",
+      "stl_filename": "pose-16.stl",
+      "pose_id": 16,
+      "source_v11_frame": 30,
+      "target_v11_frame": 29,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.4980619111225604,
+      "position_z_mm": 0.0,
+      "reused": true,
+      "rms_vertex_error_mm": 0.058700599686694,
+      "max_vertex_error_mm": 0.10768009807324397,
+      "best_rigid_fit_rotation_x_degrees": 0.002056708471407821,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    },
+    {
+      "frame": 30,
+      "phase": "arc+stronger-waves",
+      "stl_filename": "pose-16.stl",
+      "pose_id": 16,
+      "source_v11_frame": 30,
+      "target_v11_frame": 30,
+      "rolling_direction": "toward",
+      "stl_baked_roll_degrees": 20.0,
+      "v11_target_roll_degrees": 20.0,
+      "additional_rotation_x_degrees": 0.0,
+      "additional_rotation_y_degrees": 0.0,
+      "additional_rotation_z_degrees": 0.0,
+      "position_x_mm": 0.0,
+      "position_y_mm": 2.5,
+      "position_z_mm": 0.0,
+      "reused": true,
+      "rms_vertex_error_mm": 0.0,
+      "max_vertex_error_mm": 0.0,
+      "best_rigid_fit_rotation_x_degrees": 0.0,
+      "notes": "Original STL mesh reused; no scale or deformation; source roll is baked into the STL."
+    }
+  ],
+  "geometry_validation": [
+    {
+      "pose": "pose-01-from-v11-frame-01",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-01.stl",
+      "stl_sha256": "1aae3c251191e9b9cb9a7ae1de19fdc4ee265a28c8e16c9b5c893d85db152fe9",
+      "mesh_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916376595726,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.95177917608,
+      "support_hull_margin_mm": 2.7436086897544643,
+      "center_of_mass_mm": [
+        -3.3561183517308435,
+        -0.01590217744192488,
+        5.62393353154672
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        5.560147762298584
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 1,
+      "source_v11_frame": 1,
+      "v11_mesh_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "independent_regeneration_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "1aae3c251191e9b9cb9a7ae1de19fdc4ee265a28c8e16c9b5c893d85db152fe9",
+      "repeat_export_sha256": "1aae3c251191e9b9cb9a7ae1de19fdc4ee265a28c8e16c9b5c893d85db152fe9",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-01.stl",
+      "use_count": 4
+    },
+    {
+      "pose": "pose-02-from-v11-frame-04",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-02.stl",
+      "stl_sha256": "5f50f6b1489c5bbca97547a0cd3aa588fe6cf5e9ed16bcbb2557c3331a31d932",
+      "mesh_fingerprint": "041f71b1fb21c96e858123ffab5c8b01073f9b3a2cef394ac24aeb6c1818138a",
+      "dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916365895426,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.85414776976,
+      "support_hull_margin_mm": 2.7033988272804512,
+      "center_of_mass_mm": [
+        -3.356118453796973,
+        -0.03418980146988226,
+        5.605701326742395
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        5.560147762298584
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 2,
+      "source_v11_frame": 4,
+      "v11_mesh_fingerprint": "041f71b1fb21c96e858123ffab5c8b01073f9b3a2cef394ac24aeb6c1818138a",
+      "independent_regeneration_fingerprint": "041f71b1fb21c96e858123ffab5c8b01073f9b3a2cef394ac24aeb6c1818138a",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "5f50f6b1489c5bbca97547a0cd3aa588fe6cf5e9ed16bcbb2557c3331a31d932",
+      "repeat_export_sha256": "5f50f6b1489c5bbca97547a0cd3aa588fe6cf5e9ed16bcbb2557c3331a31d932",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-02.stl",
+      "use_count": 3
+    },
+    {
+      "pose": "pose-03-from-v11-frame-08",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-03.stl",
+      "stl_sha256": "e63bcbe4160e9b946f0b12fea96088bc908ac21db0deec3c0d903f1ccf81972d",
+      "mesh_fingerprint": "aff2890853a378a2d299fe0e612f14790dddb57cf69496b1c8e7e51a588e3161",
+      "dimensions_mm": [
+        141.8000030517578,
+        14.21244764328003,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        14.21244764328003,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.91637593726,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.951776786738,
+      "support_hull_margin_mm": 3.267998093491993,
+      "center_of_mass_mm": [
+        -3.356118505628644,
+        -0.9153795110626399,
+        5.623933535130694
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        6.909711837768555
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 3,
+      "source_v11_frame": 8,
+      "v11_mesh_fingerprint": "aff2890853a378a2d299fe0e612f14790dddb57cf69496b1c8e7e51a588e3161",
+      "independent_regeneration_fingerprint": "aff2890853a378a2d299fe0e612f14790dddb57cf69496b1c8e7e51a588e3161",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "e63bcbe4160e9b946f0b12fea96088bc908ac21db0deec3c0d903f1ccf81972d",
+      "repeat_export_sha256": "e63bcbe4160e9b946f0b12fea96088bc908ac21db0deec3c0d903f1ccf81972d",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-03.stl",
+      "use_count": 1
+    },
+    {
+      "pose": "pose-04-from-v11-frame-09",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-04.stl",
+      "stl_sha256": "e4f6c1c530697aaba300b18aac9ba6e01e88745a272c04008bf2973503197f12",
+      "mesh_fingerprint": "a7307dba0a54f2c3d7c7411569e022f5ed246cfc8d471d3027fb668012e11727",
+      "dimensions_mm": [
+        141.8000030517578,
+        16.437257289886475,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        16.437257289886475,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916374228653,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517762229946,
+      "support_hull_margin_mm": 4.251494194256518,
+      "center_of_mass_mm": [
+        -3.3561184889247513,
+        -2.564421287745475,
+        5.6239335339075
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        9.426928043365479
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 4,
+      "source_v11_frame": 9,
+      "v11_mesh_fingerprint": "a7307dba0a54f2c3d7c7411569e022f5ed246cfc8d471d3027fb668012e11727",
+      "independent_regeneration_fingerprint": "a7307dba0a54f2c3d7c7411569e022f5ed246cfc8d471d3027fb668012e11727",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "e4f6c1c530697aaba300b18aac9ba6e01e88745a272c04008bf2973503197f12",
+      "repeat_export_sha256": "e4f6c1c530697aaba300b18aac9ba6e01e88745a272c04008bf2973503197f12",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-04.stl",
+      "use_count": 1
+    },
+    {
+      "pose": "pose-05-from-v11-frame-10",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-05.stl",
+      "stl_sha256": "17676eb2d06b8ebb2221c224f2a54e6b5f4e1d10fb451954350f2b479949900d",
+      "mesh_fingerprint": "9bae339a9cfdf36ea6decb8981c792faede1187fd5c991af7937558b28943dc1",
+      "dimensions_mm": [
+        141.8000030517578,
+        19.183310985565186,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        19.183310985565186,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916340373476,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541513774586,
+      "support_hull_margin_mm": 5.374306093671491,
+      "center_of_mass_mm": [
+        -3.3561185369322746,
+        4.313283985411013,
+        5.605701326156496
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        12.270323991775513
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 5,
+      "source_v11_frame": 10,
+      "v11_mesh_fingerprint": "9bae339a9cfdf36ea6decb8981c792faede1187fd5c991af7937558b28943dc1",
+      "independent_regeneration_fingerprint": "9bae339a9cfdf36ea6decb8981c792faede1187fd5c991af7937558b28943dc1",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "17676eb2d06b8ebb2221c224f2a54e6b5f4e1d10fb451954350f2b479949900d",
+      "repeat_export_sha256": "17676eb2d06b8ebb2221c224f2a54e6b5f4e1d10fb451954350f2b479949900d",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-05.stl",
+      "use_count": 1
+    },
+    {
+      "pose": "pose-06-from-v11-frame-11",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-06.stl",
+      "stl_sha256": "daaaf2a74597ddeb82d133e0052c699117e10787e361f2d439be05a06ea4878d",
+      "mesh_fingerprint": "84fc3b601c572754a8d73f9ccb7aeeaad757540a599e9f6c66696cdef91feeb9",
+      "dimensions_mm": [
+        141.8000030517578,
+        21.929365158081055,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        21.929365158081055,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916338237364,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541495491072,
+      "support_hull_margin_mm": 6.446756618387635,
+      "center_of_mass_mm": [
+        -3.3561185298532967,
+        6.112238652271628,
+        5.6057013259577495
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        15.15032410621643
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 6,
+      "source_v11_frame": 11,
+      "v11_mesh_fingerprint": "84fc3b601c572754a8d73f9ccb7aeeaad757540a599e9f6c66696cdef91feeb9",
+      "independent_regeneration_fingerprint": "84fc3b601c572754a8d73f9ccb7aeeaad757540a599e9f6c66696cdef91feeb9",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "daaaf2a74597ddeb82d133e0052c699117e10787e361f2d439be05a06ea4878d",
+      "repeat_export_sha256": "daaaf2a74597ddeb82d133e0052c699117e10787e361f2d439be05a06ea4878d",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-06.stl",
+      "use_count": 1
+    },
+    {
+      "pose": "pose-07-from-v11-frame-12",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-07.stl",
+      "stl_sha256": "938b7f9a3ba3cabfca61ef7a8406e76082427992eced0ba539dd1baed2b6946c",
+      "mesh_fingerprint": "618b4c2b47a735fbcc24662385658c870359d59639ff501537fa92581f4de33a",
+      "dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916343831306,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541466960389,
+      "support_hull_margin_mm": 7.2508675183974916,
+      "center_of_mass_mm": [
+        -3.356118531979504,
+        7.461454656666762,
+        5.605701324991233
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        17.31032395362854
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 7,
+      "source_v11_frame": 12,
+      "v11_mesh_fingerprint": "618b4c2b47a735fbcc24662385658c870359d59639ff501537fa92581f4de33a",
+      "independent_regeneration_fingerprint": "618b4c2b47a735fbcc24662385658c870359d59639ff501537fa92581f4de33a",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "938b7f9a3ba3cabfca61ef7a8406e76082427992eced0ba539dd1baed2b6946c",
+      "repeat_export_sha256": "938b7f9a3ba3cabfca61ef7a8406e76082427992eced0ba539dd1baed2b6946c",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-07.stl",
+      "use_count": 1
+    },
+    {
+      "pose": "pose-08-from-v11-frame-13",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-08.stl",
+      "stl_sha256": "ce86da4086f61f3de8f50e2d894913104e289edc411fff26d7d4e21fce6fdc74",
+      "mesh_fingerprint": "aafc8d47463b30b79bc611cfde6b40a8324c5155a74557e212e73b22c8d971c4",
+      "dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916372761436,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517779362689,
+      "support_hull_margin_mm": 7.200786699185691,
+      "center_of_mass_mm": [
+        -3.356118484122909,
+        -7.511546615795702,
+        5.623933533658573
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        17.31032395362854
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 8,
+      "source_v11_frame": 13,
+      "v11_mesh_fingerprint": "aafc8d47463b30b79bc611cfde6b40a8324c5155a74557e212e73b22c8d971c4",
+      "independent_regeneration_fingerprint": "aafc8d47463b30b79bc611cfde6b40a8324c5155a74557e212e73b22c8d971c4",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "ce86da4086f61f3de8f50e2d894913104e289edc411fff26d7d4e21fce6fdc74",
+      "repeat_export_sha256": "ce86da4086f61f3de8f50e2d894913104e289edc411fff26d7d4e21fce6fdc74",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-08.stl",
+      "use_count": 3
+    },
+    {
+      "pose": "pose-09-from-v11-frame-16",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-09.stl",
+      "stl_sha256": "c03d2dc5834e1a694d2b708ece9b8770d60ef30e489a3e2a4a1679ef5498b5b5",
+      "mesh_fingerprint": "f0e493b5704cb8d9b12047d19366dd6f6fd47513a50b2f6c224ce5cacd44dc44",
+      "dimensions_mm": [
+        141.8000030517578,
+        24.45429277420044,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        24.45429277420044,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916343160818,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541487921884,
+      "support_hull_margin_mm": 7.684992109880842,
+      "center_of_mass_mm": [
+        -3.356118532615642,
+        7.456849833119944,
+        5.6057013263377815
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        17.77174973487854
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 9,
+      "source_v11_frame": 16,
+      "v11_mesh_fingerprint": "f0e493b5704cb8d9b12047d19366dd6f6fd47513a50b2f6c224ce5cacd44dc44",
+      "independent_regeneration_fingerprint": "f0e493b5704cb8d9b12047d19366dd6f6fd47513a50b2f6c224ce5cacd44dc44",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "c03d2dc5834e1a694d2b708ece9b8770d60ef30e489a3e2a4a1679ef5498b5b5",
+      "repeat_export_sha256": "c03d2dc5834e1a694d2b708ece9b8770d60ef30e489a3e2a4a1679ef5498b5b5",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-09.stl",
+      "use_count": 2
+    },
+    {
+      "pose": "pose-10-from-v11-frame-18",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-10.stl",
+      "stl_sha256": "98d270b659619449683510d47c291a57b62d4cccbb3f0257113f02a83a032084",
+      "mesh_fingerprint": "a64cdb26fadded79c26b7da2f12d458eaeb0eabfab07681ecdb8d2d3e7c50e2a",
+      "dimensions_mm": [
+        141.8000030517578,
+        25.852665901184082,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        25.852665901184082,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916347934079,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541446006698,
+      "support_hull_margin_mm": 8.973083446887557,
+      "center_of_mass_mm": [
+        -3.356118557168829,
+        7.442425693878038,
+        5.605701324773576
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        19.171350717544556
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 10,
+      "source_v11_frame": 18,
+      "v11_mesh_fingerprint": "a64cdb26fadded79c26b7da2f12d458eaeb0eabfab07681ecdb8d2d3e7c50e2a",
+      "independent_regeneration_fingerprint": "a64cdb26fadded79c26b7da2f12d458eaeb0eabfab07681ecdb8d2d3e7c50e2a",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "98d270b659619449683510d47c291a57b62d4cccbb3f0257113f02a83a032084",
+      "repeat_export_sha256": "98d270b659619449683510d47c291a57b62d4cccbb3f0257113f02a83a032084",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-10.stl",
+      "use_count": 1
+    },
+    {
+      "pose": "pose-11-from-v11-frame-19",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-11.stl",
+      "stl_sha256": "6ead7c443bb5596d3a46aa8283666fe741e60e331ee11ae7f75c3fad797f58bc",
+      "mesh_fingerprint": "893c9af22364f2083708d8726ef424b05d770e7ea4f96e1318700e9f9582fcb7",
+      "dimensions_mm": [
+        141.8000030517578,
+        26.68508243560791,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        26.68508243560791,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916384080052,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517808554401,
+      "support_hull_margin_mm": 9.666955277885956,
+      "center_of_mass_mm": [
+        -3.3561184799442465,
+        -7.481943955901363,
+        5.623933535164826
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        20.00467324256897
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 11,
+      "source_v11_frame": 19,
+      "v11_mesh_fingerprint": "893c9af22364f2083708d8726ef424b05d770e7ea4f96e1318700e9f9582fcb7",
+      "independent_regeneration_fingerprint": "893c9af22364f2083708d8726ef424b05d770e7ea4f96e1318700e9f9582fcb7",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "6ead7c443bb5596d3a46aa8283666fe741e60e331ee11ae7f75c3fad797f58bc",
+      "repeat_export_sha256": "6ead7c443bb5596d3a46aa8283666fe741e60e331ee11ae7f75c3fad797f58bc",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-11.stl",
+      "use_count": 1
+    },
+    {
+      "pose": "pose-12-from-v11-frame-21",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-12.stl",
+      "stl_sha256": "75f53846908980bf13ba11cac9038ddfabb3ebdc2d0c388f036006682c3e2c9b",
+      "mesh_fingerprint": "1245fa0d6e2ef1def1d1cbb482c73faf95f87836e78fd0eab343e7e32144fd24",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.023502826690674,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.023502826690674,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.91636814402,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.951779353115,
+      "support_hull_margin_mm": 9.935649789387488,
+      "center_of_mass_mm": [
+        -3.3561184888977076,
+        -7.457533028890001,
+        5.623933536378473
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.34520173072815
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 12,
+      "source_v11_frame": 21,
+      "v11_mesh_fingerprint": "1245fa0d6e2ef1def1d1cbb482c73faf95f87836e78fd0eab343e7e32144fd24",
+      "independent_regeneration_fingerprint": "1245fa0d6e2ef1def1d1cbb482c73faf95f87836e78fd0eab343e7e32144fd24",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "75f53846908980bf13ba11cac9038ddfabb3ebdc2d0c388f036006682c3e2c9b",
+      "repeat_export_sha256": "75f53846908980bf13ba11cac9038ddfabb3ebdc2d0c388f036006682c3e2c9b",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-12.stl",
+      "use_count": 2
+    },
+    {
+      "pose": "pose-13-from-v11-frame-22",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-13.stl",
+      "stl_sha256": "30a51c3b55a467fd44d0d31532f83e950e27174f926d4ddeedbfb8f6fad7eee6",
+      "mesh_fingerprint": "b6deb0bfd562f12e78f78ee63354b4bd99dd0b7b5766321e610165af051226f2",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.061376094818115,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.061376094818115,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916331461978,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.854144704645,
+      "support_hull_margin_mm": 9.877583880836593,
+      "center_of_mass_mm": [
+        -3.3561185245076994,
+        7.3994670745369095,
+        5.605701327486142
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.383779764175415
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 13,
+      "source_v11_frame": 22,
+      "v11_mesh_fingerprint": "b6deb0bfd562f12e78f78ee63354b4bd99dd0b7b5766321e610165af051226f2",
+      "independent_regeneration_fingerprint": "b6deb0bfd562f12e78f78ee63354b4bd99dd0b7b5766321e610165af051226f2",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "30a51c3b55a467fd44d0d31532f83e950e27174f926d4ddeedbfb8f6fad7eee6",
+      "repeat_export_sha256": "30a51c3b55a467fd44d0d31532f83e950e27174f926d4ddeedbfb8f6fad7eee6",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-13.stl",
+      "use_count": 3
+    },
+    {
+      "pose": "pose-14-from-v11-frame-25",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-14.stl",
+      "stl_sha256": "60ceb2af3b633ca56723e576a71aa7d185c3b49c3c548bde6458d23f63e1e233",
+      "mesh_fingerprint": "bcdbc51af39bd3500e448680669ae316eb3497500a2d63109437860a35451c41",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.40962553024292,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.40962553024292,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916363276221,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517727464262,
+      "support_hull_margin_mm": 9.907860708825973,
+      "center_of_mass_mm": [
+        -3.35611849775735,
+        -7.429743926418823,
+        5.6239335371890125
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.735527276992798
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 14,
+      "source_v11_frame": 25,
+      "v11_mesh_fingerprint": "bcdbc51af39bd3500e448680669ae316eb3497500a2d63109437860a35451c41",
+      "independent_regeneration_fingerprint": "bcdbc51af39bd3500e448680669ae316eb3497500a2d63109437860a35451c41",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "60ceb2af3b633ca56723e576a71aa7d185c3b49c3c548bde6458d23f63e1e233",
+      "repeat_export_sha256": "60ceb2af3b633ca56723e576a71aa7d185c3b49c3c548bde6458d23f63e1e233",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-14.stl",
+      "use_count": 1
+    },
+    {
+      "pose": "pose-15-from-v11-frame-27",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-15.stl",
+      "stl_sha256": "095d5ad31577f428cfee5a22b99a73ca35123b9f1963366c3ebc0524adbd6898",
+      "mesh_fingerprint": "d82f06b7d272deb42eb65865a97b1054cec5f7930c651dd9f26fc946b27951d2",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.71442461013794,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.71442461013794,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916375632718,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517814896828,
+      "support_hull_margin_mm": 9.895902701110328,
+      "center_of_mass_mm": [
+        -3.3561184918714146,
+        -7.417785909287339,
+        5.623933534407066
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        22.044424295425415
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 15,
+      "source_v11_frame": 27,
+      "v11_mesh_fingerprint": "d82f06b7d272deb42eb65865a97b1054cec5f7930c651dd9f26fc946b27951d2",
+      "independent_regeneration_fingerprint": "d82f06b7d272deb42eb65865a97b1054cec5f7930c651dd9f26fc946b27951d2",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "095d5ad31577f428cfee5a22b99a73ca35123b9f1963366c3ebc0524adbd6898",
+      "repeat_export_sha256": "095d5ad31577f428cfee5a22b99a73ca35123b9f1963366c3ebc0524adbd6898",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-15.stl",
+      "use_count": 2
+    },
+    {
+      "pose": "pose-16-from-v11-frame-30",
+      "stl": "exports/rolling-wavy-pen/print-set-v2/pose-16.stl",
+      "stl_sha256": "7a591c3b045fd619aae6ef8d530b4c26e17b0a08a9b2f535b1a88b8014bb32ac",
+      "mesh_fingerprint": "7c6642f56c4150f60242d872472bf185c97b8b36d0ee570c47d3cc3e7f2a7490",
+      "dimensions_mm": [
+        141.8000030517578,
+        27.9776349067688,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        27.9776349067688,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916344268102,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541509759057,
+      "support_hull_margin_mm": 9.841528610159198,
+      "center_of_mass_mm": [
+        -3.3561185368112776,
+        7.363411775431548,
+        5.605701325590171
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.31222939491272
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true,
+      "pose_id": 16,
+      "source_v11_frame": 30,
+      "v11_mesh_fingerprint": "7c6642f56c4150f60242d872472bf185c97b8b36d0ee570c47d3cc3e7f2a7490",
+      "independent_regeneration_fingerprint": "7c6642f56c4150f60242d872472bf185c97b8b36d0ee570c47d3cc3e7f2a7490",
+      "independent_regeneration_match": true,
+      "source_mesh_export_sha256": "7a591c3b045fd619aae6ef8d530b4c26e17b0a08a9b2f535b1a88b8014bb32ac",
+      "repeat_export_sha256": "7a591c3b045fd619aae6ef8d530b4c26e17b0a08a9b2f535b1a88b8014bb32ac",
+      "independent_stl_hash_match": true,
+      "stl_filename": "pose-16.stl",
+      "use_count": 3
+    }
+  ]
+}

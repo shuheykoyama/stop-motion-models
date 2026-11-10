@@ -1,0 +1,402 @@
+{
+  "status": "review pending",
+  "frames": 48,
+  "cycles": {
+    "straight": 2,
+    "single-arc": 2,
+    "wave-development": 3
+  },
+  "progress": [
+    {
+      "frame": 1,
+      "progress": 0,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 2,
+      "progress": 0,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 3,
+      "progress": 0,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 4,
+      "progress": 0,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 5,
+      "progress": 0,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 6,
+      "progress": 0,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 7,
+      "progress": 0,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 8,
+      "progress": 0,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 9,
+      "progress": 0,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 10,
+      "progress": 0,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 11,
+      "progress": 0,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 12,
+      "progress": 0,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 13,
+      "progress": 0.02,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 14,
+      "progress": 0.045,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 15,
+      "progress": 0.07,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 16,
+      "progress": 0.095,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 17,
+      "progress": 0.12,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 18,
+      "progress": 0.15,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 19,
+      "progress": 0.18,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 20,
+      "progress": 0.21,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 21,
+      "progress": 0.24,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 22,
+      "progress": 0.27,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 23,
+      "progress": 0.29,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 24,
+      "progress": 0.3,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 25,
+      "progress": 0.31,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 26,
+      "progress": 0.32,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 27,
+      "progress": 0.33,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 28,
+      "progress": 0.35,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 29,
+      "progress": 0.37,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 30,
+      "progress": 0.39,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 31,
+      "progress": 0.41,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 32,
+      "progress": 0.43,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 33,
+      "progress": 0.45,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 34,
+      "progress": 0.47,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 35,
+      "progress": 0.49,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 36,
+      "progress": 0.51,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 37,
+      "progress": 0.53,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 38,
+      "progress": 0.55,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 39,
+      "progress": 0.57,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 40,
+      "progress": 0.59,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 41,
+      "progress": 0.61,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 42,
+      "progress": 0.63,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 43,
+      "progress": 0.67,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 44,
+      "progress": 0.71,
+      "direction": "away",
+      "roll_degrees": -18,
+      "scene_y_mm": -2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 45,
+      "progress": 0.76,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 46,
+      "progress": 0.82,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 47,
+      "progress": 0.9,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    },
+    {
+      "frame": 48,
+      "progress": 1.0,
+      "direction": "toward",
+      "roll_degrees": 18,
+      "scene_y_mm": 2.5,
+      "preview_only": true
+    }
+  ],
+  "printable_representatives_reference": "storyboard-study-v6 STLs unchanged; intermediate animation meshes preview-only",
+  "unverified": [
+    "intermediate pose printability",
+    "minimum wall thickness",
+    "slicer behavior",
+    "physical print"
+  ]
+}

@@ -1,0 +1,1391 @@
+{
+  "all_passed": true,
+  "pose_count": 30,
+  "poses": [
+    {
+      "pose": "pose-01",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-01.stl",
+      "stl_sha256": "1aae3c251191e9b9cb9a7ae1de19fdc4ee265a28c8e16c9b5c893d85db152fe9",
+      "mesh_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916376595726,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.95177917608,
+      "support_hull_margin_mm": 2.7436086897544643,
+      "center_of_mass_mm": [
+        -3.3561183517308435,
+        -0.01590217744192488,
+        5.62393353154672
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        5.560147762298584
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-02",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-02.stl",
+      "stl_sha256": "1aae3c251191e9b9cb9a7ae1de19fdc4ee265a28c8e16c9b5c893d85db152fe9",
+      "mesh_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916376595726,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.95177917608,
+      "support_hull_margin_mm": 2.7436086897544643,
+      "center_of_mass_mm": [
+        -3.3561183517308435,
+        -0.01590217744192488,
+        5.62393353154672
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        5.560147762298584
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-03",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-03.stl",
+      "stl_sha256": "1aae3c251191e9b9cb9a7ae1de19fdc4ee265a28c8e16c9b5c893d85db152fe9",
+      "mesh_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916376595726,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.95177917608,
+      "support_hull_margin_mm": 2.7436086897544643,
+      "center_of_mass_mm": [
+        -3.3561183517308435,
+        -0.01590217744192488,
+        5.62393353154672
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        5.560147762298584
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-04",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-04.stl",
+      "stl_sha256": "5f50f6b1489c5bbca97547a0cd3aa588fe6cf5e9ed16bcbb2557c3331a31d932",
+      "mesh_fingerprint": "041f71b1fb21c96e858123ffab5c8b01073f9b3a2cef394ac24aeb6c1818138a",
+      "dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916365895426,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.85414776976,
+      "support_hull_margin_mm": 2.7033988272804512,
+      "center_of_mass_mm": [
+        -3.356118453796973,
+        -0.03418980146988226,
+        5.605701326742395
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        5.560147762298584
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-05",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-05.stl",
+      "stl_sha256": "5f50f6b1489c5bbca97547a0cd3aa588fe6cf5e9ed16bcbb2557c3331a31d932",
+      "mesh_fingerprint": "041f71b1fb21c96e858123ffab5c8b01073f9b3a2cef394ac24aeb6c1818138a",
+      "dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916365895426,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.85414776976,
+      "support_hull_margin_mm": 2.7033988272804512,
+      "center_of_mass_mm": [
+        -3.356118453796973,
+        -0.03418980146988226,
+        5.605701326742395
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        5.560147762298584
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-06",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-06.stl",
+      "stl_sha256": "5f50f6b1489c5bbca97547a0cd3aa588fe6cf5e9ed16bcbb2557c3331a31d932",
+      "mesh_fingerprint": "041f71b1fb21c96e858123ffab5c8b01073f9b3a2cef394ac24aeb6c1818138a",
+      "dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        13.753458976745605,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916365895426,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.85414776976,
+      "support_hull_margin_mm": 2.7033988272804512,
+      "center_of_mass_mm": [
+        -3.356118453796973,
+        -0.03418980146988226,
+        5.605701326742395
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        5.560147762298584
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-07",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-07.stl",
+      "stl_sha256": "1aae3c251191e9b9cb9a7ae1de19fdc4ee265a28c8e16c9b5c893d85db152fe9",
+      "mesh_fingerprint": "641a9fb5e6c79fd4a3070ad0749dab0083b70266a375b7a0d80e5286bf62927a",
+      "dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        13.196858406066895,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916376595726,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.95177917608,
+      "support_hull_margin_mm": 2.7436086897544643,
+      "center_of_mass_mm": [
+        -3.3561183517308435,
+        -0.01590217744192488,
+        5.62393353154672
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        5.560147762298584
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-08",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-08.stl",
+      "stl_sha256": "e63bcbe4160e9b946f0b12fea96088bc908ac21db0deec3c0d903f1ccf81972d",
+      "mesh_fingerprint": "aff2890853a378a2d299fe0e612f14790dddb57cf69496b1c8e7e51a588e3161",
+      "dimensions_mm": [
+        141.8000030517578,
+        14.21244764328003,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        14.21244764328003,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.91637593726,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.951776786738,
+      "support_hull_margin_mm": 3.267998093491993,
+      "center_of_mass_mm": [
+        -3.356118505628644,
+        -0.9153795110626399,
+        5.623933535130694
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        6.909711837768555
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-09",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-09.stl",
+      "stl_sha256": "e4f6c1c530697aaba300b18aac9ba6e01e88745a272c04008bf2973503197f12",
+      "mesh_fingerprint": "a7307dba0a54f2c3d7c7411569e022f5ed246cfc8d471d3027fb668012e11727",
+      "dimensions_mm": [
+        141.8000030517578,
+        16.437257289886475,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        16.437257289886475,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916374228653,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517762229946,
+      "support_hull_margin_mm": 4.251494194256518,
+      "center_of_mass_mm": [
+        -3.3561184889247513,
+        -2.564421287745475,
+        5.6239335339075
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        9.426928043365479
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-10",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-10.stl",
+      "stl_sha256": "17676eb2d06b8ebb2221c224f2a54e6b5f4e1d10fb451954350f2b479949900d",
+      "mesh_fingerprint": "9bae339a9cfdf36ea6decb8981c792faede1187fd5c991af7937558b28943dc1",
+      "dimensions_mm": [
+        141.8000030517578,
+        19.183310985565186,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        19.183310985565186,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916340373476,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541513774586,
+      "support_hull_margin_mm": 5.374306093671491,
+      "center_of_mass_mm": [
+        -3.3561185369322746,
+        4.313283985411013,
+        5.605701326156496
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        12.270323991775513
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-11",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-11.stl",
+      "stl_sha256": "daaaf2a74597ddeb82d133e0052c699117e10787e361f2d439be05a06ea4878d",
+      "mesh_fingerprint": "84fc3b601c572754a8d73f9ccb7aeeaad757540a599e9f6c66696cdef91feeb9",
+      "dimensions_mm": [
+        141.8000030517578,
+        21.929365158081055,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        21.929365158081055,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916338237364,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541495491072,
+      "support_hull_margin_mm": 6.446756618387635,
+      "center_of_mass_mm": [
+        -3.3561185298532967,
+        6.112238652271628,
+        5.6057013259577495
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        15.15032410621643
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-12",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-12.stl",
+      "stl_sha256": "938b7f9a3ba3cabfca61ef7a8406e76082427992eced0ba539dd1baed2b6946c",
+      "mesh_fingerprint": "618b4c2b47a735fbcc24662385658c870359d59639ff501537fa92581f4de33a",
+      "dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916343831306,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541466960389,
+      "support_hull_margin_mm": 7.2508675183974916,
+      "center_of_mass_mm": [
+        -3.356118531979504,
+        7.461454656666762,
+        5.605701324991233
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        17.31032395362854
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-13",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-13.stl",
+      "stl_sha256": "ce86da4086f61f3de8f50e2d894913104e289edc411fff26d7d4e21fce6fdc74",
+      "mesh_fingerprint": "aafc8d47463b30b79bc611cfde6b40a8324c5155a74557e212e73b22c8d971c4",
+      "dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        23.993258953094482,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916372761436,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517779362689,
+      "support_hull_margin_mm": 7.200786699185691,
+      "center_of_mass_mm": [
+        -3.356118484122909,
+        -7.511546615795702,
+        5.623933533658573
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        17.31032395362854
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-14",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-14.stl",
+      "stl_sha256": "ee3bfd93fafbf70a977c3d675dc51e984a6329374cc4c956cabb1e20a5a8f535",
+      "mesh_fingerprint": "30c1480d05c772aad5368cb9f72c1d97e359fe83f6185393e4eebe47acdbe143",
+      "dimensions_mm": [
+        141.8000030517578,
+        24.018555641174316,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        24.018555641174316,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916364707382,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517755652324,
+      "support_hull_margin_mm": 7.224691375135269,
+      "center_of_mass_mm": [
+        -3.3561184914984263,
+        -7.511293945651419,
+        5.623933535519747
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        17.335642099380493
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-15",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-15.stl",
+      "stl_sha256": "669690de3a00f788c1e4c12a44b9596b056279a09383fa20b28a881e9410f59a",
+      "mesh_fingerprint": "0dc50e9e45d577b68f93a1ba231f273d9ada9588a44ae25a24add1f77d8a96e0",
+      "dimensions_mm": [
+        141.8000030517578,
+        24.144588947296143,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        24.144588947296143,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916363955126,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517785019193,
+      "support_hull_margin_mm": 7.343649462113524,
+      "center_of_mass_mm": [
+        -3.356118484048522,
+        -7.510035132881209,
+        5.623933534334342
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        17.4617817401886
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-16",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-16.stl",
+      "stl_sha256": "c03d2dc5834e1a694d2b708ece9b8770d60ef30e489a3e2a4a1679ef5498b5b5",
+      "mesh_fingerprint": "f0e493b5704cb8d9b12047d19366dd6f6fd47513a50b2f6c224ce5cacd44dc44",
+      "dimensions_mm": [
+        141.8000030517578,
+        24.45429277420044,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        24.45429277420044,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916343160818,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541487921884,
+      "support_hull_margin_mm": 7.684992109880842,
+      "center_of_mass_mm": [
+        -3.356118532615642,
+        7.456849833119944,
+        5.6057013263377815
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        17.77174973487854
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-17",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-17.stl",
+      "stl_sha256": "3426c4c41d2e4938d33f6395c969c9a66625996f492456b39c578c057500aeda",
+      "mesh_fingerprint": "a05ef1842e0ef7d0bfc8d7fdf3237a92a26f6e7a1a6fe249d08ee5c0d58b39ce",
+      "dimensions_mm": [
+        141.8000030517578,
+        25.020309925079346,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        25.020309925079346,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916346098404,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541459022106,
+      "support_hull_margin_mm": 8.213117718123705,
+      "center_of_mass_mm": [
+        -3.356118535450564,
+        7.451196452168152,
+        5.605701324943929
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        18.3382465839386
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-18",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-18.stl",
+      "stl_sha256": "98d270b659619449683510d47c291a57b62d4cccbb3f0257113f02a83a032084",
+      "mesh_fingerprint": "a64cdb26fadded79c26b7da2f12d458eaeb0eabfab07681ecdb8d2d3e7c50e2a",
+      "dimensions_mm": [
+        141.8000030517578,
+        25.852665901184082,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        25.852665901184082,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916347934079,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541446006698,
+      "support_hull_margin_mm": 8.973083446887557,
+      "center_of_mass_mm": [
+        -3.356118557168829,
+        7.442425693878038,
+        5.605701324773576
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        19.171350717544556
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-19",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-19.stl",
+      "stl_sha256": "6ead7c443bb5596d3a46aa8283666fe741e60e331ee11ae7f75c3fad797f58bc",
+      "mesh_fingerprint": "893c9af22364f2083708d8726ef424b05d770e7ea4f96e1318700e9f9582fcb7",
+      "dimensions_mm": [
+        141.8000030517578,
+        26.68508243560791,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        26.68508243560791,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916384080052,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517808554401,
+      "support_hull_margin_mm": 9.666955277885956,
+      "center_of_mass_mm": [
+        -3.3561184799442465,
+        -7.481943955901363,
+        5.623933535164826
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        20.00467324256897
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-20",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-20.stl",
+      "stl_sha256": "1667ae87d7c75e18bc2dc2dd1ce6be889ecd2c5d1c304691e0cd78471311ad8f",
+      "mesh_fingerprint": "3e81c12a1db9809e51688db7b5b19307cf3ae929542517ba935cd6c189ed8834",
+      "dimensions_mm": [
+        141.8000030517578,
+        27.51106595993042,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        27.51106595993042,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916375303772,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517760863339,
+      "support_hull_margin_mm": 9.947150046815073,
+      "center_of_mass_mm": [
+        -3.3561184749634907,
+        -7.46903329539759,
+        5.623933537348694
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        20.83176827430725
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-21",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-21.stl",
+      "stl_sha256": "75f53846908980bf13ba11cac9038ddfabb3ebdc2d0c388f036006682c3e2c9b",
+      "mesh_fingerprint": "1245fa0d6e2ef1def1d1cbb482c73faf95f87836e78fd0eab343e7e32144fd24",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.023502826690674,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.023502826690674,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.91636814402,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.951779353115,
+      "support_hull_margin_mm": 9.935649789387488,
+      "center_of_mass_mm": [
+        -3.3561184888977076,
+        -7.457533028890001,
+        5.623933536378473
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.34520173072815
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-22",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-22.stl",
+      "stl_sha256": "30a51c3b55a467fd44d0d31532f83e950e27174f926d4ddeedbfb8f6fad7eee6",
+      "mesh_fingerprint": "b6deb0bfd562f12e78f78ee63354b4bd99dd0b7b5766321e610165af051226f2",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.061376094818115,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.061376094818115,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916331461978,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.854144704645,
+      "support_hull_margin_mm": 9.877583880836593,
+      "center_of_mass_mm": [
+        -3.3561185245076994,
+        7.3994670745369095,
+        5.605701327486142
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.383779764175415
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-23",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-23.stl",
+      "stl_sha256": "d404c0240f6112844980a3bd8b28e50f8da976921e2e4e10be8d000839b3a272",
+      "mesh_fingerprint": "09eab8e3fe021bf7b9d96225ad8970681bbcadf9c258d3e27435f76106c39bdf",
+      "dimensions_mm": [
+        141.8000030517578,
+        27.938132762908936,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        27.938132762908936,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916342678,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541511731046,
+      "support_hull_margin_mm": 9.871910591770401,
+      "center_of_mass_mm": [
+        -3.3561185518777292,
+        7.3937937809656535,
+        5.605701324300447
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.261324167251587
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-24",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-24.stl",
+      "stl_sha256": "f0c0eacdc3db87d49c10c79c17abda068f81f007d9914e72b12d2947218504a4",
+      "mesh_fingerprint": "6876c00098158866a2c013063c58ddd7504d755bce9fe192edfaf008111e24d6",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.0799241065979,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.0799241065979,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916349018275,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541522060814,
+      "support_hull_margin_mm": 9.865108403967527,
+      "center_of_mass_mm": [
+        -3.3561185330295373,
+        7.3869915878261345,
+        5.605701329008845
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.404340982437134
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-25",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-25.stl",
+      "stl_sha256": "60ceb2af3b633ca56723e576a71aa7d185c3b49c3c548bde6458d23f63e1e233",
+      "mesh_fingerprint": "bcdbc51af39bd3500e448680669ae316eb3497500a2d63109437860a35451c41",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.40962553024292,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.40962553024292,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916363276221,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517727464262,
+      "support_hull_margin_mm": 9.907860708825973,
+      "center_of_mass_mm": [
+        -3.35611849775735,
+        -7.429743926418823,
+        5.6239335371890125
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.735527276992798
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-26",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-26.stl",
+      "stl_sha256": "c4221a0ecb02cecb477a8af7478d0367de9b51e6f9ed61b7fbbeaae367c0be93",
+      "mesh_fingerprint": "4aa92d9638d7be6139d2f9aa1b4376f41fd06dfd6d184ae319b783f1492f3d16",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.779616832733154,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.779616832733154,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916373640024,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517777574115,
+      "support_hull_margin_mm": 9.900826938167446,
+      "center_of_mass_mm": [
+        -3.356118472903868,
+        -7.422710150248699,
+        5.62393353371177
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        22.107202768325806
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-27",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-27.stl",
+      "stl_sha256": "095d5ad31577f428cfee5a22b99a73ca35123b9f1963366c3ebc0524adbd6898",
+      "mesh_fingerprint": "d82f06b7d272deb42eb65865a97b1054cec5f7930c651dd9f26fc946b27951d2",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.71442461013794,
+        13.092480659484863
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.71442461013794,
+        13.092480659484863
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916375632718,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.9517814896828,
+      "support_hull_margin_mm": 9.895902701110328,
+      "center_of_mass_mm": [
+        -3.3561184918714146,
+        -7.417785909287339,
+        5.623933534407066
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        22.044424295425415
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-28",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-28.stl",
+      "stl_sha256": "3581e4c3c40091d019fd5ebe0b6d5adf6152268c6e2bc43c781d8ce7f95d2708",
+      "mesh_fingerprint": "062d6bef10f716755594038280bd025af3cdb89775438e6623f84e2dab379e8a",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.371838092803955,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.371838092803955,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916354932924,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541483259493,
+      "support_hull_margin_mm": 9.842944668394354,
+      "center_of_mass_mm": [
+        -3.3561185319408886,
+        7.36482783478871,
+        5.605701326109543
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.704357385635376
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-29",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-29.stl",
+      "stl_sha256": "f2acebad094727014ab1ba10af3269b74d0d8317a2cd243d6611a58c00e2da03",
+      "mesh_fingerprint": "e24b370d60a22c9f5cb28b2817d8c9fe32ab7a032c892263230c624149bc335d",
+      "dimensions_mm": [
+        141.8000030517578,
+        28.078915119171143,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        28.078915119171143,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916337798377,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541425298889,
+      "support_hull_margin_mm": 9.841788744150346,
+      "center_of_mass_mm": [
+        -3.3561185356551304,
+        7.363671909629139,
+        5.605701325885162
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.413017511367798
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    },
+    {
+      "pose": "pose-30",
+      "stl": "/var/folders/nr/mx_6nn1s3d7_fswfq7dkgxf40000gn/T/rolling-wavy-pen-v11-check-eduh_k9i/pose-30.stl",
+      "stl_sha256": "7a591c3b045fd619aae6ef8d530b4c26e17b0a08a9b2f535b1a88b8014bb32ac",
+      "mesh_fingerprint": "7c6642f56c4150f60242d872472bf185c97b8b36d0ee570c47d3cc3e7f2a7490",
+      "dimensions_mm": [
+        141.8000030517578,
+        27.9776349067688,
+        12.51842975616455
+      ],
+      "design_dimensions_mm": [
+        141.8000030517578,
+        27.9776349067688,
+        12.51842975616455
+      ],
+      "dimension_max_error_mm": 0.0,
+      "vertices": 18530,
+      "triangles": 37056,
+      "components": 1,
+      "watertight": true,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_triangles": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_overlap_pairs": 0,
+      "signed_volume_mm3": 16382.916344268102,
+      "minimum_table_clearance_mm": 0.0,
+      "contact_area_mm2": 751.8541509759057,
+      "support_hull_margin_mm": 9.841528610159198,
+      "center_of_mass_mm": [
+        -3.3561185368112776,
+        7.363411775431548,
+        5.605701325590171
+      ],
+      "contact_span_mm": [
+        141.8000030517578,
+        21.31222939491272
+      ],
+      "nominal_body_diameter_mm": 11.9,
+      "nominal_cap_diameter_mm": 13.2,
+      "reference_overall_length_mm": 141.8,
+      "clip_relief_height_mm": 0.85,
+      "local_thickness_note": "Solid mesh; broad clip relief is integral. Exhaustive minimum feature thickness not verified.",
+      "passed": true
+    }
+  ],
+  "unverified": [
+    "exhaustive minimum feature thickness",
+    "slicer verification",
+    "physical print test"
+  ]
+}

@@ -33,6 +33,18 @@ The earlier ten-frame sequence and rolling studies remain available as historica
 
 CAM and slicer verification, support assessment, print-time estimates, and physical printing have not been performed. `print-set-v1` and `storyboard-study-v1`–`v10` are historical studies; use only `print-set-v2` for the approved print set.
 
+## Stone to Fireworks
+
+**Stone to Fireworks v3 and the 14-model `print-set-v1` are approved.** A natural stone is pressed three times, pulled toward the viewer, then released and sent into the distance. The physical filming plan uses **20 poses, 40 exposures at 12 fps, approximately 3.33 seconds**, with every stone resting on the tabletop. Smaller physical stone models replace aerial scaling; no hands or fireworks are modeled.
+
+- **Official print files:** [`exports/stone-to-fireworks/print-set-v1/pose-01.stl` through `pose-14.stl`](exports/stone-to-fireworks/print-set-v1/). Import as **millimeters**; STL has no unit metadata.
+- **[Tabletop filming preview](previews/stone-to-fireworks/print-set-v1/print-reproduction.gif)** · [20-pose contact sheet](previews/stone-to-fireworks/print-set-v1/contact-sheet.png) · [Selected models](previews/stone-to-fireworks/print-set-v1/selected-shapes.png)
+- [Approved v3 animation reference](previews/stone-to-fireworks/v3/sequence-v3.gif) · [v3 versus tabletop comparison](previews/stone-to-fireworks/print-set-v1/v3-vs-tabletop.gif). The reference includes lift; use the tabletop preview and CSV for physical filming.
+- [Filming CSV](previews/stone-to-fireworks/print-set-v1/frame-to-stl.csv) · [Pose manifest](previews/stone-to-fireworks/print-set-v1/manifest.json) · [Editable print scene](models/stone-to-fireworks-print-set-v1.blend) · [Editable v3 scene](models/stone-to-fireworks-v3.blend)
+- **Final QA: PASS.** [Report](docs/stone-to-fireworks-final-qa.md) · [Machine-readable results](previews/stone-to-fireworks/print-set-v1/final-qa.json) · [Production guide and reproduction commands](docs/stone-to-fireworks-print-set-v1.md)
+
+CAM, slicer verification, printing support assessment, print-time estimates and physical printing are unverified. Earlier v1/v2 files included as frozen generator dependencies are historical, not alternate print sets. Additional historical render and export files remain local and are not required for the official tabletop handoff. Review-pending labels in original generation records predate approval.
+
 ## Documentation and verification
 
 - [Specification](docs/specification.md): current approved pen dimensions and deformation; existing stones/cup requirements.

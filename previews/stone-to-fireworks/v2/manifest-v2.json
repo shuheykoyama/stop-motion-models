@@ -1,0 +1,488 @@
+{
+  "fps": 12,
+  "shooting_states": 20,
+  "total_exposures": 40,
+  "duration_seconds": 3.3333333333333335,
+  "frames": [
+    {
+      "frame": 1,
+      "phase": "rest",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 1,
+      "stl": "exports/stone-to-fireworks/v2/rest.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-01.png"
+    },
+    {
+      "frame": 2,
+      "phase": "press-recover",
+      "pose": "press-a",
+      "press": 0.85,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 3,
+      "stl": "exports/stone-to-fireworks/v2/press-a.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-02.png"
+    },
+    {
+      "frame": 3,
+      "phase": "press-recover",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 5,
+      "stl": "exports/stone-to-fireworks/v2/rest.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-03.png"
+    },
+    {
+      "frame": 4,
+      "phase": "press-recover",
+      "pose": "press-b",
+      "press": 1,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 7,
+      "stl": "exports/stone-to-fireworks/v2/press-b.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-04.png"
+    },
+    {
+      "frame": 5,
+      "phase": "press-recover",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 9,
+      "stl": "exports/stone-to-fireworks/v2/rest.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-05.png"
+    },
+    {
+      "frame": 6,
+      "phase": "press-recover",
+      "pose": "press-c",
+      "press": 0.95,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 11,
+      "stl": "exports/stone-to-fireworks/v2/press-c.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-06.png"
+    },
+    {
+      "frame": 7,
+      "phase": "press-recover",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 13,
+      "stl": "exports/stone-to-fireworks/v2/rest.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-07.png"
+    },
+    {
+      "frame": 8,
+      "phase": "pull",
+      "pose": "pull-start",
+      "press": 0.4,
+      "pull": 0.12,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 15,
+      "stl": "exports/stone-to-fireworks/v2/pull-start.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-08.png"
+    },
+    {
+      "frame": 9,
+      "phase": "pull",
+      "pose": "pull-low",
+      "press": 0.5,
+      "pull": 0.28,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 17,
+      "stl": "exports/stone-to-fireworks/v2/pull-low.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-09.png"
+    },
+    {
+      "frame": 10,
+      "phase": "pull",
+      "pose": "pull-mid",
+      "press": 0.6,
+      "pull": 0.48,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 19,
+      "stl": "exports/stone-to-fireworks/v2/pull-mid.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-10.png"
+    },
+    {
+      "frame": 11,
+      "phase": "pull",
+      "pose": "pull-high",
+      "press": 0.65,
+      "pull": 0.72,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 21,
+      "stl": "exports/stone-to-fireworks/v2/pull-high.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-11.png"
+    },
+    {
+      "frame": 12,
+      "phase": "pull",
+      "pose": "pull-max",
+      "press": 0.7,
+      "pull": 1,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 23,
+      "stl": "exports/stone-to-fireworks/v2/pull-max.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v2/frame-12.png"
+    },
+    {
+      "frame": 13,
+      "phase": "recoil-launch",
+      "pose": "release",
+      "press": 0.25,
+      "pull": 0.42,
+      "recoil": 0.4,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -14,
+        2
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 25,
+      "stl": "exports/stone-to-fireworks/v2/release.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v2/frame-13.png"
+    },
+    {
+      "frame": 14,
+      "phase": "recoil-launch",
+      "pose": "snap",
+      "press": 0,
+      "pull": 0.08,
+      "recoil": 1,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -40,
+        10
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 27,
+      "stl": "exports/stone-to-fireworks/v2/snap.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v2/frame-14.png"
+    },
+    {
+      "frame": 15,
+      "phase": "flight",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -82,
+        24
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 29,
+      "stl": "exports/stone-to-fireworks/v2/rest.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v2/frame-15.png"
+    },
+    {
+      "frame": 16,
+      "phase": "flight",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -130,
+        38
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 31,
+      "stl": "exports/stone-to-fireworks/v2/rest.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v2/frame-16.png"
+    },
+    {
+      "frame": 17,
+      "phase": "flight",
+      "pose": "small",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 0.65,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -180,
+        48
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 33,
+      "stl": "exports/stone-to-fireworks/v2/small.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v2/frame-17.png"
+    },
+    {
+      "frame": 18,
+      "phase": "flight",
+      "pose": "tiny",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 0.4,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -230,
+        54
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 35,
+      "stl": "exports/stone-to-fireworks/v2/tiny.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v2/frame-18.png"
+    },
+    {
+      "frame": 19,
+      "phase": "flight",
+      "pose": "distant",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 0.25,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -280,
+        52
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 37,
+      "stl": "exports/stone-to-fireworks/v2/distant.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v2/frame-19.png"
+    },
+    {
+      "frame": 20,
+      "phase": "flight",
+      "pose": "distant",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 0.25,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -315,
+        44
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 39,
+      "stl": "exports/stone-to-fireworks/v2/distant.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v2/frame-20.png"
+    }
+  ]
+}

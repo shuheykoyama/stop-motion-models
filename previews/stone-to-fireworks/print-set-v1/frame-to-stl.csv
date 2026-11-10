@@ -1,0 +1,21 @@
+frame,phase,stl,source_v3_frame,stl_source_v3_frame,x_mm,y_mm,z_mm,rotation_x_deg,rotation_y_deg,rotation_z_deg,size_x_mm,size_y_mm,size_z_mm,reused,exposure_start,exposures_12fps,notes
+1,rest,exports/stone-to-fireworks/print-set-v1/pose-01.stl,1,1,0,0,0,0,0,0,30.0,25.0,20.0,True,1,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+2,press-recover,exports/stone-to-fireworks/print-set-v1/pose-02.stl,2,2,0,0,0,0,0,0,30.003844261169434,25.0,18.23316764831543,False,3,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+3,press-recover,exports/stone-to-fireworks/print-set-v1/pose-01.stl,3,1,0,0,0,0,0,0,30.0,25.0,20.0,True,5,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+4,press-recover,exports/stone-to-fireworks/print-set-v1/pose-03.stl,4,4,0,0,0,0,0,0,30.004523277282715,25.0,18.110248565673828,False,7,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+5,press-recover,exports/stone-to-fireworks/print-set-v1/pose-01.stl,5,1,0,0,0,0,0,0,30.0,25.0,20.0,True,9,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+6,press-recover,exports/stone-to-fireworks/print-set-v1/pose-04.stl,6,6,0,0,0,0,0,0,30.004297256469727,25.0,18.149526596069336,False,11,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+7,press-recover,exports/stone-to-fireworks/print-set-v1/pose-01.stl,7,1,0,0,0,0,0,0,30.0,25.0,20.0,True,13,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+8,pull,exports/stone-to-fireworks/print-set-v1/pose-05.stl,8,8,0,0,0,0,0,0,30.02224826812744,27.989070892333984,18.126846313476562,False,15,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+9,pull,exports/stone-to-fireworks/print-set-v1/pose-06.stl,9,9,0,0,0,0,0,0,30.027810096740723,31.979209899902344,17.60251808166504,False,17,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+10,pull,exports/stone-to-fireworks/print-set-v1/pose-07.stl,10,10,0,0,0,0,0,0,30.03337287902832,36.97269058227539,17.11798095703125,False,19,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+11,pull,exports/stone-to-fireworks/print-set-v1/pose-08.stl,11,11,0,0,0,0,0,0,30.036152839660645,42.96486473083496,16.75592041015625,False,21,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+12,pull,exports/stone-to-fireworks/print-set-v1/pose-09.stl,12,12,0,0,0,0,0,0,30.0389347076416,49.95950698852539,16.440696716308594,False,23,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+13,recoil-launch,exports/stone-to-fireworks/print-set-v1/pose-10.stl,13,13,0,-14,0,0,0,0,30.013904571533203,33.7718620300293,18.552091598510742,False,25,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+14,recoil-launch,exports/stone-to-fireworks/print-set-v1/pose-11.stl,14,14,0,-40,0,0,0,0,30.0,23.752718925476074,21.355262756347656,False,27,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+15,flight,exports/stone-to-fireworks/print-set-v1/pose-01.stl,15,1,0,-82,0,0,0,0,30.0,25.0,20.0,True,29,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+16,flight,exports/stone-to-fireworks/print-set-v1/pose-01.stl,16,1,0,-130,0,0,0,0,30.0,25.0,20.0,True,31,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+17,flight,exports/stone-to-fireworks/print-set-v1/pose-12.stl,17,17,0,-180,0,0,0,0,19.5,16.25,13.0,False,33,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+18,flight,exports/stone-to-fireworks/print-set-v1/pose-13.stl,18,18,0,-230,0,0,0,0,12.0,10.0,8.0,False,35,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+19,flight,exports/stone-to-fireworks/print-set-v1/pose-14.stl,19,19,0,-280,0,0,0,0,7.5,6.25,5.0,True,37,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.
+20,flight,exports/stone-to-fireworks/print-set-v1/pose-14.stl,20,19,0,-315,0,0,0,0,7.5,6.25,5.0,True,39,2,All stones rest on Z=0; positions are physical filming guides. No aerial support.

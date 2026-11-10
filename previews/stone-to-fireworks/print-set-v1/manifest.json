@@ -1,0 +1,1793 @@
+{
+  "status": "Print-set candidate awaiting visual review",
+  "fps": 12,
+  "shooting_states": 20,
+  "total_exposures": 40,
+  "duration_seconds": 3.3333333333333335,
+  "poses": [
+    {
+      "id": "pose-01",
+      "v3_pose": "rest",
+      "source_v3_frame": 1,
+      "source_stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
+      "stl_sha256": "d2e220a228433dceee7d213ed38167a96efeb8b0b9206e0dd0c70ca5a4718df0",
+      "canonical_surface_sha256": "2a976decda56a93d0ae3571f6bb8c261ebdd77e19986b6a78bf56dd0450c7d1b",
+      "source_mesh_fingerprint": "6a4c62fdf206a39abd0d135477238f1500f2fb99d74c1fe931a38ed73d63da81",
+      "render_mesh_fingerprint": "08eebaffe7796cecf4411a31d983420beecca07007b0c9c6f1ebb40f64c54ef2",
+      "dimensions_mm": [
+        30.0,
+        25.0,
+        20.0
+      ],
+      "use_count": 6,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
+        "sha256": "d2e220a228433dceee7d213ed38167a96efeb8b0b9206e0dd0c70ca5a4718df0",
+        "local_dimensions_mm": [
+          30.0,
+          25.0,
+          20.0
+        ],
+        "local_bounds_mm": [
+          [
+            -15.0,
+            -12.5,
+            0.0
+          ],
+          [
+            15.0,
+            12.5,
+            20.0
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.0,
+          25.0,
+          20.0
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 7837.513241881054,
+        "table_contact_area_mm2": 115.23677692831887,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.5024025042961019,
+          0.31298291747823465,
+          9.142745723964216
+        ],
+        "support_hull_margin_mm": 4.611775654476633,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 19.257705688476562,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-02",
+      "v3_pose": "press-a",
+      "source_v3_frame": 2,
+      "source_stl": "exports/stone-to-fireworks/v3/press-a.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-02.stl",
+      "stl_sha256": "6b17454064878343ffa541086c8ba4afb4ed3481f36dff5245e3d2423abe9d77",
+      "canonical_surface_sha256": "d471b1e11cd683dc152cec1cbbbeebc0e453a9bea14f38eed4dbe0726f291282",
+      "source_mesh_fingerprint": "76fbcafd1e52d91395dbbf88f91553793213d37f3800721dde658d71258db0b2",
+      "render_mesh_fingerprint": "ec53e522175bb3cb1272ae0581800afc062d080ea47b41b37b68996309bcb114",
+      "dimensions_mm": [
+        30.003844261169434,
+        25.0,
+        18.23316764831543
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-02.stl",
+        "sha256": "6b17454064878343ffa541086c8ba4afb4ed3481f36dff5245e3d2423abe9d77",
+        "local_dimensions_mm": [
+          30.003844261169434,
+          25.0,
+          18.23316764831543
+        ],
+        "local_bounds_mm": [
+          [
+            -15.002304077148438,
+            -12.5,
+            0.0
+          ],
+          [
+            15.001540184020996,
+            12.5,
+            18.23316764831543
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.003844261169434,
+          25.0,
+          18.23316764831543
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 7217.498852948598,
+        "table_contact_area_mm2": 115.23677692831887,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.5216093089403447,
+          0.13748292512378568,
+          8.47246455021044
+        ],
+        "support_hull_margin_mm": 4.4356451373835535,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 14.730491638183594,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-03",
+      "v3_pose": "press-b",
+      "source_v3_frame": 4,
+      "source_stl": "exports/stone-to-fireworks/v3/press-b.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-03.stl",
+      "stl_sha256": "f6ad12a4d003c7197a32bc52e4bc1baba2611a3c14351af2631af932f19b0da9",
+      "canonical_surface_sha256": "656036d4d9d07486a9a22b44a096e9aa6c3d6e85848363e87cf21a157e67a22a",
+      "source_mesh_fingerprint": "cf667d98f674a83ce0a8c2ec82be50273ca10f27c972961d3e77d93f2f919ca9",
+      "render_mesh_fingerprint": "2fce485a28427cea38206146ac904b1e3e2809a16904bf001e0e6a124ce1e783",
+      "dimensions_mm": [
+        30.004523277282715,
+        25.0,
+        18.110248565673828
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-03.stl",
+        "sha256": "f6ad12a4d003c7197a32bc52e4bc1baba2611a3c14351af2631af932f19b0da9",
+        "local_dimensions_mm": [
+          30.004523277282715,
+          25.0,
+          18.110248565673828
+        ],
+        "local_bounds_mm": [
+          [
+            -15.002711296081543,
+            -12.5,
+            0.0
+          ],
+          [
+            15.001811981201172,
+            12.5,
+            18.110248565673828
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.004523277282715,
+          25.0,
+          18.110248565673828
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 7105.323104232219,
+        "table_contact_area_mm2": 115.23677692831887,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.5254688711012444,
+          0.10236815510726219,
+          8.368960592618908
+        ],
+        "support_hull_margin_mm": 4.400376032783292,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 13.807823181152344,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-04",
+      "v3_pose": "press-c",
+      "source_v3_frame": 6,
+      "source_stl": "exports/stone-to-fireworks/v3/press-c.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-04.stl",
+      "stl_sha256": "67fdf6327d76c246033ba9c49424fe9a28ec76e616c4a5d7ce7574db11f48814",
+      "canonical_surface_sha256": "468d7db5cb69b8344d707900e3c48e04ff2419d80fbc7bb1402357e2b12f8b13",
+      "source_mesh_fingerprint": "848c97e41df1632ab6ca730c0e99f9bf42e8e2e9f23409257939cbd2fbdccb20",
+      "render_mesh_fingerprint": "5fdb07aa650f19dec8336df3c355d0393a13641b29594725fbe8a0e5ce037040",
+      "dimensions_mm": [
+        30.004297256469727,
+        25.0,
+        18.149526596069336
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-04.stl",
+        "sha256": "67fdf6327d76c246033ba9c49424fe9a28ec76e616c4a5d7ce7574db11f48814",
+        "local_dimensions_mm": [
+          30.004297256469727,
+          25.0,
+          18.149526596069336
+        ],
+        "local_bounds_mm": [
+          [
+            -15.002575874328613,
+            -12.5,
+            0.0
+          ],
+          [
+            15.001721382141113,
+            12.5,
+            18.149526596069336
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.004297256469727,
+          25.0,
+          18.149526596069336
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 7142.8070695223,
+        "table_contact_area_mm2": 115.23677692831887,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.5241648633366629,
+          0.11422751894255903,
+          8.402893042661276
+        ],
+        "support_hull_margin_mm": 4.412287547185633,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 14.115371704101562,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-05",
+      "v3_pose": "pull-start",
+      "source_v3_frame": 8,
+      "source_stl": "exports/stone-to-fireworks/v3/pull-start.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-05.stl",
+      "stl_sha256": "134baba0ee4e8aaf1438409e25c5040ee1f6247325b5c5bdcaae4fd4ebc36991",
+      "canonical_surface_sha256": "54ed306d14d9b270784b1f59eee676a593717c87ae45c202e97dd43e07d880d5",
+      "source_mesh_fingerprint": "08e802d080e969ae7674615ef30f07a0f83f023983565007ce1c8ba253daae40",
+      "render_mesh_fingerprint": "30ed8fc9725a6c20e0ece16195e102a2223f3eb9491f0bf6c234235d0c72e196",
+      "dimensions_mm": [
+        30.02224826812744,
+        27.989070892333984,
+        18.126846313476562
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-05.stl",
+        "sha256": "134baba0ee4e8aaf1438409e25c5040ee1f6247325b5c5bdcaae4fd4ebc36991",
+        "local_dimensions_mm": [
+          30.02224826812744,
+          27.989070892333984,
+          18.126846313476562
+        ],
+        "local_bounds_mm": [
+          [
+            -15.011990547180176,
+            -12.5,
+            0.0
+          ],
+          [
+            15.010257720947266,
+            15.489070892333984,
+            18.126846313476562
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.02224826812744,
+          27.989070892333984,
+          18.126846313476562
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 8148.643773064867,
+        "table_contact_area_mm2": 136.11033496736715,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.4851787465289607,
+          1.3606900457949416,
+          8.569316020613291
+        ],
+        "support_hull_margin_mm": 4.902959360036866,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 17.101348876953125,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-06",
+      "v3_pose": "pull-low",
+      "source_v3_frame": 9,
+      "source_stl": "exports/stone-to-fireworks/v3/pull-low.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-06.stl",
+      "stl_sha256": "a9470712ceab3bb13246085d2c2c48534d6c03b5667f0325cdbce89e7a732d72",
+      "canonical_surface_sha256": "ae92182aeb8e29a4de5b309f394bbedce6493063f5b0e9c7227c78b933527035",
+      "source_mesh_fingerprint": "f0686486d003ae9097e05b9fe1867ef1c618686fe09b0371fd9b08483ad979a9",
+      "render_mesh_fingerprint": "a85ee2fb4d0a575f3f60bbc958341196f1408045362bd50bd1c8ec89b9b9986d",
+      "dimensions_mm": [
+        30.027810096740723,
+        31.979209899902344,
+        17.60251808166504
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-06.stl",
+        "sha256": "a9470712ceab3bb13246085d2c2c48534d6c03b5667f0325cdbce89e7a732d72",
+        "local_dimensions_mm": [
+          30.027810096740723,
+          31.979209899902344,
+          17.60251808166504
+        ],
+        "local_bounds_mm": [
+          [
+            -15.01498794555664,
+            -12.5,
+            0.0
+          ],
+          [
+            15.012822151184082,
+            19.479209899902344,
+            17.60251808166504
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.027810096740723,
+          31.979209899902344,
+          17.60251808166504
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 8897.333241566948,
+        "table_contact_area_mm2": 162.33971632487794,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.4617371733357219,
+          2.8310955747507447,
+          8.285737660744495
+        ],
+        "support_hull_margin_mm": 5.10903814858435,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 16.48125457763672,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-07",
+      "v3_pose": "pull-mid",
+      "source_v3_frame": 10,
+      "source_stl": "exports/stone-to-fireworks/v3/pull-mid.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-07.stl",
+      "stl_sha256": "5427b5f9091b8c690e6ba401ea8a492defbf5e43fd4fe285b303f357b3b15298",
+      "canonical_surface_sha256": "22d7e566830bb666823c9e57bd34617d1892be7deb17446714e3fcdd79ef91b0",
+      "source_mesh_fingerprint": "16ab0980c0328dd88d8cf24dfe69057747756d53f45d8db0c8efdc70658b8f71",
+      "render_mesh_fingerprint": "9c982183cd18b350ed5c14bf5e4892b112f827af91555765fca46be5ffa8f2e4",
+      "dimensions_mm": [
+        30.03337287902832,
+        36.97269058227539,
+        17.11798095703125
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-07.stl",
+        "sha256": "5427b5f9091b8c690e6ba401ea8a492defbf5e43fd4fe285b303f357b3b15298",
+        "local_dimensions_mm": [
+          30.03337287902832,
+          36.97269058227539,
+          17.11798095703125
+        ],
+        "local_bounds_mm": [
+          [
+            -15.017986297607422,
+            -12.5,
+            0.0
+          ],
+          [
+            15.015386581420898,
+            24.47269058227539,
+            17.11798095703125
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.03337287902832,
+          36.97269058227539,
+          17.11798095703125
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 9763.515027576981,
+        "table_contact_area_mm2": 195.21878577883757,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.4398043129925144,
+          4.648499304927641,
+          7.966352632249174
+        ],
+        "support_hull_margin_mm": 5.112377686732097,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 16.00220489501953,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-08",
+      "v3_pose": "pull-high",
+      "source_v3_frame": 11,
+      "source_stl": "exports/stone-to-fireworks/v3/pull-high.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-08.stl",
+      "stl_sha256": "febe4f29d38b359ac521194bbe0f2c985588d630a2d684a0c9ec7296548e1056",
+      "canonical_surface_sha256": "07fddb457d0e5f7447c142eefa35b152f8b5ad5776d0ae0b6349f0908d03f164",
+      "source_mesh_fingerprint": "74073212afef615026f369e58a580c2c2c08980408b2f2612cd2988ec393dc42",
+      "render_mesh_fingerprint": "3c92ce169bcc1f790929e22bb308de74106cc902c86cae895e27aadaa967f719",
+      "dimensions_mm": [
+        30.036152839660645,
+        42.96486473083496,
+        16.75592041015625
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-08.stl",
+        "sha256": "febe4f29d38b359ac521194bbe0f2c985588d630a2d684a0c9ec7296548e1056",
+        "local_dimensions_mm": [
+          30.036152839660645,
+          42.96486473083496,
+          16.75592041015625
+        ],
+        "local_bounds_mm": [
+          [
+            -15.019484519958496,
+            -12.5,
+            0.0
+          ],
+          [
+            15.016668319702148,
+            30.46486473083496,
+            16.75592041015625
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.036152839660645,
+          42.96486473083496,
+          16.75592041015625
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 10772.660917396699,
+        "table_contact_area_mm2": 234.40237895542876,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.4203261837788131,
+          6.802448088013095,
+          7.667076059773839
+        ],
+        "support_hull_margin_mm": 5.099257162093541,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 15.700963020324707,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-09",
+      "v3_pose": "pull-max",
+      "source_v3_frame": 12,
+      "source_stl": "exports/stone-to-fireworks/v3/pull-max.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-09.stl",
+      "stl_sha256": "ebedfdaee7eb348ffb34b43f88069aa7d3338fd0be3f559ad75d0cfbf998367c",
+      "canonical_surface_sha256": "5a4eae3cc00e05306860ed8b0779989bf6aa19ff814497b02aeb4967701ac76c",
+      "source_mesh_fingerprint": "037f29fcb47e517534510429169903605bb1464f908314745b12ed580859d320",
+      "render_mesh_fingerprint": "2bd1c7c60bc33b767560b4e477fd6357d5f15de6a468a87c62d8aa9172f7eb74",
+      "dimensions_mm": [
+        30.0389347076416,
+        49.95950698852539,
+        16.440696716308594
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-09.stl",
+        "sha256": "ebedfdaee7eb348ffb34b43f88069aa7d3338fd0be3f559ad75d0cfbf998367c",
+        "local_dimensions_mm": [
+          30.0389347076416,
+          49.95950698852539,
+          16.440696716308594
+        ],
+        "local_bounds_mm": [
+          [
+            -15.020983695983887,
+            -12.5,
+            0.0
+          ],
+          [
+            15.017951011657715,
+            37.45950698852539,
+            16.440696716308594
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.0389347076416,
+          49.95950698852539,
+          16.440696716308594
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 11812.721023881999,
+        "table_contact_area_mm2": 280.2121128022891,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.40487881808676807,
+          9.220562539850127,
+          7.343336411180946
+        ],
+        "support_hull_margin_mm": 5.071189732624995,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 15.250186920166016,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-10",
+      "v3_pose": "release",
+      "source_v3_frame": 13,
+      "source_stl": "exports/stone-to-fireworks/v3/release.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-10.stl",
+      "stl_sha256": "77955df694f7500a06e0e597fffd41028b9e7bf81d7dd808b50a1f01fbdcb687",
+      "canonical_surface_sha256": "c92ec83ffdfd9685c8367f4ad320c00cc35af04b8b12359cfbd7027faf0b993a",
+      "source_mesh_fingerprint": "c2980ded19ecab16abc0db01671d1901f0f91ba7e19e9ffb416376484ec8ae1e",
+      "render_mesh_fingerprint": "d228e44ad911d9ff323387ef2d4fcb1c70fccd408cf1245bce985b07151a71b6",
+      "dimensions_mm": [
+        30.013904571533203,
+        33.7718620300293,
+        18.552091598510742
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-10.stl",
+        "sha256": "77955df694f7500a06e0e597fffd41028b9e7bf81d7dd808b50a1f01fbdcb687",
+        "local_dimensions_mm": [
+          30.013904571533203,
+          33.7718620300293,
+          18.552091598510742
+        ],
+        "local_bounds_mm": [
+          [
+            -15.00749397277832,
+            -11.899999618530273,
+            0.0
+          ],
+          [
+            15.006410598754883,
+            21.871862411499023,
+            18.552091598510742
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.013904571533203,
+          33.7718620300293,
+          18.552091598510742
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 9747.323478096208,
+        "table_contact_area_mm2": 174.43908567082954,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.44124680490178503,
+          4.027140435586227,
+          8.662993618898366
+        ],
+        "support_hull_margin_mm": 5.07034083080623,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 17.57801055908203,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-11",
+      "v3_pose": "snap",
+      "source_v3_frame": 14,
+      "source_stl": "exports/stone-to-fireworks/v3/snap.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-11.stl",
+      "stl_sha256": "e65d9e527fab5a0ec6744e1e732a9ca2e3f5a93c5e6f2c9b21eef379a9d427f3",
+      "canonical_surface_sha256": "9fef71325e73ee7b85158db1881439e5aeb5bae98a00e1e567efb57b172f71b1",
+      "source_mesh_fingerprint": "855db5b258755a22b0117a2fcf4bb84bebbeffda402937bbab195b4ff1e979e2",
+      "render_mesh_fingerprint": "710767a72989d06b7e7c25cd3fb5c793ea04155210decfdd90e24c34c30f16a0",
+      "dimensions_mm": [
+        30.0,
+        23.752718925476074,
+        21.355262756347656
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-11.stl",
+        "sha256": "e65d9e527fab5a0ec6744e1e732a9ca2e3f5a93c5e6f2c9b21eef379a9d427f3",
+        "local_dimensions_mm": [
+          30.0,
+          23.752718925476074,
+          21.355262756347656
+        ],
+        "local_bounds_mm": [
+          [
+            -15.0,
+            -11.0,
+            0.0
+          ],
+          [
+            15.0,
+            12.752718925476074,
+            21.355262756347656
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.0,
+          23.752718925476074,
+          21.355262756347656
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 7909.098816192711,
+        "table_contact_area_mm2": 112.53157253757306,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.48613623077366447,
+          0.9444140156147451,
+          9.777516330592444
+        ],
+        "support_hull_margin_mm": 4.28417118884494,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 20.24676513671875,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-12",
+      "v3_pose": "small",
+      "source_v3_frame": 17,
+      "source_stl": "exports/stone-to-fireworks/v3/small.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-12.stl",
+      "stl_sha256": "126fe0e08f25c809a3f2b48608e6d8e3aa21756717fa73d27ae75ee2ac68becd",
+      "canonical_surface_sha256": "23deb7faf6deea3dbb51d0e58d6c0e2c3ed9aa0c0987e51d7d7b26e79a70a047",
+      "source_mesh_fingerprint": "95facada31f978f0ecf3bb4fee3ff64ae89487b1308816484fa7bb630a724bfe",
+      "render_mesh_fingerprint": "dd9b18328f2f7e5ee2be896d0c18d20b9c2aa250751e7348bb20210cd92c665b",
+      "dimensions_mm": [
+        19.5,
+        16.25,
+        13.0
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-12.stl",
+        "sha256": "126fe0e08f25c809a3f2b48608e6d8e3aa21756717fa73d27ae75ee2ac68becd",
+        "local_dimensions_mm": [
+          19.5,
+          16.25,
+          13.0
+        ],
+        "local_bounds_mm": [
+          [
+            -9.75,
+            -8.125,
+            0.0
+          ],
+          [
+            9.75,
+            8.125,
+            13.0
+          ]
+        ],
+        "target_dimensions_mm": [
+          19.5,
+          16.25,
+          13.0
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 2152.3770747284984,
+        "table_contact_area_mm2": 48.68753815599774,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.32656162907341857,
+          0.20343890366889392,
+          5.942784721385384
+        ],
+        "support_hull_margin_mm": 2.9976541347200882,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 12.271125793457031,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": true,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-13",
+      "v3_pose": "tiny",
+      "source_v3_frame": 18,
+      "source_stl": "exports/stone-to-fireworks/v3/tiny.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-13.stl",
+      "stl_sha256": "57b4fad426373c2d27c78d9c55e662f2704111b240d3f44bf29a4acb80da9264",
+      "canonical_surface_sha256": "c756e083f3c71bf875d1461d08923b2b9644459150e27e574c0e5a9fad7bf16c",
+      "source_mesh_fingerprint": "fa819f3c2dd8bf69109c82136f22e9177cb88a9346839bbed315635c912f5711",
+      "render_mesh_fingerprint": "c2a32a51eb22004712c0550f63720196dbaa7f08f30f5f5b376cd6453497e4f2",
+      "dimensions_mm": [
+        12.0,
+        10.0,
+        8.0
+      ],
+      "use_count": 1,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-13.stl",
+        "sha256": "57b4fad426373c2d27c78d9c55e662f2704111b240d3f44bf29a4acb80da9264",
+        "local_dimensions_mm": [
+          12.0,
+          10.0,
+          8.0
+        ],
+        "local_bounds_mm": [
+          [
+            -6.0,
+            -5.0,
+            0.0
+          ],
+          [
+            6.0,
+            5.0,
+            8.0
+          ]
+        ],
+        "target_dimensions_mm": [
+          12.0,
+          10.0,
+          8.0
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 501.60084786423715,
+        "table_contact_area_mm2": 18.43788434229423,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.2009610054448931,
+          0.1251931695378432,
+          3.657098292005342
+        ],
+        "support_hull_margin_mm": 1.8447102444277346,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 7.10260009765625,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": false,
+        "passed": true
+      }
+    },
+    {
+      "id": "pose-14",
+      "v3_pose": "distant",
+      "source_v3_frame": 19,
+      "source_stl": "exports/stone-to-fireworks/v3/distant.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-14.stl",
+      "stl_sha256": "5cfd433e0b51ba800515e2bd7ec9b1ace0f7b33b1d495f6ab676c9043dcbc64f",
+      "canonical_surface_sha256": "85aaf8821cd538e7e93fda4abafdab9ecf715a0033a1070b742a3b96a27a4fd3",
+      "source_mesh_fingerprint": "75250675296f4a35109313cd319491884f7ccce2f99c47d39e0d83ae06b67d3b",
+      "render_mesh_fingerprint": "c86e6b89e775b4f9eacab45f92c566964dfbf75f2312f2a02f1caa34ef8474e9",
+      "dimensions_mm": [
+        7.5,
+        6.25,
+        5.0
+      ],
+      "use_count": 2,
+      "stl_bytes_identical_to_v3": true,
+      "source_render_and_stl_surface_identical": true,
+      "validation": {
+        "frame": 1,
+        "path": "exports/stone-to-fireworks/print-set-v1/pose-14.stl",
+        "sha256": "5cfd433e0b51ba800515e2bd7ec9b1ace0f7b33b1d495f6ab676c9043dcbc64f",
+        "local_dimensions_mm": [
+          7.5,
+          6.25,
+          5.0
+        ],
+        "local_bounds_mm": [
+          [
+            -3.75,
+            -3.125,
+            0.0
+          ],
+          [
+            3.75,
+            3.125,
+            5.0
+          ]
+        ],
+        "target_dimensions_mm": [
+          7.5,
+          6.25,
+          5.0
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 122.46114440439146,
+        "table_contact_area_mm2": 7.20229855801993,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.12560062607402547,
+          0.07824572936955866,
+          2.285686430991054
+        ],
+        "support_hull_margin_mm": 1.1529439136191582,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 3.9557113647460938,
+        "dimensions_pass": true,
+        "bread_study_absolute_thresholds_passed": false,
+        "passed": true
+      }
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "phase": "rest",
+      "pose_id": "pose-01",
+      "v3_pose": "rest",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
+      "source_v3_frame": 1,
+      "stl_source_v3_frame": 1,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.0,
+        25.0,
+        20.0
+      ],
+      "reused": true,
+      "exposure_start": 1,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-01.png"
+    },
+    {
+      "frame": 2,
+      "phase": "press-recover",
+      "pose_id": "pose-02",
+      "v3_pose": "press-a",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-02.stl",
+      "source_v3_frame": 2,
+      "stl_source_v3_frame": 2,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.003844261169434,
+        25.0,
+        18.23316764831543
+      ],
+      "reused": false,
+      "exposure_start": 3,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-02.png"
+    },
+    {
+      "frame": 3,
+      "phase": "press-recover",
+      "pose_id": "pose-01",
+      "v3_pose": "rest",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
+      "source_v3_frame": 3,
+      "stl_source_v3_frame": 1,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.0,
+        25.0,
+        20.0
+      ],
+      "reused": true,
+      "exposure_start": 5,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-03.png"
+    },
+    {
+      "frame": 4,
+      "phase": "press-recover",
+      "pose_id": "pose-03",
+      "v3_pose": "press-b",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-03.stl",
+      "source_v3_frame": 4,
+      "stl_source_v3_frame": 4,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.004523277282715,
+        25.0,
+        18.110248565673828
+      ],
+      "reused": false,
+      "exposure_start": 7,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-04.png"
+    },
+    {
+      "frame": 5,
+      "phase": "press-recover",
+      "pose_id": "pose-01",
+      "v3_pose": "rest",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
+      "source_v3_frame": 5,
+      "stl_source_v3_frame": 1,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.0,
+        25.0,
+        20.0
+      ],
+      "reused": true,
+      "exposure_start": 9,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-05.png"
+    },
+    {
+      "frame": 6,
+      "phase": "press-recover",
+      "pose_id": "pose-04",
+      "v3_pose": "press-c",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-04.stl",
+      "source_v3_frame": 6,
+      "stl_source_v3_frame": 6,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.004297256469727,
+        25.0,
+        18.149526596069336
+      ],
+      "reused": false,
+      "exposure_start": 11,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-06.png"
+    },
+    {
+      "frame": 7,
+      "phase": "press-recover",
+      "pose_id": "pose-01",
+      "v3_pose": "rest",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
+      "source_v3_frame": 7,
+      "stl_source_v3_frame": 1,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.0,
+        25.0,
+        20.0
+      ],
+      "reused": true,
+      "exposure_start": 13,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-07.png"
+    },
+    {
+      "frame": 8,
+      "phase": "pull",
+      "pose_id": "pose-05",
+      "v3_pose": "pull-start",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-05.stl",
+      "source_v3_frame": 8,
+      "stl_source_v3_frame": 8,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.02224826812744,
+        27.989070892333984,
+        18.126846313476562
+      ],
+      "reused": false,
+      "exposure_start": 15,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-08.png"
+    },
+    {
+      "frame": 9,
+      "phase": "pull",
+      "pose_id": "pose-06",
+      "v3_pose": "pull-low",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-06.stl",
+      "source_v3_frame": 9,
+      "stl_source_v3_frame": 9,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.027810096740723,
+        31.979209899902344,
+        17.60251808166504
+      ],
+      "reused": false,
+      "exposure_start": 17,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-09.png"
+    },
+    {
+      "frame": 10,
+      "phase": "pull",
+      "pose_id": "pose-07",
+      "v3_pose": "pull-mid",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-07.stl",
+      "source_v3_frame": 10,
+      "stl_source_v3_frame": 10,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.03337287902832,
+        36.97269058227539,
+        17.11798095703125
+      ],
+      "reused": false,
+      "exposure_start": 19,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-10.png"
+    },
+    {
+      "frame": 11,
+      "phase": "pull",
+      "pose_id": "pose-08",
+      "v3_pose": "pull-high",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-08.stl",
+      "source_v3_frame": 11,
+      "stl_source_v3_frame": 11,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.036152839660645,
+        42.96486473083496,
+        16.75592041015625
+      ],
+      "reused": false,
+      "exposure_start": 21,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-11.png"
+    },
+    {
+      "frame": 12,
+      "phase": "pull",
+      "pose_id": "pose-09",
+      "v3_pose": "pull-max",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-09.stl",
+      "source_v3_frame": 12,
+      "stl_source_v3_frame": 12,
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.0389347076416,
+        49.95950698852539,
+        16.440696716308594
+      ],
+      "reused": false,
+      "exposure_start": 23,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        0,
+        0
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-12.png"
+    },
+    {
+      "frame": 13,
+      "phase": "recoil-launch",
+      "pose_id": "pose-10",
+      "v3_pose": "release",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-10.stl",
+      "source_v3_frame": 13,
+      "stl_source_v3_frame": 13,
+      "position_mm": [
+        0,
+        -14,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.013904571533203,
+        33.7718620300293,
+        18.552091598510742
+      ],
+      "reused": false,
+      "exposure_start": 25,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        -14,
+        2
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-13.png"
+    },
+    {
+      "frame": 14,
+      "phase": "recoil-launch",
+      "pose_id": "pose-11",
+      "v3_pose": "snap",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-11.stl",
+      "source_v3_frame": 14,
+      "stl_source_v3_frame": 14,
+      "position_mm": [
+        0,
+        -40,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.0,
+        23.752718925476074,
+        21.355262756347656
+      ],
+      "reused": false,
+      "exposure_start": 27,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        -40,
+        10
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-14.png"
+    },
+    {
+      "frame": 15,
+      "phase": "flight",
+      "pose_id": "pose-01",
+      "v3_pose": "rest",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
+      "source_v3_frame": 15,
+      "stl_source_v3_frame": 1,
+      "position_mm": [
+        0,
+        -82,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.0,
+        25.0,
+        20.0
+      ],
+      "reused": true,
+      "exposure_start": 29,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        -82,
+        24
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-15.png"
+    },
+    {
+      "frame": 16,
+      "phase": "flight",
+      "pose_id": "pose-01",
+      "v3_pose": "rest",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
+      "source_v3_frame": 16,
+      "stl_source_v3_frame": 1,
+      "position_mm": [
+        0,
+        -130,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        30.0,
+        25.0,
+        20.0
+      ],
+      "reused": true,
+      "exposure_start": 31,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        -130,
+        38
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-16.png"
+    },
+    {
+      "frame": 17,
+      "phase": "flight",
+      "pose_id": "pose-12",
+      "v3_pose": "small",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-12.stl",
+      "source_v3_frame": 17,
+      "stl_source_v3_frame": 17,
+      "position_mm": [
+        0,
+        -180,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        19.5,
+        16.25,
+        13.0
+      ],
+      "reused": false,
+      "exposure_start": 33,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        -180,
+        48
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-17.png"
+    },
+    {
+      "frame": 18,
+      "phase": "flight",
+      "pose_id": "pose-13",
+      "v3_pose": "tiny",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-13.stl",
+      "source_v3_frame": 18,
+      "stl_source_v3_frame": 18,
+      "position_mm": [
+        0,
+        -230,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        12.0,
+        10.0,
+        8.0
+      ],
+      "reused": false,
+      "exposure_start": 35,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        -230,
+        54
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-18.png"
+    },
+    {
+      "frame": 19,
+      "phase": "flight",
+      "pose_id": "pose-14",
+      "v3_pose": "distant",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-14.stl",
+      "source_v3_frame": 19,
+      "stl_source_v3_frame": 19,
+      "position_mm": [
+        0,
+        -280,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        7.5,
+        6.25,
+        5.0
+      ],
+      "reused": true,
+      "exposure_start": 37,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        -280,
+        52
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-19.png"
+    },
+    {
+      "frame": 20,
+      "phase": "flight",
+      "pose_id": "pose-14",
+      "v3_pose": "distant",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-14.stl",
+      "source_v3_frame": 20,
+      "stl_source_v3_frame": 19,
+      "position_mm": [
+        0,
+        -315,
+        0
+      ],
+      "rotation_degrees": [
+        0,
+        0,
+        0
+      ],
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "dimensions_mm": [
+        7.5,
+        6.25,
+        5.0
+      ],
+      "reused": true,
+      "exposure_start": 39,
+      "exposures_12fps": 2,
+      "source_v3_position_mm": [
+        0,
+        -315,
+        44
+      ],
+      "note": "All stones rest on Z=0; positions are physical filming guides. No aerial support.",
+      "render": "previews/stone-to-fireworks/print-set-v1/frame-20.png"
+    }
+  ],
+  "scene": "models/stone-to-fireworks-print-set-v1.blend",
+  "camera_unchanged_from_v3": true,
+  "camera_location_mm": [
+    0.0,
+    160.0,
+    245.0
+  ],
+  "camera_lens_mm": 27.435998916625977
+}

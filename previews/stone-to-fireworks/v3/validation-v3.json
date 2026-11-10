@@ -1,0 +1,1562 @@
+{
+  "status": "v3 awaiting visual review",
+  "poses": [
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/rest.stl",
+      "sha256": "d2e220a228433dceee7d213ed38167a96efeb8b0b9206e0dd0c70ca5a4718df0",
+      "local_dimensions_mm": [
+        30.0,
+        25.0,
+        20.0
+      ],
+      "local_bounds_mm": [
+        [
+          -15.0,
+          -12.5,
+          0.0
+        ],
+        [
+          15.0,
+          12.5,
+          20.0
+        ]
+      ],
+      "target_dimensions_mm": [
+        30.0,
+        25.0,
+        20.0
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 7837.513241881054,
+      "table_contact_area_mm2": 115.23677692831887,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.5024025042961019,
+        0.31298291747823465,
+        9.142745723964216
+      ],
+      "support_hull_margin_mm": 4.611775654476633,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 19.257705688476562,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "rest",
+      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "mesh_fingerprint": "6a4c62fdf206a39abd0d135477238f1500f2fb99d74c1fe931a38ed73d63da81",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "d2e220a228433dceee7d213ed38167a96efeb8b0b9206e0dd0c70ca5a4718df0",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/press-a.stl",
+      "sha256": "6b17454064878343ffa541086c8ba4afb4ed3481f36dff5245e3d2423abe9d77",
+      "local_dimensions_mm": [
+        30.003844261169434,
+        25.0,
+        18.23316764831543
+      ],
+      "local_bounds_mm": [
+        [
+          -15.002304077148438,
+          -12.5,
+          0.0
+        ],
+        [
+          15.001540184020996,
+          12.5,
+          18.23316764831543
+        ]
+      ],
+      "target_dimensions_mm": [
+        30.00384422566365,
+        25.0,
+        18.233166780254784
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 7217.498852948598,
+      "table_contact_area_mm2": 115.23677692831887,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.5216093089403447,
+        0.13748292512378568,
+        8.47246455021044
+      ],
+      "support_hull_margin_mm": 4.4356451373835535,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 14.730491638183594,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "press-a",
+      "stl": "exports/stone-to-fireworks/v3/press-a.stl",
+      "mesh_fingerprint": "76fbcafd1e52d91395dbbf88f91553793213d37f3800721dde658d71258db0b2",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "6b17454064878343ffa541086c8ba4afb4ed3481f36dff5245e3d2423abe9d77",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/press-b.stl",
+      "sha256": "f6ad12a4d003c7197a32bc52e4bc1baba2611a3c14351af2631af932f19b0da9",
+      "local_dimensions_mm": [
+        30.004523277282715,
+        25.0,
+        18.110248565673828
+      ],
+      "local_bounds_mm": [
+        [
+          -15.002711296081543,
+          -12.5,
+          0.0
+        ],
+        [
+          15.001811981201172,
+          12.5,
+          18.110248565673828
+        ]
+      ],
+      "target_dimensions_mm": [
+        30.004522618427828,
+        25.0,
+        18.110249203414195
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 7105.323104232219,
+      "table_contact_area_mm2": 115.23677692831887,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.5254688711012444,
+        0.10236815510726219,
+        8.368960592618908
+      ],
+      "support_hull_margin_mm": 4.400376032783292,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 13.807823181152344,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "press-b",
+      "stl": "exports/stone-to-fireworks/v3/press-b.stl",
+      "mesh_fingerprint": "cf667d98f674a83ce0a8c2ec82be50273ca10f27c972961d3e77d93f2f919ca9",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "f6ad12a4d003c7197a32bc52e4bc1baba2611a3c14351af2631af932f19b0da9",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/press-c.stl",
+      "sha256": "67fdf6327d76c246033ba9c49424fe9a28ec76e616c4a5d7ce7574db11f48814",
+      "local_dimensions_mm": [
+        30.004297256469727,
+        25.0,
+        18.149526596069336
+      ],
+      "local_bounds_mm": [
+        [
+          -15.002575874328613,
+          -12.5,
+          0.0
+        ],
+        [
+          15.001721382141113,
+          12.5,
+          18.149526596069336
+        ]
+      ],
+      "target_dimensions_mm": [
+        30.004296487506437,
+        25.0,
+        18.149527154116825
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 7142.8070695223,
+      "table_contact_area_mm2": 115.23677692831887,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.5241648633366629,
+        0.11422751894255903,
+        8.402893042661276
+      ],
+      "support_hull_margin_mm": 4.412287547185633,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 14.115371704101562,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "press-c",
+      "stl": "exports/stone-to-fireworks/v3/press-c.stl",
+      "mesh_fingerprint": "848c97e41df1632ab6ca730c0e99f9bf42e8e2e9f23409257939cbd2fbdccb20",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "67fdf6327d76c246033ba9c49424fe9a28ec76e616c4a5d7ce7574db11f48814",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/pull-start.stl",
+      "sha256": "134baba0ee4e8aaf1438409e25c5040ee1f6247325b5c5bdcaae4fd4ebc36991",
+      "local_dimensions_mm": [
+        30.02224826812744,
+        27.989070892333984,
+        18.126846313476562
+      ],
+      "local_bounds_mm": [
+        [
+          -15.011990547180176,
+          -12.5,
+          0.0
+        ],
+        [
+          15.010257720947266,
+          15.489070892333984,
+          18.126846313476562
+        ]
+      ],
+      "target_dimensions_mm": [
+        30.022248190420548,
+        27.989071125225067,
+        18.126845992881083
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 8148.643773064867,
+      "table_contact_area_mm2": 136.11033496736715,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.4851787465289607,
+        1.3606900457949416,
+        8.569316020613291
+      ],
+      "support_hull_margin_mm": 4.902959360036866,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 17.0224609375,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "pull-start",
+      "stl": "exports/stone-to-fireworks/v3/pull-start.stl",
+      "mesh_fingerprint": "08e802d080e969ae7674615ef30f07a0f83f023983565007ce1c8ba253daae40",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "134baba0ee4e8aaf1438409e25c5040ee1f6247325b5c5bdcaae4fd4ebc36991",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/pull-low.stl",
+      "sha256": "a9470712ceab3bb13246085d2c2c48534d6c03b5667f0325cdbce89e7a732d72",
+      "local_dimensions_mm": [
+        30.027810096740723,
+        31.979209899902344,
+        17.60251808166504
+      ],
+      "local_bounds_mm": [
+        [
+          -15.01498794555664,
+          -12.5,
+          0.0
+        ],
+        [
+          15.012822151184082,
+          19.479209899902344,
+          17.60251808166504
+        ]
+      ],
+      "target_dimensions_mm": [
+        30.027810238025687,
+        31.979210616411436,
+        17.602517174070265
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 8897.333241566948,
+      "table_contact_area_mm2": 162.33971632487794,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.4617371733357219,
+        2.8310955747507447,
+        8.285737660744495
+      ],
+      "support_hull_margin_mm": 5.10903814858435,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 16.379180908203125,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "pull-low",
+      "stl": "exports/stone-to-fireworks/v3/pull-low.stl",
+      "mesh_fingerprint": "f0686486d003ae9097e05b9fe1867ef1c618686fe09b0371fd9b08483ad979a9",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "a9470712ceab3bb13246085d2c2c48534d6c03b5667f0325cdbce89e7a732d72",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/pull-mid.stl",
+      "sha256": "5427b5f9091b8c690e6ba401ea8a492defbf5e43fd4fe285b303f357b3b15298",
+      "local_dimensions_mm": [
+        30.03337287902832,
+        36.97269058227539,
+        17.11798095703125
+      ],
+      "local_bounds_mm": [
+        [
+          -15.017986297607422,
+          -12.5,
+          0.0
+        ],
+        [
+          15.015386581420898,
+          24.47269058227539,
+          17.11798095703125
+        ]
+      ],
+      "target_dimensions_mm": [
+        30.033372285630826,
+        36.972689869400256,
+        17.11798053451692
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 9763.515027576981,
+      "table_contact_area_mm2": 195.21878577883757,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.4398043129925144,
+        4.648499304927641,
+        7.966352632249174
+      ],
+      "support_hull_margin_mm": 5.112377686732097,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 15.878501892089844,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "pull-mid",
+      "stl": "exports/stone-to-fireworks/v3/pull-mid.stl",
+      "mesh_fingerprint": "16ab0980c0328dd88d8cf24dfe69057747756d53f45d8db0c8efdc70658b8f71",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "5427b5f9091b8c690e6ba401ea8a492defbf5e43fd4fe285b303f357b3b15298",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/pull-high.stl",
+      "sha256": "febe4f29d38b359ac521194bbe0f2c985588d630a2d684a0c9ec7296548e1056",
+      "local_dimensions_mm": [
+        30.036152839660645,
+        42.96486473083496,
+        16.75592041015625
+      ],
+      "local_bounds_mm": [
+        [
+          -15.019484519958496,
+          -12.5,
+          0.0
+        ],
+        [
+          15.016668319702148,
+          30.46486473083496,
+          16.75592041015625
+        ]
+      ],
+      "target_dimensions_mm": [
+        30.036153309433388,
+        42.96486497298683,
+        16.755919952191558
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 10772.660917396699,
+      "table_contact_area_mm2": 234.40237895542876,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.4203261837788131,
+        6.802448088013095,
+        7.667076059773839
+      ],
+      "support_hull_margin_mm": 5.099257162093541,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 15.542000770568848,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "pull-high",
+      "stl": "exports/stone-to-fireworks/v3/pull-high.stl",
+      "mesh_fingerprint": "74073212afef615026f369e58a580c2c2c08980408b2f2612cd2988ec393dc42",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "febe4f29d38b359ac521194bbe0f2c985588d630a2d684a0c9ec7296548e1056",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/pull-max.stl",
+      "sha256": "ebedfdaee7eb348ffb34b43f88069aa7d3338fd0be3f559ad75d0cfbf998367c",
+      "local_dimensions_mm": [
+        30.0389347076416,
+        49.95950698852539,
+        16.440696716308594
+      ],
+      "local_bounds_mm": [
+        [
+          -15.020983695983887,
+          -12.5,
+          0.0
+        ],
+        [
+          15.017951011657715,
+          37.45950698852539,
+          16.440696716308594
+        ]
+      ],
+      "target_dimensions_mm": [
+        30.03893433323596,
+        49.959505196955476,
+        16.440695930231065
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 11812.721023881999,
+      "table_contact_area_mm2": 280.2121128022891,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.40487881808676807,
+        9.220562539850127,
+        7.343336411180946
+      ],
+      "support_hull_margin_mm": 5.071189732624995,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 15.082372665405273,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "pull-max",
+      "stl": "exports/stone-to-fireworks/v3/pull-max.stl",
+      "mesh_fingerprint": "037f29fcb47e517534510429169903605bb1464f908314745b12ed580859d320",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "ebedfdaee7eb348ffb34b43f88069aa7d3338fd0be3f559ad75d0cfbf998367c",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/release.stl",
+      "sha256": "77955df694f7500a06e0e597fffd41028b9e7bf81d7dd808b50a1f01fbdcb687",
+      "local_dimensions_mm": [
+        30.013904571533203,
+        33.7718620300293,
+        18.552091598510742
+      ],
+      "local_bounds_mm": [
+        [
+          -15.00749397277832,
+          -11.899999618530273,
+          0.0
+        ],
+        [
+          15.006410598754883,
+          21.871862411499023,
+          18.552091598510742
+        ]
+      ],
+      "target_dimensions_mm": [
+        30.01390511901284,
+        33.77186308101543,
+        18.55209178713117
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 9747.323478096208,
+      "table_contact_area_mm2": 174.43908567082954,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.44124680490178503,
+        4.027140435586227,
+        8.662993618898366
+      ],
+      "support_hull_margin_mm": 5.07034083080623,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 17.488922119140625,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "release",
+      "stl": "exports/stone-to-fireworks/v3/release.stl",
+      "mesh_fingerprint": "c2980ded19ecab16abc0db01671d1901f0f91ba7e19e9ffb416376484ec8ae1e",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "77955df694f7500a06e0e597fffd41028b9e7bf81d7dd808b50a1f01fbdcb687",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/snap.stl",
+      "sha256": "e65d9e527fab5a0ec6744e1e732a9ca2e3f5a93c5e6f2c9b21eef379a9d427f3",
+      "local_dimensions_mm": [
+        30.0,
+        23.752718925476074,
+        21.355262756347656
+      ],
+      "local_bounds_mm": [
+        [
+          -15.0,
+          -11.0,
+          0.0
+        ],
+        [
+          15.0,
+          12.752718925476074,
+          21.355262756347656
+        ]
+      ],
+      "target_dimensions_mm": [
+        30.0,
+        23.75271879929273,
+        21.355263395163274
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 7909.098816192711,
+      "table_contact_area_mm2": 112.53157253757306,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.48613623077366447,
+        0.9444140156147451,
+        9.777516330592444
+      ],
+      "support_hull_margin_mm": 4.28417118884494,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 20.348548889160156,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "snap",
+      "stl": "exports/stone-to-fireworks/v3/snap.stl",
+      "mesh_fingerprint": "855db5b258755a22b0117a2fcf4bb84bebbeffda402937bbab195b4ff1e979e2",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "e65d9e527fab5a0ec6744e1e732a9ca2e3f5a93c5e6f2c9b21eef379a9d427f3",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/small.stl",
+      "sha256": "126fe0e08f25c809a3f2b48608e6d8e3aa21756717fa73d27ae75ee2ac68becd",
+      "local_dimensions_mm": [
+        19.5,
+        16.25,
+        13.0
+      ],
+      "local_bounds_mm": [
+        [
+          -9.75,
+          -8.125,
+          0.0
+        ],
+        [
+          9.75,
+          8.125,
+          13.0
+        ]
+      ],
+      "target_dimensions_mm": [
+        19.5,
+        16.25,
+        13.0
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 2152.3770747284984,
+      "table_contact_area_mm2": 48.68753815599774,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.32656162907341857,
+        0.20343890366889392,
+        5.942784721385384
+      ],
+      "support_hull_margin_mm": 2.9976541347200882,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 12.271125793457031,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": true,
+      "passed": true,
+      "id": "small",
+      "stl": "exports/stone-to-fireworks/v3/small.stl",
+      "mesh_fingerprint": "95facada31f978f0ecf3bb4fee3ff64ae89487b1308816484fa7bb630a724bfe",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "126fe0e08f25c809a3f2b48608e6d8e3aa21756717fa73d27ae75ee2ac68becd",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/tiny.stl",
+      "sha256": "57b4fad426373c2d27c78d9c55e662f2704111b240d3f44bf29a4acb80da9264",
+      "local_dimensions_mm": [
+        12.0,
+        10.0,
+        8.0
+      ],
+      "local_bounds_mm": [
+        [
+          -6.0,
+          -5.0,
+          0.0
+        ],
+        [
+          6.0,
+          5.0,
+          8.0
+        ]
+      ],
+      "target_dimensions_mm": [
+        12.0,
+        10.0,
+        8.0
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 501.60084786423715,
+      "table_contact_area_mm2": 18.43788434229423,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.2009610054448931,
+        0.1251931695378432,
+        3.657098292005342
+      ],
+      "support_hull_margin_mm": 1.8447102444277346,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 7.10260009765625,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": false,
+      "passed": true,
+      "id": "tiny",
+      "stl": "exports/stone-to-fireworks/v3/tiny.stl",
+      "mesh_fingerprint": "fa819f3c2dd8bf69109c82136f22e9177cb88a9346839bbed315635c912f5711",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "57b4fad426373c2d27c78d9c55e662f2704111b240d3f44bf29a4acb80da9264",
+      "independent_process_hash_matches": true
+    },
+    {
+      "frame": 1,
+      "path": "exports/stone-to-bread/distant.stl",
+      "sha256": "5cfd433e0b51ba800515e2bd7ec9b1ace0f7b33b1d495f6ab676c9043dcbc64f",
+      "local_dimensions_mm": [
+        7.5,
+        6.25,
+        5.0
+      ],
+      "local_bounds_mm": [
+        [
+          -3.75,
+          -3.125,
+          0.0
+        ],
+        [
+          3.75,
+          3.125,
+          5.0
+        ]
+      ],
+      "target_dimensions_mm": [
+        7.5,
+        6.25,
+        5.0
+      ],
+      "dimension_tolerance_mm": 0.1,
+      "vertices": 32514,
+      "triangles": 65024,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "nonmanifold_vertices": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "stl_normal_disagreements": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "signed_volume_mm3": 122.46114440439146,
+      "table_contact_area_mm2": 7.20229855801993,
+      "minimum_table_clearance_mm": 0.0,
+      "center_of_mass_local_mm": [
+        0.12560062607402547,
+        0.07824572936955866,
+        2.285686430991054
+      ],
+      "support_hull_margin_mm": 1.1529439136191582,
+      "core_thickness_samples": 39,
+      "sampled_minimum_vertical_core_mm": 3.9557113647460938,
+      "dimensions_pass": true,
+      "bread_study_absolute_thresholds_passed": false,
+      "passed": true,
+      "id": "distant",
+      "stl": "exports/stone-to-fireworks/v3/distant.stl",
+      "mesh_fingerprint": "75250675296f4a35109313cd319491884f7ccce2f99c47d39e0d83ae06b67d3b",
+      "render_stl_vertices_identical": true,
+      "independent_stl_sha256": "5cfd433e0b51ba800515e2bd7ec9b1ace0f7b33b1d495f6ab676c9043dcbc64f",
+      "independent_process_hash_matches": true
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "phase": "rest",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 1,
+      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-01.png"
+    },
+    {
+      "frame": 2,
+      "phase": "press-recover",
+      "pose": "press-a",
+      "press": 0.85,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 3,
+      "stl": "exports/stone-to-fireworks/v3/press-a.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-02.png"
+    },
+    {
+      "frame": 3,
+      "phase": "press-recover",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 5,
+      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-03.png"
+    },
+    {
+      "frame": 4,
+      "phase": "press-recover",
+      "pose": "press-b",
+      "press": 1,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 7,
+      "stl": "exports/stone-to-fireworks/v3/press-b.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-04.png"
+    },
+    {
+      "frame": 5,
+      "phase": "press-recover",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 9,
+      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-05.png"
+    },
+    {
+      "frame": 6,
+      "phase": "press-recover",
+      "pose": "press-c",
+      "press": 0.95,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 11,
+      "stl": "exports/stone-to-fireworks/v3/press-c.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-06.png"
+    },
+    {
+      "frame": 7,
+      "phase": "press-recover",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 13,
+      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-07.png"
+    },
+    {
+      "frame": 8,
+      "phase": "pull",
+      "pose": "pull-start",
+      "press": 0.4,
+      "pull": 0.12,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 15,
+      "stl": "exports/stone-to-fireworks/v3/pull-start.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-08.png"
+    },
+    {
+      "frame": 9,
+      "phase": "pull",
+      "pose": "pull-low",
+      "press": 0.5,
+      "pull": 0.28,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 17,
+      "stl": "exports/stone-to-fireworks/v3/pull-low.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-09.png"
+    },
+    {
+      "frame": 10,
+      "phase": "pull",
+      "pose": "pull-mid",
+      "press": 0.6,
+      "pull": 0.48,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 19,
+      "stl": "exports/stone-to-fireworks/v3/pull-mid.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-10.png"
+    },
+    {
+      "frame": 11,
+      "phase": "pull",
+      "pose": "pull-high",
+      "press": 0.65,
+      "pull": 0.72,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 21,
+      "stl": "exports/stone-to-fireworks/v3/pull-high.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-11.png"
+    },
+    {
+      "frame": 12,
+      "phase": "pull",
+      "pose": "pull-max",
+      "press": 0.7,
+      "pull": 1,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        0,
+        0
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 23,
+      "stl": "exports/stone-to-fireworks/v3/pull-max.stl",
+      "requires_flight_support": false,
+      "render": "previews/stone-to-fireworks/v3/frame-12.png"
+    },
+    {
+      "frame": 13,
+      "phase": "recoil-launch",
+      "pose": "release",
+      "press": 0.25,
+      "pull": 0.42,
+      "recoil": 0.4,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -14,
+        2
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 25,
+      "stl": "exports/stone-to-fireworks/v3/release.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v3/frame-13.png"
+    },
+    {
+      "frame": 14,
+      "phase": "recoil-launch",
+      "pose": "snap",
+      "press": 0,
+      "pull": 0.08,
+      "recoil": 1,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -40,
+        10
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 27,
+      "stl": "exports/stone-to-fireworks/v3/snap.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v3/frame-14.png"
+    },
+    {
+      "frame": 15,
+      "phase": "flight",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -82,
+        24
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 29,
+      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v3/frame-15.png"
+    },
+    {
+      "frame": 16,
+      "phase": "flight",
+      "pose": "rest",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 1,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -130,
+        38
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 31,
+      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v3/frame-16.png"
+    },
+    {
+      "frame": 17,
+      "phase": "flight",
+      "pose": "small",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 0.65,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -180,
+        48
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 33,
+      "stl": "exports/stone-to-fireworks/v3/small.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v3/frame-17.png"
+    },
+    {
+      "frame": 18,
+      "phase": "flight",
+      "pose": "tiny",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 0.4,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -230,
+        54
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 35,
+      "stl": "exports/stone-to-fireworks/v3/tiny.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v3/frame-18.png"
+    },
+    {
+      "frame": 19,
+      "phase": "flight",
+      "pose": "distant",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 0.25,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -280,
+        52
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 37,
+      "stl": "exports/stone-to-fireworks/v3/distant.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v3/frame-19.png"
+    },
+    {
+      "frame": 20,
+      "phase": "flight",
+      "pose": "distant",
+      "press": 0,
+      "pull": 0,
+      "recoil": 0,
+      "physical_size_factor": 0.25,
+      "scene_scale": [
+        1,
+        1,
+        1
+      ],
+      "position_mm": [
+        0,
+        -315,
+        44
+      ],
+      "exposures_12fps": 2,
+      "exposure_start": 39,
+      "stl": "exports/stone-to-fireworks/v3/distant.stl",
+      "requires_flight_support": true,
+      "render": "previews/stone-to-fireworks/v3/frame-20.png"
+    }
+  ],
+  "source": "exports/stone-to-fireworks/rest.stl",
+  "source_sha256": "1aa6c55abd2470b5889d1596c15eb86583dcd9a1cc984d530c71c7b52c3f3335",
+  "v1_sha256": {
+    "models/stone-to-fireworks.blend": "b39cf0e23d5c74a013c30d7bb4303eec933eb5a8fba0e31830b6f7be843dbfc0",
+    "scripts/stone_to_fireworks.py": "0614f34be4aa3d212c17103528cd4eec053a748b2773e39354d522167738bfae",
+    "docs/stone-to-fireworks.md": "f541ad2967f8a85d7b969825427ed2f5fc1da2f2204316ad898d8abe612ff1c2",
+    "previews/stone-to-fireworks/key-top-07.png": "04b4ceabf74266b6b548b7fd77bcab11fc0793d3b27561831ce97e8f0a8f71cb",
+    "previews/stone-to-fireworks/manifest-v1.json": "bcd6df8c06851af821115702cb00e6ec4c7d6278f4084b449f5da52cc2b524d5",
+    "previews/stone-to-fireworks/key-top-10.png": "370e47f7f0bd9a6794a05dd1227fcaddd863844557652088b99a3909c8e2437f",
+    "previews/stone-to-fireworks/frame-09.png": "fa59d5bbe6e036802687b74556715441d187a72fb3ff8bd0736b458bb8baa2be",
+    "previews/stone-to-fireworks/frame-08.png": "b308575b39baff320d521a46f5fa3036f83981b7b7ae15c7a9d52e0f48e4c247",
+    "previews/stone-to-fireworks/key-top-11.png": "7d9a0d560e4660f38fab927f0d53d7444a4be586fa17ce766f622cfa39c65075",
+    "previews/stone-to-fireworks/key-top-01.png": "d22b5e6c5f440f42f1605ebb3458cb744e980a42a09a911406b75fbe02230a87",
+    "previews/stone-to-fireworks/frame-18.png": "f167b57be401729d359bd49152ef6ae79ac196a0dd3c482dbb8dbc26bb5572bc",
+    "previews/stone-to-fireworks/.DS_Store": "bd43cb6ee1eb9e3b6aedaa9dab742e932737ecf90aa0433eb6d0bdad8639da27",
+    "previews/stone-to-fireworks/key-top-17.png": "87ab7356069b56fb5d1858b5f2e80ab8233dd1b4ca0d3b0bd137a3cd70a23375",
+    "previews/stone-to-fireworks/key-top-03.png": "034a69b1b1836184d3f18ebf1ccca33fb168ad127f6660ad2de1d5810d814fd6",
+    "previews/stone-to-fireworks/sequence-v1.gif": "16dbae4014401cc0b092642755d32f4aae53ebfde27648679667cf40baac0be7",
+    "previews/stone-to-fireworks/contact-sheet-v1.png": "7e462c49cdaa79cce859607ea30930a5f98e3d8cd4bab9663d4e0b6145eee20f",
+    "previews/stone-to-fireworks/gpu-configuration.json": "94da169cdb192b2251e283317d980e3bab2783ba9ed89b7f4c82bdd99e340f85",
+    "previews/stone-to-fireworks/frame-17.png": "5857493dbbc57d6b134f9482e94564b4344a663529e5b032b5c7331315440e5d",
+    "previews/stone-to-fireworks/frame-03.png": "b1116cc333c02f5e2070c0881e7f9205b9feaaf436106a44b54d6ceea1b550f2",
+    "previews/stone-to-fireworks/frame-02.png": "2f20515bc3d037ae770a0c00f530a1fa00861ad4fb986d84a503a0cd205d12bb",
+    "previews/stone-to-fireworks/frame-16.png": "ba38b704cb26566fd4cf7e780983d6bf309f346652a112451fd124107bd13bfc",
+    "previews/stone-to-fireworks/gpu-probe.png": "a0b922a62d6399c8ea4acad63e01b0cbde58139be07414e5643c57c56359c6e3",
+    "previews/stone-to-fireworks/key-poses-top-v1.png": "0b7dba65249386c113dd61c80794fbf28c1f86ee684b04d505eb8ece1c30ba2f",
+    "previews/stone-to-fireworks/key-poses-v1.png": "75a6340678389cad3a1bae769633a7577b489cf0c40516e6999dad13eecdf3f1",
+    "previews/stone-to-fireworks/frame-14.png": "131c7d90cbac2b1b52f09f2791701dd05c9f6e664461f94307e3617734895ffe",
+    "previews/stone-to-fireworks/frame-15.png": "f0378eb56080ec3f8b3acb1125558a7f076fff80dbeba2d3e356f84736c14313",
+    "previews/stone-to-fireworks/frame-01.png": "2424e4e1c828ddc2e8a5bd310a26517d09c1e4de62df2ad2059646d3c734f290",
+    "previews/stone-to-fireworks/validation-v1.json": "44a81ccdd8eb040e1b4323573bdcee669dee36eb909d68b1a65bcf12dab73528",
+    "previews/stone-to-fireworks/frame-05.png": "4d8166bec1eda6b1d276ea588cd66c98c55db1c5ad909b6bccef662a8ccdd912",
+    "previews/stone-to-fireworks/frame-11.png": "ead0da555641cf12581724045c43fb9283188750a019da4ee399a9bd7773a7ff",
+    "previews/stone-to-fireworks/frame-10.png": "e3bbf43c6f7c98d13c1407831d16c34c72237668d2c8055df900134aafe3ae39",
+    "previews/stone-to-fireworks/frame-04.png": "c6273a32940386a78ff28a20a4b3c21435f22e58248a5bf24dc60a8485d4876b",
+    "previews/stone-to-fireworks/frame-12.png": "da473aac16b4a7da330dd906e0314024400c42099b3e46d453935cebec87511a",
+    "previews/stone-to-fireworks/frame-06.png": "c45d3af3b9784280518c81f3c5ba02519ca0e374101726316728106fb09743bc",
+    "previews/stone-to-fireworks/frame-07.png": "38312f8c9897037aba5f019a7dc7a157d1d9a7836fe0ad7bbb85d249eef06688",
+    "previews/stone-to-fireworks/frame-13.png": "f48446eabf85d4d3013e5e8dc750ee318f1cc2f75516779b0e2a1fa05027f933",
+    "exports/stone-to-fireworks/flight-small.stl": "fadfbc8d1687a248f1896df545e85f52a07a64290999780dce226533e49b31a2",
+    "exports/stone-to-fireworks/press-light.stl": "a18929c3c2e337c62062cede7c3df4357d0ec824e6827dc3e907cde58f80440c",
+    "exports/stone-to-fireworks/pull-mid.stl": "6428debed17f0b743a5efa2f6099180b7057d1cc32f95ce3e92046125a859429",
+    "exports/stone-to-fireworks/pull-low.stl": "ac11c3032d280a99d2225c42aa7c8d335227fd0cba6c7735456e2af1f4fd7d7a",
+    "exports/stone-to-fireworks/recover.stl": "b2c9df9b2941ed20ed3776acdf852d0fc6ccc05a300a07e97bd042df8db3e035",
+    "exports/stone-to-fireworks/pull-max.stl": "cc79125c92ea1300d5970baecfd96964de5ca1bad585991f851226c7b1531463",
+    "exports/stone-to-fireworks/pull-start.stl": "56f611c6e5ac07c123cd3e1373b45ec7c13d1a6eabfa34f0f100beea940231d8",
+    "exports/stone-to-fireworks/flight-distant.stl": "fc0a1404324e648d573396dc79fbc5434e9938351b072b819bc92197433e683e",
+    "exports/stone-to-fireworks/flight-tiny.stl": "413126403e33a87d6b5330b8e97dca2f02581b4fdba32e4094993b3982aae1ae",
+    "exports/stone-to-fireworks/snap.stl": "293d80f7dbf0f448fa038a13983ff4d20810b1a0c6172b03b47e210cc1847585",
+    "exports/stone-to-fireworks/pull-high.stl": "964fa87a210dc72dc55131bd1c1a1d75ba76a9c247e10e5e32f1cb4023b55b94",
+    "exports/stone-to-fireworks/press.stl": "d8b9ff21dbfa3aeb1ad9c3ed29aa07e42117a3d0866a7e4f43995682f1088895",
+    "exports/stone-to-fireworks/release.stl": "a9782a787114ff671e800413137b29b2ea668360587d110f247f57f7a57a0dfd",
+    "exports/stone-to-fireworks/rest.stl": "1aa6c55abd2470b5889d1596c15eb86583dcd9a1cc984d530c71c7b52c3f3335",
+    "models/stone-to-fireworks-v2.blend": "a67e9b6b777d753e8b72261c1949ecd737c8b24af0b5ffa0f2d0c3334480cf31",
+    "scripts/stone_to_fireworks_v2.py": "bdcc54a66e2f6b64aa0814982d0d5e98b21fd74f100022d7039bde51bcbfef32",
+    "docs/stone-to-fireworks-v2.md": "92dee82b8091f49812a0e1f0e22b54ef634bd0ff5f8a6b0a10706db07a7c6e3f",
+    "exports/stone-to-fireworks/v2/tiny.stl": "413126403e33a87d6b5330b8e97dca2f02581b4fdba32e4094993b3982aae1ae",
+    "exports/stone-to-fireworks/v2/pull-mid.stl": "6428debed17f0b743a5efa2f6099180b7057d1cc32f95ce3e92046125a859429",
+    "exports/stone-to-fireworks/v2/pull-low.stl": "ac11c3032d280a99d2225c42aa7c8d335227fd0cba6c7735456e2af1f4fd7d7a",
+    "exports/stone-to-fireworks/v2/pull-max.stl": "cc79125c92ea1300d5970baecfd96964de5ca1bad585991f851226c7b1531463",
+    "exports/stone-to-fireworks/v2/distant.stl": "fc0a1404324e648d573396dc79fbc5434e9938351b072b819bc92197433e683e",
+    "exports/stone-to-fireworks/v2/pull-start.stl": "56f611c6e5ac07c123cd3e1373b45ec7c13d1a6eabfa34f0f100beea940231d8",
+    "exports/stone-to-fireworks/v2/snap.stl": "9811d1421e070167e04c341efc9005500c0da41edde0ad81d5583f6e26ad70af",
+    "exports/stone-to-fireworks/v2/pull-high.stl": "964fa87a210dc72dc55131bd1c1a1d75ba76a9c247e10e5e32f1cb4023b55b94",
+    "exports/stone-to-fireworks/v2/release.stl": "d3e023487dc8362b68271f5e49c72bb6796c3719b23716e8c08bfaa947d42503",
+    "exports/stone-to-fireworks/v2/rest.stl": "1aa6c55abd2470b5889d1596c15eb86583dcd9a1cc984d530c71c7b52c3f3335",
+    "exports/stone-to-fireworks/v2/press-a.stl": "978b90558a9c54acd936fdf689685380b32ee462a644c5a49dc29e31f6228e52",
+    "exports/stone-to-fireworks/v2/press-b.stl": "6f089cbd757256d5439c3d25f4bbee7d23b876cb90d02a31c751cfe09308a309",
+    "exports/stone-to-fireworks/v2/small.stl": "fadfbc8d1687a248f1896df545e85f52a07a64290999780dce226533e49b31a2",
+    "exports/stone-to-fireworks/v2/press-c.stl": "854bd3b9679ac309b10e87657b786660db8bc8ff8ea086403a7a53bbe8afcfcc",
+    "previews/stone-to-fireworks/v2/top-09.png": "4c5dd8295eaf67a8985417b7e8527d4fcaacf6ab94eaaf355703cf2feb1c6f7b",
+    "previews/stone-to-fireworks/v2/validation-v2.json": "63b89a74a35d68f369c6eaf61feadd9a38300e77e9b45d38b387e4ea666acc42",
+    "previews/stone-to-fireworks/v2/frame-09.png": "3904afc5a3d299b45175c54018bc1496ff7101460b8fa9b8952e6513aa44a61e",
+    "previews/stone-to-fireworks/v2/frame-20.png": "47329abe18088c7c40dc31586856751fd3604f19fc9ba66f8301745ef542d06b",
+    "previews/stone-to-fireworks/v2/frame-08.png": "d5cb45c73d0f1528d6647457bd476be6e69921661a6f153c524add05ab930a5d",
+    "previews/stone-to-fireworks/v2/frame-18.png": "fd226a0810cdbc5346cfe899a525dec53797e1ff6503adde187f158b22ee4ba5",
+    "previews/stone-to-fireworks/v2/frame-19.png": "b79edf012714642b3c6604262df3e7a14956c07d3a5d410602ea3b6b785ade65",
+    "previews/stone-to-fireworks/v2/top-19.png": "a7bb2771b33b78c9b2c647a1c9b79d579039aabd4dcb299e9c3ed2a6f5494da1",
+    "previews/stone-to-fireworks/v2/sequence-v2.gif": "43512fffe2f41c2504f90f8aa7567a7d4226def11bc8beaa403124f4bacd06c9",
+    "previews/stone-to-fireworks/v2/contact-sheet-v2.png": "adda2d27f882f49fb674b52297d2312b82505cd33fd05c92853aa869566272cd",
+    "previews/stone-to-fireworks/v2/key-poses-v2.png": "8902f83b529800a508e839f8d6726c509ecb20c169dea653495cafd89387465b",
+    "previews/stone-to-fireworks/v2/frame-17.png": "f839a24bf4092b9bbcd0a63155936452ec4ddf10668d79574303af7b3a6af624",
+    "previews/stone-to-fireworks/v2/top-14.png": "9752df3900c1e732dec393fb735f359644848bda868d0c82841c87cc9388881c",
+    "previews/stone-to-fireworks/v2/frame-03.png": "d4a4aaa9acdf59394b258000b14158b8ec83ad43e3156f26fcb02f1f9c9a7b79",
+    "previews/stone-to-fireworks/v2/top-01.png": "f8d6fd55882facdef857d85eabc11635f30d42487137d6cf65c34d52dbe26884",
+    "previews/stone-to-fireworks/v2/frame-02.png": "290747e68ded1d3a6893590266565774bd1a91ffea1e62cd3e5535fe34ff2c62",
+    "previews/stone-to-fireworks/v2/frame-16.png": "11d5b03fc08e467c5dc1d34b50eca61fd7da2dd3de9014a09cb5a3b5cd630e3c",
+    "previews/stone-to-fireworks/v2/frame-14.png": "a431fb357f4af60ceccaef6b038027284ba5efbdda9897b78b5fbe12ead364f6",
+    "previews/stone-to-fireworks/v2/top-16.png": "0a6668edd7971182ce044931d5290115df5e6b3c5470f275029dfff21066942b",
+    "previews/stone-to-fireworks/v2/frame-15.png": "c28ae0ce445ae5fb01a8004b71bb749064c9ff380cd9bf3e478d6aa18b6e9211",
+    "previews/stone-to-fireworks/v2/frame-01.png": "ba4a7a31662fb08af8ae98def4f0c31161811ef4a9bec56275d1799f2c0f1ec5",
+    "previews/stone-to-fireworks/v2/key-poses-top-v2.png": "7c7fef5876b347ea1f021ed8109593aa316dc822d670ba9f82c1439782d6388b",
+    "previews/stone-to-fireworks/v2/frame-05.png": "bffea627b4fb5bb1fb05c7279b8176da08d02d6d0511051874eac7b6a0df2315",
+    "previews/stone-to-fireworks/v2/top-12.png": "53693d69466bebd8f2ce6011386e061f6cc451b995a8572e7ed8e386693bd0d8",
+    "previews/stone-to-fireworks/v2/frame-11.png": "16a95595782c870dc81487bd234400880dc1b3a997255c80f9afb49c301015ae",
+    "previews/stone-to-fireworks/v2/frame-10.png": "032dc40950c6ea32c7bc197839122842847f07424589ac87899ed838d3b37e1c",
+    "previews/stone-to-fireworks/v2/top-13.png": "f1c95be5240fd724c21d112b8e73f5c424be22970550d8bc45e8d6ee596cc83a",
+    "previews/stone-to-fireworks/v2/frame-04.png": "0fb76609580dfc03af7a4a88b53e20de332495616847667e0f4606ab5cd30ae2",
+    "previews/stone-to-fireworks/v2/manifest-v2.json": "633afedd21c57cdb3460a633e870ebf4ba6db0773af0858ee7d9fbb945c85103",
+    "previews/stone-to-fireworks/v2/frame-12.png": "14afa5bf3e32938234f480d50268d05afd8e1cf11985630f0ec4a4e835ed9f78",
+    "previews/stone-to-fireworks/v2/frame-06.png": "ad29dc6ee3142367f74f0bb3b9c5f8bb7bcb7e16ce5a8d61ed1c7802d291f94c",
+    "previews/stone-to-fireworks/v2/frame-07.png": "c39e2a1c0abd37e58e9c3473dec663d4056b1de0de6b965d237d84f185e565a7",
+    "previews/stone-to-fireworks/v2/top-04.png": "cb0cb040b15a814a35d14e2982973043a5779383a6ac260fd2458b04acc8b08d",
+    "previews/stone-to-fireworks/v2/frame-13.png": "bf2fae6f49c2f8ec6e2004da2246b70446f8287ee38d8ce9ac4266d4b24d71db"
+  },
+  "limitations": [
+    "No attached storyboard image was available; written phase descriptions guide this revision.",
+    "Airborne filming poses require a support/removal or compositing method; no jig is generated.",
+    "Minimum normal wall thickness, shared-vertex intersections, slicer and physical print tests remain unverified.",
+    "Support margins refer to local resting STLs, not airborne scene stability."
+  ],
+  "camera": {
+    "location_mm": [
+      0.0,
+      160.0,
+      245.0
+    ],
+    "lens_mm": 27.435998916625977,
+    "projection_bounds": [
+      [
+        0.4566955268383026,
+        0.543304443359375,
+        0.2594042718410492,
+        0.3771365284919739
+      ],
+      [
+        0.4568972885608673,
+        0.543104887008667,
+        0.2594042718410492,
+        0.3732447922229767
+      ],
+      [
+        0.4566955268383026,
+        0.543304443359375,
+        0.2594042718410492,
+        0.3771365284919739
+      ],
+      [
+        0.45691078901290894,
+        0.5430917739868164,
+        0.2594042718410492,
+        0.37297531962394714
+      ],
+      [
+        0.4566955268383026,
+        0.543304443359375,
+        0.2594042718410492,
+        0.3771365284919739
+      ],
+      [
+        0.4569064974784851,
+        0.5430959463119507,
+        0.2594042718410492,
+        0.3730613887310028
+      ],
+      [
+        0.4566955268383026,
+        0.543304443359375,
+        0.2594042718410492,
+        0.3771365284919739
+      ],
+      [
+        0.4565422534942627,
+        0.5434627532958984,
+        0.24972213804721832,
+        0.37301167845726013
+      ],
+      [
+        0.45613226294517517,
+        0.5438740253448486,
+        0.2365666776895523,
+        0.37186408042907715
+      ],
+      [
+        0.4555891752243042,
+        0.5444185137748718,
+        0.21972008049488068,
+        0.3708062469959259
+      ],
+      [
+        0.4548971951007843,
+        0.5451112389564514,
+        0.19891969859600067,
+        0.37001746892929077
+      ],
+      [
+        0.45404836535453796,
+        0.5459609031677246,
+        0.1737939864397049,
+        0.3693319261074066
+      ],
+      [
+        0.45713841915130615,
+        0.5428646802902222,
+        0.27803289890289307,
+        0.41579684615135193
+      ],
+      [
+        0.4596996307373047,
+        0.5403004288673401,
+        0.3963771462440491,
+        0.5048374533653259
+      ],
+      [
+        0.4624168574810028,
+        0.5375832319259644,
+        0.5303453207015991,
+        0.6306851506233215
+      ],
+      [
+        0.46511849761009216,
+        0.534881591796875,
+        0.6592816710472107,
+        0.7515841126441956
+      ],
+      [
+        0.4795643389225006,
+        0.5204357504844666,
+        0.7710667252540588,
+        0.825684130191803
+      ],
+      [
+        0.4885696470737457,
+        0.5114305019378662,
+        0.8547236919403076,
+        0.885424792766571
+      ],
+      [
+        0.49350324273109436,
+        0.5064969062805176,
+        0.906327486038208,
+        0.9238152503967285
+      ],
+      [
+        0.49392053484916687,
+        0.5060796141624451,
+        0.9220979809761047,
+        0.9384463429450989
+      ]
+    ]
+  },
+  "rendering": {
+    "engine": "BLENDER_EEVEE_NEXT",
+    "gpu": "AMD Radeon Pro 5600M",
+    "backend": "METAL",
+    "samples": 16
+  },
+  "single_visible_pose_per_frame": true,
+  "v1_unchanged": true,
+  "v2_unchanged": true,
+  "geometry_features": "Five rounded face cuts and six unequal localized shallow chips/swells; one shared base before deformation.",
+  "neutral_material_only": true,
+  "v2_motion_and_timing_identical": true,
+  "gif_duration_seconds": 3.33,
+  "output_sha256": {
+    "sequence-v3.gif": "4690983984806000d13975a133d66c87179999b112e2f726dd06f8a8a0ff86dc",
+    "contact-sheet-v3.png": "e98288d49440659416dc541d49414b2362e85176cd66eb684738a68fac11d6b0",
+    "key-poses-v3.png": "11c623858a64fd371a40f8daf9dc3ce32fa3e21827c696827ef35b5b58793a5a",
+    "key-poses-top-v3.png": "7210dc1136215f7c218126e2bb0a08eafe4600d77651516248d590a2f2217f4f",
+    "rest-closeup-v2-v3.png": "8b343aa8d995a65724c0563fb59a9c9e0a3cdfa11025b42b6f6f892caf856904"
+  },
+  "scene_sha256": "492591c44a2146b1a9e249ed913afe45a41b2df5dc156614133e0de6d7079c76",
+  "generator_sha256": "b31d8ef2bd2427cf5eb3b925fcbfaad8eb981005f44cb9a9c7c2e214d5e04c60"
+}

@@ -1,0 +1,1675 @@
+{
+  "stl_geometry_passed": true,
+  "geometry": [
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 16459.083912553815,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.199999809265137,
+        12.149999618530273
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 588.7191565756309,
+      "support_margin_mm": 2.675754011858351,
+      "mesh_fingerprint": "561f1f87350040597de160d41b839b57abb6bb7e91e2d75bf8d5079cf98551b1",
+      "passed": true,
+      "id": "pose-01",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-01.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 16495.46437751592,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.20041561126709,
+        12.665976524353027
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 608.8996982571163,
+      "support_margin_mm": 2.788918650777593,
+      "mesh_fingerprint": "b0bdc02ec2d81db077b0b3657f0900d22a0f9565d65fbbd9f29313b3a0195e4b",
+      "passed": true,
+      "id": "pose-02",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-02.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 16606.0692693362,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.258356094360352,
+        13.060205459594727
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 666.4381403553464,
+      "support_margin_mm": 2.8834821570256985,
+      "mesh_fingerprint": "f1b8bbed1d81c8f2942e94a665919c547ac94b166d62142d4ffab8b5f39afda5",
+      "passed": true,
+      "id": "pose-03",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-03.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 16778.40175705588,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.337404251098633,
+        13.152905464172363
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 591.8634464416639,
+      "support_margin_mm": 2.5794642449247096,
+      "mesh_fingerprint": "a17c27cba417bd8c4fe98ff6dd477c9899cb8901205dd8a648d9e55dd89a3070",
+      "passed": true,
+      "id": "pose-04",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-04.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 16979.6141013057,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.23859977722168,
+        12.784690856933594
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 594.9021804911501,
+      "support_margin_mm": 2.6558270651309375,
+      "mesh_fingerprint": "05526e8d999e87b3e79abafb719972836f0af95fc3aafbf732aa0a8d0ec1940e",
+      "passed": true,
+      "id": "pose-05",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-05.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 17175.801027556947,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.983854293823242,
+        12.097916603088379
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 761.5075305953251,
+      "support_margin_mm": 3.314347245995787,
+      "mesh_fingerprint": "25fa05b5f849d622871b655e1983cf0265186f1536288012b2409debb8927925",
+      "passed": true,
+      "id": "pose-06",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-06.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 17523.478232933645,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.284431457519531,
+        12.933802604675293
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 545.0939498961357,
+      "support_margin_mm": 2.3301179210971488,
+      "mesh_fingerprint": "0aee2d024a03d84f0d9c1ad35ecdb835071277b9ed0460ccf215758c4fe74662",
+      "passed": true,
+      "id": "pose-07",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-07.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 17863.731006504157,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.866519927978516,
+        13.78364372253418
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 364.5322123169162,
+      "support_margin_mm": 1.389962923706813,
+      "mesh_fingerprint": "6e262c6d3e365a6813ab066320e0e58771169ef77b64cb8e15e0b67f37082837",
+      "passed": true,
+      "id": "pose-08",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-08.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18176.119732308314,
+      "dimensions_mm": [
+        141.8000030517578,
+        14.028948783874512,
+        13.978947639465332
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 368.0921823286543,
+      "support_margin_mm": 1.2918954764145387,
+      "mesh_fingerprint": "9ae84db3fec74de726bc489b9591d9ce45ef755b8c06c8d7cde228f49cc21b7f",
+      "passed": true,
+      "id": "pose-09",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-09.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18443.735717258558,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.299158096313477,
+        13.152880668640137
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 394.6038777634046,
+      "support_margin_mm": 0.8298509825335488,
+      "mesh_fingerprint": "aaf670369193415d31130446f84fb2f2914b3eb27b3ad8776c031662f74d5e88",
+      "passed": true,
+      "id": "pose-10",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-10.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18584.599261912692,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.643286228179932,
+        12.142097473144531
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 932.7402592648368,
+      "support_margin_mm": 3.6695591183450866,
+      "mesh_fingerprint": "598a00abfda6f759692894ecf14ef5d03166ae2539441881767147d663726397",
+      "passed": true,
+      "id": "pose-11",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-11.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18898.757500412263,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.235184669494629,
+        13.058971405029297
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 542.8029897202505,
+      "support_margin_mm": 0.7892677333566365,
+      "mesh_fingerprint": "fb1941cd26b153f44fbde3224933707384b4cc70f178b6526d629f1ec8068f35",
+      "passed": true,
+      "id": "pose-12",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-12.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19000.41196808474,
+      "dimensions_mm": [
+        141.8000030517578,
+        14.632468223571777,
+        14.125260353088379
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 500.38174824804,
+      "support_margin_mm": 0.6296758140107264,
+      "mesh_fingerprint": "2f6067c9749ee075ef95322c85d53aea1be588cf85100e06e175a5c63e616b4c",
+      "passed": true,
+      "id": "pose-13",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-13.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19096.537968525754,
+      "dimensions_mm": [
+        141.8000030517578,
+        14.741344451904297,
+        14.075188636779785
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 507.8479729877786,
+      "support_margin_mm": 0.5242682502828468,
+      "mesh_fingerprint": "68291ccae86c7a00d761d77e59d98c1698fac0a291690026c45c174b9f29b153",
+      "passed": true,
+      "id": "pose-14",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-14.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19276.490612733414,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.086631774902344,
+        12.716995239257812
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 729.6496369626245,
+      "support_margin_mm": 1.0760626618222155,
+      "mesh_fingerprint": "1f77be2dfc0eb760303082ae46a9e1ed7599f23137ec84034f3e8b4b67bc1339",
+      "passed": true,
+      "id": "pose-15",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-15.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19543.65181777451,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.277373313903809,
+        12.107270240783691
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1177.0411735503976,
+      "support_margin_mm": 4.547512241810298,
+      "mesh_fingerprint": "627ce920bb1455cf05afa6582ce8b7fbf28df3e76ff5296967f68c80a74cdc48",
+      "passed": true,
+      "id": "pose-16",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-16.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19358.40226314111,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.982332229614258,
+        12.544564247131348
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 870.5651544209398,
+      "support_margin_mm": 1.27823665060933,
+      "mesh_fingerprint": "3e0c1d4c5b2a1a35b4114c478fba78be170d11e51c326f4508559498a40afbc7",
+      "passed": true,
+      "id": "pose-17",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-17.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19149.599537252678,
+      "dimensions_mm": [
+        141.8000030517578,
+        15.04511833190918,
+        13.824395179748535
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 647.3888852696792,
+      "support_margin_mm": 0.790179977895195,
+      "mesh_fingerprint": "0fadffa7bd782d5ef9d05c82a32226ab9d51826647e126c30d7b3ca3f5a7dc20",
+      "passed": true,
+      "id": "pose-18",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-18.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19125.74747729034,
+      "dimensions_mm": [
+        141.8000030517578,
+        15.105875015258789,
+        13.795328140258789
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 646.9751087539311,
+      "support_margin_mm": 0.7423861025920214,
+      "mesh_fingerprint": "18bf07164761c92f96e870d979bd2707dcf4d706e4805b40cfdbfdc781daaddb",
+      "passed": true,
+      "id": "pose-19",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-19.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19347.915713213257,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.782147407531738,
+        12.33364486694336
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 976.1860244626109,
+      "support_margin_mm": 1.7359791962918807,
+      "mesh_fingerprint": "60050e6fed7c6b86caf2f4a299a58719fc9536c12f06046ff04a17037594a7bb",
+      "passed": true,
+      "id": "pose-20",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-20.stl"
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19575.667839901696,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.006373882293701,
+        11.908401489257812
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1374.6352285589091,
+      "support_margin_mm": 4.839619940519417,
+      "mesh_fingerprint": "882c9d292d078134d5e867293d11ed48b184a078a4c1e505b528e856e3dc764c",
+      "passed": true,
+      "id": "pose-21",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-21.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19340.838884913985,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.761004447937012,
+        12.31488037109375
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 976.6519229072526,
+      "support_margin_mm": 1.7260367381932644,
+      "mesh_fingerprint": "f463291da2b98c489b3f79e1282c54a1c6ef7b1ea29c6fd549bc22687ce49d7e",
+      "passed": true,
+      "id": "pose-22",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-22.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19089.05887556164,
+      "dimensions_mm": [
+        141.8000030517578,
+        15.157194137573242,
+        13.77073860168457
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 644.9757843557934,
+      "support_margin_mm": 0.7018639176923985,
+      "mesh_fingerprint": "af06aad1788c0a1e2123e2c5f9b55c4b8760386a5294b848ea7d9cdeb5a15ca0",
+      "passed": true,
+      "id": "pose-23",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-23.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19078.550248701733,
+      "dimensions_mm": [
+        141.8000030517578,
+        15.157194137573242,
+        13.77073860168457
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 643.3379383966053,
+      "support_margin_mm": 0.7018582614549731,
+      "mesh_fingerprint": "124a2464705e0ddee711dd3a96c22393d5b1669e2bd82da167a1f25da889ffae",
+      "passed": true,
+      "id": "pose-24",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-24.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19301.64203406081,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.761004447937012,
+        12.314277648925781
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 963.7980466672029,
+      "support_margin_mm": 1.7265734239860002,
+      "mesh_fingerprint": "096ca27087b02112069d0d4775a8e0e145b43e0c5c80ae0808cd074176088962",
+      "passed": true,
+      "id": "pose-25",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-25.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19485.400396806726,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.00840139389038,
+        11.906373977661133
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1304.1881360747418,
+      "support_margin_mm": 4.839568388804172,
+      "mesh_fingerprint": "59978be5ac742a7ee0b5b9a5d2112d0bd3cda2e63206128f9883869bbc3a32e1",
+      "passed": true,
+      "id": "pose-26",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-26.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19176.60265685893,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.761004447937012,
+        12.314277648925781
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 928.4696148248443,
+      "support_margin_mm": 1.727914267189697,
+      "mesh_fingerprint": "3f01bae6cfd50c0c4b90e35c565c31d71212eca5f46d91b82b7b56bca525ee8a",
+      "passed": true,
+      "id": "pose-27",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-27.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18850.659313755245,
+      "dimensions_mm": [
+        141.8000030517578,
+        15.157194137573242,
+        13.77073860168457
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 616.8861857634091,
+      "support_margin_mm": 0.7034606307882806,
+      "mesh_fingerprint": "54b977e5401676d19c6fe764cc70e311940b34400e44935f7c98cbd3dc3ce917",
+      "passed": true,
+      "id": "pose-28",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-28.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18788.934908840885,
+      "dimensions_mm": [
+        141.8000030517578,
+        15.157194137573242,
+        13.77073860168457
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 614.2412226564377,
+      "support_margin_mm": 0.7036019333117883,
+      "mesh_fingerprint": "fa7afd3eb2774ae3a16093b6509244fa991519145faa3c9de6a25d6b9aa6c736",
+      "passed": true,
+      "id": "pose-29",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-29.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18981.63530502498,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.761004447937012,
+        12.31488037109375
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.7278890439982162,
+      "mesh_fingerprint": "d777a38926bafde1af868d6ecac06bdaf6832fb9ca0ac762f0453b3296adb574",
+      "passed": true,
+      "id": "pose-30",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-30.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19168.303415384216,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.006373882293701,
+        11.908401489257812
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1258.8127538710457,
+      "support_margin_mm": 4.839692546950747,
+      "mesh_fingerprint": "9aa14f4fc71a33bdbc9138823b08c6bd5a3ad3e8cc146af6353514c06b0e4625",
+      "passed": true,
+      "id": "pose-31",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-31.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18913.94735941622,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.761004447937012,
+        12.31488037109375
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.7277239445343922,
+      "mesh_fingerprint": "cbb40d7567b53ab7eab7189e803c6c242f697f12262cf42e2ad7022b196d7e58",
+      "passed": true,
+      "id": "pose-32",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-32.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18655.376442302666,
+      "dimensions_mm": [
+        141.8000030517578,
+        15.157194137573242,
+        13.77073860168457
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 609.9896361887452,
+      "support_margin_mm": 0.7032838727699057,
+      "mesh_fingerprint": "a7664e5c23695528f55416ab1d2211c9295572cf97444c1a11780c0e324de8bf",
+      "passed": true,
+      "id": "pose-33",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-33.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18640.830863871473,
+      "dimensions_mm": [
+        141.8000030517578,
+        15.157194137573242,
+        13.77073860168457
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 609.9896361887452,
+      "support_margin_mm": 0.7031416111176416,
+      "mesh_fingerprint": "58e195dfa086b28e05b19183b4ccacb24a3d02db8638272c258a12a888628369",
+      "passed": true,
+      "id": "pose-34",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-34.stl"
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18871.26536404365,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.761004447937012,
+        12.314277648925781
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.727535075155565,
+      "mesh_fingerprint": "ffbf2cec7d47a8d3fcef5bc1a58df6754c7014093be4b40b548d76a0e845e645",
+      "passed": true,
+      "id": "pose-35",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-35.stl"
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1626.550498896151,
+      "dimensions_mm": [
+        11.816667079925537,
+        12.006373882293701,
+        11.908401489257812
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225073613969,
+      "support_margin_mm": 4.831050009602877,
+      "mesh_fingerprint": "d71639b6c8dce4ed80de4fb4c3a025239e01f56119b40e29b739f02faf1e3fd1",
+      "passed": true,
+      "id": "pose-36",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-36.stl"
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1635.3283102863506,
+      "dimensions_mm": [
+        11.816665649414062,
+        12.006373882293701,
+        11.908401489257812
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224611530952,
+      "support_margin_mm": 4.803705192580662,
+      "mesh_fingerprint": "67eb046b612153e3fffb3bab91f82f3becddcec22d9cbad6b5d81186826f008d",
+      "passed": true,
+      "id": "pose-37",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-37.stl"
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1630.8436095908223,
+      "dimensions_mm": [
+        11.816667079925537,
+        12.006373882293701,
+        11.908401489257812
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225073613969,
+      "support_margin_mm": 4.8175968873472685,
+      "mesh_fingerprint": "0b077ac964b17ca443767d82492eca2ac15069bcac51a91edd34e6df5334cbd6",
+      "passed": true,
+      "id": "pose-38",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-38.stl"
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1621.412193203647,
+      "dimensions_mm": [
+        11.816667079925537,
+        11.816666603088379,
+        11.716666221618652
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225073613969,
+      "support_margin_mm": 4.847091674799946,
+      "mesh_fingerprint": "aa807ccb06e9ea1c085cc6efaf43c1f568811084033e39ac5aea853284294a60",
+      "passed": true,
+      "id": "pose-39",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-39.stl"
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1586.8575882386763,
+      "dimensions_mm": [
+        11.816667079925537,
+        15.157194137573242,
+        13.77073860168457
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 52.88484217387999,
+      "support_margin_mm": 0.6980971727954195,
+      "mesh_fingerprint": "2d33aeaf5c798898fdf6126d906bd4ecae40cae1865f30d0ad9092bbf2831f3d",
+      "passed": true,
+      "id": "pose-40",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-40.stl"
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1595.635409569737,
+      "dimensions_mm": [
+        11.816665649414062,
+        15.157194137573242,
+        13.77073860168457
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 52.88483674817428,
+      "support_margin_mm": 0.6839972242065835,
+      "mesh_fingerprint": "69d41bb16a2795875954ef55ea024ff7c400cfb020ca2f9d3dbc40d9857e8ae6",
+      "passed": true,
+      "id": "pose-41",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-41.stl"
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1591.1506995744749,
+      "dimensions_mm": [
+        11.816667079925537,
+        15.157194137573242,
+        13.77073860168457
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 52.88484216851556,
+      "support_margin_mm": 0.6912144904769405,
+      "mesh_fingerprint": "62da87bc8cc3524b7cc04113a7448b7dc92c4ae8e3bb487890253a3ff0b3138e",
+      "passed": true,
+      "id": "pose-42",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-42.stl"
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1581.7192763610608,
+      "dimensions_mm": [
+        11.816667079925537,
+        15.157194137573242,
+        13.53734302520752
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 52.88484217387999,
+      "support_margin_mm": 0.7064274137207763,
+      "mesh_fingerprint": "930a7e9d57f8b421a9ab0e7256ace4269de615d357b21842a8330a32ced306eb",
+      "passed": true,
+      "id": "pose-43",
+      "stl": "exports/rolling-cube-pen/print-set-v3/pose-43.stl"
+    }
+  ],
+  "placement_checks": [
+    {
+      "pose": 1,
+      "instance": "pose-01-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 2,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 3,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 4,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 5,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 6,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 7,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 8,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 9,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 10,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 11,
+      "instance": "pose-01-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 12,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 13,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 14,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 15,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 16,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 17,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 18,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 19,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 20,
+      "instance": "pose-01-copy-01",
+      "self_standing": false
+    },
+    {
+      "pose": 21,
+      "instance": "pose-01-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 22,
+      "instance": "pose-02-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 23,
+      "instance": "pose-03-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 24,
+      "instance": "pose-04-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 25,
+      "instance": "pose-05-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 26,
+      "instance": "pose-06-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 27,
+      "instance": "pose-07-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 28,
+      "instance": "pose-08-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 29,
+      "instance": "pose-09-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 30,
+      "instance": "pose-10-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 31,
+      "instance": "pose-11-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 32,
+      "instance": "pose-12-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 33,
+      "instance": "pose-13-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 34,
+      "instance": "pose-14-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 35,
+      "instance": "pose-15-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 36,
+      "instance": "pose-16-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 37,
+      "instance": "pose-17-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 38,
+      "instance": "pose-18-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 39,
+      "instance": "pose-19-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 40,
+      "instance": "pose-20-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 41,
+      "instance": "pose-21-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 42,
+      "instance": "pose-22-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 43,
+      "instance": "pose-23-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 44,
+      "instance": "pose-24-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 45,
+      "instance": "pose-25-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 46,
+      "instance": "pose-26-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 47,
+      "instance": "pose-27-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 48,
+      "instance": "pose-28-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 49,
+      "instance": "pose-29-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 50,
+      "instance": "pose-30-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 51,
+      "instance": "pose-31-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 52,
+      "instance": "pose-32-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 53,
+      "instance": "pose-33-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 54,
+      "instance": "pose-34-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 55,
+      "instance": "pose-35-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-36-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-37-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-38-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-39-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-39-copy-02",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-39-copy-03",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-39-copy-04",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-39-copy-05",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-39-copy-06",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-39-copy-07",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-39-copy-08",
+      "self_standing": true
+    },
+    {
+      "pose": 56,
+      "instance": "pose-39-copy-09",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-36-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-37-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-38-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-39-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-39-copy-02",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-39-copy-03",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-39-copy-04",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-39-copy-05",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-39-copy-06",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-39-copy-07",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-39-copy-08",
+      "self_standing": true
+    },
+    {
+      "pose": 57,
+      "instance": "pose-39-copy-09",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-40-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-41-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-42-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-43-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-43-copy-02",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-43-copy-03",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-43-copy-04",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-43-copy-05",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-43-copy-06",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-43-copy-07",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-43-copy-08",
+      "self_standing": true
+    },
+    {
+      "pose": 58,
+      "instance": "pose-43-copy-09",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-40-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-41-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-42-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-43-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-43-copy-02",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-43-copy-03",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-43-copy-04",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-43-copy-05",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-43-copy-06",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-43-copy-07",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-43-copy-08",
+      "self_standing": true
+    },
+    {
+      "pose": 59,
+      "instance": "pose-43-copy-09",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-36-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-37-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-38-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-39-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-39-copy-02",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-39-copy-03",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-39-copy-04",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-39-copy-05",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-39-copy-06",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-39-copy-07",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-39-copy-08",
+      "self_standing": true
+    },
+    {
+      "pose": 60,
+      "instance": "pose-39-copy-09",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-36-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-37-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-38-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-39-copy-01",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-39-copy-02",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-39-copy-03",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-39-copy-04",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-39-copy-05",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-39-copy-06",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-39-copy-07",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-39-copy-08",
+      "self_standing": true
+    },
+    {
+      "pose": 61,
+      "instance": "pose-39-copy-09",
+      "self_standing": true
+    }
+  ],
+  "cube_postures_all_self_standing": true,
+  "phase1_holding_required_poses": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "previous_assets_unchanged": true,
+  "scene_sha256": "3d1e42bb30aefa62a99f455056cd3bc40d42543d80226de1edba70a8bc56e805",
+  "generator_sha256": "742118124071c5b696e318c2e3df1bf7e071941e891702c0742ca93aa9fa6fa7",
+  "build_interruption": "Only volatile Finder .DS_Store changed; all model assets matched. Outputs were already complete; no re-render or geometry change was needed.",
+  "final_qa_status": "WARNING",
+  "final_qa_json": "final-qa.json",
+  "original_generation_script_sha256": "c544450b65671f90abc3ef7c1e91d770ed3d04cabd4e97d27567262d7d8422c5",
+  "checkpoint_verification": {
+    "isolated_final_qa": "WARNING: accepted Phase 1 holding limitation",
+    "isolated_reassembly": {
+      "passed": true,
+      "stl_sha256_matches": 43,
+      "mesh_fingerprints_match": true,
+      "physical_objects": 59,
+      "poses": 61,
+      "exposures": 74,
+      "placements_match": true,
+      "rendering_executed": false
+    },
+    "import_dependencies_complete": true,
+    "packaging_changes": "Exclude own tracked outputs from preservation checks; add no-render assembly; check present archived motif assets separately from required inputs.",
+    "csv_values_unchanged_after_lf_normalization": true
+  }
+}

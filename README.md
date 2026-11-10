@@ -45,6 +45,17 @@ CAM and slicer verification, support assessment, print-time estimates, and physi
 
 CAM, slicer verification, printing support assessment, print-time estimates and physical printing are unverified. Earlier v1/v2 files included as frozen generator dependencies are historical, not alternate print sets. Additional historical render and export files remain local and are not required for the official tabletop handoff. Review-pending labels in original generation records predate approval.
 
+## Rolling Cube Pen
+
+**The official print set is `print-set-v3`: 43 STL types, 59 physical props.** The approved v2 animation rolls a black capped marker through six round trips, changes it from a cylinder into a square prism, then separates it into twelve cubes. The filming plan has **61 poses, 74 exposures at 12 fps, approximately 6.17 seconds**, with the cap on screen left and a fixed camera.
+
+- **Official print files:** [`exports/rolling-cube-pen/print-set-v3/pose-01.stl` through `pose-43.stl`](exports/rolling-cube-pen/print-set-v3/). Import as **millimeters at 100% scale**; STL has no unit metadata.
+- **[Print reproduction GIF](previews/rolling-cube-pen/print-set-v3/print-reproduction.gif)** · [v2 comparison GIF](previews/rolling-cube-pen/print-set-v3/v2-vs-print-set.gif) · [Contact sheet](previews/rolling-cube-pen/print-set-v3/contact-sheet.png) · [Selected shapes](previews/rolling-cube-pen/print-set-v3/selected-shapes.png)
+- [Print quantities](previews/rolling-cube-pen/print-set-v3/print-inventory.csv) · [Filming placements and prop IDs](previews/rolling-cube-pen/print-set-v3/frame-to-stl.csv) · [Manifest](previews/rolling-cube-pen/print-set-v3/manifest.json) · [Editable scene](models/rolling-cube-pen-print-set-v3.blend)
+- **Final QA: WARNING, accepted.** The separated cubes pass static support checks. Eighteen Phase 1 poses require real-finger holding, whose practicality remains unverified. [QA report](docs/rolling-cube-pen-final-qa.md) · [QA JSON](previews/rolling-cube-pen/print-set-v3/final-qa.json) · [Production and reproduction guide](docs/rolling-cube-pen-print-set-v3.md)
+
+The adopted hybrid uses 24 physical cubes across the separated poses: twelve base pieces and twelve tilted pieces. Poses 57 and 60 use the approved six-degree roll adjustment. Dynamic stability, fine-gap placement, exhaustive minimum thickness, slicing, supports and physical printing are unverified. Frozen v2 scenes, selected source STLs and reference images are retained only where the v3 reproduction scripts read them; older studies and working renders remain historical, not alternate official print files.
+
 ## Documentation and verification
 
 - [Specification](docs/specification.md): current approved pen dimensions and deformation; existing stones/cup requirements.

@@ -1,0 +1,1436 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-11-11T00:30:02.952542+00:00",
+  "stl_types": 12,
+  "print_objects": 20,
+  "poses": 61,
+  "exposures": 74,
+  "duration_seconds": 6.166666666666667,
+  "stl_geometry": [
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 16459.083912553815,
+      "dimensions_mm": [
+        141.8000030517578,
+        13.199999809265137,
+        12.149999618530273
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 588.7191565756309,
+      "support_margin_mm": 2.675754011858351,
+      "mesh_fingerprint": "26ff8720122d83ae0d032e8c843c571fb9cb15d5cd6753fb2cee1ce856f1134c",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-01.stl",
+      "sha256": "7cabbb5cb9175238d64e919777d208d32a9e4c87a0540ad47982c9f2bf9cf7a8",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "26ff8720122d83ae0d032e8c843c571fb9cb15d5cd6753fb2cee1ce856f1134c",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 1
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 17175.801027556947,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.983854293823242,
+        12.097916603088379
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 761.5075305953251,
+      "support_margin_mm": 3.314347245995787,
+      "mesh_fingerprint": "ebef184999c51c49733fac4842cfcb3f1b5de1f82f09703efa09df38275b8d81",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-02.stl",
+      "sha256": "96b4a6048878ee35a1fe803155452af38f9bf0a63401b7af317f51d372f6b67a",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "ebef184999c51c49733fac4842cfcb3f1b5de1f82f09703efa09df38275b8d81",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 1
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18584.599261912692,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.643286228179932,
+        12.142097473144531
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 932.7402592648368,
+      "support_margin_mm": 3.6695591183450866,
+      "mesh_fingerprint": "c60d5f989c39ca78def440be3f9ef60ad04fa0db135fce1ef277eaa0c4c751a4",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-03.stl",
+      "sha256": "9cc575fb079c4398c76091e39d2367e9e1bc36c69f7e96c78203d3044264af7d",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "c60d5f989c39ca78def440be3f9ef60ad04fa0db135fce1ef277eaa0c4c751a4",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 1
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19543.65181777451,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.277373313903809,
+        12.107270240783691
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1177.0411735503976,
+      "support_margin_mm": 4.547512241810298,
+      "mesh_fingerprint": "0253b0464e0a89232c764edc4193a3f8ec9b166535bfdc9522f5d0e0175cd355",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-04.stl",
+      "sha256": "5b5a0808037bbc3f263cd0cfb35ba4a8721073cae4c08490ba4ead939af85216",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "0253b0464e0a89232c764edc4193a3f8ec9b166535bfdc9522f5d0e0175cd355",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 1
+    },
+    {
+      "vertices": 21314,
+      "triangles": 42624,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19575.667839901696,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.006373882293701,
+        11.908401489257812
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1374.6352285589091,
+      "support_margin_mm": 4.839619940519417,
+      "mesh_fingerprint": "abe458fe490b4092262cfc006410d15d3caa3102e2ca06aec4b87d1911ca77d9",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-05.stl",
+      "sha256": "a1832961b11cebf561b4d7d08cc1a1aeb0d2dcf6cd438e65e6af1fb9e4d28ad2",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "abe458fe490b4092262cfc006410d15d3caa3102e2ca06aec4b87d1911ca77d9",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 1
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 19301.64203406081,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.761004447937012,
+        12.314277648925781
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 963.7980466672029,
+      "support_margin_mm": 1.7265734239860002,
+      "mesh_fingerprint": "f8460b031d595cce38d932762e88a74e06b0e3d90cc4e762ce2894a02dc86772",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-06.stl",
+      "sha256": "982d1d807cc62bf2f2788c49a625d7ee34ed55ca648dfea0fc79e7649328df19",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "f8460b031d595cce38d932762e88a74e06b0e3d90cc4e762ce2894a02dc86772",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 1
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18981.63530502498,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.761004447937012,
+        12.31488037109375
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.7278890439982162,
+      "mesh_fingerprint": "52e5e5194210f4eddfed08deabca7b782a1f320dde51c4fc8fcbeabc612c4e21",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-07.stl",
+      "sha256": "c1baa82a3c61b3ffa3cf2ed6e720ae916472edf7c14d76078b9feffa30e134a5",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "52e5e5194210f4eddfed08deabca7b782a1f320dde51c4fc8fcbeabc612c4e21",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 1
+    },
+    {
+      "vertices": 28994,
+      "triangles": 57984,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 18871.26536404365,
+      "dimensions_mm": [
+        141.8000030517578,
+        12.761004447937012,
+        12.314277648925781
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.727535075155565,
+      "mesh_fingerprint": "575d3073a12271b52d8ce18b35eabda80e19780897af3ad7dcd9d0947112fcb0",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-08.stl",
+      "sha256": "1d0b0f79538d518a95515aa134fb4403471fd289b01144957fbcf40ade44eef9",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "575d3073a12271b52d8ce18b35eabda80e19780897af3ad7dcd9d0947112fcb0",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 1
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1626.550498896151,
+      "dimensions_mm": [
+        11.816667079925537,
+        12.006373882293701,
+        11.908401489257812
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225073613969,
+      "support_margin_mm": 4.831050009602877,
+      "mesh_fingerprint": "ac81b2f4d1f4d66762b69ead0287fb9e797b82bba4a6bcc846ee23283c6989c5",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-09.stl",
+      "sha256": "861750df69adc8920da2245d103a8644a2098ecc6d0d780a7277434f3cdbace3",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "ac81b2f4d1f4d66762b69ead0287fb9e797b82bba4a6bcc846ee23283c6989c5",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 1
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1635.3283102863506,
+      "dimensions_mm": [
+        11.816665649414062,
+        12.006373882293701,
+        11.908401489257812
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224611530952,
+      "support_margin_mm": 4.803705192580662,
+      "mesh_fingerprint": "b2ef7454b4e0ca658bc1fe301cc4ff1657de57c8a63dda9ae7cbdc44830344d5",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-10.stl",
+      "sha256": "6e9f180d663ee000b5dcc6a691c70e2df728ee22dd2060b62608a02923493fba",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "b2ef7454b4e0ca658bc1fe301cc4ff1657de57c8a63dda9ae7cbdc44830344d5",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 1
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1630.8436095908223,
+      "dimensions_mm": [
+        11.816667079925537,
+        12.006373882293701,
+        11.908401489257812
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225073613969,
+      "support_margin_mm": 4.8175968873472685,
+      "mesh_fingerprint": "14f0c242cc13fe2d3b4cd9fa4f0439449d38963e8c5d23bb6893e2aa0998eec5",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-11.stl",
+      "sha256": "38f90c510bf3fcbd261556d677cac123445ffcfbc6c49644b5f5fb500eca1987",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "14f0c242cc13fe2d3b4cd9fa4f0439449d38963e8c5d23bb6893e2aa0998eec5",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 1
+    },
+    {
+      "vertices": 1538,
+      "triangles": 3072,
+      "components": 1,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "inconsistent_winding_edges": 0,
+      "degenerate_faces": 0,
+      "nonadjacent_bvh_intersections": 0,
+      "volume_mm3": 1621.412193203647,
+      "dimensions_mm": [
+        11.816667079925537,
+        11.816666603088379,
+        11.716666221618652
+      ],
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225073613969,
+      "support_margin_mm": 4.847091674799946,
+      "mesh_fingerprint": "5b13f3acd29638359c2ee1daf842d7d0b738bc3b3ff70e7e7be24d8b369b8b3a",
+      "passed": true,
+      "stl": "exports/rolling-cube-pen/print-set-v4/pose-12.stl",
+      "sha256": "d2c47556039d3d6747910e987ef835ac195be5e5c5324b81238055b4a63f4cbc",
+      "source_v3_sha256_match": true,
+      "nonmanifold_vertices": 0,
+      "normal_disagreements": 0,
+      "independent_stl_importer": true,
+      "imported_mesh_fingerprint": "5b13f3acd29638359c2ee1daf842d7d0b738bc3b3ff70e7e7be24d8b369b8b3a",
+      "imported_dimensions_and_volume_match": true,
+      "print_copies": 9
+    }
+  ],
+  "blender_scene_reopened": true,
+  "scene_object_count": 20,
+  "scene_mesh_fingerprints_match": true,
+  "camera_fixed": true,
+  "scale_fixed": true,
+  "csv_rows": 127,
+  "csv_inventory_rows": 12,
+  "placements": [
+    {
+      "frame": 1,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 588.7191565756309,
+      "support_margin_mm": 2.6757540118583965,
+      "self_standing": true
+    },
+    {
+      "frame": 2,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 7.440694727023356e-10,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -1.7746169116704262,
+      "self_standing": false
+    },
+    {
+      "frame": 3,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": -7.287089598406737e-08,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.3179125752802211,
+      "self_standing": false
+    },
+    {
+      "frame": 4,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 1.1818241318906075e-07,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.16418958755590096,
+      "self_standing": false
+    },
+    {
+      "frame": 5,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": -1.6445380168761403e-07,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.007816017406123544,
+      "self_standing": false
+    },
+    {
+      "frame": 6,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 2.3423894468521667e-07,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.13670249240799864,
+      "self_standing": false
+    },
+    {
+      "frame": 7,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": -1.6445380168761403e-07,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.007816017406123544,
+      "self_standing": false
+    },
+    {
+      "frame": 8,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 1.1818241318906075e-07,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.16418958755590096,
+      "self_standing": false
+    },
+    {
+      "frame": 9,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": -7.287089598406737e-08,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.3179125752802211,
+      "self_standing": false
+    },
+    {
+      "frame": 10,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 7.440694727023356e-10,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -1.7746169116704262,
+      "self_standing": false
+    },
+    {
+      "frame": 11,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 588.7191565756309,
+      "support_margin_mm": 2.6757540118583965,
+      "self_standing": true
+    },
+    {
+      "frame": 12,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 7.440694727023356e-10,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -1.7746169116704262,
+      "self_standing": false
+    },
+    {
+      "frame": 13,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": -7.287089598406737e-08,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.3179125752802211,
+      "self_standing": false
+    },
+    {
+      "frame": 14,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 1.1818241318906075e-07,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.16418958755590096,
+      "self_standing": false
+    },
+    {
+      "frame": 15,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": -1.6445380168761403e-07,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.007816017406123544,
+      "self_standing": false
+    },
+    {
+      "frame": 16,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 2.3423894468521667e-07,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.13670249240799864,
+      "self_standing": false
+    },
+    {
+      "frame": 17,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": -1.6445380168761403e-07,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.007816017406123544,
+      "self_standing": false
+    },
+    {
+      "frame": 18,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 1.1818241318906075e-07,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.16418958755590096,
+      "self_standing": false
+    },
+    {
+      "frame": 19,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": -7.287089598406737e-08,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -0.3179125752802211,
+      "self_standing": false
+    },
+    {
+      "frame": 20,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 7.440694727023356e-10,
+      "contact_area_mm2": 0.0,
+      "support_margin_mm": -1.7746169116704262,
+      "self_standing": false
+    },
+    {
+      "frame": 21,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 588.7191565756309,
+      "support_margin_mm": 2.6757540118583965,
+      "self_standing": true
+    },
+    {
+      "frame": 22,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 588.7191565756309,
+      "support_margin_mm": 2.6757540118583596,
+      "self_standing": true
+    },
+    {
+      "frame": 23,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 588.7191565756309,
+      "support_margin_mm": 2.6757540118583627,
+      "self_standing": true
+    },
+    {
+      "frame": 24,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 588.7191565756309,
+      "support_margin_mm": 2.675754011858352,
+      "self_standing": true
+    },
+    {
+      "frame": 25,
+      "instance": "pose-01-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 588.7191565756309,
+      "support_margin_mm": 2.6757540118583485,
+      "self_standing": true
+    },
+    {
+      "frame": 26,
+      "instance": "pose-02-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 761.5075305953251,
+      "support_margin_mm": 3.3143472459957883,
+      "self_standing": true
+    },
+    {
+      "frame": 27,
+      "instance": "pose-02-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 761.5075305953251,
+      "support_margin_mm": 3.3143472459958025,
+      "self_standing": true
+    },
+    {
+      "frame": 28,
+      "instance": "pose-02-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 761.5075305953251,
+      "support_margin_mm": 3.3143472459957874,
+      "self_standing": true
+    },
+    {
+      "frame": 29,
+      "instance": "pose-02-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 761.5075305953251,
+      "support_margin_mm": 3.3143472459957852,
+      "self_standing": true
+    },
+    {
+      "frame": 30,
+      "instance": "pose-02-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 761.5075305953251,
+      "support_margin_mm": 3.314347245995743,
+      "self_standing": true
+    },
+    {
+      "frame": 31,
+      "instance": "pose-03-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 932.7402592648368,
+      "support_margin_mm": 3.669559118345134,
+      "self_standing": true
+    },
+    {
+      "frame": 32,
+      "instance": "pose-03-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 932.7402592648368,
+      "support_margin_mm": 3.6695591183451053,
+      "self_standing": true
+    },
+    {
+      "frame": 33,
+      "instance": "pose-03-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 932.7402592648368,
+      "support_margin_mm": 3.669559118345092,
+      "self_standing": true
+    },
+    {
+      "frame": 34,
+      "instance": "pose-03-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 932.7402592648368,
+      "support_margin_mm": 3.669559118345105,
+      "self_standing": true
+    },
+    {
+      "frame": 35,
+      "instance": "pose-03-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 932.7402592648368,
+      "support_margin_mm": 3.669559118345069,
+      "self_standing": true
+    },
+    {
+      "frame": 36,
+      "instance": "pose-04-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1177.0411735503976,
+      "support_margin_mm": 4.547512241810299,
+      "self_standing": true
+    },
+    {
+      "frame": 37,
+      "instance": "pose-04-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1177.0411735503976,
+      "support_margin_mm": 4.5475122418103,
+      "self_standing": true
+    },
+    {
+      "frame": 38,
+      "instance": "pose-04-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1177.0411735503976,
+      "support_margin_mm": 4.547512241810298,
+      "self_standing": true
+    },
+    {
+      "frame": 39,
+      "instance": "pose-04-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1177.0411735503976,
+      "support_margin_mm": 4.547512241810288,
+      "self_standing": true
+    },
+    {
+      "frame": 40,
+      "instance": "pose-04-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1177.0411735503976,
+      "support_margin_mm": 4.547512241810322,
+      "self_standing": true
+    },
+    {
+      "frame": 41,
+      "instance": "pose-05-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1374.6352285589091,
+      "support_margin_mm": 4.839619940519453,
+      "self_standing": true
+    },
+    {
+      "frame": 42,
+      "instance": "pose-05-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1374.6352285589091,
+      "support_margin_mm": 4.83961994051938,
+      "self_standing": true
+    },
+    {
+      "frame": 43,
+      "instance": "pose-05-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1374.6352285589091,
+      "support_margin_mm": 4.839619940519459,
+      "self_standing": true
+    },
+    {
+      "frame": 44,
+      "instance": "pose-05-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 1374.6352285589091,
+      "support_margin_mm": 4.839619940519425,
+      "self_standing": true
+    },
+    {
+      "frame": 45,
+      "instance": "pose-06-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 963.7980466672029,
+      "support_margin_mm": 1.7265734239860402,
+      "self_standing": true
+    },
+    {
+      "frame": 46,
+      "instance": "pose-06-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 963.7980466672029,
+      "support_margin_mm": 1.7265734239860269,
+      "self_standing": true
+    },
+    {
+      "frame": 47,
+      "instance": "pose-06-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 963.7980466672029,
+      "support_margin_mm": 1.7265734239860402,
+      "self_standing": true
+    },
+    {
+      "frame": 48,
+      "instance": "pose-06-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 963.7980466672029,
+      "support_margin_mm": 1.7265734239860016,
+      "self_standing": true
+    },
+    {
+      "frame": 49,
+      "instance": "pose-07-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.7278890439982075,
+      "self_standing": true
+    },
+    {
+      "frame": 50,
+      "instance": "pose-07-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.7278890439982453,
+      "self_standing": true
+    },
+    {
+      "frame": 51,
+      "instance": "pose-07-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.7278890439982,
+      "self_standing": true
+    },
+    {
+      "frame": 52,
+      "instance": "pose-08-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.7275350751555738,
+      "self_standing": true
+    },
+    {
+      "frame": 53,
+      "instance": "pose-08-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.727535075155565,
+      "self_standing": true
+    },
+    {
+      "frame": 54,
+      "instance": "pose-08-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.72753507515556,
+      "self_standing": true
+    },
+    {
+      "frame": 55,
+      "instance": "pose-08-copy-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 920.3613603418196,
+      "support_margin_mm": 1.727535075155588,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-00",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329833047492,
+      "support_margin_mm": 3.1014306519614596,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-01",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15330134224502,
+      "support_margin_mm": 3.0740640531779437,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-02",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329833047492,
+      "support_margin_mm": 3.088025431326768,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-03",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329833047492,
+      "support_margin_mm": 3.1175462688224496,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-04",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329833047492,
+      "support_margin_mm": 3.1175462688224345,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-05",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329833047492,
+      "support_margin_mm": 3.1175462688224433,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-06",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329833047492,
+      "support_margin_mm": 3.117546268822439,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-07",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329833047492,
+      "support_margin_mm": 3.11754626882243,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-08",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329833047492,
+      "support_margin_mm": 3.1175462688224282,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-09",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329833047492,
+      "support_margin_mm": 3.1175462688224336,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-10",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329833047492,
+      "support_margin_mm": 3.1175462688224274,
+      "self_standing": true
+    },
+    {
+      "frame": 56,
+      "instance": "cube-11",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329833047492,
+      "support_margin_mm": 3.11754626882243,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-00",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.153296366326565,
+      "support_margin_mm": 3.1014306037322195,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-01",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15330274358323,
+      "support_margin_mm": 3.0740640872838574,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-02",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.153295607369216,
+      "support_margin_mm": 3.0880253647504996,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-03",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329640373652,
+      "support_margin_mm": 3.117546221265948,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-04",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.1532949660105,
+      "support_margin_mm": 3.1175461857794646,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-05",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.153295985438916,
+      "support_margin_mm": 3.1175462109413647,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-06",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329659278144,
+      "support_margin_mm": 3.1175462259320272,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-07",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.15329647843531,
+      "support_margin_mm": 3.117546223109679,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-08",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.153295949915275,
+      "support_margin_mm": 3.117546210064551,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-09",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.153294888194466,
+      "support_margin_mm": 3.117546183858766,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-10",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.1532968183771,
+      "support_margin_mm": 3.11754623150026,
+      "self_standing": true
+    },
+    {
+      "frame": 57,
+      "instance": "cube-11",
+      "minimum_z_mm": 8.490323466503469e-08,
+      "contact_area_mm2": 63.1532965927814,
+      "support_margin_mm": 3.117546225932033,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-00",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.8622482397314,
+      "support_margin_mm": 4.831049951543907,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225077260892,
+      "support_margin_mm": 4.803705300282418,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-02",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224594366685,
+      "support_margin_mm": 4.817596776199067,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-03",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225623582564,
+      "support_margin_mm": 4.847091803130891,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-04",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225617777264,
+      "support_margin_mm": 4.847091801776268,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-05",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224618608023,
+      "support_margin_mm": 4.847091568627804,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-06",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.862255538846,
+      "support_margin_mm": 4.847091786867402,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-07",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.8622448557108,
+      "support_margin_mm": 4.8470915375846575,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-08",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225311412225,
+      "support_margin_mm": 4.847091730288342,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-09",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225247684733,
+      "support_margin_mm": 4.847091715418022,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-10",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224976997977,
+      "support_margin_mm": 4.847091652255354,
+      "self_standing": true
+    },
+    {
+      "frame": 58,
+      "instance": "cube-11",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225553884599,
+      "support_margin_mm": 4.847091786867427,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-00",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224800977573,
+      "support_margin_mm": 4.831049946195801,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224809437365,
+      "support_margin_mm": 4.803705238347249,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-02",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225053547022,
+      "support_margin_mm": 4.817596882693282,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-03",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225066872127,
+      "support_margin_mm": 4.847091673226788,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-04",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224753150358,
+      "support_margin_mm": 4.847091600022227,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-05",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224732115154,
+      "support_margin_mm": 4.847091595113824,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-06",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225114881603,
+      "support_margin_mm": 4.847091684429436,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-07",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224819171834,
+      "support_margin_mm": 4.847091615427827,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-08",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225644334235,
+      "support_margin_mm": 4.847091807973136,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-09",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224782140656,
+      "support_margin_mm": 4.847091606786897,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-10",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225162489103,
+      "support_margin_mm": 4.8470916955382695,
+      "self_standing": true
+    },
+    {
+      "frame": 59,
+      "instance": "cube-11",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225114881603,
+      "support_margin_mm": 4.847091684429415,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-00",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224977064788,
+      "support_margin_mm": 4.831049987148411,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224052805241,
+      "support_margin_mm": 4.8037050633732905,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-02",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225577477038,
+      "support_margin_mm": 4.817597004204409,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-03",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224647733783,
+      "support_margin_mm": 4.847091575424062,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-04",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225228823375,
+      "support_margin_mm": 4.847091711016859,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-05",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.8622496240444,
+      "support_margin_mm": 4.847091648850055,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-06",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225113639068,
+      "support_margin_mm": 4.847091684139496,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-07",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225610531638,
+      "support_margin_mm": 4.847091800085558,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-08",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224806395315,
+      "support_margin_mm": 4.847091612446524,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-09",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225320923069,
+      "support_margin_mm": 4.847091732507629,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-10",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225072732127,
+      "support_margin_mm": 4.847091674594174,
+      "self_standing": true
+    },
+    {
+      "frame": 60,
+      "instance": "cube-11",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225113639067,
+      "support_margin_mm": 4.847091684139505,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-00",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225310774486,
+      "support_margin_mm": 4.831050064759327,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-01",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224776926178,
+      "support_margin_mm": 4.803705230828914,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-02",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225384415631,
+      "support_margin_mm": 4.8175969594291335,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-03",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224575427552,
+      "support_margin_mm": 4.84709155855198,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-04",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225353264533,
+      "support_margin_mm": 4.847091740054251,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-05",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225538802778,
+      "support_margin_mm": 4.847091783348174,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-06",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.8622533107814,
+      "support_margin_mm": 4.847091734877234,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-07",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225301950921,
+      "support_margin_mm": 4.847091728080615,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-08",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224695257758,
+      "support_margin_mm": 4.847091586513429,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-09",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225184260817,
+      "support_margin_mm": 4.847091700618538,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-10",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86224480274231,
+      "support_margin_mm": 4.847091536348668,
+      "self_standing": true
+    },
+    {
+      "frame": 61,
+      "instance": "cube-11",
+      "minimum_z_mm": 0.0,
+      "contact_area_mm2": 103.86225331078141,
+      "support_margin_mm": 4.847091734877253,
+      "self_standing": true
+    }
+  ],
+  "all_poses_touching_table": true,
+  "all_separated_cube_poses_self_standing": true,
+  "phase1_holding_required_poses": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "gif_checks": {
+    "print-reproduction.gif": {
+      "frames": 61,
+      "duration_centiseconds": 617
+    },
+    "v2-vs-print-set.gif": {
+      "frames": 61,
+      "duration_centiseconds": 617
+    }
+  },
+  "unverified": [
+    "Exhaustive minimum wall thickness",
+    "Slicer material/time estimate",
+    "Slicer supports and print success",
+    "Dynamic finger-held rolling stability",
+    "Physical model-swap registration and tiny cube-gap placement",
+    "Physical placement and filming conditions"
+  ]
+}

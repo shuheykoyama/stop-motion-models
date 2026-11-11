@@ -47,14 +47,14 @@ CAM, slicer verification, printing support assessment, print-time estimates and 
 
 ## Rolling Cube Pen
 
-**The official print set is `print-set-v3`: 43 STL types, 59 physical props.** The approved v2 animation rolls a black capped marker through six round trips, changes it from a cylinder into a square prism, then separates it into twelve cubes. The filming plan has **61 poses, 74 exposures at 12 fps, approximately 6.17 seconds**, with the cap on screen left and a fixed camera.
+**The official print set is `print-set-v4`: 12 STL types, 20 physical props.** Reuse the same props throughout the **61 poses, 74 exposures at 12 fps (approximately 6.17 seconds)**. The black capped marker rolls through six round trips, becomes a square prism, then separates into twelve cubes. The cap stays on screen left; the camera and model scale stay fixed.
 
-- **Official print files:** [`exports/rolling-cube-pen/print-set-v3/pose-01.stl` through `pose-43.stl`](exports/rolling-cube-pen/print-set-v3/). Import as **millimeters at 100% scale**; STL has no unit metadata.
-- **[Print reproduction GIF](previews/rolling-cube-pen/print-set-v3/print-reproduction.gif)** · [v2 comparison GIF](previews/rolling-cube-pen/print-set-v3/v2-vs-print-set.gif) · [Contact sheet](previews/rolling-cube-pen/print-set-v3/contact-sheet.png) · [Selected shapes](previews/rolling-cube-pen/print-set-v3/selected-shapes.png)
-- [Print quantities](previews/rolling-cube-pen/print-set-v3/print-inventory.csv) · [Filming placements and prop IDs](previews/rolling-cube-pen/print-set-v3/frame-to-stl.csv) · [Manifest](previews/rolling-cube-pen/print-set-v3/manifest.json) · [Editable scene](models/rolling-cube-pen-print-set-v3.blend)
-- **Final QA: WARNING, accepted.** The separated cubes pass static support checks. Eighteen Phase 1 poses require real-finger holding, whose practicality remains unverified. [QA report](docs/rolling-cube-pen-final-qa.md) · [QA JSON](previews/rolling-cube-pen/print-set-v3/final-qa.json) · [Production and reproduction guide](docs/rolling-cube-pen-print-set-v3.md)
+- **Official STL files:** [pose-01.stl through pose-12.stl](exports/rolling-cube-pen/print-set-v4/). Import into Bambu Studio as **millimeters at 100% scale**; STL has no unit metadata.
+- [Final reproduction GIF](previews/rolling-cube-pen/print-set-v4/print-reproduction.gif) · [v2 comparison](previews/rolling-cube-pen/print-set-v4/v2-vs-print-set.gif) · [Contact sheet](previews/rolling-cube-pen/print-set-v4/contact-sheet.png) · [Selected models](previews/rolling-cube-pen/print-set-v4/selected-shapes.png)
+- [Filming CSV](previews/rolling-cube-pen/print-set-v4/frame-to-stl.csv) · [Print quantities](previews/rolling-cube-pen/print-set-v4/print-inventory.csv) · [Manifest](previews/rolling-cube-pen/print-set-v4/manifest.json) · [Editable scene](models/rolling-cube-pen-print-set-v4.blend)
+- **Final data QA: PASS.** [QA record](previews/rolling-cube-pen/print-set-v4/validation.json) · [Final QA report](docs/rolling-cube-pen-print-set-v4-final-qa.md) · [Filming and printing guide](docs/rolling-cube-pen-print-set-v4.md)
 
-The adopted hybrid uses 24 physical cubes across the separated poses: twelve base pieces and twelve tilted pieces. Poses 57 and 60 use the approved six-degree roll adjustment. Dynamic stability, fine-gap placement, exhaustive minimum thickness, slicing, supports and physical printing are unverified. Frozen v2 scenes, selected source STLs and reference images are retained only where the v3 reproduction scripts read them; older studies and working renders remain historical, not alternate official print files.
+Eighteen Phase 1 poses require finger holding. Dynamic rolling, model-swap registration, fine-gap placement, exhaustive minimum thickness, slicing, supports, print time and physical printing remain unverified. Data QA does not guarantee physical filming or printing success. The approved ideal animation v2 and the former official [print-set-v3](docs/rolling-cube-pen-print-set-v3.md) remain preserved as historical references; print v4 for the current production plan.
 
 ## Documentation and verification
 

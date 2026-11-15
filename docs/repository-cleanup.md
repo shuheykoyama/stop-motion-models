@@ -229,3 +229,20 @@ The inventory retains its baseline git_state/bytes_before columns and adds curre
 The approved cleanup is packaged as one signed commit containing README, this report, the inventory CSV and the 61 official Cube v4 filming PNGs. Earlier staging and pending-commit statements above describe the recorded intermediate stages; the PNGs become tracked history in this checkpoint. Publishing to GitHub requires a separately authorized push.
 
 Pre-commit checks confirmed the 75 official STL hashes, exact PNG index contents, README links and the absence of home-directory paths, email addresses or recognizable credential/private-key patterns in the report and inventory. The CSV records repository-relative paths and historical Git states only. The actual print projects, distribution ZIP, supplementary images and remaining studies are preserved without further cleanup. No Git settings or LFS rules changed.
+
+## Public print-project handoff - 2026-11-15
+
+This section supersedes earlier untracked-3MF status and placement statements. The three public copies are prepared for ordinary Git at the paths below. No commit or push was performed. Original archives are preserved in a private owner-only backup outside the repository; that path and account values are intentionally excluded from this public report.
+
+| Public path | Model types / objects | Bytes | Public SHA-256 |
+|---|---:|---:|---|
+| exports/stone-to-fireworks/print-set-v1/stone-to-fireworks.3mf | 14 / 14 | 13195701 | c09503684df64015075b8acd45d6738249c343897a0a981cb9e47038e0fc4523 |
+| exports/rolling-wavy-pen/print-set-v2/rolling-wavy-pen.3mf | 14 / 14 | 5476966 | 688dc6ad624a5b8dfc26ccabc426e1fc4f5478c967dd1111986dca44ac28dc52 |
+| exports/rolling-cube-pen/print-set-v4/rolling-cube-pen.3mf | 12 / 20 | 3389484 | 1b187b1f4a430420655ca4f2722275d513be8806b95a99d196d12fd408c5b7d6 |
+
+Only Wavy moved, from exports/rolling-wavy-pen/rolling-wavy-pen.3mf into its print-set-v2 directory. No new repository hierarchy was created. The Wavy archive intentionally retains 14 shapes, without pose-15/pose-16.
+DesignerUserId is a designer-account association field in [Bambu Studio source](https://github.com/bambulab/BambuStudio/blob/master/src/libslic3r/Format/bbs_3mf.cpp), distinct from the separately preserved Designer/Copyright/License fields. These three archives had empty attribution-name, copyright, license and origin fields; no third-party attribution text was removed. The sole nonempty account identifier was removed from each public copy. Generated internal UUIDs and all functional identifiers remain.
+Privacy inspection found no home-directory source paths, email addresses, recognizable authentication-token/private-key patterns or other nonempty user-profile account metadata. This inspection is not a guarantee against every possible encoded secret. Original archives remain unmodified in private backup.
+Every ZIP passes CRC checks; member lists match; only one metadata element in 3D/3dmodel.model differs. Every other member is byte-identical, including meshes, build/model-instance transforms, project/model settings, filament settings, layer heights, infill, walls, support and brim settings. The resulting XML is parseable and remains an editable Bambu project.
+All use Bambu Studio 02.09.01.70. Fireworks and Cube store X1E 0.6 nozzle settings; Wavy stores X1 Carbon 0.4 nozzle settings. These labels must not be presented as verified actual printer hardware. No G-code exists in these archives. GUI import and warning-free loading are unverified; no slicing or printing was performed.
+The existing three print guides record both original and public SHA-256 values. Only the three project rows in the inventory are updated to their public paths/hashes and staging status; each reason field retains the original path/hash and records the current byte size. Other inventory rows remain unchanged. No additional profile/configuration management files were introduced.

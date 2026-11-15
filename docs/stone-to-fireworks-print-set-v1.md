@@ -62,3 +62,15 @@ The smallest stone is 7.5 x 6.25 x 5 mm, with contact area about 7.202 mm2 and s
 Run reproduction commands in an isolated checkout or copy to preserve the approved output files. The script reads existing v3 sources and writes the print-set output. It checks the STLs and places them rather than regenerating geometry. Blender 4.5 LTS and ImageMagick are required. EEVEE uses the Radeon Pro 5600M via Metal, at 16 samples. The saved scene plays the same 40 held exposure frames as the GIF.
 
 The unchanged v3 generator also reads the original v1 scene/rest STL/validation and checks the existence of the v2 scene, script and documentation. Those frozen dependencies are versioned alongside the official scenes. Earlier auxiliary renders and provisional STL sets remain local; they are not official print targets. Approval wording in this guide was updated after Final QA; the QA record retains the document hash from its original inspection time.
+
+## Actual printed Bambu Studio project
+
+[Print-settings source of truth](../exports/stone-to-fireworks/print-set-v1/stone-to-fireworks.3mf) is the project used for physical printing, as reported by the owner. It is stored beside the formal STLs and prepared for ordinary Git tracking.
+The archive contains 14 model types / 14 instances on one plate, with editable mesh geometry, placements and embedded printer/filament/print settings. No G-code/toolpath is included; printing again requires slicing.
+Saved application: Bambu Studio 02.09.01.70. Saved printer preset: **Bambu Lab X1E 0.6 nozzle**. Saved print profile: **0.30mm Standard @BBL X1C 0.6 nozzle**. These are the stored configuration values, not independent verification of the hardware actually used.
+
+Public-copy metadata processing removed only the account identifier DesignerUserId. Designer, copyright, license, internal UUIDs, all mesh data, placements and every configuration payload were preserved. Original archives were backed up outside Git before processing. ZIP CRC checks passed and all archive members other than that one XML metadata edit are byte-identical to the originals.
+Bambu Studio GUI loading and warning-free import were not verified in this operation; structural archive checks do not replace that application-level check. Earlier QA statements above describe their original verification dates.
+
+Public SHA-256: `c09503684df64015075b8acd45d6738249c343897a0a981cb9e47038e0fc4523`.
+Original printed-project SHA-256 (private backup): `62fbaa905f3f8451d821c3d7c9be2995e511f5e23734aba5ec4d42d9ce0e0410`.

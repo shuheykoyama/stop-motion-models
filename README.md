@@ -70,9 +70,21 @@ Physical printing is complete, as reported by the owner on 2026-11-15. Earlier Q
 | Stone to Fireworks | [frame-01 through frame-20](previews/stone-to-fireworks/print-set-v1/) | [print-set generator](scripts/stone_to_fireworks_print_set_v1.py) |
 | Rolling Cube Pen | [frame-01 through frame-61](previews/rolling-cube-pen/print-set-v4/rolling-cube-pen-frames/) | [print-set generator](scripts/rolling_cube_pen_print_set_v4.py) |
 
-Cube v4's existing filming PNGs are in `rolling-cube-pen-frames/`; the generator writes a `frames/` working directory on future runs. The current filming directory and ZIP are retained. All 61 Cube v4 filming PNGs are versioned with this cleanup checkpoint; GitHub recovery requires publishing the checkpoint. Supplementary PNGs, the distribution ZIP and the three Bambu project `.3mf` files remain local and untracked. Follow each motif guide and reproduce in an isolated copy to protect finalized data. Older models may remain fixed inputs even when a newer print set exists.
+Cube v4's existing filming PNGs are in `rolling-cube-pen-frames/`; the generator writes a `frames/` working directory on future runs. The current filming directory and ZIP are retained. All 61 Cube v4 filming PNGs are versioned with this cleanup checkpoint; GitHub recovery requires publishing the checkpoint. Supplementary PNGs and the distribution ZIP remain local and untracked. The actual print-project 3MF files are prepared for ordinary Git tracking as described below. Follow each motif guide and reproduce in an isolated copy to protect finalized data. Older models may remain fixed inputs even when a newer print set exists.
 
 [Cleanup inventory and deferred candidates](docs/repository-cleanup.md) records retained history and the narrow cache cleanup.
+
+## Actual printed 3MF projects
+
+The 3MF projects are the source of truth for saved print settings. Physical use is owner-reported; the saved printer preset does not independently identify the actual hardware.
+
+| Motif | Actual printed project | Contents | Stored printer / application |
+| --- | --- | --- | --- |
+| Stone to Fireworks | [stone-to-fireworks.3mf](exports/stone-to-fireworks/print-set-v1/stone-to-fireworks.3mf) | 14 types / 14 objects, one plate | X1E 0.6 nozzle / Bambu Studio 02.09.01.70 |
+| Rolling Wavy Pen | [rolling-wavy-pen.3mf](exports/rolling-wavy-pen/print-set-v2/rolling-wavy-pen.3mf) | 14 of 16 formal shapes, one plate; pose-15 and pose-16 absent | X1 Carbon 0.4 nozzle / Bambu Studio 02.09.01.70 |
+| Rolling Cube Pen | [rolling-cube-pen.3mf](exports/rolling-cube-pen/print-set-v4/rolling-cube-pen.3mf) | 12 types / 20 objects, one plate | X1E 0.6 nozzle / Bambu Studio 02.09.01.70 |
+
+These editable projects include geometry, placement and settings, but no G-code. Reprinting requires slicing; printing all 16 Wavy shapes requires adding the two missing STLs. Only DesignerUserId was removed for publication, with original archives backed up outside Git. Full payload comparisons preserved all print settings and geometry. GUI loading remains unverified. Each existing print guide records the public and original SHA-256 values. Git LFS rules are unchanged.
 
 ## Documentation and verification
 

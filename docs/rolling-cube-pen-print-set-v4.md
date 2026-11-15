@@ -98,3 +98,15 @@ Blender 4.5 LTSとImageMagickを使用し、リポジトリ直下から実行す
 形状を再生成せずデータを確認するときはQAコマンドのみを実行する。
 [正式版の最終QA記録](rolling-cube-pen-print-set-v4-final-qa.md)を参照。
 モデル交換時の位置合わせと、分離直後の立方体の配置精度も未検証である。
+
+## Actual printed Bambu Studio project
+
+[Print-settings source of truth](../exports/rolling-cube-pen/print-set-v4/rolling-cube-pen.3mf) is the project used for physical printing, as reported by the owner. It is stored beside the formal STLs and prepared for ordinary Git tracking.
+The archive contains 12 model types / 20 instances on one plate, with editable mesh geometry, placements and embedded printer/filament/print settings. No G-code/toolpath is included; printing again requires slicing.
+Saved application: Bambu Studio 02.09.01.70. Saved printer preset: **Bambu Lab X1E 0.6 nozzle**. Saved print profile: **0.30mm Standard @BBL X1C 0.6 nozzle**. These are the stored configuration values, not independent verification of the hardware actually used.
+
+Public-copy metadata processing removed only the account identifier DesignerUserId. Designer, copyright, license, internal UUIDs, all mesh data, placements and every configuration payload were preserved. Original archives were backed up outside Git before processing. ZIP CRC checks passed and all archive members other than that one XML metadata edit are byte-identical to the originals.
+Bambu Studio GUI loading and warning-free import were not verified in this operation; structural archive checks do not replace that application-level check. Earlier QA statements above describe their original verification dates.
+
+Public SHA-256: `1b187b1f4a430420655ca4f2722275d513be8806b95a99d196d12fd408c5b7d6`.
+Original printed-project SHA-256 (private backup): `a8ca00e860b4f66ffd0b0fe695fb061a4ba13b8a8b540fa39cfb5d28fb904284`.

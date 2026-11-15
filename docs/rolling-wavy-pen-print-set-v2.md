@@ -41,3 +41,17 @@ Follow `previews/rolling-wavy-pen/print-set-v2/frame-to-stl.csv` in frame order.
 - Validation and SHA-256 records: `previews/rolling-wavy-pen/print-set-v2/validation.json`
 
 All 16 solids passed final mesh checks and independent regeneration/hash comparison. Import as millimeters; do not apply another roll rotation because each STL already contains its approved print/contact orientation. Minimum feature thickness, slicer behavior, support requirements, and physical printing remain unverified. Approval here confirms the geometry/data package, not successful physical printing.
+
+## Actual printed Bambu Studio project
+
+[Print-settings source of truth](../exports/rolling-wavy-pen/print-set-v2/rolling-wavy-pen.3mf) is the project used for physical printing, as reported by the owner. It is stored beside the formal STLs and prepared for ordinary Git tracking.
+The archive contains 14 model types / 14 instances on one plate, with editable mesh geometry, placements and embedded printer/filament/print settings. No G-code/toolpath is included; printing again requires slicing.
+Saved application: Bambu Studio 02.09.01.70. Saved printer preset: **Bambu Lab X1 Carbon 0.4 nozzle**. Saved print profile: **0.28mm Extra Draft @BBL X1C**. These are the stored configuration values, not independent verification of the hardware actually used.
+
+This is the actual **14-shape print project**, containing pose-01 through pose-14. The formal STL set still has **16 shapes**. pose-15 and pose-16 are absent from this 3MF. Printing all sixteen in the future requires adding those two STLs to a plate and slicing again. The historical printed project has not been expanded.
+
+Public-copy metadata processing removed only the account identifier DesignerUserId. Designer, copyright, license, internal UUIDs, all mesh data, placements and every configuration payload were preserved. Original archives were backed up outside Git before processing. ZIP CRC checks passed and all archive members other than that one XML metadata edit are byte-identical to the originals.
+Bambu Studio GUI loading and warning-free import were not verified in this operation; structural archive checks do not replace that application-level check. Earlier QA statements above describe their original verification dates.
+
+Public SHA-256: `688dc6ad624a5b8dfc26ccabc426e1fc4f5478c967dd1111986dca44ac28dc52`.
+Original printed-project SHA-256 (private backup): `ad4713fb889630da28076853eb38c0ef29a4e7fab9cbb2158faeea296ef1176b`.

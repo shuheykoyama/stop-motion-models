@@ -56,6 +56,24 @@ CAM, slicer verification, printing support assessment, print-time estimates and 
 
 Eighteen Phase 1 poses require finger holding. Dynamic rolling, model-swap registration, fine-gap placement, exhaustive minimum thickness, slicing, supports, print time and physical printing remain unverified. Data QA does not guarantee physical filming or printing success. The approved ideal animation v2 and the former official [print-set-v3](docs/rolling-cube-pen-print-set-v3.md) remain preserved as historical references; print v4 for the current production plan.
 
+## Final filming frames and reproduction
+
+Physical printing is complete, as reported by the owner on 2026-11-15. Earlier QA reports retain their original dated verification scope; cleanup performs no new slicer or print validation.
+
+| Motif | Individual final PNGs | Reproduction source |
+| --- | --- | --- |
+| Pen | [frame-01 through frame-07](previews/pen/) | [generate.py](scripts/generate.py), [pen_previews.py](scripts/pen_previews.py) |
+| Stones | [frame-01 through frame-07](previews/stones/) | [stones_progression.py](scripts/stones_progression.py) |
+| Cup | [frame-01 through frame-07](previews/cup/) | [generate.py](scripts/generate.py), [review_previews.py](scripts/review_previews.py) |
+| Stone to Bread | [r01 through b01 realistic-front PNGs](previews/stone-to-bread/full-sequence-v1/) | [full-sequence generator](scripts/stone_to_bread_full_sequence.py), [pose/STL manifest](previews/stone-to-bread/full-sequence-v1/manifest.json) |
+| Rolling Wavy Pen | [v11 frames](previews/rolling-wavy-pen/storyboard-study-v11/frames/), [print reproduction frames](previews/rolling-wavy-pen/print-set-v2/reproduction-frames/) | [print-set generator](scripts/rolling_wavy_pen_print_set_v2.py) |
+| Stone to Fireworks | [frame-01 through frame-20](previews/stone-to-fireworks/print-set-v1/) | [print-set generator](scripts/stone_to_fireworks_print_set_v1.py) |
+| Rolling Cube Pen | [frame-01 through frame-61](previews/rolling-cube-pen/print-set-v4/rolling-cube-pen-frames/) | [print-set generator](scripts/rolling_cube_pen_print_set_v4.py) |
+
+Cube v4's existing filming PNGs are in `rolling-cube-pen-frames/`; the generator writes a `frames/` working directory on future runs. The current filming directory and ZIP are retained. All 61 Cube v4 filming PNGs are versioned with this cleanup checkpoint; GitHub recovery requires publishing the checkpoint. Supplementary PNGs, the distribution ZIP and the three Bambu project `.3mf` files remain local and untracked. Follow each motif guide and reproduce in an isolated copy to protect finalized data. Older models may remain fixed inputs even when a newer print set exists.
+
+[Cleanup inventory and deferred candidates](docs/repository-cleanup.md) records retained history and the narrow cache cleanup.
+
 ## Documentation and verification
 
 - [Specification](docs/specification.md): current approved pen dimensions and deformation; existing stones/cup requirements.

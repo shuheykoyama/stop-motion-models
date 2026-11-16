@@ -48,26 +48,6 @@ def arrange(parts,objects,progress):
     for part,x in zip(parts,centers):part['position_mm'][0]=x-middle
     for index,part in enumerate(parts):part['projected_X_gap_to_next_mm']=float(gaps[index]) if index<COUNT-1 else None
 
-def cube_closeup(scene,objects,records):
-    """Compare actual v1/v2 final body cubes at one shared static detail scale."""
-    old_manifest=json.loads((ROOT/'previews/rolling-cube-pen/manifest-v1.json').read_text())
-    old_part=next(p for p in old_manifest['frames'][-1]['parts'] if p['cell_index']==6)
-    with bpy.data.libraries.load(str(ROOT/'models/rolling-cube-pen.blend'),link=False) as (source,target):
-        target.objects=[old_part['mesh_id']]
-    old=target.objects[0];scene.collection.objects.link(old);old.animation_data_clear()
-    for obj in objects.values():obj.animation_data_clear();obj.hide_render=True;obj.hide_viewport=True
-    new=objects[next(p['mesh_id'] for p in records[-1]['parts'] if p['cell_index']==6)]
-    for obj in (old,new):obj.location=(0,0,0);obj.rotation_euler=(0,0,0)
-    camera=scene.camera;camera.data.type='ORTHO';camera.data.ortho_scale=35
-    camera.location=(0,80,95);camera.rotation_euler=(Vector((0,0,6))-camera.location).to_track_quat('-Z','Y').to_euler()
-    images=[]
-    for label,obj in [('v1',old),('v2',new)]:
-        old.hide_render=True;old.hide_viewport=True;new.hide_render=True;new.hide_viewport=True
-        obj.hide_render=False;obj.hide_viewport=False
-        path=OUT/(label+'-body-cube-closeup.png');scene.render.filepath=str(path);bpy.ops.render.render(write_still=True)
-        images.append((label+' / same physical scale',path))
-    montage(images,OUT/'final-cube-closeup-v1-v2.png',2)
-
 
 def ease(x):
     x=np.clip(x,0,1)
@@ -229,7 +209,7 @@ def main():
     OUT.mkdir(parents=True,exist_ok=True);(OUT/'frames').mkdir(exist_ok=True)
     tracked=subprocess.check_output(['git','ls-files','-z'],cwd=ROOT).decode().split('\0')
     protected={p:digest(ROOT/p) for p in tracked if p and (ROOT/p).is_file()}
-    v1_files=[ROOT/'models/rolling-cube-pen.blend',ROOT/'scripts/rolling_cube_pen.py',ROOT/'docs/rolling-cube-pen.md']
+    v1_files=[]
     v1_files += [p for p in (ROOT/'previews/rolling-cube-pen').rglob('*') if p.is_file() and not p.is_relative_to(OUT)]
     protected.update({str(p.relative_to(ROOT)):digest(p) for p in v1_files})
     scene,_,_,_=base.setup_scene();scene.name='Rolling Cube Pen - Study v2'
@@ -323,8 +303,6 @@ def main():
             command+=['-delay',str(cumulative-previous),str(path)];previous=cumulative
         subprocess.run(command+['-loop','0',str(OUT/'sequence-v2.gif')],check=True)
         # Comparison stills use common scales; they never alter animation framing.
-        v1_out=ROOT/'previews/rolling-cube-pen'
-        montage([('v1 / fixed animation camera',v1_out/'frames/frame-61.png'),('v2 / same camera and scale',images[-1])],OUT/'final-comparison-front-v1-v2.png',1)
         manifest['fixed_animation_camera']=fixed_signature
         scene.camera.location=(0,0,280);scene.camera.rotation_euler=(0,0,math.pi)
         tops=[]
@@ -332,8 +310,6 @@ def main():
             scene.frame_set(records[f-1]['exposure_start']);path=OUT/f'top-{f:02}.png';scene.render.filepath=str(path);bpy.ops.render.render(write_still=True);tops.append((f'{f:02}',path))
         montage(tops,OUT/'top-comparison-v2.png',3)
         cross_sections(objects,records)
-        montage([('v1 / fixed top scale',v1_out/'top-61.png'),('v2 / same top scale',OUT/'top-61.png')],OUT/'final-comparison-top-v1-v2.png',1)
-        cube_closeup(scene,objects,records)
         manifest['rendering'].update(gpu=gpu.platform.vendor_get(),backend=gpu.platform.backend_type_get())
     assert all(digest(ROOT/p)==h for p,h in protected.items())
     manifest['protected_assets_unchanged']=True;manifest['protected_sha256']=protected

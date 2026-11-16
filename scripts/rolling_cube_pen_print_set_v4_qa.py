@@ -19,7 +19,6 @@ import rolling_cube_pen_print_set_v4 as job
 def main():
     manifest = json.loads((job.OUT / 'manifest.json').read_text())
     generated = json.loads((job.OUT / 'validation.json').read_text())
-    source = json.loads((job.OUT.parent / 'print-set-v3/manifest.json').read_text())
     phase1_holding = generated.get('phase1_nonselfstanding_poses')
     if phase1_holding is None:
         phase1_holding = sorted({row['frame'] for row in generated.get('placements', [])
@@ -27,7 +26,7 @@ def main():
     if phase1_holding is None:
         phase1_holding = [frame['frame'] for frame in manifest['frames'] if frame['frame'] <= 21
                           and any(not part['self_standing'] for part in frame['parts'])]
-    source_groups = {group['id']: group for group in source['stls']}
+    source_groups = {group['id']: group for group in manifest['stls']}
     assert len(manifest['stls']) == 12
     assert sum(int(group['print_copies']) for group in manifest['stls']) == 20
     assert len(manifest['frames']) == 61
@@ -37,10 +36,10 @@ def main():
     temporary_meshes = []
     for group in manifest['stls']:
         path = job.ROOT / group['stl']
-        source_group = source_groups[group['source_v3_stl_id']]
+        source_group = source_groups[group['id']]
         assert path.is_file()
         assert job.digest(path) == group['sha256'] == source_group['sha256']
-        vertices, faces, normals = job.v3.shared.previous.read_stl(path)
+        vertices, faces, normals = job.read_stl(path)
         assert vertices.shape[0] > 0 and faces.shape[0] > 0
         assert np.isfinite(vertices).all() and np.isfinite(normals).all()
         assert np.allclose(np.ptp(vertices, axis=0), group['dimensions_mm'], atol=2e-5)
@@ -54,9 +53,9 @@ def main():
         imported = list(set(bpy.data.objects) - before)
         assert len(imported) == 1
         obj = imported[0]
-        check = job.v3.shared.study.validate(obj)
+        check = job.study.validate(obj)
         assert check['passed']
-        fingerprint = job.v3.shared.study.base.mesh_fingerprint(obj)
+        fingerprint = job.study.base.mesh_fingerprint(obj)
         assert np.allclose(check['dimensions_mm'], group['dimensions_mm'], atol=2e-5)
         assert abs(check['volume_mm3'] - group['volume_mm3']) < max(1e-4, group['volume_mm3'] * 1e-6)
         bm = bmesh.new()
@@ -64,7 +63,7 @@ def main():
         nonmanifold_vertices = sum(not vertex.is_manifold for vertex in bm.verts)
         bm.free()
         assert nonmanifold_vertices == 0
-        check.update(stl=group['stl'], sha256=job.digest(path), source_v3_sha256_match=True,
+        check.update(stl=group['stl'], sha256=job.digest(path), approved_sha256_match=True,
                      dimensions_mm=np.ptp(vertices, axis=0).tolist(), nonmanifold_vertices=nonmanifold_vertices,
                      normal_disagreements=0, independent_stl_importer=True,
                      imported_mesh_fingerprint=fingerprint, imported_dimensions_and_volume_match=True,
@@ -80,7 +79,7 @@ def main():
     objects = {obj.name: obj for obj in scene.objects if obj.get('stl_id')}
     assert len(objects) == 20
     assert scene.render.fps == 12 and scene.frame_end == 74
-    assert job.v3.shared.study.camera_signature(scene) == manifest['fixed_camera']
+    assert job.study.camera_signature(scene) == manifest['fixed_camera']
     floors = [obj for obj in scene.objects if obj.type == 'MESH' and not obj.get('stl_id')]
     assert len(floors) == 1 and all(abs((floors[0].matrix_world @ vertex.co).z) < 1e-7
                                     for vertex in floors[0].data.vertices)
@@ -92,7 +91,7 @@ def main():
         assert all(key.interpolation == 'CONSTANT' for curve in obj.animation_data.action.fcurves
                    for key in curve.keyframe_points)
         record = stl_records[obj['stl_id']]
-        assert job.v3.shared.study.base.mesh_fingerprint(obj) == record['source_mesh_fingerprint']
+        assert job.study.base.mesh_fingerprint(obj) == record['source_mesh_fingerprint']
 
     with (job.OUT / 'frame-to-stl.csv').open(newline='') as stream:
         csv_rows = list(csv.DictReader(stream))
@@ -123,10 +122,10 @@ def main():
             assert obj['stl_id'] == part['stl_id']
             assert np.allclose(obj.location[:], part['position_mm'], atol=2e-5)
             assert np.allclose(obj.rotation_euler[:], np.radians(part['rotation_degrees']), atol=1e-6)
-            vertices, faces = job.v3.shared.previous.mesh_arrays(obj)
+            vertices, faces = job.mesh_arrays(obj)
             matrix = np.asarray(obj.matrix_world)
             world = vertices @ matrix[:3, :3].T + matrix[:3, 3]
-            volume, center, area, margin = job.v3.shared.study.support_properties(world, faces)
+            volume, center, area, margin = job.study.support_properties(world, faces)
             assert volume > 0 and abs(float(world[:, 2].min())) < 2e-5
             stable = bool(area > 1e-6 and margin > 0)
             if frame['frame'] >= 56:

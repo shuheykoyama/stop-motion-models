@@ -69,10 +69,8 @@ def main():
     out=args.output_root/'previews/stone-to-fireworks/v3';out.mkdir(parents=True,exist_ok=True)
     exports=args.output_root/'exports/stone-to-fireworks/v3';exports.mkdir(parents=True,exist_ok=True)
     # Protect v1 files explicitly; no earlier motif is opened for writing.
-    protected=[ROOT/'models/stone-to-fireworks.blend',ROOT/'scripts/stone_to_fireworks.py',ROOT/'docs/stone-to-fireworks.md']
+    protected=[ROOT/'models/stone-to-fireworks.blend',ROOT/'scripts/stone_to_fireworks.py',ROOT/'docs/stone-to-fireworks-print-set-v1.md']
     protected+=list((ROOT/'previews/stone-to-fireworks').glob('*.*'))+list((ROOT/'exports/stone-to-fireworks').glob('*.stl'))
-    protected += [ROOT/'models/stone-to-fireworks-v2.blend',ROOT/'scripts/stone_to_fireworks_v2.py',ROOT/'docs/stone-to-fireworks-v2.md']
-    protected += [p for folder in ('exports/stone-to-fireworks/v2','previews/stone-to-fireworks/v2') for p in (ROOT/folder).rglob('*') if p.is_file()]
     hashes={str(p.relative_to(ROOT)):v1.sha(p) for p in protected}
     source,faces,_=base.read_stl(ROOT/'exports/stone-to-fireworks/rest.stl')
     original_source=source.copy()
@@ -181,7 +179,6 @@ def main():
         report['single_visible_pose_per_frame']=True
     assert all(v1.sha(ROOT/p)==h for p,h in hashes.items())
     report['v1_unchanged']=True
-    report['v2_unchanged']=True
     report['geometry_features']='Five rounded face cuts and six unequal localized shallow chips/swells; one shared base before deformation.'
     report['neutral_material_only']=True
     (out/'validation-v3.json').write_text(json.dumps(report,indent=2)+'\n')

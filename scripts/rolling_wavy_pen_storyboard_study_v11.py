@@ -16,23 +16,26 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from generate import make_mesh
 from rolling_wavy_pen import validate, environment, material
-import rolling_wavy_pen_storyboard_study_v8 as v8
 
 FRAME_COUNT = 30
 DELAY_CS = 16
-ROLL_TRAVEL_MM = v8.ROLL_TRAVEL_MM
-ROLL_ANGLE_DEG = v8.ROLL_ANGLE_DEG
-LENGTH_MM = v8.LENGTH_MM
-RADIAL_SEGMENTS = v8.RADIAL_SEGMENTS
-AXIAL_STEP_MM = v8.AXIAL_STEP_MM
-TABLE_CONTACT_TRIM_MM = v8.TABLE_CONTACT_TRIM_MM
-CAP_RADIUS_MM = v8.CAP_RADIUS_MM
-BARREL_RADIUS_MM = v8.BARREL_RADIUS_MM
-PROFILE = v8.PROFILE
+ROLL_TRAVEL_MM = 2.5
+ROLL_ANGLE_DEG = 20.0
+LENGTH_MM = 141.8
+RADIAL_SEGMENTS = 96
+AXIAL_STEP_MM = 0.8
+TABLE_CONTACT_TRIM_MM = 0.68
+CAP_RADIUS_MM = 6.6
+BARREL_RADIUS_MM = 11.9 / 2
+PROFILE = [(-70.4, 8.8), (-70.2, 9.8), (-69.5, 10.6), (-68.8, 10.9),
+           (-34.0, 10.9), (-33.8, 10.5), (-33.4, 10.5), (-33.2, 10.9),
+           (-32.5, 10.9), (-32.0, 9.0), (67.8, 9.0), (69.0, 8.8),
+           (70.0, 8.2), (70.4, 7.5)]
 
 
 def smoothstep(value):
-    return v8.smoothstep(value)
+    value = max(0.0, min(1.0, value))
+    return value * value * (3.0 - 2.0 * value)
 
 
 def phase_spec(frame):

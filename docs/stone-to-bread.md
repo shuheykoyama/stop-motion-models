@@ -1,60 +1,43 @@
 # Stone to Bread
 
-## Current checkpoint: 13 poses
+## 目的と仕様
 
-The 13-pose CG previsualization and stone geometry are **provisionally approved**. The sequence is `r01→r02→r03→r04→r05→r06→r07→p01→p02→p03→p04→c01→b01`. During `r01`–`r07`, three back-and-forth rolls progressively elongate the pebble. During `p01`–`p04`, pressure flattens and pulls its center toward the viewer. `c01` is a one-exposure recoil; `b01` replaces it with bread through a hard cut.
+現時点では**13ポーズのCGプレビューと石の形状が暫定承認**。正式完成版や実印刷済みモデルとは区別する。
+石が転がりながら伸び、中央を手前へ押し引きした後、反発してパンへ切り替わる。
+順序はr01–r07、p01–p04、c01、b01。12種類の石が印刷対象で、パンb01は実物との交換を想定したCG参照。
+選定テンポは12 fps、44露光、約3.67秒。
 
-The 12 printable stone STLs remain in their validated study locations: seven under [`rolling-elongating-study-v4`](../exports/stone-to-bread/rolling-elongating-study-v4/), four under [`pulling-study-v1`](../exports/stone-to-bread/pulling-study-v1/), and one under [`recoil-study-v1`](../exports/stone-to-bread/recoil-study-v1/). Bread `b01` is a preview-only mesh in the [integrated scene](../models/stone-to-bread-full-sequence-v1.blend); real bread is planned for filming, so no production bread STL exists. The [manifest](../previews/stone-to-bread/full-sequence-v1/manifest.json) lists every pose's dimensions, STL hash, mesh fingerprint, filming position and exposure count.
+## 制作過程と設計判断
 
-The selected reference is the [realistic deliberate GIF](../previews/stone-to-bread/full-sequence-v1/sequence-realistic-deliberate.gif) at 12 fps: 44 exposures across 13 discrete poses (3.667 s before GIF time quantization). The [energetic GIF](../previews/stone-to-bread/full-sequence-v1/sequence-realistic-energetic.gif), [neutral-material GIF](../previews/stone-to-bread/full-sequence-v1/sequence-neutral-deliberate.gif), [front contact sheet](../previews/stone-to-bread/full-sequence-v1/contact-front.png), [top contact sheet](../previews/stone-to-bread/full-sequence-v1/contact-top.png), and [side comparison](../previews/stone-to-bread/full-sequence-v1/contact-side.png) use the same stone meshes. The fixed front camera uses a 50° elevation and 126 mm orthographic scale.
+| 問題と検証結果 | 判断と変更 |
+|---|---|
+| 単純な拡縮だけでは、同じ石が転がって伸びるように見えない | 共通トポロジーと非対称な凹凸を維持し、回転と伸長を同じ基準メッシュへ適用 |
+| 押した形が指への追従として読めない | 中央の局所押圧と手前への引っ張りを組み合わせ、端部へ滑らかに接続 |
+| 復元とパンへの切替を曖昧にすると反発が弱い | c01を1露光の反発にし、b01へのハードカットを採用 |
+| 旧承認形状と作業ファイルの一部が一致しなくなった | STLハッシュと保存メッシュ指紋を分けて検査し、必要な旧シーンを固定入力として回復 |
+| 複数の検討シーンに現行形状が分散 | 13ポーズの統合シーンを用意し、元STLと頂点座標が一致することを確認 |
 
-Generation uses Blender 4.5 LTS with its bundled Python and ImageMagick. Run these commands **only in an isolated checkout**, because they write to study directories:
+## 検証結果
 
-```sh
-/Applications/Blender.app/Contents/MacOS/Blender --background --threads 8 --python-exit-code 1 --python scripts/stone_to_bread_rolling_elongating_study_v4.py
-/Applications/Blender.app/Contents/MacOS/Blender --background --threads 8 --python-exit-code 1 --python scripts/stone_to_bread_pulling_study.py
-/Applications/Blender.app/Contents/MacOS/Blender --background --threads 8 --python-exit-code 1 --python scripts/stone_to_bread_recoil_study.py
-/Applications/Blender.app/Contents/MacOS/Blender --background --threads 8 --python-exit-code 1 --python scripts/stone_to_bread_full_sequence.py
-```
+[統合manifest](../previews/stone-to-bread/full-sequence-v1/manifest.json)を現行の寸法、露光、配置、ハッシュの正本とする。
+12 STLは元の幾何検証で閉鎖性、manifold、単一連結、法線、退化面、検出対象の交差、接地と支持を確認した。
+統合時には12 STLのSHA-256と13個の保存メッシュ指紋を照合した。
+パンの実物への適合、網羅的な肉厚、FDM強度、スライス、実撮影は未検証。
 
-Compare resulting STL SHA-256 hashes and saved-scene mesh fingerprints with the study manifests and the [integrated manifest](../previews/stone-to-bread/full-sequence-v1/manifest.json).
+## 現行成果物と依存入力
 
-The integrated audit matched all 12 existing STL hashes and render-mesh coordinates, all 13 saved-scene mesh fingerprints, and 401 protected source/asset file hashes. Existing per-pose records report closed/manifold, single-component stone solids, outward normals, no degenerate faces, no detected nonadjacent triangle intersections, finite tabletop contact and positive uniform-density support margins. The audit reused those geometric checks; it did not rerun an exhaustive mesh analysis. Global minimum thickness, intersections involving shared vertices, slicer behavior, support needs, material strength, physical printing and live-action registration remain unverified. Rendering noise and visual consistency can be refined later without changing the checkpoint geometry.
+- [統合Blend](../models/stone-to-bread-full-sequence-v1.blend)、[選定GIF](../previews/stone-to-bread/full-sequence-v1/sequence-realistic-deliberate.gif)、[構成PNG](../previews/stone-to-bread/full-sequence-v1/)
+- 石r01–r07：[STL](../exports/stone-to-bread/rolling-elongating-study-v4/)
+- 石p01–p04：[STL](../exports/stone-to-bread/pulling-study-v1/)
+- 石c01：[STL](../exports/stone-to-bread/recoil-study-v1/)
+- [統合生成器](../scripts/stone_to_bread_full_sequence.py)、[伸長](../scripts/stone_to_bread_rolling_elongating_study_v4.py)、[引っ張り](../scripts/stone_to_bread_pulling_study.py)、[反発](../scripts/stone_to_bread_recoil_study.py)
 
-## Historical ten-frame prototype
+STLの旧Study名は現行12形状の保存先であり、削除対象ではない。
+再生成には同名3つの入力Blendとmanifestが必要で、反発生成器はパンと旧反発の比較メッシュを`stone-to-bread-approved-geometry-recovery.blend`から読む。
+この回復シーンと`sequence-validation.json`は実行時依存として保持した。
+`exports/stone-to-bread/frame-01.stl`はFireworksの初期生成入力でもある。
+これらの入力を除去した再生成の同一性は確認できていないため、今回の整理でも削除していない。
 
-The earlier ten-frame sequence was visually approved as a prototype. Its old Frame 02 and 03 STL hashes no longer match the current root-level files after later rolling experiments. Exact approved STL bytes are preserved in [`approved-geometry-recovery`](../exports/stone-to-bread/approved-geometry-recovery/), and all ten meshes in the [recovery scene](../models/stone-to-bread-approved-geometry-recovery.blend) match the recorded approved mesh fingerprints. The recovery scene's `.blend` file bytes differ from the old scene hash; the current root scene differs in the Frame 02 and 03 meshes. The root generator scripts also differ from their historical recorded byte hashes. These historical files were retained without replacement.
-
-## Sequence and dimensions
-
-Dimensions are measured STL bounds in local X × Y × Z, in millimeters. Local X follows the rod, positive Y points toward the camera along the tabletop, and Z points up; the corresponding world directions are +X, −Y and +Z. The tabletop is at Z=0.
-
-| Frame | Action | Dimensions (mm) |
-| --- | --- | --- |
-| 01 | Original irregular stone | 30.000 × 25.000 × 20.000 |
-| 02 | Rolling and initial elongation | 40.370 × 23.704 × 19.481 |
-| 03 | Further rolling and elongation | 59.630 × 21.296 × 18.519 |
-| 04 | Elongated rod | 70.000 × 20.000 × 18.000 |
-| 05 | Initial central pressure and pull | 70.000 × 25.457 × 17.361 |
-| 06 | Intermediate flattened stretch | 70.000 × 37.480 × 16.121 |
-| 07 | Near-maximum pressed stretch | 70.000 × 49.508 × 15.038 |
-| 08 | Maximum pressed, flattened stretch | 70.000 × 54.976 × 14.565 |
-| 09 | Sudden recoil with a short flattened remnant | 40.000 × 29.997 × 18.000 |
-| 10 | Instant replacement with bread | 80.000 × 60.000 × 50.000 (preview mesh) |
-
-The historically approved Frames 01–09 are stone solids. For the original approved Frame 02 and 03 bytes, use the recovery directory above; the other old exports remain in [`exports/stone-to-bread/`](../exports/stone-to-bread/). Frame 10 is a procedural stand-in in the [historical Blender scene](../models/stone-to-bread-approved-geometry-recovery.blend): real bread is intended for filming, so no bread STL was exported. The recovery scene contains ten named mesh objects, a fixed camera and a preview-only tabletop.
-
-## Previews and source
-
-- [Oblique contact sheet](../previews/stone-to-bread/sequence-oblique.png), [top-down contact sheet](../previews/stone-to-bread/sequence-top.png), and [side comparison, 04–09](../previews/stone-to-bread/sequence-side.png).
-- [Complete forward GIF](../previews/stone-to-bread/sequence.gif): 01→10, with 400 ms for Frames 01–08, the approved 80 ms quick-release reference for Frame 09, and 700 ms for Frame 10. The 09→10 change is a hard cut.
-- [Rolling GIF](../previews/stone-to-bread/rolling.gif) and [pressing/stretching GIF](../previews/stone-to-bread/stretching.gif).
-- Procedural source: [`stone_to_bread.py`](../scripts/stone_to_bread.py) and [`stone_to_bread_sequence.py`](../scripts/stone_to_bread_sequence.py). Geometry is deterministic and uses Blender 4.5 LTS; the independently reproduced intermediate exports match by SHA-256.
-
-## Validation and limitations
-
-[Motif validation](../previews/stone-to-bread/validation.json) records measurements and checks for all nine STLs. [Sequence validation](../previews/stone-to-bread/sequence-validation.json) records the intermediate checks, reproducibility, protected-asset hashes and preview timing. The [aggregate record](../previews/validation.json) contains the final approval and asset hashes. These records include the STL SHA-256 values and saved-scene mesh fingerprints.
-
-The historical validation records report that all nine originally approved exports passed closed/manifold mesh checks, one connected component, consistent outward winding and STL normals, positive volume, no degenerate faces, no BVH-detected intersections between nonadjacent triangles, tabletop contact, and a positive uniform-density center-of-mass support margin. Their recorded hashes match the recovery Frame 02 and 03 STLs and the other seven root exports; all ten recovery-scene mesh fingerprints match the old approval record.
-
-The intersection test excludes adjacent and shared-vertex triangle pairs. Vertical core-thickness samples are not an exhaustive minimum-thickness or small-feature check. Static support does not verify friction or handling. Slicing, support requirements, nozzle/layer suitability, material strength, warping and physical printing remain unverified; visual approval is not a physical print test. The bread stand-in still needs to be matched to the real bread during filming. Volume conservation and physical material behavior were not simulated.
+再生成は隔離コピーで、伸長、引っ張り、反発、統合の順にBlender 4.5 LTSで実行する。
+共有`stone_to_bread.py`と`generate.py`、`review_previews.py`も必要。
+撮影ではパンを実物へ交換し、STLはmmとして読み込む。

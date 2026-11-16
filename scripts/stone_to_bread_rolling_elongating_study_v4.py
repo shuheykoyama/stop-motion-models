@@ -135,19 +135,6 @@ def pose_contact_sheet(paths, destination):
     subprocess.run(command,check=True,capture_output=True)
 
 
-def comparison_sheet(style):
-    # Place corresponding poses in aligned rows so geometry and timing can be compared.
-    command = ["magick", "montage", "-background", "#171719", "-fill", "white",
-               "-font", "Helvetica", "-pointsize", "16"]
-    for revision in ("rolling-elongating-study-v3", REVISION):
-        label = "v3" if revision.endswith("v3") else "v4"
-        for name, _, _, _ in POSES:
-            image = ROOT/"previews/stone-to-bread"/revision/f"{name}-{style}-front.png"
-            command += ["-label", f"{label} {name}", str(image)]
-    command += ["-geometry", "220x165+6+10", "-tile", "7x", str(PREVIEW/f"comparison-v3-v4-{style}-front.png")]
-    subprocess.run(command,check=True,capture_output=True)
-
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--geometry-only", action="store_true")
@@ -253,8 +240,6 @@ def main():
                     for timing, exposures in EXPOSURES.items():
                         report["animations"][f"{style}-{timing}"] = timing_gif(images,exposures,PREVIEW/f"rolling-{style}-{timing}.gif")
                 scene.camera.matrix_world = original_camera
-        for style in ("realistic", "neutral"):
-            comparison_sheet(style)
         for obj,record in zip(objects,records):
             assert base.mesh_fingerprint(obj) == record["mesh_fingerprint"]
             obj.data.materials[0] = realistic

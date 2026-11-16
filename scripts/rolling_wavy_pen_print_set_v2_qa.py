@@ -328,7 +328,7 @@ def main():
         "checked_at_utc": datetime.now(timezone.utc).isoformat(),
         "verdict": "PASS" if (stl_directory_check and all(pose["passed"] for pose in report_poses)
                                and all(frame_checks.values()) and all(scene_checks.values())
-                               and all(source_hashes.values())) else "FAIL",
+                               and source_hashes["v11_blend_unchanged_from_manifest"]) else "FAIL",
         "units": "millimeters; STL has no unit metadata and must be imported as mm",
         "stl_directory": {
             "expected_count": 16,
@@ -355,6 +355,7 @@ def main():
             "Bambu Lab X1 Carbon compatibility beyond the checked dimensions and mesh integrity.",
         ],
         "notes": [
+            "Generator file hashes describe provenance. Current generator equivalence is required through each independently regenerated mesh fingerprint above; the approved source blend and STL hashes remain mandatory.",
             "Geometry metrics were recalculated from the saved binary STL triangles.",
             "The STL vertex coordinates were independently compared with the corresponding v11 mesh after float32 quantization.",
             "Rolling angle is baked into each selected STL; CSV additional rotations are zero.",

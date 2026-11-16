@@ -1,57 +1,47 @@
-# Rolling Wavy Pen — print-set-v2
+# Rolling Wavy Pen
 
-Status: **approved print-data set; Final QA PASS**. This is the only approved Rolling Wavy Pen STL set for CAM/slicer review. Physical printing has not been performed.
+## 目的と仕様
 
-This set reproduces the approved 30-pose v11 sequence using 16 printable STL meshes. The v11 mesh generator and source scene remain the geometric source of truth; no shape, scale, or surface profile was redesigned for this set.
+正式アニメーションはv11、正式印刷セットはprint-set-v2の16 STL。
+黒いキャップ付きペンが、直線から単一弧へ曲がり、その弧に複数のうねりが育つ。
+30ポーズ、各160 ms、計4.8秒。長さの基準は141.8 mm、軸径は11.9 mm。
 
-The selected STLs retain the v11 baked roll/contact orientation. Reuse is achieved by reassigning the same STL and changing its recorded Y placement. The additional roll correction is zero for the 30-frame assignment so each STL remains on its validated contact plane.
+## 制作過程と設計判断
 
-## Printable models
+| 問題と検証結果 | 判断と変更 |
+|---|---|
+| キャップだけ硬く見え、端部に曲がりが集中した | 部品を区別しない一本の棒として中心線を先に設計し、断面と外観を後から適用 |
+| うねりへの置換で大きな弧が失われた | 低周波の単一弧を残し、高周波成分を重ねる構成を採用 |
+| 初期形状が弧に固定され、Straightが消えた | 直線を保持する往復、弧を育てる往復、うねりを育てる往復を分離 |
+| 全区間の補間追加でCGのように滑らかになった | 30ポーズへ整理し、転がりでシルエットが反転するストップモーションのテンポを採用 |
+| 同じ関数を使っても中央が平坦、端が高曲率になった | 一定径の棒、中心線、曲率分布で空間的な偏りを評価してv11を確定 |
+| CGの全30形状を印刷する負荷 | 16形状を選び、剛体配置だけの再現版と比較。平均RMS差0.053 mm、最大頂点差0.677 mmを採用 |
 
-Dimensions are STL bounding-box X × Y × Z in millimeters. Usage counts refer to the 30-frame CSV.
+中心線の接線と曲率、キャップ境界の連続性を検査し、装飾による見かけと中心線自体の問題を区別した。
+今回の整理ではv11が旧v8から読み込んでいた定数をv11内へ移し、全30形状の生成座標と保存メッシュの一致を確認した。
+旧v8とv10のBlendは現行生成の入力ではない。
 
-| STL pose | Source v11 frame | Dimensions (mm) | Uses | File |
-|---|---:|---:|---:|---|
-| pose-01 | v11 frame-01 | 141.800 × 13.197 × 13.092 | 4 | pose-01.stl |
-| pose-02 | v11 frame-04 | 141.800 × 13.753 × 12.518 | 3 | pose-02.stl |
-| pose-03 | v11 frame-08 | 141.800 × 14.212 × 13.092 | 1 | pose-03.stl |
-| pose-04 | v11 frame-09 | 141.800 × 16.437 × 13.092 | 1 | pose-04.stl |
-| pose-05 | v11 frame-10 | 141.800 × 19.183 × 12.518 | 1 | pose-05.stl |
-| pose-06 | v11 frame-11 | 141.800 × 21.929 × 12.518 | 1 | pose-06.stl |
-| pose-07 | v11 frame-12 | 141.800 × 23.993 × 12.518 | 1 | pose-07.stl |
-| pose-08 | v11 frame-13 | 141.800 × 23.993 × 13.092 | 3 | pose-08.stl |
-| pose-09 | v11 frame-16 | 141.800 × 24.454 × 12.518 | 2 | pose-09.stl |
-| pose-10 | v11 frame-18 | 141.800 × 25.853 × 12.518 | 1 | pose-10.stl |
-| pose-11 | v11 frame-19 | 141.800 × 26.685 × 13.092 | 1 | pose-11.stl |
-| pose-12 | v11 frame-21 | 141.800 × 28.024 × 13.092 | 2 | pose-12.stl |
-| pose-13 | v11 frame-22 | 141.800 × 28.061 × 12.518 | 3 | pose-13.stl |
-| pose-14 | v11 frame-25 | 141.800 × 28.410 × 13.092 | 1 | pose-14.stl |
-| pose-15 | v11 frame-27 | 141.800 × 28.714 × 13.092 | 2 | pose-15.stl |
-| pose-16 | v11 frame-30 | 141.800 × 27.978 × 12.518 | 3 | pose-16.stl |
+## 検証結果
 
-## Stop-motion placement
+[Final QA](rolling-wavy-pen-final-qa.md)はPASS。
+16 STLの再読込で閉鎖性、manifold、単一連結、面方向、体積、退化面、検出対象の交差、接地と重心支持を確認した。
+寸法、使用回数、元フレームとSHA-256は[manifest](../previews/rolling-wavy-pen/print-set-v2/manifest.json)と[最終QA JSON](../previews/rolling-wavy-pen/print-set-v2/final-qa.json)に記録している。
+網羅的な最小肉厚と実物の撮影安定性は未検証。
 
-Follow `previews/rolling-wavy-pen/print-set-v2/frame-to-stl.csv` in frame order. It records the phase, reused STL, source v11 frame, rolling direction, baked roll, and X/Y/Z filming position. Positions are millimeter starting guides; adjust them to match the actual table and camera during filming. Preserve the exported STL scale and use its Z=0 contact side on the table.
+## 最終成果物と撮影
 
-## Review and validation
+- [正式STL](../exports/rolling-wavy-pen/print-set-v2/)、[印刷版Blend](../models/rolling-wavy-pen-print-set-v2.blend)
+- [撮影CSV](../previews/rolling-wavy-pen/print-set-v2/frame-to-stl.csv)、[撮影再現GIF](../previews/rolling-wavy-pen/print-set-v2/print-reproduction.gif)、[構成PNG](../previews/rolling-wavy-pen/print-set-v2/reproduction-frames/)
+- [理想v11 GIF](../previews/rolling-wavy-pen/storyboard-study-v11/sequence.gif)、[理想PNG](../previews/rolling-wavy-pen/storyboard-study-v11/frames/)、[v11 Blend](../models/rolling-wavy-pen-storyboard-study-v11.blend)
+- [形状生成器](../scripts/rolling_wavy_pen_storyboard_study_v11.py)、[印刷版生成器](../scripts/rolling_wavy_pen_print_set_v2.py)、[QA](../scripts/rolling_wavy_pen_print_set_v2_qa.py)
 
-- Print-only reconstruction: `previews/rolling-wavy-pen/print-set-v2/print-reproduction.gif`
-- Side-by-side v11 ideal versus print-set reconstruction: `previews/rolling-wavy-pen/print-set-v2/ideal-vs-print-reproduction.gif`
-- Candidate pose sheet: `previews/rolling-wavy-pen/print-set-v2/selected-shapes.png`
-- Validation and SHA-256 records: `previews/rolling-wavy-pen/print-set-v2/validation.json`
+CSVは各STLに焼き込まれたロールと接地面を前提とし、追加回転0°で再配置する。
+STLはmmとして読み込み、独自に原点や下面を揃え直さない。
+印刷版生成はv11シーンを開いた隔離コピーで行う。共有モジュール`rolling_wavy_pen.py`も必要。
+Blend2件はGit LFS管理なので、復元時にはLFS実体を取得する。
 
-All 16 solids passed final mesh checks and independent regeneration/hash comparison. Import as millimeters; do not apply another roll rotation because each STL already contains its approved print/contact orientation. Minimum feature thickness, slicer behavior, support requirements, and physical printing remain unverified. Approval here confirms the geometry/data package, not successful physical printing.
-
-## Actual printed Bambu Studio project
-
-[Print-settings source of truth](../exports/rolling-wavy-pen/print-set-v2/rolling-wavy-pen.3mf) is the project used for physical printing, as reported by the owner. It is stored beside the formal STLs and prepared for ordinary Git tracking.
-The archive contains 14 model types / 14 instances on one plate, with editable mesh geometry, placements and embedded printer/filament/print settings. No G-code/toolpath is included; printing again requires slicing.
-Saved application: Bambu Studio 02.09.01.70. Saved printer preset: **Bambu Lab X1 Carbon 0.4 nozzle**. Saved print profile: **0.28mm Extra Draft @BBL X1C**. These are the stored configuration values, not independent verification of the hardware actually used.
-
-This is the actual **14-shape print project**, containing pose-01 through pose-14. The formal STL set still has **16 shapes**. pose-15 and pose-16 are absent from this 3MF. Printing all sixteen in the future requires adding those two STLs to a plate and slicing again. The historical printed project has not been expanded.
-
-Public-copy metadata processing removed only the account identifier DesignerUserId. Designer, copyright, license, internal UUIDs, all mesh data, placements and every configuration payload were preserved. Original archives were backed up outside Git before processing. ZIP CRC checks passed and all archive members other than that one XML metadata edit are byte-identical to the originals.
-Bambu Studio GUI loading and warning-free import were not verified in this operation; structural archive checks do not replace that application-level check. Earlier QA statements above describe their original verification dates.
-
-Public SHA-256: `688dc6ad624a5b8dfc26ccabc426e1fc4f5478c967dd1111986dca44ac28dc52`.
-Original printed-project SHA-256 (private backup): `ad4713fb889630da28076853eb38c0ef29a4e7fab9cbb2158faeea296ef1176b`.
+実印刷済み[3MF](../exports/rolling-wavy-pen/print-set-v2/rolling-wavy-pen.3mf)は**14形状版**で、pose-01–14を含む。
+正式STLは16形状だが、pose-15と16は3MFに含まれない。全形状を再印刷する場合は追加配置と再スライスが必要。
+保存設定はBambu Studio 02.09.01.70、X1 Carbon 0.4 mm、0.28 mm Extra Draft。
+公開コピーはDesignerUserIdだけを除去し、形状と印刷設定を保持した。GUI再読込は未検証。
+SHA-256は`688dc6ad624a5b8dfc26ccabc426e1fc4f5478c967dd1111986dca44ac28dc52`。

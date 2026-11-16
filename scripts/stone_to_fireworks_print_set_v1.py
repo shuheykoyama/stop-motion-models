@@ -34,7 +34,7 @@ def main():
     source_manifest=json.loads((ROOT/'previews/stone-to-fireworks/v3/manifest-v3.json').read_text())
     source_validation=json.loads((ROOT/'previews/stone-to-fireworks/v3/validation-v3.json').read_text())
     protected=[p for folder in ('previews/stone-to-fireworks/v3','exports/stone-to-fireworks/v3') for p in (ROOT/folder).rglob('*') if p.is_file()]
-    protected += [ROOT/'models/stone-to-fireworks-v3.blend',ROOT/'scripts/stone_to_fireworks_v3.py',ROOT/'docs/stone-to-fireworks-v3.md']
+    protected += [ROOT/'models/stone-to-fireworks-v3.blend',ROOT/'scripts/stone_to_fireworks_v3.py',ROOT/'docs/stone-to-fireworks-print-set-v1.md']
     protected_hashes={str(p.relative_to(ROOT)):shared.sha(p) for p in protected}
     bpy.ops.wm.open_mainfile(filepath=str(ROOT/'models/stone-to-fireworks-v3.blend'),use_scripts=False)
     scene=bpy.context.scene;material=bpy.data.objects['rest'].data.materials[0]

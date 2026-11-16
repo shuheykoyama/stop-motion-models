@@ -1,76 +1,55 @@
-# Stone to Fireworks - Tabletop print-set-v1
+# Stone to Fireworks
 
-Approved tabletop print-data set: 14 models, 20 shooting poses, 40 exposures. Final QA is PASS; slicing and physical printing remain unverified. Use this set for the official handoff. Original generation metadata retains its earlier review-pending status as historical evidence.
+## 目的と仕様
 
-## Reproduction
+承認済み形状はv3、正式な机上撮影セットはprint-set-v1の14 STL。
+石を3回押し、手前へ引っ張り、離した反動で奥へ遠ざける。
+20ポーズ、各2露光、12 fps、計40露光、約3.33秒。
+通常石は30 × 25 × 20 mm、最小石は7.5 × 6.25 × 5 mm。
+指と最後の折り紙花火は実写で用意する。
 
-20 shooting states, two exposures each at 12 fps: 40 exposures, 3.333 seconds (3.33 seconds in GIF). Three presses, pulling and recoil retain the v3 timing. The only placement change is setting Z=0 for states 13-20. Y travel, geometry, miniature sizes, rotations, camera, lighting and holds are unchanged.
+## 制作過程と設計判断
 
-All 14 files are byte-identical copies of the corresponding approved v3 STLs. The render meshes are read from these STLs; canonical triangle-coordinate hashes also match the original v3 scene meshes. No model is interpolated, simplified or scaled in the scene. Rest is reused six times and the smallest miniature twice. The three press strengths are close but remain separate to preserve the approved shapes exactly.
+| 問題と検証結果 | 判断と変更 |
+|---|---|
+| 石全体の平行移動では指に追従して見えない | Stone to Breadの局所変形を再利用。接触点の影響を距離で減衰させ、奥側を残して伸ばす |
+| ぷにぷにが読みにくい | 局所的なへこみと周囲の膨らみを強め、押す、戻るを3回繰り返す |
+| 復元後に止まってから飛び出すように見える | 最大伸長からの復元と奥方向への移動を重ね、元位置を通過させる |
+| 滑らかな楕円が粘土に見える | 共通の基準メッシュに非対称な面、浅い欠けと膨らみを付け、その同じ頂点を全ポーズで変形 |
+| v3の浮遊が実写机上撮影に合わない | 13–20の上昇を除去。移動と実寸65%、40%、25%の小石への交換だけで距離を表現 |
 
-## Approved print models
+v3の空中演出版は形状と動作意図の参照として保持し、机上版を実写撮影の正本とする。
+石の質感は形状で作り、テクスチャだけに頼らない。
+実寸の異なる小石を用意し、CGのオブジェクト拡縮は使わない。
 
-| STL | v3 pose | First source frame | X x Y x Z (mm) | Uses |
-|---|---|---:|---|---:|
-| pose-01.stl | rest | 1 | 30.000 x 25.000 x 20.000 | 6 |
-| pose-02.stl | press-a | 2 | 30.004 x 25.000 x 18.233 | 1 |
-| pose-03.stl | press-b | 4 | 30.005 x 25.000 x 18.110 | 1 |
-| pose-04.stl | press-c | 6 | 30.004 x 25.000 x 18.150 | 1 |
-| pose-05.stl | pull-start | 8 | 30.022 x 27.989 x 18.127 | 1 |
-| pose-06.stl | pull-low | 9 | 30.028 x 31.979 x 17.603 | 1 |
-| pose-07.stl | pull-mid | 10 | 30.033 x 36.973 x 17.118 | 1 |
-| pose-08.stl | pull-high | 11 | 30.036 x 42.965 x 16.756 | 1 |
-| pose-09.stl | pull-max | 12 | 30.039 x 49.960 x 16.441 | 1 |
-| pose-10.stl | release | 13 | 30.014 x 33.772 x 18.552 | 1 |
-| pose-11.stl | snap | 14 | 30.000 x 23.753 x 21.355 | 1 |
-| pose-12.stl | small | 17 | 19.500 x 16.250 x 13.000 | 1 |
-| pose-13.stl | tiny | 18 | 12.000 x 10.000 x 8.000 | 1 |
-| pose-14.stl | distant | 19 | 7.500 x 6.250 x 5.000 | 2 |
+## 検証結果
 
-## Filming guide
+[Final QA](stone-to-fireworks-final-qa.md)はPASS。
+14 STLはv3の選定元とバイト一致。保存データを再読込し、閉鎖性、manifold、単一連結、正体積、法線、退化面、検出対象の交差を確認した。
+全20配置のワールド底面が机に接し、静的重心支持を満たす。
+最小石の接地面積は約7.202 mm²、支持余裕は約1.153 mm。
+網羅的な最小肉厚、微細な起伏のFDM再現性、スライサーと実機での独立確認は未検証。
+詳細数値とSHA-256の正本は[最終QA JSON](../previews/stone-to-fireworks/print-set-v1/final-qa.json)。
 
-Use [frame-to-stl.csv](../previews/stone-to-fireworks/print-set-v1/frame-to-stl.csv) for all 20 shots. The initial stone datum is X=0,Y=0. X is horizontal, positive Y is toward the viewer, negative Y is away, and positive Z is up. All rotations are zero; all scene scales are one. Do not independently recenter models after importing. STL has no unit metadata: import as millimeters.
+## 最終成果物と撮影
 
-Recoil and retreat positions are Y=-14,-40,-82,-130,-180,-230,-280,-315 mm, always at Z=0. Recoil starts moving before full recovery; there is no pause at the original position. States 17,18,19 replace the stone with physical 65%,40%,25% miniatures. States 19-20 reuse the 25% model. The final small stone is the intended cut point to physical origami fireworks. No hands, sparks, aerial support or fixtures are modeled.
+- [正式STLと3MF](../exports/stone-to-fireworks/print-set-v1/)、[机上Blend](../models/stone-to-fireworks-print-set-v1.blend)
+- [撮影CSV](../previews/stone-to-fireworks/print-set-v1/frame-to-stl.csv)、[manifest](../previews/stone-to-fireworks/print-set-v1/manifest.json)
+- [机上GIF](../previews/stone-to-fireworks/print-set-v1/print-reproduction.gif)、[構成PNG](../previews/stone-to-fireworks/print-set-v1/)、[v3との比較](../previews/stone-to-fireworks/print-set-v1/v3-vs-tabletop.gif)
+- [v3 GIF](../previews/stone-to-fireworks/v3/sequence-v3.gif)、[v3 Blend](../models/stone-to-fireworks-v3.blend)
+- [形状生成器](../scripts/stone_to_fireworks_v3.py)、[机上版生成器](../scripts/stone_to_fireworks_print_set_v1.py)、[QA](../scripts/stone_to_fireworks_print_set_v1_qa.py)
 
-The fixed perspective camera is inherited unchanged from v3: location (0,160,245) mm, target (0,-65,15) mm, focal length about 27.436 mm. Match the physical sensor/field of view and use CSV positions as initial guides. Allow approximately 315 mm of rearward travel on the table. Resting orientation for filming is separate from optimal printing orientation.
+CSVのXは左右、Y正方向が手前、Z正方向が上。原点を揃え直さずmmで読み込む。
+13–20のYは-14、-40、-82、-130、-180、-230、-280、-315 mmで、底面は常にZ=0。
+通常石を6回、最小石を2回再利用する。約315 mmの奥行きを確保する。
+机上版は空中版より滑走に見える可能性があり、実際のカメラと照明で調整する。
 
-The approved tabletop version removes visible lift and separated shadows. It can therefore read more like sliding than aerial v3. Retreat speed and smaller physical models convey distance.
+生成は隔離コピーで行う。
+v3生成器には元の`rest.stl`、初期シーン、`validation-v1.json`が必要。初期シーンはスタジオ入力としてのみ保持する。
+机上版はv3のシーン、14 STL、manifest、validation、フレームPNGを読み込む。
+これらは形状入力であり、旧v2の出力は不要。
 
-## Validation and remaining checks
-
-All saved STLs were reread and checked for dimensions, finite coordinates, closed/manifold geometry, a single connected solid, winding/normals, positive volume, degenerate faces and detected nonadjacent BVH intersections. Finite local contact and uniform-density center-of-mass support were verified. The rendered world minimum Z is zero in every shooting state.
-
-The smallest stone is 7.5 x 6.25 x 5 mm, with contact area about 7.202 mm2 and support margin about 1.153 mm. Its sampled vertical core thickness is at least about 3.956 mm at the sampled locations. This is not an exhaustive minimum wall-thickness proof. Its shallow surface relief may not resolve in FDM; no reliable nozzle/profile is specified. Shared-vertex face intersections are excluded from the BVH test. Slicing, optimal print orientation, printing supports, print time, actual strength, physical printing and filming remain unverified. Printed infill can change the center of mass.
-
-## Outputs
-
-- [Tabletop reproduction GIF](../previews/stone-to-fireworks/print-set-v1/print-reproduction.gif)
-- [Approved v3 vs tabletop GIF](../previews/stone-to-fireworks/print-set-v1/v3-vs-tabletop.gif)
-- [All 20 shooting states](../previews/stone-to-fireworks/print-set-v1/contact-sheet.png)
-- [All selected shapes](../previews/stone-to-fireworks/print-set-v1/selected-shapes.png)
-- [STLs](../exports/stone-to-fireworks/print-set-v1/)
-- [Manifest](../previews/stone-to-fireworks/print-set-v1/manifest.json)
-- [Validation](../previews/stone-to-fireworks/print-set-v1/validation.json)
-- [Editable scene](../models/stone-to-fireworks-print-set-v1.blend)
-- [Reproduction script](../scripts/stone_to_fireworks_print_set_v1.py)
-
-```sh
-/Applications/Blender.app/Contents/MacOS/Blender --background --threads 2 --python-exit-code 1 --python scripts/stone_to_fireworks_print_set_v1.py
-```
-
-Run reproduction commands in an isolated checkout or copy to preserve the approved output files. The script reads existing v3 sources and writes the print-set output. It checks the STLs and places them rather than regenerating geometry. Blender 4.5 LTS and ImageMagick are required. EEVEE uses the Radeon Pro 5600M via Metal, at 16 samples. The saved scene plays the same 40 held exposure frames as the GIF.
-
-The unchanged v3 generator also reads the original v1 scene/rest STL/validation and checks the existence of the v2 scene, script and documentation. Those frozen dependencies are versioned alongside the official scenes. Earlier auxiliary renders and provisional STL sets remain local; they are not official print targets. Approval wording in this guide was updated after Final QA; the QA record retains the document hash from its original inspection time.
-
-## Actual printed Bambu Studio project
-
-[Print-settings source of truth](../exports/stone-to-fireworks/print-set-v1/stone-to-fireworks.3mf) is the project used for physical printing, as reported by the owner. It is stored beside the formal STLs and prepared for ordinary Git tracking.
-The archive contains 14 model types / 14 instances on one plate, with editable mesh geometry, placements and embedded printer/filament/print settings. No G-code/toolpath is included; printing again requires slicing.
-Saved application: Bambu Studio 02.09.01.70. Saved printer preset: **Bambu Lab X1E 0.6 nozzle**. Saved print profile: **0.30mm Standard @BBL X1C 0.6 nozzle**. These are the stored configuration values, not independent verification of the hardware actually used.
-
-Public-copy metadata processing removed only the account identifier DesignerUserId. Designer, copyright, license, internal UUIDs, all mesh data, placements and every configuration payload were preserved. Original archives were backed up outside Git before processing. ZIP CRC checks passed and all archive members other than that one XML metadata edit are byte-identical to the originals.
-Bambu Studio GUI loading and warning-free import were not verified in this operation; structural archive checks do not replace that application-level check. Earlier QA statements above describe their original verification dates.
-
-Public SHA-256: `c09503684df64015075b8acd45d6738249c343897a0a981cb9e47038e0fc4523`.
-Original printed-project SHA-256 (private backup): `62fbaa905f3f8451d821c3d7c9be2995e511f5e23734aba5ec4d42d9ce0e0410`.
+実印刷済み[3MF](../exports/stone-to-fireworks/print-set-v1/stone-to-fireworks.3mf)は14種類、14個を含む。
+保存設定はBambu Studio 02.09.01.70、X1E 0.6 mm、0.30 mm Standard。
+公開コピーはDesignerUserIdだけを除去し、配置と印刷設定を保持した。GUI再読込は未検証。
+SHA-256は`c09503684df64015075b8acd45d6738249c343897a0a981cb9e47038e0fc4523`。

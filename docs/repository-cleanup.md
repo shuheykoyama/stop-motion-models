@@ -65,3 +65,10 @@ Git LFSのローカル実体は保持したが、今回リモートからの再�
 最終レビューで削除した5件はCube v2の比較PNG4枚とvalidation-v2.json。
 PNGは再生成可能な未参照の比較出力で、JSONのメッシュ検査内容は追跡済みmanifestと一致する。
 正式なGIF、構成フレーム、最終QAには影響しない。
+
+## Blend圧縮後のQA基準
+
+Blender 4.5.15の圧縮保存で13件のバイナリSHA-256が変わったが、シーン内容と未使用データの保持を確認した。
+新旧ハッシュと内容比較の証跡は[総合検証JSON](../previews/validation.json)の`blend_compression`に集約した。
+現行QAが比較する基準値を更新し、元の書き出し時の値は`*_at_export`として保持する。
+`protected_sha256`、`baseline-hashes.json`などの過去スナップショットや、現行QAが比較しない生成時のハッシュは変更しない。

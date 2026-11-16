@@ -102,7 +102,7 @@ def main():
         subprocess.run(['magick','montage','-background','#20232a','-fill','white','-font','Helvetica','-pointsize','18','-label','Approved v3 / aerial',str(ideal),'-label','Print reproduction / tabletop',str(path),'-geometry','640x480+0+8','-tile','2x1',str(comparison)],check=True)
         comparisons.append(comparison)
     scene.frame_set(1);scene.name='Stone to Fireworks tabletop print-set-v1'
-    bpy.context.preferences.filepaths.save_version=0;bpy.ops.wm.save_as_mainfile(filepath=str(MODEL))
+    bpy.context.preferences.filepaths.save_version=0;bpy.ops.wm.save_as_mainfile(filepath=str(MODEL), compress=True)
     shared.sheet([(f"{r['frame']:02} {r['phase']} / {r['pose_id']}",p) for r,p in zip(records,images)],OUT/'contact-sheet.png',4)
     assemble_gif(images,records,OUT/'print-reproduction.gif');assemble_gif(comparisons,records,OUT/'v3-vs-tabletop.gif')
     # Show all physical models at one common tabletop datum, independently of their filming travel.

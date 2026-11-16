@@ -140,7 +140,7 @@ def main():
             images.append((f"{r['frame']:02} {r['phase']} / {r['pose']}",path));r['render']=str(path.relative_to(args.output_root))
         scene.frame_set(1);scene.name='Stone to Fireworks v3'
         (args.output_root/'models').mkdir(exist_ok=True);bpy.context.preferences.filepaths.save_version=0
-        bpy.ops.wm.save_as_mainfile(filepath=str(args.output_root/'models/stone-to-fireworks-v3.blend'))
+        bpy.ops.wm.save_as_mainfile(filepath=str(args.output_root/'models/stone-to-fireworks-v3.blend'), compress=True)
         v1.sheet(images,out/'contact-sheet-v3.png',4);keys=(0,3,8,11,12,13,15,18)
         v1.sheet([images[k] for k in keys],out/'key-poses-v3.png',4)
         command=['magick'];previous=0

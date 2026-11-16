@@ -915,7 +915,7 @@ def generate(motif, render, frames=ENDPOINTS, intermediates_only=False):
                 area.spaces.active.region_3d.view_perspective = "CAMERA"
                 area.spaces.active.clip_end = 3000
     bpy.context.preferences.filepaths.save_version = 0
-    bpy.ops.wm.save_as_mainfile(filepath=str(OUTPUT / "models" / f"{motif}.blend"))
+    bpy.ops.wm.save_as_mainfile(filepath=str(OUTPUT / "models" / f"{motif}.blend"), compress=True)
     return dict(models=results, invariants=invariant, approved_endpoint_stl_preserved=True,
                 approved_endpoint_sha256=approved_endpoints)
 
@@ -998,7 +998,7 @@ def revise_pen_frame07():
     retained[0].hide_set(False)
     retained[0].hide_render = False
     bpy.context.preferences.filepaths.save_version = 0
-    bpy.ops.wm.save_as_mainfile(filepath=str(OUTPUT/"models"/"pen.blend"))
+    bpy.ops.wm.save_as_mainfile(filepath=str(OUTPUT/"models"/"pen.blend"), compress=True)
     result = dict(before_frame01=before, baseline_frame07=baseline, revised_frame07=after, endpoint_invariants=invariant,
                   retained_frame01_to_06_meshes_unchanged=True, protected_files_unchanged=True,
                   protected_sha256=after_files, parameters=PEN,

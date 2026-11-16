@@ -125,7 +125,7 @@ def main():
                 for key in fc.keyframe_points: key.interpolation='CONSTANT'
     scene.frame_set(1)
     bpy.context.preferences.filepaths.save_version=0
-    bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'models/stone-to-fireworks.blend'))
+    bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'models/stone-to-fireworks.blend'), compress=True)
     sheet(images,OUT/'contact-sheet-v1.png',4)
     sheet([images[k] for k in keys],OUT/'key-poses-v1.png',3)
     command=['magick']
@@ -204,7 +204,7 @@ def render_saved():
         images.append((f"{record['frame']:02} {record['pose']}", path))
     scene.frame_set(1)
     bpy.context.preferences.filepaths.save_version = 0
-    bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'models/stone-to-fireworks.blend'))
+    bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'models/stone-to-fireworks.blend'), compress=True)
     sheet(images, OUT/'contact-sheet-v1.png', 4)
     keys = (0, 2, 6, 9, 10, 16)
     sheet([images[k] for k in keys], OUT/'key-poses-v1.png', 3)

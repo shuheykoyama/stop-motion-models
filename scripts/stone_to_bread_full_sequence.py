@@ -230,7 +230,7 @@ def main():
         source.clear()
         source.write(Path(__file__).read_text())
         bpy.context.preferences.filepaths.save_version = 0
-        bpy.ops.wm.save_as_mainfile(filepath=str(model))
+        bpy.ops.wm.save_as_mainfile(filepath=str(model), compress=True)
     assert all(digest(ROOT/path) == sha for path, sha in before.items())
     report["protected_asset_hashes_verified"] = len(before)
     report["artifact_sha256"] = {str(path.relative_to(ROOT)): digest(path)

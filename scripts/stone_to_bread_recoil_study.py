@@ -207,7 +207,7 @@ def main():
         text.write(Path(__file__).read_text())
         scene["revision_status"] = report["status"]
         bpy.context.preferences.filepaths.save_version = 0
-        bpy.ops.wm.save_as_mainfile(filepath=str(model))
+        bpy.ops.wm.save_as_mainfile(filepath=str(model), compress=True)
     assert base.mesh_fingerprint(p04) == p04record["mesh_fingerprint"]
     assert all(digest(ROOT/path) == sha for path, sha in protected.items())
     report["artifacts"] = {str(p.relative_to(output)): digest(p) for p in (export, preview, model.parent)

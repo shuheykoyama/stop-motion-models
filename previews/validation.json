@@ -870,8 +870,8 @@
       "previews/cup/frame-07.png": "82142ba281feaa31c093a329dea2d1fdecf085f0e4ef594d08a232cd9c4bd3f9"
     },
     "frame07_status": "Approved tabletop endpoint, unchanged",
-    "intermediate_status": "Frames 02\u201306 regenerated using the approved algorithm",
-    "sequence_status": "Final: Frames 01\u201307 visually approved by user on 2026-11-07; preserve all pen geometry and outputs.",
+    "intermediate_status": "Frames 02–06 regenerated using the approved algorithm",
+    "sequence_status": "Final: Frames 01–07 visually approved by user on 2026-11-07; preserve all pen geometry and outputs.",
     "finalization": {
       "approval_date": "2026-11-07",
       "approved_by": "user",
@@ -887,8 +887,8 @@
       "status": "final",
       "geometry_changes_require_separate_user_request": true,
       "asset_sha256": {
-        "models/pen.blend": "2a36984c9fa4b2a0851a55ab8f4c0781679c575b0855196a6aefa91011680116",
-        "scripts/generate.py": "c4acc5ab6c972929dc2bcc4c5423f7791a87e4036774cf414a048169de989325",
+        "models/pen.blend": "65044a4043df78e8f2416b8bf7b85fab2ac6567b34395bcf5eb45bfe66b45323",
+        "scripts/generate.py": "249aa92b0b37ec2c37ec894f84355b8cf0057f657815d17063a80f293d3af9d1",
         "scripts/pen_previews.py": "652f6e45bf259cb93d4cb1c86a5690b501cc302945efd11ba877cec86bd9e299",
         "exports/pen/frame-01.stl": "b4bad27f7e3fe125b07ca660f785551c84b0381fa8fb93fa35d1ff9a23710724",
         "exports/pen/frame-02.stl": "bd8d7f15fdf0893a3859330c1936a9703f82e56d8ee6f2beab58bab1a1acee97",
@@ -928,7 +928,7 @@
     }
   },
   "stones": {
-    "status": "Final: revised Frames 01\u201307 visually approved by user; preserve existing geometry and outputs.",
+    "status": "Final: revised Frames 01–07 visually approved by user; preserve existing geometry and outputs.",
     "models": [
       {
         "path": "exports/stones/frame-01.stl",
@@ -1667,14 +1667,14 @@
       ],
       "geometry_changes_require_separate_user_request": true,
       "review": [
-        "01\u219207 reads clearly from coarse to fine.",
-        "02\u219203 feels more natural than before.",
-        "05\u219206 is still one of the larger changes, but it is acceptable.",
-        "06\u219207 remains distinguishable enough.",
+        "01→07 reads clearly from coarse to fine.",
+        "02→03 feels more natural than before.",
+        "05→06 is still one of the larger changes, but it is acceptable.",
+        "06→07 remains distinguishable enough.",
         "No positional or boundary jumps are visible."
       ],
       "asset_sha256": {
-        "models/stones.blend": "280d212847a8e4e0424e38cb28c6ad7f73b1993a1ebfe2b6f0ade458738569c8",
+        "models/stones.blend": "2fab9797459f6263d7b1899bae93646e1734a463a9fc1f7889b217772afb2f01",
         "exports/stones/frame-01.stl": "1e26c3aa1b3514f03f38eb25163d4a60a876c119b7b2f6b47d2ff136f14dc52b",
         "exports/stones/frame-02.stl": "22d31474cf808116bd2cce1d741f94aca7a9f20c424eb9ccd848d0ec82e3b9e3",
         "exports/stones/frame-03.stl": "8a4bcf6366750b39d7a0e75acfa26a1e1243850016da4e5749cd8d93f3d0b53f",
@@ -1701,8 +1701,8 @@
         "previews/stones/frame-07-top.png": "f353416fbc9cd4daecacebd84c1553af00500e750ad48de48c4606924a933807",
         "previews/stones/frame-07.png": "879b3150890871a17e7a81bce2a115269047da596403f99cb673a07f5b181f89",
         "previews/stones/progression-validation.json": "131ec71fb83c5f837e20beb8a2a751c93c3badd72376c795d005a7fc24076fe3",
-        "scripts/generate.py": "c4acc5ab6c972929dc2bcc4c5423f7791a87e4036774cf414a048169de989325",
-        "scripts/stones_progression.py": "0405e62be5739b9ed4e360a3ab29fa8de9c7dcdaf032e53c0042d10af3a1a634",
+        "scripts/generate.py": "249aa92b0b37ec2c37ec894f84355b8cf0057f657815d17063a80f293d3af9d1",
+        "scripts/stones_progression.py": "48f96edd0d55bf17a0d2701401336bd894e0cef6b23b22b6777f0e3a77977e72",
         "scripts/review_previews.py": "2d8eb4345d3e3c33a92469bd8bbdf9f6dbfbf0b484bb6d99f33657457be96823"
       },
       "scope": "Final visual approval only; prior geometry validation evidence retained. No geometry generation, mesh validation or physical tests performed during approval recording."
@@ -2070,7 +2070,7 @@
       "1": "512f6312b389003950e2c5ea75462795587e9f340a8a79cbc66328f1cb868591",
       "7": "5fb7ea219998617c3b86455cf5f1bfd3a6880be0221cc3ccf6c5c40883314615"
     },
-    "sequence_status": "Final: Frames 01\u201307 visually approved by user; preserve all geometry and STL files.",
+    "sequence_status": "Final: Frames 01–07 visually approved by user; preserve all geometry and STL files.",
     "finalization": {
       "approval_date": "2026-11-07",
       "status": "final",
@@ -2085,7 +2085,7 @@
         7
       ],
       "asset_sha256": {
-        "models/cup.blend": "7c25e24a653549cc6d379064feb4d63b94d4cff8c054990462330187a52c6eba",
+        "models/cup.blend": "6eb40b691cc486f1d012e113d910b56e65d56d80f9861c80238c7cf0e22ff05d",
         "exports/cup/frame-01.stl": "512f6312b389003950e2c5ea75462795587e9f340a8a79cbc66328f1cb868591",
         "exports/cup/frame-02.stl": "1fe3745738f31e58a8a75dda372172bf737df7acfb8b4e12e5a55bf258d31644",
         "exports/cup/frame-03.stl": "69254c4ee2ebf74e2ce0c07849f78545944a7c4a81feae40cf6581af8a47be9f",
@@ -2188,6 +2188,158 @@
       "8": "55c62a7330f778849d868813f35c847db2d345c43315513d7b46d9f3365a0143",
       "9": "4c0804cb40aa290728ab14a16aebdb98c4bb60895986d3c5aa19be554d80cbe8",
       "10": "d28084d875a720a0d79ceb1812b82217269c29fc89ef6812625ae9959abe7db7"
+    }
+  },
+  "blend_compression": {
+    "checked_at_utc": "2026-11-16T09:26:31.505498+00:00",
+    "blender_version": "4.5.15",
+    "method": "Blender save_as_mainfile(compress=True); exact semantic snapshot and normal-load active scene match; unused IDs and their original user flags preserved.",
+    "files": [
+      {
+        "path": "models/cup.blend",
+        "before_sha256": "7c25e24a653549cc6d379064feb4d63b94d4cff8c054990462330187a52c6eba",
+        "after_sha256": "6eb40b691cc486f1d012e113d910b56e65d56d80f9861c80238c7cf0e22ff05d",
+        "before_bytes": 4136716,
+        "after_bytes": 586543,
+        "semantic_snapshot_sha256": "dcf4f9b7166f055278a0023ee15a976a2325f77839a4fe76b458ad9663acdd55"
+      },
+      {
+        "path": "models/pen.blend",
+        "before_sha256": "2a36984c9fa4b2a0851a55ab8f4c0781679c575b0855196a6aefa91011680116",
+        "after_sha256": "65044a4043df78e8f2416b8bf7b85fab2ac6567b34395bcf5eb45bfe66b45323",
+        "before_bytes": 20348210,
+        "after_bytes": 6044770,
+        "semantic_snapshot_sha256": "3e05545d572ddd9b61935d1b71550b0c0ca0caaca3f75586e1951657b2b865b2"
+      },
+      {
+        "path": "models/rolling-wavy-pen-print-set-v2.blend",
+        "before_sha256": "4523b8c83ae25c794ee4a4a55f7cc2a57559159bb6777aa10f92b6bc3aa31ec4",
+        "after_sha256": "8b3ed12cb737e46e19c78aa037d15846c951cbe83aecd90116bbcc8cfadfffac",
+        "before_bytes": 158417258,
+        "after_bytes": 45035560,
+        "semantic_snapshot_sha256": "0a120b757f283e1e503c2cae7e9c9527c66043326d697371dba3927a43d20ed6"
+      },
+      {
+        "path": "models/rolling-wavy-pen-storyboard-study-v11.blend",
+        "before_sha256": "54084ab7e007712da9801579f19a68621a9ca9d644222c19e10a9432cea68c9e",
+        "after_sha256": "113ed15cfce23a9308e8d0e50e5c14ebb6f04845dbac58013857818294a69519",
+        "before_bytes": 194045171,
+        "after_bytes": 55831443,
+        "semantic_snapshot_sha256": "e6cda803e0a4d9b6ca0a38d2188a3b2d9ca2ea4a2f771fef0509593e6bf29a56"
+      },
+      {
+        "path": "models/stone-to-bread-approved-geometry-recovery.blend",
+        "before_sha256": "e3f8d29c7cc26d2b73f56a9e225c5530ec4395ca9cb07ff5918a418c315b339d",
+        "after_sha256": "c80564c04afce0c38b991903a7c6b7caf4795dbee8636e2920ad7b8c45c74d9e",
+        "before_bytes": 35693156,
+        "after_bytes": 13086873,
+        "semantic_snapshot_sha256": "419351a65d6e7504dcbe4b3c98c7d6b5891da6de2920f71757a9571100b692c4"
+      },
+      {
+        "path": "models/stone-to-bread-full-sequence-v1.blend",
+        "before_sha256": "e698fface1a21524a62a78888b39b3a9f5925c7f5316af50d1dd7c6f4852964a",
+        "after_sha256": "556515bbdb94b1c4ed9700c7c19438e7a5c1edcd0630b35c737de00b0cd6c4cf",
+        "before_bytes": 47720748,
+        "after_bytes": 21422264,
+        "semantic_snapshot_sha256": "cf1b646c667feb4f80e93a4feae4fd7c587b7e2cad99cba5e9df63791e9888d0"
+      },
+      {
+        "path": "models/stone-to-bread-pulling-study-v1.blend",
+        "before_sha256": "88659433b9ecac4ff66623df47cc8ad8eaf29abb8f73329b00ce010fd29999fe",
+        "after_sha256": "d9a1f01293c15a5adeb82c87aa3518cab8d2b9de7772442d287158b87fa803b4",
+        "before_bytes": 40659535,
+        "after_bytes": 18419911,
+        "semantic_snapshot_sha256": "f3814f3aa1fecd48159756d902295b0d94bb91c4dab23b3484a572b0062b745d"
+      },
+      {
+        "path": "models/stone-to-bread-recoil-study-v1.blend",
+        "before_sha256": "14337b89ba3f82ec569a3ca11133643e495811dd9466418e70c7cac43dc9b484",
+        "after_sha256": "b4790f92c3bdca4754aa076dd9b0a4fd2a8003eecb19e93d4686825205872b3d",
+        "before_bytes": 51203352,
+        "after_bytes": 22771542,
+        "semantic_snapshot_sha256": "0cdc12fa1f5387b6e58a83cdd6100a19e0c885c83c886c1dea83d4c4be329f3b"
+      },
+      {
+        "path": "models/stone-to-bread-rolling-elongating-study-v4.blend",
+        "before_sha256": "72dc4bb05ada6a24726bae0770ed0427454bc99cb810ff3a53c941a2d6662dc0",
+        "after_sha256": "4942daa091d5fc84074987f971d2b281136a99132cfef3e94feafd5003f8f358",
+        "before_bytes": 26037280,
+        "after_bytes": 11726369,
+        "semantic_snapshot_sha256": "b868827a783ffbb7d536440278cf9e6ab4eb30506d67d5d2f564a3347273fc00"
+      },
+      {
+        "path": "models/stone-to-fireworks-print-set-v1.blend",
+        "before_sha256": "7957090ae4e1745b84b8cc9632dcbef0794690d5c91be6553cacc960ece68f0e",
+        "after_sha256": "2c7693e93248bc38b18ce65322f935f623951b633d1c631fb0456e1b3297e815",
+        "before_bytes": 46085451,
+        "after_bytes": 21197842,
+        "semantic_snapshot_sha256": "004772f285bf3065491c36365768b25ee7c752ae720d92851f8ea656889dcb54"
+      },
+      {
+        "path": "models/stone-to-fireworks-v3.blend",
+        "before_sha256": "492591c44a2146b1a9e249ed913afe45a41b2df5dc156614133e0de6d7079c76",
+        "after_sha256": "b423d694dc24e1efdae43425413d513bb1a8cf9ef53eb1f15770fa1478b3458c",
+        "before_bytes": 46124491,
+        "after_bytes": 21201611,
+        "semantic_snapshot_sha256": "9679e82ae79fce86cf0d7419181c8b4f795274259888ace4e7d388e34aa28538"
+      },
+      {
+        "path": "models/stone-to-fireworks.blend",
+        "before_sha256": "b39cf0e23d5c74a013c30d7bb4303eec933eb5a8fba0e31830b6f7be843dbfc0",
+        "after_sha256": "2681781ba883060d747a5f5c2afd5ecf23050ae8509037e13216a32db732c664",
+        "before_bytes": 46098935,
+        "after_bytes": 22102776,
+        "semantic_snapshot_sha256": "eccc1165ca0f3c6279a613ee4a32ad7b47240809b865ec9eff202c04bccb8d37"
+      },
+      {
+        "path": "models/stones.blend",
+        "before_sha256": "280d212847a8e4e0424e38cb28c6ad7f73b1993a1ebfe2b6f0ade458738569c8",
+        "after_sha256": "2fab9797459f6263d7b1899bae93646e1734a463a9fc1f7889b217772afb2f01",
+        "before_bytes": 73585010,
+        "after_bytes": 30161961,
+        "semantic_snapshot_sha256": "c53a7cce782ca79f74c79d6155759693d9be81b1cdb4a25883c946363189a7c7"
+      }
+    ],
+    "previous_generator_baselines": {
+      "scripts/generate.py": [
+        "c4acc5ab6c972929dc2bcc4c5423f7791a87e4036774cf414a048169de989325"
+      ],
+      "scripts/stones_progression.py": [
+        "0405e62be5739b9ed4e360a3ab29fa8de9c7dcdaf032e53c0042d10af3a1a634"
+      ]
+    },
+    "revalidation": {
+      "status": "PASS",
+      "official_stl_hashes_matched": 75,
+      "print_project_hashes_matched": 3,
+      "pen_stones_cup_final_asset_hashes": "PASS",
+      "rolling_wavy_pen": {
+        "status": "PASS",
+        "stls": 16,
+        "frames": 30,
+        "report": "previews/rolling-wavy-pen/print-set-v2/final-qa.json"
+      },
+      "stone_to_fireworks": {
+        "status": "PASS",
+        "stls": 14,
+        "poses": 20,
+        "report": "previews/stone-to-fireworks/print-set-v1/final-qa.json"
+      },
+      "stone_to_bread": {
+        "status": "PASS",
+        "poses": 13,
+        "stls": 12,
+        "method": "Existing full-sequence validate-only in isolated copy"
+      },
+      "rolling_cube_pen": {
+        "status": "PASS",
+        "stls": 12,
+        "props": 20,
+        "poses": 61,
+        "exposures": 74,
+        "regenerated_stls_byte_identical": true,
+        "frames_identical": true
+      }
     }
   }
 }

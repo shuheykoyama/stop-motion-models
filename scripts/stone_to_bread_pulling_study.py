@@ -216,7 +216,7 @@ def main():
         text.clear()
         text.write(Path(__file__).read_text())
         bpy.context.preferences.filepaths.save_version = 0
-        bpy.ops.wm.save_as_mainfile(filepath=str(model))
+        bpy.ops.wm.save_as_mainfile(filepath=str(model), compress=True)
     assert base.mesh_fingerprint(r07) == baseline["mesh_fingerprint"]
     assert all(digest(ROOT/p) == h for p, h in protected.items())
     report["protected_hashes_verified"] = len(protected)

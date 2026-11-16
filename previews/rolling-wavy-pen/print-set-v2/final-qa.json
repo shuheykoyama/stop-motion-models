@@ -1,6 +1,6 @@
 {
   "report": "Rolling Wavy Pen print-set-v2 final QA",
-  "checked_at_utc": "2026-11-10T05:18:47.893276+00:00",
+  "checked_at_utc": "2026-11-16T09:29:31.205844+00:00",
   "verdict": "PASS",
   "units": "millimeters; STL has no unit metadata and must be imported as mm",
   "stl_directory": {
@@ -11,8 +11,8 @@
   "source_of_truth": {
     "blend": "models/rolling-wavy-pen-storyboard-study-v11.blend",
     "generator": "scripts/rolling_wavy_pen_storyboard_study_v11.py",
-    "v11_blend_sha256": "54084ab7e007712da9801579f19a68621a9ca9d644222c19e10a9432cea68c9e",
-    "v11_generator_sha256": "38522075dd84033c083e075fef632b337cc84bb2409bdaf9c2284adc4e29c10e",
+    "v11_blend_sha256": "113ed15cfce23a9308e8d0e50e5c14ebb6f04845dbac58013857818294a69519",
+    "v11_generator_sha256": "b06f90e3e7fc65606c8dde9a3422d3910a0e085cee0fd2b07aabbc0407baafdb",
     "v11_blend_unchanged_from_manifest": true,
     "v11_generator_unchanged_from_manifest": true
   },
@@ -1480,6 +1480,7 @@
     "Bambu Lab X1 Carbon compatibility beyond the checked dimensions and mesh integrity."
   ],
   "notes": [
+    "Generator file hashes describe provenance. Current generator equivalence is required through each independently regenerated mesh fingerprint above; the approved source blend and STL hashes remain mandatory.",
     "Geometry metrics were recalculated from the saved binary STL triangles.",
     "The STL vertex coordinates were independently compared with the corresponding v11 mesh after float32 quantization.",
     "Rolling angle is baked into each selected STL; CSV additional rotations are zero.",

@@ -599,7 +599,7 @@ def main():
                        "unverified": ["exhaustive minimum feature thickness", "slicer verification",
                                       "physical print test"]}
     (preview / "validation.json").write_text(json.dumps(validation_json, indent=2) + "\n")
-    bpy.ops.wm.save_as_mainfile(filepath=str(model_path))
+    bpy.ops.wm.save_as_mainfile(filepath=str(model_path), compress=True)
 
 
 if __name__ == "__main__":

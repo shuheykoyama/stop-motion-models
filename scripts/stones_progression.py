@@ -163,7 +163,7 @@ def main():
     text.clear()
     text.write(Path(__file__).read_text())
     bpy.context.preferences.filepaths.save_version = 0
-    bpy.ops.wm.save_as_mainfile(filepath=str(output/"models"/"stones.blend"))
+    bpy.ops.wm.save_as_mainfile(filepath=str(output/"models"/"stones.blend"), compress=True)
     assert before == {str(p.relative_to(ROOT)): digest(p) for p in protected}
     report["protected_files_unchanged"] = True
     report["protected_sha256"] = before

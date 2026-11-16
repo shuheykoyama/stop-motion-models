@@ -565,7 +565,7 @@ def main():
     docs_path.write_text("\n".join(docs), encoding="utf-8")
 
     bpy.context.preferences.filepaths.save_version = 0
-    bpy.ops.wm.save_as_mainfile(filepath=str(model_path))
+    bpy.ops.wm.save_as_mainfile(filepath=str(model_path), compress=True)
     print(f"Print set v2 complete: {len(chosen)} STL files; {FRAME_COUNT} mapped frames; "
           f"max RMS {analysis_16['max_vertex_rms_mm']:.4f} mm", flush=True)
 

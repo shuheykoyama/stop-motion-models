@@ -1105,12 +1105,13 @@
     "no_external_dependencies": true,
     "all_14_surfaces_distinct": true
   },
-  "scene_sha256": "7957090ae4e1745b84b8cc9632dcbef0794690d5c91be6553cacc960ece68f0e",
+  "scene_sha256": "2c7693e93248bc38b18ce65322f935f623951b633d1c631fb0456e1b3297e815",
   "output_sha256": {
     "v3-vs-tabletop.gif": "d17a345d1aef85f2b0e0cd560073543f1c475ba18e98014b400e14a0289ccafa",
     "print-reproduction.gif": "5ffc4f125f1713b95eb070a230704d46d12a47e0a3143a92b5ae700ee4a3d4f7",
     "contact-sheet.png": "7ae02b58e09fee98f61bc22bf5e585fcb4164a075ce16f44b5a7055b1ce1a2f1",
     "frame-to-stl.csv": "8a1dd56ef9519599df1da4abc6d5cb716a51c38ceb3f046f61ff387b0bb4df1a",
     "selected-shapes.png": "104da401fff95c481c139056c348fb3f58d0a7f9bdf8a970a40432c4df75a5ff"
-  }
+  },
+  "scene_sha256_at_export": "7957090ae4e1745b84b8cc9632dcbef0794690d5c91be6553cacc960ece68f0e"
 }

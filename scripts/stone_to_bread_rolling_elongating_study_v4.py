@@ -249,7 +249,7 @@ def main():
         scene["revision_status"] = report["status"]
         bpy.data.texts.new(Path(__file__).name).write(Path(__file__).read_text())
         bpy.context.preferences.filepaths.save_version=0
-        bpy.ops.wm.save_as_mainfile(filepath=str(MODEL))
+        bpy.ops.wm.save_as_mainfile(filepath=str(MODEL), compress=True)
     assert before == protected_files(), "A prior approved asset changed"
     destination = PREVIEW/("reproduction.json" if args.geometry_only else "manifest.json")
     destination.write_text(json.dumps(report,indent=2)+"\n")

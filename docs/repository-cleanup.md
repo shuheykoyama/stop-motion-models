@@ -72,3 +72,7 @@ Blender 4.5.15の圧縮保存で13件のバイナリSHA-256が変わったが、
 新旧ハッシュと内容比較の証跡は[総合検証JSON](../previews/validation.json)の`blend_compression`に集約した。
 現行QAが比較する基準値を更新し、元の書き出し時の値は`*_at_export`として保持する。
 `protected_sha256`、`baseline-hashes.json`などの過去スナップショットや、現行QAが比較しない生成時のハッシュは変更しない。
+
+2026-11-16追記：Blend圧縮とQA基準更新をpushし、現行LFS Blend2件を隔離ストレージへGitHubから復元できることを確認した。
+標準`git gc`と旧LFS実体2件のローカル削除後も、正式成果物、履歴、Git・LFSの整合性は保持されている。
+上記の約1.24 GiBとLFS再取得未検証の記述は整理当時の記録であり、圧縮後の作業データは587件、795.20 MiBとなった。

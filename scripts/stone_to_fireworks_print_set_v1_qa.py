@@ -43,8 +43,8 @@ def main():
     baseline={str(p.relative_to(ROOT)):sha(p) for p in protected}
     bpy.ops.wm.open_mainfile(filepath=str(ROOT/'models/stone-to-fireworks-v3.blend'),use_scripts=False)
     source_meshes={name:dict(fingerprint=base.mesh_fingerprint(bpy.data.objects[name]),surface=assembly.surface_hash(*mesh_arrays(bpy.data.objects[name])),vertices=len(bpy.data.objects[name].data.vertices),triangles=len(bpy.data.objects[name].data.polygons)) for name in source_by_name}
-    source,source_faces,_=base.read_stl(ROOT/'exports/stone-to-fireworks/rest.stl')
-    assert sha(ROOT/'exports/stone-to-fireworks/rest.stl')==source_validation['source_sha256']
+    source,source_faces,_=base.read_stl(ROOT/'exports/stone-to-bread/frame-01.stl')
+    assert sha(ROOT/'exports/stone-to-bread/frame-01.stl')==source_validation['source_sha256']
     regenerated_base=v3.stone_base(source)
     poses=[];geometry={}
     expected=[f'pose-{i:02}.stl' for i in range(1,15)]

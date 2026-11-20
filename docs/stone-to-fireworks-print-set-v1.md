@@ -45,9 +45,12 @@ CSVのXは左右、Y正方向が手前、Z正方向が上。原点を揃え直�
 机上版は空中版より滑走に見える可能性があり、実際のカメラと照明で調整する。
 
 生成は隔離コピーで行う。
-v3生成器には元の`rest.stl`、初期シーン、`validation-v1.json`が必要。初期シーンはスタジオ入力としてのみ保持する。
-机上版はv3のシーン、14 STL、manifest、validation、フレームPNGを読み込む。
-これらは形状入力であり、旧v2の出力は不要。
+v3生成器は`exports/stone-to-bread/frame-01.stl`を元石とし、承認済みv3シーンからスタジオを読む。
+`--output-root <別の一時ディレクトリ>`を必須とし、形状照合だけなら`--geometry-only`を加える。
+初期Blend、重複する`rest.stl`、初期validationは不要になった。
+14形状のSTLは正式`print-set-v1`だけに保存し、v3の生成・机上版・QAで共用する。
+机上版はv3のシーン、manifest、validation、フレームPNGも読み込む。
+空中版と机上版の動作は異なるため両方保持し、旧外観の比較PNGは制作判断の記述に置き換えた。
 
 実印刷済み[3MF](../exports/stone-to-fireworks/print-set-v1/stone-to-fireworks.3mf)は14種類、14個を含む。
 保存設定はBambu Studio 02.09.01.70、X1E 0.6 mm、0.30 mm Standard。

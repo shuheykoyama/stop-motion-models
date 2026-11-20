@@ -1,6 +1,6 @@
 # Rolling Wavy Pen — print-set-v2 final QA
 
-- Checked: 2026-11-16T09:29:31.205844+00:00
+- Checked: 2026-11-19T12:54:29.578709+00:00
 - Verdict: **PASS**
 - Targets: `exports/rolling-wavy-pen/print-set-v2/`, `previews/rolling-wavy-pen/print-set-v2/frame-to-stl.csv`, `models/rolling-wavy-pen-print-set-v2.blend`
 - Method: binary STL was reread and its triangles revalidated; Blender's STL importer was also used as a second reader. Source v11 mesh and regenerated mesh fingerprints were checked against the manifest.
@@ -41,7 +41,7 @@ All 16 files have finite coordinates, valid binary STL length, nonempty triangle
 
 ## Source integrity and checks
 
-- v11 blend SHA-256: `113ed15cfce23a9308e8d0e50e5c14ebb6f04845dbac58013857818294a69519`; matches print-set manifest: True.
+- v11 blend SHA-256: `5eda4b14a22cf6556fd141f0dd04ad75758345a25419ee3c6204443710bc816d`; matches print-set manifest: True.
 - v11 generator SHA-256: `b06f90e3e7fc65606c8dde9a3422d3910a0e085cee0fd2b07aabbc0407baafdb`; matches print-set manifest: True.
 - Per-pose geometry and independent regeneration checks: 16/16 passed.
 - CSV checks: 10/10 passed.

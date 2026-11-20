@@ -2,7 +2,7 @@
   "status": "approved v11 geometry; print-set-v2 candidate, pending slicer and physical verification",
   "source_of_truth": {
     "blend": "models/rolling-wavy-pen-storyboard-study-v11.blend",
-    "blend_sha256": "113ed15cfce23a9308e8d0e50e5c14ebb6f04845dbac58013857818294a69519",
+    "blend_sha256": "5eda4b14a22cf6556fd141f0dd04ad75758345a25419ee3c6204443710bc816d",
     "generator": "scripts/rolling_wavy_pen_storyboard_study_v11.py",
     "generator_sha256": "b06f90e3e7fc65606c8dde9a3422d3910a0e085cee0fd2b07aabbc0407baafdb",
     "blend_sha256_at_export": "54084ab7e007712da9801579f19a68621a9ca9d644222c19e10a9432cea68c9e",

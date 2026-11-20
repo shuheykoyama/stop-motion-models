@@ -52,7 +52,8 @@ def main():
     for index,name in enumerate(names,1):
         source=ROOT/source_checks[name]['stl'];destination=EXPORT/f'pose-{index:02}.stl'
         assert shared.sha(source)==source_checks[name]['sha256']
-        shutil.copyfile(source,destination)
+        if source.resolve() != destination.resolve():
+            shutil.copyfile(source,destination)
         assert shared.sha(destination)==shared.sha(source)
         vertices,faces,_=base.read_stl(destination)
         assert np.isfinite(vertices).all()

@@ -64,7 +64,58 @@
       "contact_area_mm2": 153.63622777820794,
       "support_margin_mm": 5.246970255279064,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": 0.0
+      "baked_roll_angle_rad": 0.0,
+      "source_validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r01.stl",
+        "sha256": "69b6dde1e5281d7d78e04b64688e600f2d3eea7a8ddacc83992602e69479845b",
+        "local_dimensions_mm": [
+          30.0,
+          25.0,
+          20.600000381469727
+        ],
+        "local_bounds_mm": [
+          [
+            -15.0,
+            -12.5,
+            0.0
+          ],
+          [
+            15.0,
+            12.5,
+            20.600000381469727
+          ]
+        ],
+        "target_dimensions_mm": [
+          30.0,
+          25.0,
+          20.6
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 8378.412710333097,
+        "table_contact_area_mm2": 153.63622777820794,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.1761739766471523,
+          -0.39587060386723466,
+          9.58215767588156
+        ],
+        "support_hull_margin_mm": 5.246970255279064,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 14.76767635345459,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r01"
+      }
     },
     {
       "order": 2,
@@ -110,7 +161,58 @@
       "contact_area_mm2": 164.41766237197578,
       "support_margin_mm": 2.7290861799242476,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": -0.45
+      "baked_roll_angle_rad": -0.45,
+      "source_validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r02.stl",
+        "sha256": "800c74909ef2b348b662c4864cd3e6fc90c89c734c09e1d47a7287ada94593c7",
+        "local_dimensions_mm": [
+          35.0,
+          23.63639736175537,
+          20.804805755615234
+        ],
+        "local_bounds_mm": [
+          [
+            -17.5,
+            -12.287741661071777,
+            0.0
+          ],
+          [
+            17.5,
+            11.348655700683594,
+            20.804805755615234
+          ]
+        ],
+        "target_dimensions_mm": [
+          35.0,
+          23.636397655508627,
+          20.80480657789935
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 9298.841727729434,
+        "table_contact_area_mm2": 164.41766237197578,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.16738021143913104,
+          -0.45557509304414784,
+          9.643076820574445
+        ],
+        "support_hull_margin_mm": 2.7290861799242476,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 14.885360717773438,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r02"
+      }
     },
     {
       "order": 3,
@@ -156,7 +258,58 @@
       "contact_area_mm2": 122.86486279204658,
       "support_margin_mm": 2.415137459552334,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": -0.9
+      "baked_roll_angle_rad": -0.9,
+      "source_validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r03.stl",
+        "sha256": "60fe45f178c4f41e9a66114269545c2220adae84aa19d7fd385b30393e99f233",
+        "local_dimensions_mm": [
+          40.0,
+          22.422627449035645,
+          21.898365020751953
+        ],
+        "local_bounds_mm": [
+          [
+            -20.0,
+            -12.087159156799316,
+            0.0
+          ],
+          [
+            20.0,
+            10.335468292236328,
+            21.898365020751953
+          ]
+        ],
+        "target_dimensions_mm": [
+          40.0,
+          22.422627298126443,
+          21.89836444498532
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 10153.574299371168,
+        "table_contact_area_mm2": 122.86486279204658,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.18625219528797,
+          -0.3570132112056952,
+          10.646036611614925
+        ],
+        "support_hull_margin_mm": 2.415137459552334,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 13.205114364624023,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r03"
+      }
     },
     {
       "order": 4,
@@ -202,7 +355,58 @@
       "contact_area_mm2": 333.2202678929831,
       "support_margin_mm": 6.5498101744287185,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": -0.2
+      "baked_roll_angle_rad": -0.2,
+      "source_validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r04.stl",
+        "sha256": "dff63fc803952b87ac991a11264f5b76aa861389ddfb809af1c6f16812ba84ae",
+        "local_dimensions_mm": [
+          47.0,
+          22.57672691345215,
+          18.550601959228516
+        ],
+        "local_bounds_mm": [
+          [
+            -23.5,
+            -11.445253372192383,
+            0.0
+          ],
+          [
+            23.5,
+            11.131473541259766,
+            18.550601959228516
+          ]
+        ],
+        "target_dimensions_mm": [
+          47.0,
+          22.57672608486989,
+          18.5506018552881
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 10925.052406460953,
+        "table_contact_area_mm2": 333.2202678929831,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.27932820395418684,
+          -0.41210159036433053,
+          8.395448988397577
+        ],
+        "support_hull_margin_mm": 6.5498101744287185,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 12.801034927368164,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r04"
+      }
     },
     {
       "order": 5,
@@ -248,7 +452,58 @@
       "contact_area_mm2": 141.71531217182238,
       "support_margin_mm": 2.1679325364166733,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": 0.5
+      "baked_roll_angle_rad": 0.5,
+      "source_validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r05.stl",
+        "sha256": "1cf227f85513972d33fa49a65098cc89f5f10574d6edb0fff6ef960c8a3e285a",
+        "local_dimensions_mm": [
+          54.0,
+          21.854701042175293,
+          19.379913330078125
+        ],
+        "local_bounds_mm": [
+          [
+            -27.0,
+            -10.756956100463867,
+            0.0
+          ],
+          [
+            27.0,
+            11.097744941711426,
+            19.379913330078125
+          ]
+        ],
+        "target_dimensions_mm": [
+          54.0,
+          21.854701095058168,
+          19.37991262312866
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 11856.625614438944,
+        "table_contact_area_mm2": 141.71531217182238,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.29590220999403455,
+          -0.26159515218909096,
+          9.475902606440748
+        ],
+        "support_hull_margin_mm": 2.1679325364166733,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 11.028697967529297,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r05"
+      }
     },
     {
       "order": 6,
@@ -294,7 +549,58 @@
       "contact_area_mm2": 413.10757408140785,
       "support_margin_mm": 6.524520632908386,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": -0.15
+      "baked_roll_angle_rad": -0.15,
+      "source_validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r06.stl",
+        "sha256": "c52d12bb2a07ba461d96915bec42964fdc16f5e8b503f8aed1aa23d71a506c32",
+        "local_dimensions_mm": [
+          62.0,
+          20.80514621734619,
+          17.091699600219727
+        ],
+        "local_bounds_mm": [
+          [
+            -31.0,
+            -10.508212089538574,
+            0.0
+          ],
+          [
+            31.0,
+            10.296934127807617,
+            17.091699600219727
+          ]
+        ],
+        "target_dimensions_mm": [
+          62.00000000000001,
+          20.80514709356067,
+          17.091698940721855
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 12236.302493359211,
+        "table_contact_area_mm2": 413.10757408140785,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.3844446003382596,
+          -0.364184115932235,
+          7.72888566312306
+        ],
+        "support_hull_margin_mm": 6.524520632908386,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 10.045827865600586,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r06"
+      }
     },
     {
       "order": 7,
@@ -340,7 +646,58 @@
       "contact_area_mm2": 229.21111468726403,
       "support_margin_mm": 2.4206823638525026,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": -0.8
+      "baked_roll_angle_rad": -0.8,
+      "source_validation": {
+        "path": "exports/stone-to-bread/rolling-elongating-study-v4/pose-r07.stl",
+        "sha256": "cecfeedb81d85e53bc2672b1cc687316af131c64c1ee916359da278db5eda2e8",
+        "local_dimensions_mm": [
+          70.0,
+          19.114628791809082,
+          18.15850257873535
+        ],
+        "local_bounds_mm": [
+          [
+            -35.0,
+            -10.307289123535156,
+            0.0
+          ],
+          [
+            35.0,
+            8.807339668273926,
+            18.15850257873535
+          ]
+        ],
+        "target_dimensions_mm": [
+          70.0,
+          19.114628641057088,
+          18.158503001064545
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 12773.710418145409,
+        "table_contact_area_mm2": 229.21111468726403,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.3242153020349175,
+          -0.3287937825635599,
+          8.64477911549161
+        ],
+        "support_hull_margin_mm": 2.4206823638525026,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 5.556478977203369,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "r07"
+      }
     },
     {
       "order": 8,
@@ -386,7 +743,58 @@
       "contact_area_mm2": 292.3896960828259,
       "support_margin_mm": 2.2952987683941104,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": -0.8
+      "baked_roll_angle_rad": -0.8,
+      "source_validation": {
+        "path": "exports/stone-to-bread/pulling-study-v1/pose-p01.stl",
+        "sha256": "eb682da4e6d48c99f1e9779201fdd578eef5759050a0c27ec2835d9bd9821163",
+        "local_dimensions_mm": [
+          70.0,
+          24.084205627441406,
+          17.79616928100586
+        ],
+        "local_bounds_mm": [
+          [
+            -35.0,
+            -10.307289123535156,
+            0.0
+          ],
+          [
+            35.0,
+            13.77691650390625,
+            17.79616928100586
+          ]
+        ],
+        "target_dimensions_mm": [
+          70.0,
+          24.08420592661524,
+          17.796168430173747
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 14435.262063617603,
+        "table_contact_area_mm2": 292.3896960828259,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.2875459312502172,
+          0.9784917896088473,
+          8.55445751713714
+        ],
+        "support_hull_margin_mm": 2.2952987683941104,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 17.308807373046875,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "p01"
+      }
     },
     {
       "order": 9,
@@ -432,7 +840,58 @@
       "contact_area_mm2": 412.91252979589683,
       "support_margin_mm": 4.098764072931726,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": -0.8
+      "baked_roll_angle_rad": -0.8,
+      "source_validation": {
+        "path": "exports/stone-to-bread/pulling-study-v1/pose-p02.stl",
+        "sha256": "4ff94ea9b9a82b207d44629fea8c75993476069cddcf245e200995bb89cb62b2",
+        "local_dimensions_mm": [
+          70.0,
+          33.31342124938965,
+          17.426151275634766
+        ],
+        "local_bounds_mm": [
+          [
+            -35.0,
+            -10.307289123535156,
+            0.0
+          ],
+          [
+            35.0,
+            23.006132125854492,
+            17.426151275634766
+          ]
+        ],
+        "target_dimensions_mm": [
+          70.0,
+          33.31342060554096,
+          17.426151509046615
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 17396.381494316964,
+        "table_contact_area_mm2": 412.91252979589683,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.2398702570318609,
+          3.7492649119416286,
+          8.359273169343949
+        ],
+        "support_hull_margin_mm": 4.098764072931726,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 16.078227996826172,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "p02"
+      }
     },
     {
       "order": 10,
@@ -478,7 +937,58 @@
       "contact_area_mm2": 557.4825599265823,
       "support_margin_mm": 6.880126973502408,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": -0.8
+      "baked_roll_angle_rad": -0.8,
+      "source_validation": {
+        "path": "exports/stone-to-bread/pulling-study-v1/pose-p03.stl",
+        "sha256": "dcb1b13567255f09c1825eb539b073014022576771852bfdfd4acfc0f4aba7d1",
+        "local_dimensions_mm": [
+          70.0,
+          43.9625129699707,
+          17.313053131103516
+        ],
+        "local_bounds_mm": [
+          [
+            -35.0,
+            -10.307289123535156,
+            0.0
+          ],
+          [
+            35.0,
+            33.65522384643555,
+            17.313053131103516
+          ]
+        ],
+        "target_dimensions_mm": [
+          70.0,
+          43.962514465839874,
+          17.313053459313384
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 20594.94787259594,
+        "table_contact_area_mm2": 557.4825599265823,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.20429144781387554,
+          7.182945751401153,
+          8.116355171717629
+        ],
+        "support_hull_margin_mm": 6.880126973502408,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 14.655946731567383,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "p03"
+      }
     },
     {
       "order": 11,
@@ -524,7 +1034,58 @@
       "contact_area_mm2": 707.9510280784773,
       "support_margin_mm": 9.949115215356821,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": -0.8
+      "baked_roll_angle_rad": -0.8,
+      "source_validation": {
+        "path": "exports/stone-to-bread/pulling-study-v1/pose-p04.stl",
+        "sha256": "637a9a800d1af44b2a3e237153a8e0accaad5bcf23c3943e63e0559222023ea2",
+        "local_dimensions_mm": [
+          70.0,
+          54.61223602294922,
+          17.244857788085938
+        ],
+        "local_bounds_mm": [
+          [
+            -35.0,
+            -10.307289123535156,
+            0.0
+          ],
+          [
+            35.0,
+            44.30494689941406,
+            17.244857788085938
+          ]
+        ],
+        "target_dimensions_mm": [
+          70.0,
+          54.61223565670154,
+          17.244858344174233
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 23537.70838131177,
+        "table_contact_area_mm2": 707.9510280784773,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.1807135095916632,
+          10.642634254699221,
+          7.873801709958542
+        ],
+        "support_hull_margin_mm": 9.949115215356821,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 13.786495208740234,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "p04"
+      }
     },
     {
       "order": 12,
@@ -570,7 +1131,58 @@
       "contact_area_mm2": 233.1544773528014,
       "support_margin_mm": 3.636126577551266,
       "source_geometry_validation_passed": true,
-      "baked_roll_angle_rad": -0.8
+      "baked_roll_angle_rad": -0.8,
+      "source_validation": {
+        "path": "exports/stone-to-bread/recoil-study-v1/pose-c01.stl",
+        "sha256": "b44ca85c9521bea0db7e6fa038746d746574f7e414d597c00168427004c02620",
+        "local_dimensions_mm": [
+          40.0,
+          29.510662078857422,
+          18.4866886138916
+        ],
+        "local_bounds_mm": [
+          [
+            -20.0,
+            -13.343301773071289,
+            0.0
+          ],
+          [
+            20.0,
+            16.167360305786133,
+            18.4866886138916
+          ]
+        ],
+        "target_dimensions_mm": [
+          40.0,
+          29.510662302330836,
+          18.48668930053711
+        ],
+        "dimension_tolerance_mm": 0.1,
+        "vertices": 32514,
+        "triangles": 65024,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "nonmanifold_vertices": 0,
+        "inconsistent_winding_edges": 0,
+        "degenerate_faces": 0,
+        "stl_normal_disagreements": 0,
+        "nonadjacent_bvh_intersections": 0,
+        "signed_volume_mm3": 9877.717673395944,
+        "table_contact_area_mm2": 233.1544773528014,
+        "minimum_table_clearance_mm": 0.0,
+        "center_of_mass_local_mm": [
+          0.19560848370928427,
+          0.28120882662238705,
+          8.542647409765012
+        ],
+        "support_hull_margin_mm": 3.636126577551266,
+        "core_thickness_samples": 39,
+        "sampled_minimum_vertical_core_mm": 15.774577140808105,
+        "dimensions_pass": true,
+        "passed": true,
+        "pose_id": "c01"
+      }
     },
     {
       "order": 13,
@@ -611,11 +1223,6 @@
       "preview_only": true
     }
   ],
-  "source_scene_sha256": {
-    "/Users/shuhey/ghq/github.com/shuheykoyama/stop-motion-models/models/stone-to-bread-rolling-elongating-study-v4.blend": "72dc4bb05ada6a24726bae0770ed0427454bc99cb810ff3a53c941a2d6662dc0",
-    "/Users/shuhey/ghq/github.com/shuheykoyama/stop-motion-models/models/stone-to-bread-pulling-study-v1.blend": "88659433b9ecac4ff66623df47cc8ad8eaf29abb8f73329b00ce010fd29999fe",
-    "/Users/shuhey/ghq/github.com/shuheykoyama/stop-motion-models/models/stone-to-bread-recoil-study-v1.blend": "14337b89ba3f82ec569a3ca11133643e495811dd9466418e70c7cac43dc9b484"
-  },
   "source_stl_and_mesh_identical": true,
   "camera": {
     "type": "ORTHO",
@@ -755,133 +1362,40 @@
       "duration_reference_s": 3.6666666666666665,
       "duration_gif_s": 3.67,
       "sha256": "6adb987bf4c3f562e3b5adefe667b191ae879be22f11250704dcea4c6a1cd8b4"
-    },
-    "realistic_energetic": {
-      "path": "previews/stone-to-bread/full-sequence-v1/sequence-realistic-energetic.gif",
-      "exposures": [
-        2,
-        1,
-        3,
-        1,
-        3,
-        1,
-        4,
-        1,
-        2,
-        2,
-        3,
-        1,
-        7
-      ],
-      "delays_ms": [
-        170,
-        80,
-        250,
-        80,
-        250,
-        90,
-        330,
-        80,
-        170,
-        170,
-        250,
-        80,
-        580
-      ],
-      "duration_reference_s": 2.5833333333333335,
-      "duration_gif_s": 2.58,
-      "sha256": "23be03a25b8fe1dfbf538937a31c9b64fa2783ed91de81c6994aa758792f8279"
-    },
-    "neutral_deliberate": {
-      "path": "previews/stone-to-bread/full-sequence-v1/sequence-neutral-deliberate.gif",
-      "exposures": [
-        3,
-        2,
-        4,
-        2,
-        4,
-        2,
-        5,
-        2,
-        3,
-        3,
-        4,
-        1,
-        9
-      ],
-      "delays_ms": [
-        250,
-        170,
-        330,
-        170,
-        330,
-        170,
-        410,
-        170,
-        250,
-        250,
-        330,
-        90,
-        750
-      ],
-      "duration_reference_s": 3.6666666666666665,
-      "duration_gif_s": 3.67,
-      "sha256": "83a6bdb2b10ee5f4526550f76c9c120f7a717c17c893dab2d2128372c0bf6567"
     }
   },
   "protected_asset_hashes_verified": 401,
   "artifact_sha256": {
-    "previews/stone-to-bread/full-sequence-v1/p02-neutral-side.png": "ce848d277cb3c65b86fc3c4ae0cc3f7d0459f88f799f0e1785501c8366f9894c",
-    "previews/stone-to-bread/full-sequence-v1/p03-neutral-side.png": "6e6bce969f6bffce2384f94a1e3f89a563bc4be777451ad037dd97440151d0f2",
     "previews/stone-to-bread/full-sequence-v1/contact-side.png": "7c979755b0ea97f76cf4cb99b8960f731ff5dc48c3f5b57a5ea6274b4a8cb5fc",
     "previews/stone-to-bread/full-sequence-v1/contact-front.png": "a2ebd80f2c33aa16123a8ed4d7df5507147f2a2e7de2062cb15b39cb1198ad9b",
     "previews/stone-to-bread/full-sequence-v1/contact-top.png": "d2bb82d06207d46449d60f34656e8b8182ab573a5ad1577ed154ab1ca2664648",
-    "previews/stone-to-bread/full-sequence-v1/c01-neutral-side.png": "2c830e3dec03a0666782b24a163406e9507cd002b67f52f9aaa6b686036a8441",
     "previews/stone-to-bread/full-sequence-v1/b01-realistic-front.png": "08e05efc58b9747860d60df8ab0e13da96e57cf44c14cc8722b7786bbb1be3d8",
-    "previews/stone-to-bread/full-sequence-v1/r02-neutral-front.png": "abf99d31568f85f156cc10612c8d20031a0955f8905f8932bcf646491c4a465f",
     "previews/stone-to-bread/full-sequence-v1/r02-realistic-top.png": "1c304115a938e070b3c97c49cd76f78534312a8fad0e0900cf46beb096bb8a5b",
-    "previews/stone-to-bread/full-sequence-v1/r07-neutral-front.png": "5efa164a6053deb9f4a8e546ac5dfa69b3f4f08a58bf85c0da0fccbbfe296ccd",
     "previews/stone-to-bread/full-sequence-v1/p02-realistic-top.png": "3f7dcfd6939f7894f31f6418223cf119e45e8cdeb28e289cd75e9e97ffb1b9fe",
-    "previews/stone-to-bread/full-sequence-v1/p02-neutral-front.png": "5320761eac59f3d0e27f20fafd7eef724571c7796b26a8d45f8a1a1de8182898",
     "previews/stone-to-bread/full-sequence-v1/r07-realistic-top.png": "fa00002381675a759f2013583479bc847baf664fa12f17579a890be91fe0c17d",
-    "previews/stone-to-bread/full-sequence-v1/r03-neutral-front.png": "82abfb0fe9c67d2f3d2fde032b8941b7c0e1a3b499a7996c619f79178fbd3159",
-    "previews/stone-to-bread/full-sequence-v1/p04-neutral-side.png": "06f38cbcff67633dc534a6552f377ef12b2ea93e3130013ebeaf152a22ca0adc",
-    "previews/stone-to-bread/full-sequence-v1/r07-neutral-side.png": "ddcd6ffab39882636d4eaf7fc71fd4df2b16e97a7b2dbe4f7dfdd641ed768673",
     "previews/stone-to-bread/full-sequence-v1/r03-realistic-top.png": "37837a392122b6545e0618b2c99c6c0ad2f2a432de74334ded95d8728c3924d7",
     "previews/stone-to-bread/full-sequence-v1/p03-realistic-top.png": "31ad319552f588e925f3d2460cbec3115cc75f7377ef83b9dd8016f8044b9b2d",
-    "previews/stone-to-bread/full-sequence-v1/r06-neutral-front.png": "a1c150417c26505baf372113074f846f1c27f9bf2a01159c3ef86e7aeb0a0cab",
     "previews/stone-to-bread/full-sequence-v1/r06-realistic-top.png": "b3e99e62ae29f811c97e1e03c99afeb63f24bc3f76479063aa5cae098cf4632f",
-    "previews/stone-to-bread/full-sequence-v1/p03-neutral-front.png": "58a1bdd8c7ec2f0ecffb422fe778f7bcc3e3b8fbaacdf6c1a6567834321b14bf",
     "previews/stone-to-bread/full-sequence-v1/r04-realistic-front.png": "bda37059ab2cb3bac523ddeb7160558b9f2bbb3f049e7601a9bcf06edbf0f083",
     "previews/stone-to-bread/full-sequence-v1/r05-realistic-front.png": "85d10f3ed1f42adebb690238c2a79ad0e19620e33041d3f466fd991063737ff3",
     "previews/stone-to-bread/full-sequence-v1/p01-realistic-front.png": "eacad4b13d81e5c83a5998aff36ecf295ffdea0894681db6fd97de21c858ff26",
     "previews/stone-to-bread/full-sequence-v1/p02-realistic-front.png": "f07d86bc0c3a5512ea5920dbe5273a14625d3777f834eb315e1b8f6a75f80fb5",
-    "previews/stone-to-bread/full-sequence-v1/r05-neutral-front.png": "7852d02f268f9ea533da60ab26fa109eba32600a6804d232ef20e8f172678999",
     "previews/stone-to-bread/full-sequence-v1/r05-realistic-top.png": "a44487ccf7f364b1711344e0fe875420365a393b471d51f706763784ab20993a",
     "previews/stone-to-bread/full-sequence-v1/r06-realistic-front.png": "85e6e90569b35ad090aea691e788da282cd60a61e80c23919ae20463c715ac30",
-    "previews/stone-to-bread/full-sequence-v1/p01-neutral-side.png": "b50e36f577a8c9e56ff7d35d7b06c8adf57108591467914c7db05ac47c33a5c1",
     "previews/stone-to-bread/full-sequence-v1/p03-realistic-front.png": "ab34fe11c8617658e9a8e28d2a27002bd67b376c463ab386e98828d130e88c9b",
     "previews/stone-to-bread/full-sequence-v1/r07-realistic-front.png": "c29d114501bb966794610082854c60488f4b7ad9023518c618894d1500e94535",
     "previews/stone-to-bread/full-sequence-v1/p04-realistic-top.png": "c501bd2b7ef79655cabc2c27776628edf80f8b036db8b5f90bfca6badcfa5f7f",
-    "previews/stone-to-bread/full-sequence-v1/r01-neutral-front.png": "cf2472b0352bcc147556aaefc9d9754b41e896ae24c09c1a94b38475a7a87bc2",
     "previews/stone-to-bread/full-sequence-v1/b01-realistic-top.png": "ca388742dd38f3e7992a064e94e27b3540792968436f04b262f5fb8509bcb53e",
     "previews/stone-to-bread/full-sequence-v1/r01-realistic-top.png": "1e9ee12d90a7bb66a9dc8cfa5b0bc92f9c3b9517d12c65a2c435dcb88f597b0d",
-    "previews/stone-to-bread/full-sequence-v1/p04-neutral-front.png": "8dce73d6bce61bdf8ff887aa0d3900cb0902ff2556d3fe66e48cd57c0c9188b5",
     "previews/stone-to-bread/full-sequence-v1/r01-realistic-front.png": "8e6cb149b56086f9ce032044aba9f5c952ed0b7f9a85013af43a3ffef506617f",
-    "previews/stone-to-bread/full-sequence-v1/b01-neutral-front.png": "959c9c5bd89ed0f735a372ffdb5ca216600e7016af7c8013f8eff8f2bfdd785e",
     "previews/stone-to-bread/full-sequence-v1/c01-realistic-top.png": "de05729fa346bc6e961c7e2e67bcf2ba811bf8600ba910956c09537f20c208ca",
     "previews/stone-to-bread/full-sequence-v1/p04-realistic-front.png": "fce965da4238c3498648964bba440e88bdd1c7e947aae3c99fd090cc4524af30",
-    "previews/stone-to-bread/full-sequence-v1/c01-neutral-front.png": "8b43414c54d1501eace8be2c62957b1ede29b951f0ceb40085d2fee9a5583acf",
     "previews/stone-to-bread/full-sequence-v1/c01-realistic-front.png": "719d8e13fec6449be311daebb62268ad6d0c4911fd5f7db95a1e2b269c24649f",
     "previews/stone-to-bread/full-sequence-v1/r03-realistic-front.png": "c68a375e584c4eada2de5100a7b80bfc5646674863a57e2eb38942fc9b38b922",
-    "previews/stone-to-bread/full-sequence-v1/r04-neutral-front.png": "ab402b682f8c29f147ab225fa16e27ad826a103f4466dbabe332e6e9e90d06aa",
     "previews/stone-to-bread/full-sequence-v1/p01-realistic-top.png": "8e20c8381119432ec81e9653c84aeaf16819e11ff4f2fdeacd5f4d7bec73d0f3",
-    "previews/stone-to-bread/full-sequence-v1/p01-neutral-front.png": "098598a273f44bae972e28ed1a8279aea0126a4d84c648c872bdd338c0736118",
     "previews/stone-to-bread/full-sequence-v1/r04-realistic-top.png": "345b4b32038096486567d2e6b87895183562cdb28e1f7972883ff4d0fd9b08ed",
     "previews/stone-to-bread/full-sequence-v1/r02-realistic-front.png": "482468648f5174e123b3aa2d9dfe59caf64683871982a3b7d85bce908534c3bb",
     "previews/stone-to-bread/full-sequence-v1/sequence-realistic-deliberate.gif": "6adb987bf4c3f562e3b5adefe667b191ae879be22f11250704dcea4c6a1cd8b4",
-    "previews/stone-to-bread/full-sequence-v1/sequence-neutral-deliberate.gif": "83a6bdb2b10ee5f4526550f76c9c120f7a717c17c893dab2d2128372c0bf6567",
-    "previews/stone-to-bread/full-sequence-v1/sequence-realistic-energetic.gif": "23be03a25b8fe1dfbf538937a31c9b64fa2783ed91de81c6994aa758792f8279",
     "models/stone-to-bread-full-sequence-v1.blend": "e698fface1a21524a62a78888b39b3a9f5925c7f5316af50d1dd7c6f4852964a"
   },
   "checkpoint": {
@@ -889,5 +1403,28 @@
     "selected_timing": "deliberate at 12 fps; c01 one exposure",
     "approved_scope": "13-pose sequence and 12 printable stone geometries for current checkpoint",
     "remaining": "Rendering noise and consistency, slicer verification, FDM assessment, physical test printing, and live-action filming"
+  },
+  "local_axes_world": {
+    "X": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "Y_near": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "Z": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "current_scene_input": "models/stone-to-bread-full-sequence-v1.blend",
+  "source_scene_sha256_at_integration": {
+    "/Users/shuhey/ghq/github.com/shuheykoyama/stop-motion-models/models/stone-to-bread-rolling-elongating-study-v4.blend": "72dc4bb05ada6a24726bae0770ed0427454bc99cb810ff3a53c941a2d6662dc0",
+    "/Users/shuhey/ghq/github.com/shuheykoyama/stop-motion-models/models/stone-to-bread-pulling-study-v1.blend": "88659433b9ecac4ff66623df47cc8ad8eaf29abb8f73329b00ce010fd29999fe",
+    "/Users/shuhey/ghq/github.com/shuheykoyama/stop-motion-models/models/stone-to-bread-recoil-study-v1.blend": "14337b89ba3f82ec569a3ca11133643e495811dd9466418e70c7cac43dc9b484"
   }
 }

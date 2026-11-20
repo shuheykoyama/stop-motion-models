@@ -24,9 +24,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 1,
-      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-01.png"
+      "render": "previews/stone-to-fireworks/v3/frame-01.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/rest.stl"
     },
     {
       "frame": 2,
@@ -48,9 +49,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 3,
-      "stl": "exports/stone-to-fireworks/v3/press-a.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-02.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-02.png"
+      "render": "previews/stone-to-fireworks/v3/frame-02.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/press-a.stl"
     },
     {
       "frame": 3,
@@ -72,9 +74,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 5,
-      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-03.png"
+      "render": "previews/stone-to-fireworks/v3/frame-03.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/rest.stl"
     },
     {
       "frame": 4,
@@ -96,9 +99,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 7,
-      "stl": "exports/stone-to-fireworks/v3/press-b.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-03.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-04.png"
+      "render": "previews/stone-to-fireworks/v3/frame-04.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/press-b.stl"
     },
     {
       "frame": 5,
@@ -120,9 +124,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 9,
-      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-05.png"
+      "render": "previews/stone-to-fireworks/v3/frame-05.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/rest.stl"
     },
     {
       "frame": 6,
@@ -144,9 +149,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 11,
-      "stl": "exports/stone-to-fireworks/v3/press-c.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-04.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-06.png"
+      "render": "previews/stone-to-fireworks/v3/frame-06.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/press-c.stl"
     },
     {
       "frame": 7,
@@ -168,9 +174,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 13,
-      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-07.png"
+      "render": "previews/stone-to-fireworks/v3/frame-07.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/rest.stl"
     },
     {
       "frame": 8,
@@ -192,9 +199,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 15,
-      "stl": "exports/stone-to-fireworks/v3/pull-start.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-05.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-08.png"
+      "render": "previews/stone-to-fireworks/v3/frame-08.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/pull-start.stl"
     },
     {
       "frame": 9,
@@ -216,9 +224,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 17,
-      "stl": "exports/stone-to-fireworks/v3/pull-low.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-06.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-09.png"
+      "render": "previews/stone-to-fireworks/v3/frame-09.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/pull-low.stl"
     },
     {
       "frame": 10,
@@ -240,9 +249,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 19,
-      "stl": "exports/stone-to-fireworks/v3/pull-mid.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-07.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-10.png"
+      "render": "previews/stone-to-fireworks/v3/frame-10.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/pull-mid.stl"
     },
     {
       "frame": 11,
@@ -264,9 +274,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 21,
-      "stl": "exports/stone-to-fireworks/v3/pull-high.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-08.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-11.png"
+      "render": "previews/stone-to-fireworks/v3/frame-11.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/pull-high.stl"
     },
     {
       "frame": 12,
@@ -288,9 +299,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 23,
-      "stl": "exports/stone-to-fireworks/v3/pull-max.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-09.stl",
       "requires_flight_support": false,
-      "render": "previews/stone-to-fireworks/v3/frame-12.png"
+      "render": "previews/stone-to-fireworks/v3/frame-12.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/pull-max.stl"
     },
     {
       "frame": 13,
@@ -312,9 +324,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 25,
-      "stl": "exports/stone-to-fireworks/v3/release.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-10.stl",
       "requires_flight_support": true,
-      "render": "previews/stone-to-fireworks/v3/frame-13.png"
+      "render": "previews/stone-to-fireworks/v3/frame-13.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/release.stl"
     },
     {
       "frame": 14,
@@ -336,9 +349,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 27,
-      "stl": "exports/stone-to-fireworks/v3/snap.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-11.stl",
       "requires_flight_support": true,
-      "render": "previews/stone-to-fireworks/v3/frame-14.png"
+      "render": "previews/stone-to-fireworks/v3/frame-14.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/snap.stl"
     },
     {
       "frame": 15,
@@ -360,9 +374,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 29,
-      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
       "requires_flight_support": true,
-      "render": "previews/stone-to-fireworks/v3/frame-15.png"
+      "render": "previews/stone-to-fireworks/v3/frame-15.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/rest.stl"
     },
     {
       "frame": 16,
@@ -384,9 +399,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 31,
-      "stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
       "requires_flight_support": true,
-      "render": "previews/stone-to-fireworks/v3/frame-16.png"
+      "render": "previews/stone-to-fireworks/v3/frame-16.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/rest.stl"
     },
     {
       "frame": 17,
@@ -408,9 +424,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 33,
-      "stl": "exports/stone-to-fireworks/v3/small.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-12.stl",
       "requires_flight_support": true,
-      "render": "previews/stone-to-fireworks/v3/frame-17.png"
+      "render": "previews/stone-to-fireworks/v3/frame-17.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/small.stl"
     },
     {
       "frame": 18,
@@ -432,9 +449,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 35,
-      "stl": "exports/stone-to-fireworks/v3/tiny.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-13.stl",
       "requires_flight_support": true,
-      "render": "previews/stone-to-fireworks/v3/frame-18.png"
+      "render": "previews/stone-to-fireworks/v3/frame-18.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/tiny.stl"
     },
     {
       "frame": 19,
@@ -456,9 +474,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 37,
-      "stl": "exports/stone-to-fireworks/v3/distant.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-14.stl",
       "requires_flight_support": true,
-      "render": "previews/stone-to-fireworks/v3/frame-19.png"
+      "render": "previews/stone-to-fireworks/v3/frame-19.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/distant.stl"
     },
     {
       "frame": 20,
@@ -480,9 +499,10 @@
       ],
       "exposures_12fps": 2,
       "exposure_start": 39,
-      "stl": "exports/stone-to-fireworks/v3/distant.stl",
+      "stl": "exports/stone-to-fireworks/print-set-v1/pose-14.stl",
       "requires_flight_support": true,
-      "render": "previews/stone-to-fireworks/v3/frame-20.png"
+      "render": "previews/stone-to-fireworks/v3/frame-20.png",
+      "stl_at_export": "exports/stone-to-fireworks/v3/distant.stl"
     }
   ]
 }

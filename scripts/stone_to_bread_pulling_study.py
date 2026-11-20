@@ -103,7 +103,7 @@ def main():
     v4report = json.loads((ROOT/"previews/stone-to-bread"/V4/"manifest.json").read_text())
     baseline = next(p for p in v4report["poses"] if p["id"] == "r07")
     assert digest(ROOT/baseline["stl"]) == baseline["stl_sha256"]
-    bpy.ops.wm.open_mainfile(filepath=str(ROOT/"models"/f"stone-to-bread-{V4}.blend"), load_ui=False, use_scripts=False)
+    bpy.ops.wm.open_mainfile(filepath=str(ROOT/"models"/"stone-to-bread-full-sequence-v1.blend"), load_ui=False, use_scripts=False)
     scene = bpy.context.scene
     axis, near, up = [Vector(v4report["local_axes_world"][k]) for k in ("X", "Y_near", "Z")]
     basis = np.column_stack((axis, near, up))

@@ -33,11 +33,12 @@
 - [統合生成器](../scripts/stone_to_bread_full_sequence.py)、[伸長](../scripts/stone_to_bread_rolling_elongating_study_v4.py)、[引っ張り](../scripts/stone_to_bread_pulling_study.py)、[反発](../scripts/stone_to_bread_recoil_study.py)
 
 STLの旧Study名は現行12形状の保存先であり、削除対象ではない。
-再生成には同名3つの入力Blendとmanifestが必要で、反発生成器はパンと旧反発の比較メッシュを`stone-to-bread-approved-geometry-recovery.blend`から読む。
-この回復シーンと`sequence-validation.json`は実行時依存として保持した。
-`exports/stone-to-bread/frame-01.stl`はFireworksの初期生成入力でもある。
-これらの入力を除去した再生成の同一性は確認できていないため、今回の整理でも削除していない。
+編集・再構成の入力は統合Blendと統合manifestに集約した。全13形状のメッシュ指紋、配置、12 STLとの頂点一致を検査する。
+伸長・引っ張り・反発の形状計算は各生成器に残し、引っ張りと反発は統合Blendのr07・p04・b01を読む。
+旧Blend4件と旧反発の比較メッシュは不要になった。
+`exports/stone-to-bread/frame-01.stl`はFireworksの形状生成用の元石として保持する。
 
-再生成は隔離コピーで、伸長、引っ張り、反発、統合の順にBlender 4.5 LTSで実行する。
+撮影プレビューの再構成はBlenderで`stone_to_bread_full_sequence.py -- --output-root <別の一時ディレクトリ>`を実行する。
+形状・STL照合だけなら隔離コピーで`--validate-only`を使う。別テンポ・無彩色の比較出力は保存しない。
 共有`stone_to_bread.py`と`generate.py`、`review_previews.py`も必要。
 撮影ではパンを実物へ交換し、STLはmmとして読み込む。

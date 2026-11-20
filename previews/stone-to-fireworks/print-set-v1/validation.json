@@ -97,7 +97,7 @@
       "id": "pose-01",
       "v3_pose": "rest",
       "source_v3_frame": 1,
-      "source_stl": "exports/stone-to-fireworks/v3/rest.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-01.stl",
       "stl_sha256": "d2e220a228433dceee7d213ed38167a96efeb8b0b9206e0dd0c70ca5a4718df0",
       "canonical_surface_sha256": "2a976decda56a93d0ae3571f6bb8c261ebdd77e19986b6a78bf56dd0450c7d1b",
@@ -162,13 +162,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/rest.stl"
     },
     {
       "id": "pose-02",
       "v3_pose": "press-a",
       "source_v3_frame": 2,
-      "source_stl": "exports/stone-to-fireworks/v3/press-a.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-02.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-02.stl",
       "stl_sha256": "6b17454064878343ffa541086c8ba4afb4ed3481f36dff5245e3d2423abe9d77",
       "canonical_surface_sha256": "d471b1e11cd683dc152cec1cbbbeebc0e453a9bea14f38eed4dbe0726f291282",
@@ -233,13 +234,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/press-a.stl"
     },
     {
       "id": "pose-03",
       "v3_pose": "press-b",
       "source_v3_frame": 4,
-      "source_stl": "exports/stone-to-fireworks/v3/press-b.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-03.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-03.stl",
       "stl_sha256": "f6ad12a4d003c7197a32bc52e4bc1baba2611a3c14351af2631af932f19b0da9",
       "canonical_surface_sha256": "656036d4d9d07486a9a22b44a096e9aa6c3d6e85848363e87cf21a157e67a22a",
@@ -304,13 +306,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/press-b.stl"
     },
     {
       "id": "pose-04",
       "v3_pose": "press-c",
       "source_v3_frame": 6,
-      "source_stl": "exports/stone-to-fireworks/v3/press-c.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-04.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-04.stl",
       "stl_sha256": "67fdf6327d76c246033ba9c49424fe9a28ec76e616c4a5d7ce7574db11f48814",
       "canonical_surface_sha256": "468d7db5cb69b8344d707900e3c48e04ff2419d80fbc7bb1402357e2b12f8b13",
@@ -375,13 +378,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/press-c.stl"
     },
     {
       "id": "pose-05",
       "v3_pose": "pull-start",
       "source_v3_frame": 8,
-      "source_stl": "exports/stone-to-fireworks/v3/pull-start.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-05.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-05.stl",
       "stl_sha256": "134baba0ee4e8aaf1438409e25c5040ee1f6247325b5c5bdcaae4fd4ebc36991",
       "canonical_surface_sha256": "54ed306d14d9b270784b1f59eee676a593717c87ae45c202e97dd43e07d880d5",
@@ -446,13 +450,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/pull-start.stl"
     },
     {
       "id": "pose-06",
       "v3_pose": "pull-low",
       "source_v3_frame": 9,
-      "source_stl": "exports/stone-to-fireworks/v3/pull-low.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-06.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-06.stl",
       "stl_sha256": "a9470712ceab3bb13246085d2c2c48534d6c03b5667f0325cdbce89e7a732d72",
       "canonical_surface_sha256": "ae92182aeb8e29a4de5b309f394bbedce6493063f5b0e9c7227c78b933527035",
@@ -517,13 +522,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/pull-low.stl"
     },
     {
       "id": "pose-07",
       "v3_pose": "pull-mid",
       "source_v3_frame": 10,
-      "source_stl": "exports/stone-to-fireworks/v3/pull-mid.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-07.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-07.stl",
       "stl_sha256": "5427b5f9091b8c690e6ba401ea8a492defbf5e43fd4fe285b303f357b3b15298",
       "canonical_surface_sha256": "22d7e566830bb666823c9e57bd34617d1892be7deb17446714e3fcdd79ef91b0",
@@ -588,13 +594,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/pull-mid.stl"
     },
     {
       "id": "pose-08",
       "v3_pose": "pull-high",
       "source_v3_frame": 11,
-      "source_stl": "exports/stone-to-fireworks/v3/pull-high.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-08.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-08.stl",
       "stl_sha256": "febe4f29d38b359ac521194bbe0f2c985588d630a2d684a0c9ec7296548e1056",
       "canonical_surface_sha256": "07fddb457d0e5f7447c142eefa35b152f8b5ad5776d0ae0b6349f0908d03f164",
@@ -659,13 +666,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/pull-high.stl"
     },
     {
       "id": "pose-09",
       "v3_pose": "pull-max",
       "source_v3_frame": 12,
-      "source_stl": "exports/stone-to-fireworks/v3/pull-max.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-09.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-09.stl",
       "stl_sha256": "ebedfdaee7eb348ffb34b43f88069aa7d3338fd0be3f559ad75d0cfbf998367c",
       "canonical_surface_sha256": "5a4eae3cc00e05306860ed8b0779989bf6aa19ff814497b02aeb4967701ac76c",
@@ -730,13 +738,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/pull-max.stl"
     },
     {
       "id": "pose-10",
       "v3_pose": "release",
       "source_v3_frame": 13,
-      "source_stl": "exports/stone-to-fireworks/v3/release.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-10.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-10.stl",
       "stl_sha256": "77955df694f7500a06e0e597fffd41028b9e7bf81d7dd808b50a1f01fbdcb687",
       "canonical_surface_sha256": "c92ec83ffdfd9685c8367f4ad320c00cc35af04b8b12359cfbd7027faf0b993a",
@@ -801,13 +810,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/release.stl"
     },
     {
       "id": "pose-11",
       "v3_pose": "snap",
       "source_v3_frame": 14,
-      "source_stl": "exports/stone-to-fireworks/v3/snap.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-11.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-11.stl",
       "stl_sha256": "e65d9e527fab5a0ec6744e1e732a9ca2e3f5a93c5e6f2c9b21eef379a9d427f3",
       "canonical_surface_sha256": "9fef71325e73ee7b85158db1881439e5aeb5bae98a00e1e567efb57b172f71b1",
@@ -872,13 +882,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/snap.stl"
     },
     {
       "id": "pose-12",
       "v3_pose": "small",
       "source_v3_frame": 17,
-      "source_stl": "exports/stone-to-fireworks/v3/small.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-12.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-12.stl",
       "stl_sha256": "126fe0e08f25c809a3f2b48608e6d8e3aa21756717fa73d27ae75ee2ac68becd",
       "canonical_surface_sha256": "23deb7faf6deea3dbb51d0e58d6c0e2c3ed9aa0c0987e51d7d7b26e79a70a047",
@@ -943,13 +954,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": true,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/small.stl"
     },
     {
       "id": "pose-13",
       "v3_pose": "tiny",
       "source_v3_frame": 18,
-      "source_stl": "exports/stone-to-fireworks/v3/tiny.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-13.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-13.stl",
       "stl_sha256": "57b4fad426373c2d27c78d9c55e662f2704111b240d3f44bf29a4acb80da9264",
       "canonical_surface_sha256": "c756e083f3c71bf875d1461d08923b2b9644459150e27e574c0e5a9fad7bf16c",
@@ -1014,13 +1026,14 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": false,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/tiny.stl"
     },
     {
       "id": "pose-14",
       "v3_pose": "distant",
       "source_v3_frame": 19,
-      "source_stl": "exports/stone-to-fireworks/v3/distant.stl",
+      "source_stl": "exports/stone-to-fireworks/print-set-v1/pose-14.stl",
       "stl": "exports/stone-to-fireworks/print-set-v1/pose-14.stl",
       "stl_sha256": "5cfd433e0b51ba800515e2bd7ec9b1ace0f7b33b1d495f6ab676c9043dcbc64f",
       "canonical_surface_sha256": "85aaf8821cd538e7e93fda4abafdab9ecf715a0033a1070b742a3b96a27a4fd3",
@@ -1085,7 +1098,8 @@
         "dimensions_pass": true,
         "bread_study_absolute_thresholds_passed": false,
         "passed": true
-      }
+      },
+      "source_stl_at_export": "exports/stone-to-fireworks/v3/distant.stl"
     }
   ],
   "limitations": [

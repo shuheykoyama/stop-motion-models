@@ -887,7 +887,7 @@
       "status": "final",
       "geometry_changes_require_separate_user_request": true,
       "asset_sha256": {
-        "models/pen.blend": "65044a4043df78e8f2416b8bf7b85fab2ac6567b34395bcf5eb45bfe66b45323",
+        "models/pen.blend": "400822cbb92430a0f4c250a6001f0875c65bf945f0e748811882903a66b71d38",
         "scripts/generate.py": "249aa92b0b37ec2c37ec894f84355b8cf0057f657815d17063a80f293d3af9d1",
         "scripts/pen_previews.py": "652f6e45bf259cb93d4cb1c86a5690b501cc302945efd11ba877cec86bd9e299",
         "exports/pen/frame-01.stl": "b4bad27f7e3fe125b07ca660f785551c84b0381fa8fb93fa35d1ff9a23710724",
@@ -2341,5 +2341,192 @@
         "frames_identical": true
       }
     }
+  },
+  "blend_data_cleanup": {
+    "checked_at_utc": "2026-11-19T12:56:52.849473+00:00",
+    "blender_version": "4.5.15",
+    "inspected_blend_files": 15,
+    "modified_blend_files": 5,
+    "method": "Remove superseded Wavy scenes and zero-user, non-fake-user data outside retained scene/text/fake-user dependency closure. Exact retained-data snapshots and all-frame transforms verified before/after saving and reloading. No final geometry or modeling code changes.",
+    "files": [
+      {
+        "path": "models/pen.blend",
+        "before_sha256": "65044a4043df78e8f2416b8bf7b85fab2ac6567b34395bcf5eb45bfe66b45323",
+        "after_sha256": "400822cbb92430a0f4c250a6001f0875c65bf945f0e748811882903a66b71d38",
+        "before_bytes": 6044770,
+        "after_bytes": 6041645,
+        "removed_scenes": [],
+        "retained_scenes": [
+          "pen-endpoints"
+        ],
+        "retained_data_sha256": "3ea90cb1c6bff0944d96dd20752d55dc186a59a270e98f237eff3b798345c711",
+        "semantic_match": true,
+        "all_frame_transforms_match": true,
+        "removed_data_block_counts": {
+          "materials": 2
+        }
+      },
+      {
+        "path": "models/rolling-wavy-pen-print-set-v2.blend",
+        "before_sha256": "8b3ed12cb737e46e19c78aa037d15846c951cbe83aecd90116bbcc8cfadfffac",
+        "after_sha256": "6b3cc5b7ba04ce95a3eb975a304aea393ddd2d5fec98b194e931a52a18f5691b",
+        "before_bytes": 45035560,
+        "after_bytes": 10993752,
+        "removed_scenes": [
+          "Rolling Wavy Pen v10",
+          "Rolling Wavy Pen v11",
+          "Rolling Wavy Pen v9",
+          "Scene"
+        ],
+        "retained_scenes": [
+          "Rolling Wavy Pen print-set-v2"
+        ],
+        "retained_data_sha256": "121e29545fcd45d2b9383b66a51d6038883237350aac1f7a0dfc8f129700b133",
+        "semantic_match": true,
+        "all_frame_transforms_match": true,
+        "removed_data_block_counts": {
+          "scenes": 4,
+          "collections": 1,
+          "objects": 113,
+          "materials": 21,
+          "worlds": 3,
+          "cameras": 8,
+          "lights": 5,
+          "actions": 90,
+          "meshes": 97
+        }
+      },
+      {
+        "path": "models/rolling-wavy-pen-storyboard-study-v11.blend",
+        "before_sha256": "113ed15cfce23a9308e8d0e50e5c14ebb6f04845dbac58013857818294a69519",
+        "after_sha256": "5eda4b14a22cf6556fd141f0dd04ad75758345a25419ee3c6204443710bc816d",
+        "before_bytes": 55831443,
+        "after_bytes": 14567863,
+        "removed_scenes": [
+          "Rolling Wavy Pen v10",
+          "Rolling Wavy Pen v9",
+          "Scene"
+        ],
+        "retained_scenes": [
+          "Rolling Wavy Pen v11"
+        ],
+        "retained_data_sha256": "76dbf07453c6e6990ef2a1a097cbc190eb85c0bdba09d43b2f5c661184dfbc8f",
+        "semantic_match": true,
+        "all_frame_transforms_match": true,
+        "removed_data_block_counts": {
+          "scenes": 3,
+          "collections": 1,
+          "objects": 73,
+          "materials": 19,
+          "worlds": 3,
+          "cameras": 28,
+          "lights": 23,
+          "actions": 60,
+          "meshes": 92
+        }
+      },
+      {
+        "path": "models/stone-to-bread-full-sequence-v1.blend",
+        "before_sha256": "556515bbdb94b1c4ed9700c7c19438e7a5c1edcd0630b35c737de00b0cd6c4cf",
+        "after_sha256": "7f7733c4c00f4db31d97ac8cbb31e4ec0705dd40e275d19bbd1052e6b80450a8",
+        "before_bytes": 21422264,
+        "after_bytes": 21426012,
+        "removed_scenes": [],
+        "retained_scenes": [
+          "stone-to-bread"
+        ],
+        "retained_data_sha256": "14441d8e33987732ba941cefcab02611b34956df47ce83b6cf8d0b39193d984c",
+        "semantic_match": true,
+        "all_frame_transforms_match": true,
+        "removed_data_block_counts": {
+          "materials": 2
+        }
+      },
+      {
+        "path": "models/stone-to-fireworks-v3.blend",
+        "before_sha256": "b423d694dc24e1efdae43425413d513bb1a8cf9ef53eb1f15770fa1478b3458c",
+        "after_sha256": "af10d01442dda0b0b500156b1ce50617357be611c4e06134de8d95f3518d8920",
+        "before_bytes": 21201611,
+        "after_bytes": 21199227,
+        "removed_scenes": [],
+        "retained_scenes": [
+          "Stone to Fireworks v3"
+        ],
+        "retained_data_sha256": "0998f1927bfdbfc96feb600231164d43223e4c684da03a03a9abdad2452bb6b8",
+        "semantic_match": true,
+        "all_frame_transforms_match": true,
+        "removed_data_block_counts": {
+          "materials": 1
+        }
+      }
+    ],
+    "revalidation": {
+      "rolling_wavy_pen": {
+        "status": "PASS",
+        "stls": 16,
+        "source_hash_checks": {
+          "blend": "models/rolling-wavy-pen-storyboard-study-v11.blend",
+          "generator": "scripts/rolling_wavy_pen_storyboard_study_v11.py",
+          "v11_blend_sha256": "5eda4b14a22cf6556fd141f0dd04ad75758345a25419ee3c6204443710bc816d",
+          "v11_generator_sha256": "b06f90e3e7fc65606c8dde9a3422d3910a0e085cee0fd2b07aabbc0407baafdb",
+          "v11_blend_unchanged_from_manifest": true,
+          "v11_generator_unchanged_from_manifest": true
+        }
+      },
+      "stone_to_fireworks": {
+        "status": "PASS",
+        "stls": 14,
+        "preservation": {
+          "all_input_hashes_unchanged": true,
+          "print_scene_hash_matches_prior": true,
+          "v3_source_script_matches_record": true
+        }
+      },
+      "stone_to_bread": {
+        "status": "PASS",
+        "poses": 13,
+        "stls": 12
+      },
+      "rolling_cube_pen": {
+        "status": "PASS",
+        "stls": 12,
+        "props": 20,
+        "poses": 61,
+        "exposures": 74,
+        "regenerated_stls_byte_identical": true,
+        "frames_identical": true
+      }
+    }
+  },
+  "final_input_consolidation": {
+    "status": "PASS",
+    "checked_date": "2026-11-20",
+    "deleted_files": 60,
+    "deleted_logical_bytes": 148718354,
+    "deletion_inventory": "docs/repository-cleanup-inventory.csv",
+    "official_stl_hashes_matched": 75,
+    "public_3mf_hashes_matched": 3,
+    "remaining_blend_contents_unchanged": true,
+    "retained_geometry_algorithms_ast_identical": true,
+    "bread": {
+      "current_scene": "models/stone-to-bread-full-sequence-v1.blend",
+      "poses": 13,
+      "procedurally_regenerated_stl_hashes_matched": 12,
+      "old_blend_dependencies_removed": 4,
+      "stage_generators_tested_without_old_scenes": true,
+      "final_manifest_pose_geometry_placement_and_exposures_unchanged": true
+    },
+    "fireworks": {
+      "current_scene": "models/stone-to-fireworks-v3.blend",
+      "raw_shape_input": "exports/stone-to-bread/frame-01.stl",
+      "canonical_stl_directory": "exports/stone-to-fireworks/print-set-v1",
+      "independently_regenerated_stl_hashes_matched": 14,
+      "final_qa": "PASS"
+    },
+    "limitations": [
+      "No new rendering or image-to-scene visual comparison was performed.",
+      "Approved integrated Blender scenes remain editable fixed inputs; reconstruction requires those tracked final scenes.",
+      "Historical source hashes and export paths are provenance, not current file dependencies."
+    ]
   }
 }

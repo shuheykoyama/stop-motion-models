@@ -69,16 +69,6 @@ def gif(items, delays, path):
                 delays_ms=actual, sha256=digest(path))
 
 
-def append_original(name, scene):
-    library = ROOT/"models/stone-to-bread-approved-geometry-recovery.blend"
-    with bpy.data.libraries.load(str(library), link=False) as (source, destination):
-        assert name in source.objects, name
-        destination.objects = [name]
-    obj = destination.objects[0]
-    scene.collection.objects.link(obj)
-    return obj
-
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--geometry-only", action="store_true")
@@ -99,7 +89,7 @@ def main():
     source_report = json.loads((ROOT/"previews/stone-to-bread"/PULL/"manifest.json").read_text())
     p04record = next(p for p in source_report["poses"] if p["id"] == "p04")
     assert digest(ROOT/p04record["stl"]) == p04record["stl_sha256"]
-    bpy.ops.wm.open_mainfile(filepath=str(ROOT/"models"/f"stone-to-bread-{PULL}.blend"),
+    bpy.ops.wm.open_mainfile(filepath=str(ROOT/"models/stone-to-bread-full-sequence-v1.blend"),
                              load_ui=False, use_scripts=False)
     scene = bpy.context.scene
     p04 = scene.objects[f"{PULL}/p04"]
@@ -142,14 +132,11 @@ def main():
         if lo is not None and hi is not None:
             thickness.append(float((hi-lo).dot(up)))
     assert len(thickness) == 6 and min(thickness) >= base.PARAMETERS["minimum_core"]
-    bread = append_original("stone-to-bread/frame-10", scene)
-    old = append_original("stone-to-bread/frame-09", scene)
-    locked = json.loads((ROOT/"previews/stone-to-bread/sequence-validation.json").read_text())
-    assert base.mesh_fingerprint(bread) == locked["mesh_fingerprints"]["10"]
-    assert base.mesh_fingerprint(old) == locked["mesh_fingerprints"]["9"]
-    bread.name, old.name = f"{REVISION}/b01", f"{REVISION}/reference-old-recoil"
+    bread = scene.objects[f"{REVISION}/b01"]
+    approved = json.loads((ROOT/"previews/stone-to-bread/full-sequence-v1/manifest.json").read_text())
+    expected_bread = next(p for p in approved["poses"] if p["pose"] == "b01")
+    assert base.mesh_fingerprint(bread) == expected_bread["mesh_fingerprint"]
     bread.location = p04.location.copy()
-    old.location = p04.location.copy()
     camera_matrix = scene.camera.matrix_world.copy()
     report = dict(status="Recoil study awaiting visual review", source_p04=dict(
         stl=p04record["stl"], sha256=p04record["stl_sha256"],
@@ -166,7 +153,7 @@ def main():
                      "Slicer behavior and physical stability or printing are unverified."])
     if not args.geometry_only:
         images = {}
-        objects = {"p04": p04, "c01": c01, "b01": bread, "old09": old,
+        objects = {"p04": p04, "c01": c01, "b01": bread,
                    "p03": scene.objects[f"{PULL}/p03"]}
         all_meshes = [o for o in scene.objects if o.type == "MESH" and o.name != "Tabletop (preview only)"]
         for view in ("front", "top", "side"):
@@ -178,7 +165,7 @@ def main():
                 scene.camera.rotation_euler = Matrix((near, up, -axis)).transposed().to_euler()
             else:
                 scene.camera.matrix_world = camera_matrix
-            for name in (("p04", "c01", "b01", "old09") if view != "side" else ("p04", "c01", "old09")):
+            for name in (("p04", "c01", "b01") if view != "side" else ("p04", "c01")):
                 for obj in all_meshes:
                     obj.hide_render = obj != objects[name]
                 image = preview/f"{name}-{view}.png"
@@ -189,9 +176,7 @@ def main():
             comparison = [(name, images[(name, view)]) for name in
                           (("p04", "c01", "b01") if view != "side" else ("p04", "c01"))]
             montage(comparison, preview/f"contact-{view}.png", columns=len(comparison))
-        montage([("old Frame 09", images[("old09", "front")]), ("new c01", images[("c01", "front")])],
-                preview/"comparison-old09-c01.png", columns=2)
-        p03image = ROOT/"previews/stone-to-bread"/PULL/"p03-realistic-front.png"
+        p03image = ROOT/"previews/stone-to-bread/full-sequence-v1/p03-realistic-front.png"
         quick = [(n, images[(n, "front")]) for n in ("p04", "c01", "b01")]
         context = [("p03", p03image)]+quick
         report["animations"] = dict(

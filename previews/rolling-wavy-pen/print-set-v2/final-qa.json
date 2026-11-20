@@ -1,6 +1,6 @@
 {
   "report": "Rolling Wavy Pen print-set-v2 final QA",
-  "checked_at_utc": "2026-11-16T09:29:31.205844+00:00",
+  "checked_at_utc": "2026-11-19T12:54:29.578709+00:00",
   "verdict": "PASS",
   "units": "millimeters; STL has no unit metadata and must be imported as mm",
   "stl_directory": {
@@ -11,7 +11,7 @@
   "source_of_truth": {
     "blend": "models/rolling-wavy-pen-storyboard-study-v11.blend",
     "generator": "scripts/rolling_wavy_pen_storyboard_study_v11.py",
-    "v11_blend_sha256": "113ed15cfce23a9308e8d0e50e5c14ebb6f04845dbac58013857818294a69519",
+    "v11_blend_sha256": "5eda4b14a22cf6556fd141f0dd04ad75758345a25419ee3c6204443710bc816d",
     "v11_generator_sha256": "b06f90e3e7fc65606c8dde9a3422d3910a0e085cee0fd2b07aabbc0407baafdb",
     "v11_blend_unchanged_from_manifest": true,
     "v11_generator_unchanged_from_manifest": true

@@ -11,6 +11,12 @@ ROOT=base.ROOT
 # Pose identity is independent of filming placement; rest and miniatures are reused.
 SPECS=[('rest',0,0,0,1,0,0),('press-a',.85,0,0,1,0,0),('rest',0,0,0,1,0,0),('press-b',1,0,0,1,0,0),('rest',0,0,0,1,0,0),('press-c',.95,0,0,1,0,0),('rest',0,0,0,1,0,0),('pull-start',.4,.12,0,1,0,0),('pull-low',.5,.28,0,1,0,0),('pull-mid',.6,.48,0,1,0,0),('pull-high',.65,.72,0,1,0,0),('pull-max',.7,1,0,1,0,0),('release',.25,.42,.4,1,-14,2),('snap',0,.08,1,1,-40,10),('rest',0,0,0,1,-82,24),('rest',0,0,0,1,-130,38),('small',0,0,0,.65,-180,48),('tiny',0,0,0,.4,-230,54),('distant',0,0,0,.25,-280,52),('distant',0,0,0,.25,-315,44)]
 
+def source_stl(name):
+    """Resolve an approved pose to the single canonical printable STL."""
+    names = list(dict.fromkeys(spec[0] for spec in SPECS))
+    return ROOT/'exports/stone-to-fireworks/print-set-v1'/f'pose-{names.index(name)+1:02}.stl'
+
+
 def stone_base(source):
     """Weather a single material-space pebble before any animation deformation."""
     points = source.copy()
@@ -64,29 +70,29 @@ def export(scene,name,coords,faces,path):
     return obj
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--geometry-only',action='store_true');parser.add_argument('--output-root',type=Path,default=ROOT)
+    parser=argparse.ArgumentParser();parser.add_argument('--geometry-only',action='store_true');parser.add_argument('--output-root',type=Path,required=True)
     args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+    assert args.output_root.resolve() != ROOT.resolve(), 'Use a separate --output-root'
     out=args.output_root/'previews/stone-to-fireworks/v3';out.mkdir(parents=True,exist_ok=True)
-    exports=args.output_root/'exports/stone-to-fireworks/v3';exports.mkdir(parents=True,exist_ok=True)
+    exports=args.output_root/'exports/stone-to-fireworks/print-set-v1';exports.mkdir(parents=True,exist_ok=True)
     # Protect v1 files explicitly; no earlier motif is opened for writing.
-    protected=[ROOT/'models/stone-to-fireworks.blend',ROOT/'scripts/stone_to_fireworks.py',ROOT/'docs/stone-to-fireworks-print-set-v1.md']
+    protected=[ROOT/'models/stone-to-fireworks-v3.blend',ROOT/'scripts/stone_to_fireworks.py',ROOT/'docs/stone-to-fireworks-print-set-v1.md']
     protected+=list((ROOT/'previews/stone-to-fireworks').glob('*.*'))+list((ROOT/'exports/stone-to-fireworks').glob('*.stl'))
     hashes={str(p.relative_to(ROOT)):v1.sha(p) for p in protected}
-    source,faces,_=base.read_stl(ROOT/'exports/stone-to-fireworks/rest.stl')
-    original_source=source.copy()
+    source,faces,_=base.read_stl(ROOT/'exports/stone-to-bread/frame-01.stl')
     source=stone_base(source)
-    bpy.ops.wm.open_mainfile(filepath=str(ROOT/'models/stone-to-fireworks.blend'),use_scripts=False)
+    bpy.ops.wm.open_mainfile(filepath=str(ROOT/'models/stone-to-fireworks-v3.blend'),use_scripts=False)
     scene=bpy.context.scene
     material=base.material('Neutral stone - geometry review',(.31,.30,.28))
     next(n for n in material.node_tree.nodes if n.type=='BSDF_PRINCIPLED').inputs['Roughness'].default_value=.78
-    # Keep the v1 studio, replacing only its stone objects in this separate scene revision.
-    old=json.loads((ROOT/'previews/stone-to-fireworks/validation-v1.json').read_text())
-    for p in old['poses']:bpy.data.objects.remove(bpy.data.objects[p['id']],do_unlink=True)
+    # Reuse the approved studio and replace only its named stone objects.
+    for name in dict.fromkeys(spec[0] for spec in SPECS):
+        bpy.data.objects.remove(scene.objects[name], do_unlink=True)
     objects={};checks=[];records=[]
     for i,spec in enumerate(SPECS):
         name,press,pull,recoil,size,y,z=spec
         if name not in objects:
-            coords=shape(source,spec);path=exports/f'{name}.stl'
+            coords=shape(source,spec);path=exports/source_stl(name).name
             obj=export(scene,name,coords,faces,path);objects[name]=obj
             obj.data.materials.append(material)
             for poly in obj.data.polygons:poly.use_smooth=True
@@ -100,8 +106,8 @@ def main():
             result.update(id=name,stl=str(path.relative_to(args.output_root)),mesh_fingerprint=base.mesh_fingerprint(obj),render_stl_vertices_identical=True)
             checks.append(result);print('VALIDATED',name,flush=True)
         phase='rest' if i==0 else 'press-recover' if i<7 else 'pull' if i<12 else 'recoil-launch' if i<14 else 'flight'
-        records.append(dict(frame=i+1,phase=phase,pose=name,press=press,pull=pull,recoil=recoil,physical_size_factor=size,scene_scale=[1,1,1],position_mm=[0,y,z],exposures_12fps=2,exposure_start=2*i+1,stl=f'exports/stone-to-fireworks/v3/{name}.stl',requires_flight_support=z>0))
-    report=dict(status='v3 awaiting visual review',poses=checks,frames=records,source='exports/stone-to-fireworks/rest.stl',source_sha256=v1.sha(ROOT/'exports/stone-to-fireworks/rest.stl'),v1_sha256=hashes,limitations=['No attached storyboard image was available; written phase descriptions guide this revision.','Airborne filming poses require a support/removal or compositing method; no jig is generated.','Minimum normal wall thickness, shared-vertex intersections, slicer and physical print tests remain unverified.','Support margins refer to local resting STLs, not airborne scene stability.'])
+        records.append(dict(frame=i+1,phase=phase,pose=name,press=press,pull=pull,recoil=recoil,physical_size_factor=size,scene_scale=[1,1,1],position_mm=[0,y,z],exposures_12fps=2,exposure_start=2*i+1,stl=str(source_stl(name).relative_to(ROOT)),requires_flight_support=z>0))
+    report=dict(status='v3 awaiting visual review',poses=checks,frames=records,source='exports/stone-to-bread/frame-01.stl',source_sha256=v1.sha(ROOT/'exports/stone-to-bread/frame-01.stl'),v1_sha256=hashes,limitations=['No attached storyboard image was available; written phase descriptions guide this revision.','Airborne filming poses require a support/removal or compositing method; no jig is generated.','Minimum normal wall thickness, shared-vertex intersections, slicer and physical print tests remain unverified.','Support margins refer to local resting STLs, not airborne scene stability.'])
     if not args.geometry_only:
         # Independent Blender regeneration writes only into a temporary directory.
         with tempfile.TemporaryDirectory(prefix='fireworks-v3-regen-') as tmp:
@@ -158,23 +164,6 @@ def main():
             path=out/f"top-{r['frame']:02}.png";scene.render.filepath=str(path);bpy.ops.render.render(write_still=True);tops.append((r['pose'],path))
             for c in curves:c.mute=False
         v1.sheet(tops,out/'key-poses-top-v3.png',4)
-        scene.frame_set(1)
-        for obj in objects.values(): obj.animation_data_clear();obj.hide_render=True
-        old=base.make_mesh(scene,'v2-rest-reference',original_source.tolist(),faces.tolist())
-        old.data.materials.append(material)
-        for polygon in old.data.polygons:polygon.use_smooth=True
-        camera.data.type='ORTHO';camera.data.ortho_scale=48
-        comparison=[]
-        for view in ('oblique','top'):
-            camera.location=(0,80,95) if view=='oblique' else (0,0,150)
-            camera.rotation_euler=(Vector((0,0,8))-camera.location).to_track_quat('-Z','Y').to_euler()
-            for label,obj in [('v2 smooth',old),('v3 stone',objects['rest'])]:
-                old.hide_render=True;objects['rest'].hide_render=True
-                obj.hide_render=False;obj.location=(0,0,0)
-                path=out/(label.split()[0]+'-rest-'+view+'.png')
-                scene.render.filepath=str(path);bpy.ops.render.render(write_still=True)
-                comparison.append((label+' / '+view,path))
-        v1.sheet(comparison,out/'rest-closeup-v2-v3.png',2)
         report['rendering']=dict(engine=scene.render.engine,gpu=gpu.platform.vendor_get(),backend=gpu.platform.backend_type_get(),samples=16)
         report['single_visible_pose_per_frame']=True
     assert all(v1.sha(ROOT/p)==h for p,h in hashes.items())
